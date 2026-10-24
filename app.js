@@ -1,157 +1,119 @@
 'use strict';
-// NBA Picks dashboard: reads data.json (built from preview/review/learnings markdown). No backend.
+// NBA Picks dashboard. Reads data.json (built from preview/review/learnings markdown + Polymarket Data API). No backend.
 const $ = s => document.querySelector(s);
 const app = $('#app');
 let DATA = null;
-const state = { tab: (location.hash.slice(1) || localStorage.getItem('tab') || 'today'), day: null, rday: null };
-const BETS_KEY = 'nba_bets_v1';
+const TABS = ['today', 'results', 'track', 'account'];
+let saved = localStorage.getItem('tab'); if (saved === 'bets') saved = 'account';
+const state = { tab: TABS.includes(location.hash.slice(1)) ? location.hash.slice(1) : (TABS.includes(saved) ? saved : 'today'), day: null, rday: null, acctView: null };
 
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const fmt = (n, d = 1) => (n === null || n === undefined || isNaN(n)) ? '—' : Number(n).toFixed(d).replace(/\.0+$/, '');
-const sgn = (n, d = 1) => (n === null || n === undefined) ? '—' : (n > 0 ? '+' : n < 0 ? '−' : '±') + fmt(Math.abs(n), d);
-const pctS = (w, l) => (w + l) ? Math.round(100 * w / (w + l)) + '%' : '—';
-const dayLabel = iso => { const d = new Date(iso + 'T12:00:00+08:00'); return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'Asia/Kuala_Lumpur' }); };
-const todayMYT = () => new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);
-const teamName = t => t ? (t.name || t.abbr) : '?';
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const has = v => v !== null && v !== undefined && !(typeof v === 'number' && isNaN(v));
+const fmt = (n, d = 1) => !has(n) ? '—' : Number(n).toFixed(d).replace(/\.0+$/, '').replace(/(\.\d*?)0+$/, '$1');
+const sgn = (n, d = 1) => !has(n) ? '—' : (n > 0 ? '+' : n < 0 ? '−' : '±') + fmt(Math.abs(n), d);
+const money = n => !has(n) ? '—' : (n < 0 ? '−$' : n > 0 ? '+$' : '$') + Math.abs(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const usd = n => !has(n) ? '—' : '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const cls = n => !has(n) ? '' : n > 0 ? 'pos' : n < 0 ? 'neg' : '';
+const pct = (w, l) => (w + l) ? Math.round(100 * w / (w + l)) + '%' : '—';
+const dayLabel = iso => new Date(iso + 'T12:00:00+08:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'Asia/Kuala_Lumpur' });
+const shortDay = iso => new Date(iso + 'T12:00:00+08:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'Asia/Kuala_Lumpur' });
+const mytTime = iso => new Date(iso).toLocaleString('en-GB', { timeZone: 'Asia/Kuala_Lumpur', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) + ' MYT';
 const clean = s => String(s ?? '').replace(/^\*+\s*/, '').replace(/\*\*/g, '').trim();
-
-function toast(msg) { const t = document.createElement('div'); t.className = 'toast'; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 1800); }
+const list = items => (items || []).map(clean).filter(x => x && x !== '--');
+const getDay = date => DATA.days.find(d => d.date === date);
 
 async function load() {
   try {
     const r = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
     DATA = await r.json();
-  } catch (e) {
-    app.innerHTML = '<div class="card">Could not load data.json (offline and not cached yet).</div>'; return;
-  }
-  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
-  $('#meta').innerHTML = gen ? `data ${esc(gen.toLocaleString('en-GB', { timeZone: 'Asia/Kuala_Lumpur', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }))} MYT` : '';
-  state.day = DATA.latest_preview_date;
-  state.rday = DATA.latest_review_date;
+  } catch (e) { app.innerHTML = '<div class="card">Could not load data (offline and nothing cached yet).</div>'; return; }
+  $('#meta').textContent = DATA.generated_at ? 'updated ' + mytTime(DATA.generated_at) : '';
+  state.day = DATA.latest_preview_date; state.rday = DATA.latest_review_date;
   render();
 }
-
 function render() {
   document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === state.tab));
   if (!DATA) return;
-  ({ today: renderToday, results: renderResults, track: renderTrack, bets: renderBets }[state.tab] || renderToday)();
+  ({ today: renderToday, results: renderResults, track: renderTrack, account: renderAccount }[state.tab])();
+  installHint();
   window.scrollTo(0, 0);
 }
-document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { state.tab = b.dataset.tab; localStorage.setItem('tab', state.tab); render(); });
+document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { state.tab = b.dataset.tab; localStorage.setItem('tab', state.tab); history.replaceState(null, '', '#' + state.tab); render(); });
 
-const getDay = date => DATA.days.find(d => d.date === date);
+/* shared bits */
+function edgeChip(e) {
+  if (!has(e)) return '<span class="edge neu">—</span>';
+  const c = e >= 3 ? 'val' : e > 0 ? 'lean' : 'neu';
+  return `<span class="edge ${c}" title="edge = my win % − Polymarket price">${sgn(e)}</span>`;
+}
+const dots = n => { if (!has(n)) return ''; let s = '<span class="dots" title="confidence ' + n + '/10">'; for (let i = 1; i <= 10; i++) s += `<i class="${i <= n ? 'on' : ''}"></i>`; return s + '</span>'; };
+const fold = (title, inner, open = false, extra = '') => inner ? `<details class="fold card" ${open ? 'open' : ''}><summary><span>${title}</span>${extra}</summary><div class="foldbody">${inner}</div></details>` : '';
+const ul = items => { items = list(items); return items.length ? `<ul class="plain">${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : ''; };
+const tile = (v, k, c = '', sub = '') => `<div class="tile"><div class="v ${c}">${v}</div><div class="k">${k}</div>${sub ? `<div class="s">${sub}</div>` : ''}</div>`;
+const daySwitch = (dates, cur, id) => `<div class="pills" id="${id}">${dates.map(d => `<button class="pill ${d === cur ? 'on' : ''}" data-d="${d}">${shortDay(d)}</button>`).join('')}</div>`;
+function bindPills(id, fn) { document.querySelectorAll(`#${id} .pill`).forEach(b => b.onclick = () => fn(b.dataset.d)); const on = document.querySelector(`#${id} .pill.on`); on && on.scrollIntoView({ inline: 'center', block: 'nearest' }); }
 
 /* ---------------- TODAY ---------------- */
-function edgeBadge(e) {
-  if (e === null || e === undefined) return '<span class="edge neu">edge —</span>';
-  const cls = e >= 2 ? 'pos' : e <= -2 ? 'neg' : 'neu';
-  return `<span class="edge ${cls}" title="my win % minus Polymarket implied %">edge ${sgn(e)}</span>`;
-}
-function dots(n) { let s = '<span class="dots" title="confidence ' + n + '/10">'; for (let i = 1; i <= 10; i++) s += `<i class="${i <= n ? 'on' : ''}"></i>`; return s + '</span>'; }
-
-function buyCard(b, day) {
+function betRow(b) {
   const pm = b.polymarket;
-  const pmHtml = pm
-    ? `<div class="pm">Polymarket: <b>${esc(pm.event)}</b>${pm.market && pm.market !== pm.event ? ` › <b>${esc(pm.market)}</b>` : ''} → buy <b>“${esc(pm.outcome)}”</b></div>`
-    : `<div class="pm mut">Polymarket market: ${esc(b.matchup || '?')} — find “${esc(b.selection)}” (exact outcome name not in raw files)</div>`;
-  const outcomeLabel = pm ? `${pm.market} — ${pm.outcome}` : `${b.matchup || ''} ${b.selection}`;
-  return `<div class="buy">
-    <div class="row sp"><div class="sel">${esc(b.selection)}</div>${b.tier ? `<span class="chip">${esc(b.tier)}</span>` : ''}</div>
-    <div class="sm mut">${esc(b.matchup || '')}${b.my_pct ? ` · my ${fmt(b.my_pct)}%` : ''}</div>
-    ${pmHtml}
-    <div class="row sp" style="margin-top:6px">
-      <div><div class="xs mut">max price (preview)</div><div class="price">≤ ${fmt(b.price)}¢</div></div>
-      <div style="text-align:right"><div class="xs mut">size</div><div style="font-weight:700">${b.units !== null && b.units !== undefined ? fmt(b.units, 2) + 'u' : '—'}</div></div>
-    </div>
-    ${b.condition ? `<div class="cond">⚠ ${esc(b.condition)}</div>` : ''}
-    <div style="margin-top:8px"><button class="btn sm" data-log='${esc(JSON.stringify({ date: day.date, outcome: outcomeLabel, price: b.price }))}'>＋ Log this bet</button></div>
+  const outcome = pm ? pm.outcome : b.selection;
+  const market = pm ? pm.market : (b.matchup || '');
+  return `<div class="betrow">
+    <div class="br1"><span class="out">${esc(outcome)}</span><span class="buyat">≤ ${fmt(b.price)}¢</span></div>
+    <div class="br2"><span>${esc(market)}${pm ? '' : ' <span class="mut">(' + esc(b.selection) + ')</span>'}</span><span class="stake">${has(b.units) ? fmt(b.units, 2) + 'u' : 'stake —'}</span></div>
+    ${b.condition ? `<div class="br3">⚠ ${esc(b.condition)}</div>` : ''}
   </div>`;
 }
-
-function gameCard(g, day) {
+function gameRow(g, day) {
   const avoid = g.avoid && g.avoid.length;
-  const pickName = g.pick ? teamName(g.pick) : '—';
-  const pm = g.pm_pick_price;
   const buys = day.buys.filter(b => b.game_id === g.id);
-  const res = g.result;
-  return `<div class="card game ${avoid ? 'avoided' : ''}">
-    <div class="row sp">
-      <div class="teams">${esc(g.away.abbr)}<span class="at">@</span>${esc(g.home.abbr)}</div>
-      <div class="tip">${g.tip_myt ? '⏰ ' + esc(g.tip_myt) + ' MYT' : ''}</div>
+  const inj = (g.injury_flags || []).length;
+  const r = g.result;
+  const icons = [buys.length ? '<span class="ic val" title="value bet">$</span>' : '', inj ? '<span class="ic inj" title="injury news">🩹</span>' : '', avoid ? '<span class="ic avd" title="avoid">⛔</span>' : '', r ? `<span title="result">${r.hit === true ? '✅' : r.hit === false ? '❌' : ''}</span>` : ''].join('');
+  const odds = [
+    ['Moneyline', g.dk_ml, g.pm_ml], ['Spread', g.spread?.dk, g.spread?.pm], ['Total', g.total?.dk, g.total?.pm]
+  ].filter(x => x[1] || x[2]);
+  const sec = (t, v) => v ? `<div class="sec"><div class="lbl">${t}</div><p>${esc(clean(v))}</p></div>` : '';
+  return `<details class="game ${avoid ? 'avoid' : ''} ${buys.length ? 'hasbet' : ''}">
+    <summary>
+      <div class="g1"><span class="tm">${esc(g.tip_myt || '')}</span><span class="mu">${esc(g.away.abbr)} <span class="at">@</span> ${esc(g.home.abbr)}</span><span class="icons">${icons}</span>${edgeChip(g.edge)}</div>
+      <div class="g2"><span><b>${esc(g.pick ? g.pick.name || g.pick.abbr : '—')}</b> ${has(g.win_pct) ? fmt(g.win_pct) + '%' : ''}</span><span class="mut">PM ${has(g.pm_pick_price) ? fmt(g.pm_pick_price) + '¢' : '—'}</span>${dots(g.confidence)}</div>
+    </summary>
+    <div class="gbody">
+      ${r ? `<div class="sec res-in">${r.hit === true ? '✅' : r.hit === false ? '❌' : ''} <b>Final ${esc(r.final_text || '')}</b><p>${esc(clean(r.reason))}</p></div>` : ''}
+      ${buys.length ? `<div class="sec"><div class="lbl">Bet</div>${buys.map(b => `<div class="minibet">${esc(b.polymarket ? b.polymarket.outcome + ' — ' + b.polymarket.market : b.selection)} · ≤${fmt(b.price)}¢${has(b.units) ? ' · ' + fmt(b.units, 2) + 'u' : ''}</div>`).join('')}</div>` : ''}
+      ${avoid ? `<div class="sec"><div class="lbl">Why avoid</div>${g.avoid.map(a => `<p>${esc(clean(a))}</p>`).join('')}</div>` : ''}
+      ${inj ? `<div class="sec"><div class="lbl">Injury watch</div><div class="chips">${g.injury_flags.map(f => `<span class="chip inj">${esc(f)}</span>`).join('')}</div></div>` : ''}
+      ${odds.length ? `<div class="sec"><div class="lbl">Odds</div><table class="odds"><tr><th></th><th>Sportsbook</th><th>Polymarket</th></tr>${odds.map(o => `<tr><td>${o[0]}</td><td>${esc(o[1] || '—')}</td><td>${esc(o[2] || '—')}</td></tr>`).join('')}</table></div>` : ''}
+      ${sec('My view', g.view)}${sec('Bet note', g.bet)}${sec('Injuries', g.injuries)}${sec('Form', g.form)}${sec('Sentiment', g.sentiment)}
+      <div class="xs mut">${esc(g.away.city)} ${esc(g.away.name)} at ${esc(g.home.city)} ${esc(g.home.name)} · confidence ${g.confidence ?? '—'}/10</div>
     </div>
-    <div class="xs mut">${esc(g.away.city)} ${esc(g.away.name)} at ${esc(g.home.city)} ${esc(g.home.name)}${g.status_note ? ' · ' + esc(g.status_note) : ''}</div>
-    <div class="pickline">
-      <div class="pct">${g.win_pct !== null ? fmt(g.win_pct) + '%' : '—'}</div>
-      <div style="flex:1">
-        <div class="row sp"><span class="pickname">Pick: ${esc(pickName)}</span>${edgeBadge(g.edge)}</div>
-        <div class="bar"><i style="width:${g.win_pct || 0}%"></i>${pm ? `<b style="left:${pm}%" title="Polymarket ${pm}¢"></b>` : ''}</div>
-        <div class="row sp xs mut"><span>conf ${g.confidence ?? '—'}/10 ${g.confidence ? dots(g.confidence) : ''}</span><span>PM ${pm !== null ? fmt(pm) + '¢' : '—'}</span></div>
-      </div>
-    </div>
-    <div class="row wrap" style="gap:5px">
-      ${avoid ? '<span class="chip avoid">AVOID</span>' : ''}
-      ${buys.map(b => `<span class="chip buy">BUY ${esc(b.selection)} ≤${fmt(b.price)}¢</span>`).join('')}
-      ${(g.injury_flags || []).map(f => `<span class="chip inj">🩹 ${esc(f)}</span>`).join('')}
-    </div>
-    <div class="grid3">
-      <div class="kv"><div class="k">Book ML</div><div class="v">${esc(g.dk_ml ? g.dk_ml.replace(/\s*\(opened[^)]*\)/, '').replace(/\s*(→|->).*$/, '') : '—')}</div></div>
-      <div class="kv"><div class="k">Spread</div><div class="v">${esc(g.spread?.dk || '—')}</div></div>
-      <div class="kv"><div class="k">Total</div><div class="v">${esc(g.total?.dk || '—')}</div></div>
-    </div>
-    ${res ? `<div class="card" style="margin:8px 0 0;padding:8px;background:var(--card2)"><b>${res.hit === true ? '✅' : res.hit === false ? '❌' : '•'} Final: ${esc(res.final_text || '?')}</b><div class="sm" style="margin-top:3px">${esc(clean(res.reason))}</div></div>` : ''}
-    <details><summary>Details</summary><div class="det">
-      ${avoid ? `<b class="lbl">Why avoid</b>${g.avoid.map(a => `<p>${esc(clean(a))}</p>`).join('')}` : ''}
-      ${g.bet ? `<b class="lbl">Bet</b><p>${esc(clean(g.bet))}</p>` : ''}
-      ${g.view ? `<b class="lbl">My view</b><p>${esc(clean(g.view))}</p>` : ''}
-      ${g.injuries ? `<b class="lbl">Injuries</b><p>${esc(clean(g.injuries))}</p>` : ''}
-      ${g.form ? `<b class="lbl">Form</b><p>${esc(clean(g.form))}</p>` : ''}
-      ${g.sentiment ? `<b class="lbl">Sentiment</b><p>${esc(clean(g.sentiment))}</p>` : ''}
-      <b class="lbl">Markets</b>
-      <p>Book: ${esc(g.dk_ml || '—')}${g.dk_devig ? ` (de-vig ${esc(g.dk_devig.abbr)} ${fmt(g.dk_devig.pct)}%)` : ''}</p>
-      <p>Polymarket: ${esc(g.pm_ml || '—')}</p>
-      ${g.spread?.pm ? `<p>PM spread: ${esc(g.spread.pm)}</p>` : ''}
-      ${g.total?.pm ? `<p>PM total: ${esc(g.total.pm)}</p>` : ''}
-      ${g.sb_raw ? `<p>${esc(g.sb_raw)}</p>` : ''}
-    </div></details>
-  </div>`;
+  </details>`;
 }
-
-function listBlock(title, items) {
-  items = (items || []).map(clean).filter(x => x && x !== '--');
-  if (!items.length) return '';
-  return `<h3>${esc(title)}</h3><ul class="plain">${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>`;
-}
-
 function renderToday() {
   const day = getDay(state.day) || DATA.days[DATA.days.length - 1];
-  if (!day) { app.innerHTML = '<div class="empty">No previews found.</div>'; return; }
-  const games = [...day.games].sort((a, b) => (a.tip_iso || '').localeCompare(b.tip_iso || '') || a.n - b.n);
+  if (!day) { app.innerHTML = '<div class="empty">No previews yet.</div>'; return; }
   const S = day.summary || {};
-  const opts = [...DATA.days].reverse().map(d => `<option value="${d.date}" ${d.date === day.date ? 'selected' : ''}>${dayLabel(d.date)}${d.date === DATA.latest_preview_date ? ' (latest)' : ''}</option>`).join('');
+  const games = [...day.games].sort((a, b) => (a.tip_iso || '').localeCompare(b.tip_iso || '') || a.n - b.n);
+  const isLatest = day.date === DATA.latest_preview_date;
   app.innerHTML = `
-    <h2><span>${dayLabel(day.date)} <small>${games.length} games</small></span><select class="daysel" id="daysel">${opts}</select></h2>
-    <div class="xs mut" style="margin:-4px 2px 8px">Preview written ${esc(day.written || '?')} · tip-offs in MYT · edge = my win % − Polymarket price</div>
-    <h2><span>🟢 What to buy</span><small>${day.buys.length} plays</small></h2>
-    ${day.buys.length ? `<div class="strip">${day.buys.map(b => buyCard(b, day)).join('')}</div>` : '<div class="card empty">No value plays in this preview.</div>'}
-    ${(S.check_before || []).length ? `<div class="card"><div class="warn"><b>Check before tip:</b> ${esc(S.check_before.map(clean).join(' '))}</div></div>` : ''}
-    <h2><span>Games</span></h2>
-    ${games.map(g => gameCard(g, day)).join('')}
-    <div class="card">
-      ${listBlock('Top picks', S.top3)}
-      ${listBlock('Underdogs worth a look', S.underdogs)}
-      ${listBlock('Avoid', S.avoid)}
-      ${listBlock('Season record (as of this preview)', S.season_record)}
-      ${(day.lessons_applied || []).filter(x => x && x !== '--').length ? `<details><summary>Lessons applied today</summary>${listBlock('', day.lessons_applied)}</details>` : ''}
-    </div>`;
-  $('#daysel').onchange = e => { state.day = e.target.value; render(); };
-  bindLogButtons();
-}
-
-function bindLogButtons() {
-  document.querySelectorAll('[data-log]').forEach(btn => btn.onclick = () => {
-    const p = JSON.parse(btn.dataset.log);
-    state.prefill = p; state.tab = 'bets'; localStorage.setItem('tab', 'bets'); render();
-  });
+    ${daySwitch(DATA.days.map(d => d.date), day.date, 'tdays')}
+    <div class="hdr"><div><div class="h1">${dayLabel(day.date)}</div><div class="xs mut">${games.length} games · times in MYT</div></div>${isLatest ? '' : '<span class="chip">past day</span>'}</div>
+    <div class="card bets">
+      <div class="ctitle">💰 ${isLatest ? "Tonight's bets" : 'Bets that day'} <span class="mut">${day.buys.length}</span></div>
+      ${day.buys.length ? day.buys.map(betRow).join('') : '<div class="empty">No bets — nothing cleared the bar.</div>'}
+      <div class="xs mut" style="margin-top:6px">Buy on Polymarket at or below the price shown (preview price). u = units.</div>
+    </div>
+    <div class="ctitle" style="margin:14px 2px 6px">🏀 Games <span class="mut xs">tap for details · chip = my edge vs Polymarket</span></div>
+    <div class="card glist">${games.map(g => gameRow(g, day)).join('')}</div>
+    <div class="legend"><span><span class="edge val">+3</span> value</span><span><span class="edge lean">+1</span> slight edge</span><span><span class="edge neu">−2</span> no edge</span><span>⛔ avoid</span><span>🩹 injury news</span></div>
+    ${fold('⚠ Check before tip-off', ul(S.check_before), false)}
+    ${fold('⭐ Top picks', ul(S.top3))}
+    ${fold('🐶 Underdogs worth a look', ul(S.underdogs))}
+    ${fold('⛔ Avoid list', ul(S.avoid))}
+    ${fold('📚 Lessons applied today', ul(day.lessons_applied))}
+    ${fold('📊 Season record (as of this preview)', ul(S.season_record))}`;
+  bindPills('tdays', d => { state.day = d; render(); });
 }
 
 /* ---------------- RESULTS ---------------- */
@@ -163,209 +125,151 @@ function oneLine(reason) {
   s = cut > 20 ? s.slice(0, cut + 1) : s;
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
-
 function renderResults() {
   const reviewed = DATA.days.filter(d => d.review);
   const day = getDay(state.rday) || reviewed[reviewed.length - 1];
-  const season = DATA.season || {};
-  let dayHtml = '<div class="card empty">No reviews yet.</div>';
-  if (day) {
-    const gs = day.games.filter(g => g.result);
-    const w = gs.filter(g => g.result.hit === true).length, l = gs.filter(g => g.result.hit === false).length;
-    const R = day.review;
-    const opts = [...reviewed].reverse().map(d => `<option value="${d.date}" ${d.date === day.date ? 'selected' : ''}>${dayLabel(d.date)}</option>`).join('');
-    dayHtml = `
-      <h2><span>Last graded: ${dayLabel(day.date)}</span><select class="daysel" id="rdaysel">${opts}</select></h2>
-      <div class="stats" style="margin-bottom:10px">
-        <div class="stat"><div class="v">${w}-${l}</div><div class="k">straight up</div></div>
-        <div class="stat"><div class="v ${R.units > 0 ? 'pos' : R.units < 0 ? 'neg' : ''}">${R.units !== null && R.units !== undefined ? sgn(R.units) + 'u' : 'n/a'}</div><div class="k">units (review)</div></div>
-        <div class="stat"><div class="v">${R.brier ? fmt(R.brier.me, 3) : '—'}</div><div class="k">Brier me${R.brier ? ` · DK ${fmt(R.brier.dk, 3)} · PM ${fmt(R.brier.pm, 3)}` : ''}</div></div>
+  if (!day) { app.innerHTML = '<div class="empty">No graded days yet.</div>'; return; }
+  const gs = day.games.filter(g => g.result).sort((a, b) => (a.tip_iso || '').localeCompare(b.tip_iso || '') || a.n - b.n);
+  const hits = gs.filter(g => g.result.hit === true), miss = gs.filter(g => g.result.hit === false);
+  const R = day.review;
+  // best call: correct pick with the biggest edge over the market (else the lowest-% correct pick); worst miss: highest-% miss
+  const best = [...hits].sort((a, b) => ((b.edge ?? -99) - (a.edge ?? -99)) || ((a.win_pct ?? 99) - (b.win_pct ?? 99)))[0];
+  const worst = [...miss].sort((a, b) => (b.win_pct ?? 0) - (a.win_pct ?? 0))[0];
+  const gname = g => `${g.pick ? g.pick.name || g.pick.abbr : '?'} ${fmt(g.win_pct)}%`;
+  const rt = DATA.season?.record_table || [];
+  app.innerHTML = `
+    ${daySwitch(reviewed.map(d => d.date), day.date, 'rdays')}
+    <div class="card dayhead">
+      <div class="h1">${dayLabel(day.date)}</div>
+      <div class="tiles t3">
+        ${tile(`${hits.length}-${miss.length}`, 'picks right', '', pct(hits.length, miss.length))}
+        ${tile(has(R.units) ? sgn(R.units) + 'u' : 'n/a', 'bets (units)', cls(R.units), has(R.units) ? '' : 'not stated')}
+        ${tile(R.brier ? fmt(R.brier.me, 3) : '—', 'Brier (me)', '', R.brier ? `market ${fmt(R.brier.pm, 3)}` : '')}
       </div>
-      <div class="card">${gs.map(g => `<div class="res">
-          <div class="mk">${g.result.hit === true ? '✅' : g.result.hit === false ? '❌' : '•'}</div>
-          <div style="flex:1;min-width:0">
-            <div class="row sp"><span class="t">${esc(g.result.final_text || (g.away.abbr + ' @ ' + g.home.abbr))}</span><span class="xs mut">pick ${esc(g.pick ? g.pick.abbr : '?')} ${fmt(g.win_pct)}%</span></div>
-            <div class="why">${esc(oneLine(g.result.reason || (g.result.grades || [])[0] || ''))}</div>
-            <details><summary class="xs">Full grade</summary><div class="det">${(g.result.grades || []).map(x => `<p>${esc(clean(x))}</p>`).join('')}${g.result.how ? `<p class="mut">${esc(clean(g.result.how))}</p>` : ''}${g.result.notes ? `<p class="mut">${esc(clean(g.result.notes))}</p>` : ''}</div></details>
-          </div></div>`).join('') || '<div class="empty">No graded games parsed.</div>'}
-      </div>
-      ${(R.day_summary || []).length ? `<div class="card">${listBlock('Day summary', R.day_summary)}</div>` : ''}
-      ${(R.lessons || []).length ? `<div class="card"><details><summary>Lessons from this review</summary>${listBlock('', R.lessons)}</details></div>` : ''}`;
-  }
-  const rt = season.record_table || [];
-  app.innerHTML = dayHtml + `
-    <h2><span>Season record</span><small>from learnings.md</small></h2>
-    <div class="card"><table><thead><tr><th>Category</th><th class="num">W-L</th><th class="num">Win%</th><th class="num">Units</th></tr></thead><tbody>
-      ${rt.map(r => `<tr><td>${esc(r.category)}${r.notes ? `<div class="xs mut">${esc(r.notes)}</div>` : ''}</td><td class="num"><b>${esc(r.record || '—')}</b></td><td class="num">${r.w !== null && r.w !== undefined ? pctS(r.w, r.l) : '—'}</td><td class="num ${r.units > 0 ? 'pos' : r.units < 0 ? 'neg' : ''}">${r.units !== null && r.units !== undefined ? sgn(r.units) + 'u' : '—'}</td></tr>`).join('')}
-    </tbody></table>
-    ${season.brier ? `<div class="sm" style="margin-top:8px">Brier (lower is better, ${season.brier.games ?? '?'} games): me <b>${fmt(season.brier.me, 3)}</b> · DK ${fmt(season.brier.dk, 3)} · PM ${fmt(season.brier.pm, 3)}</div>` : ''}
+      ${best ? `<div class="callout good">🎯 <b>Best call:</b> ${esc(gname(best))}${has(best.edge) ? ` (market ${fmt(best.pm_pick_price)}¢)` : ''} — ${esc(best.result.final_text || '')}</div>` : ''}
+      ${worst ? `<div class="callout bad">💥 <b>Worst miss:</b> ${esc(gname(worst))} — ${esc(worst.result.final_text || '')}</div>` : ''}
     </div>
-    ${(DATA.parse_warnings || []).length ? `<div class="card"><h3>Data notes</h3>${DATA.parse_warnings.map(w => `<div class="warn">⚠ ${esc(w)}</div>`).join('')}</div>` : ''}`;
-  const sel = $('#rdaysel'); if (sel) sel.onchange = e => { state.rday = e.target.value; render(); };
+    <div class="card glist">${gs.map(g => {
+      const r = g.result;
+      return `<details class="rrow ${r.hit === true ? 'hit' : r.hit === false ? 'miss' : ''}">
+        <summary><span class="mk">${r.hit === true ? '✅' : r.hit === false ? '❌' : '•'}</span>
+          <span class="sc">${esc(r.final_text || g.away.abbr + ' @ ' + g.home.abbr)}</span>
+          <span class="pk">picked <b>${esc(g.pick ? g.pick.abbr : '?')}</b> ${fmt(g.win_pct)}%</span></summary>
+        <div class="gbody"><p class="lead">${esc(oneLine(r.reason || (r.grades || [])[0] || ''))}</p>
+          ${(r.grades || []).map(x => `<p>${esc(clean(x))}</p>`).join('')}${r.notes ? `<p class="mut">${esc(clean(r.notes))}</p>` : ''}</div>
+      </details>`; }).join('') || '<div class="empty">No graded games parsed.</div>'}</div>
+    ${fold('📝 What I took from the night', ul(R.day_summary))}
+    ${fold('📚 Lessons from this review', ul(R.lessons))}
+    ${fold('📊 Season record (learnings.md)', `<table><tbody>${rt.map(r => `<tr><td>${esc(r.category)}</td><td class="num"><b>${esc(r.record || '—')}</b></td><td class="num ${cls(r.units)}">${has(r.units) ? sgn(r.units) + 'u' : ''}</td></tr>`).join('')}</tbody></table>`)}
+    ${(DATA.parse_warnings || []).length ? fold('⚠ Data notes', DATA.parse_warnings.map(w => `<p class="warn">${esc(w)}</p>`).join('')) : ''}`;
+  bindPills('rdays', d => { state.rday = d; render(); });
 }
 
-/* ---------------- TRACK RECORD ---------------- */
-function recordChart(per) {
-  // bars: daily units (where stated); line: cumulative SU net wins (W-L)
-  const W = 340, H = 170, P = { l: 30, r: 30, t: 14, b: 26 };
-  const n = per.length; if (!n) return '';
-  const cw = (W - P.l - P.r) / n;
-  let cum = 0; const net = per.map(d => (cum += (d.su_w - d.su_l)));
-  let cu = 0; const cumU = per.map(d => (cu += (d.units ?? 0)));
-  const uMax = Math.max(1, ...per.map(d => Math.abs(d.units ?? 0)), ...cumU.map(Math.abs));
-  const nMax = Math.max(1, ...net.map(Math.abs));
-  const y0 = P.t + (H - P.t - P.b) / 2, half = (H - P.t - P.b) / 2;
-  const yu = v => y0 - v / uMax * half, yn = v => y0 - v / nMax * half;
-  let s = `<svg viewBox="0 0 ${W} ${H}"><line x1="${P.l}" x2="${W - P.r}" y1="${y0}" y2="${y0}" stroke="#30363d"/>`;
-  per.forEach((d, i) => {
-    const x = P.l + i * cw + cw * 0.2, bw = cw * 0.6;
-    if (d.units === null || d.units === undefined) {
-      s += `<text x="${x + bw / 2}" y="${y0 - 4}" text-anchor="middle">n/a</text>`;
-    } else {
-      const y = yu(d.units); s += `<rect x="${x}" y="${Math.min(y, y0)}" width="${bw}" height="${Math.max(1, Math.abs(y - y0))}" rx="2" fill="${d.units >= 0 ? '#3fb950' : '#f85149'}" opacity=".75"/>`;
-      s += `<text x="${x + bw / 2}" y="${d.units >= 0 ? y - 3 : y + 10}" text-anchor="middle" style="fill:#c9d1d9">${sgn(d.units)}</text>`;
-    }
-    s += `<text x="${P.l + i * cw + cw / 2}" y="${H - 8}" text-anchor="middle">${d.date.slice(5)}</text>`;
+/* ---------------- TRACK ---------------- */
+function unitsChart(series) {
+  if (!series || !series.length) return '';
+  const W = 340, H = 140, P = { l: 8, r: 8, t: 18, b: 22 };
+  const vals = [0, ...series.map(s => s.cum)];
+  const mn = Math.min(...vals), mx = Math.max(...vals), span = (mx - mn) || 1;
+  const n = series.length;
+  const x = i => P.l + (n === 1 ? (W - P.l - P.r) / 2 : i * (W - P.l - P.r) / (n - 1));
+  const y = v => P.t + (mx - v) / span * (H - P.t - P.b);
+  const pts = series.map((s, i) => `${x(i)},${y(s.cum)}`);
+  const up = series[n - 1].cum >= 0;
+  let s = `<svg viewBox="0 0 ${W} ${H}"><line x1="${P.l}" x2="${W - P.r}" y1="${y(0)}" y2="${y(0)}" stroke="#30363d" stroke-dasharray="3 3"/>`;
+  s += `<polygon points="${x(0)},${y(0)} ${pts.join(' ')} ${x(n - 1)},${y(0)}" fill="${up ? 'rgba(63,185,80,.15)' : 'rgba(248,81,73,.15)'}"/>`;
+  s += `<polyline points="${pts.join(' ')}" fill="none" stroke="${up ? '#3fb950' : '#f85149'}" stroke-width="3" stroke-linejoin="round"/>`;
+  series.forEach((p, i) => {
+    s += `<circle cx="${x(i)}" cy="${y(p.cum)}" r="${p.units === null ? 3 : 4.5}" fill="${p.units === null ? '#8b949e' : up ? '#3fb950' : '#f85149'}"/>`;
+    s += `<text x="${x(i)}" y="${y(p.cum) - 8}" text-anchor="${i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle'}" style="fill:#e6edf3;font-weight:700">${p.units === null ? 'n/a' : sgn(p.cum)}</text>`;
+    s += `<text x="${x(i)}" y="${H - 6}" text-anchor="${i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle'}">${shortDay(p.date)}</text>`;
   });
-  const pts = net.map((v, i) => `${P.l + i * cw + cw / 2},${yn(v)}`).join(' ');
-  s += `<polyline points="${pts}" fill="none" stroke="#f58220" stroke-width="2.5"/>`;
-  net.forEach((v, i) => s += `<circle cx="${P.l + i * cw + cw / 2}" cy="${yn(v)}" r="3.5" fill="#f58220"/><text x="${P.l + i * cw + cw / 2 + 6}" y="${yn(v) - 5}" style="fill:#f58220">${v > 0 ? '+' : ''}${v}</text>`);
-  s += `<text x="4" y="${P.t + 4}">u</text><text x="${W - 4}" y="${P.t + 4}" text-anchor="end" style="fill:#f58220">W−L</text></svg>`;
-  return s;
+  return s + '</svg>';
 }
-
-function calibChart(cal) {
-  const W = 300, H = 220, P = { l: 34, r: 12, t: 10, b: 30 }, lo = 50, hi = 100;
-  const x = v => P.l + (v - lo) / (hi - lo) * (W - P.l - P.r), y = v => H - P.b - (v - 0) / 100 * (H - P.t - P.b);
-  let s = `<svg viewBox="0 0 ${W} ${H}">`;
-  [0, 25, 50, 75, 100].forEach(v => s += `<line x1="${P.l}" x2="${W - P.r}" y1="${y(v)}" y2="${y(v)}" stroke="#21262d"/><text x="${P.l - 4}" y="${y(v) + 3}" text-anchor="end">${v}%</text>`);
-  [50, 60, 70, 80, 90, 100].forEach(v => s += `<text x="${x(v)}" y="${H - 12}" text-anchor="middle">${v}%</text>`);
-  s += `<line x1="${x(50)}" y1="${y(50)}" x2="${x(100)}" y2="${y(100)}" stroke="#8b949e" stroke-dasharray="4 4"/>`;
-  cal.filter(c => c.n).forEach(c => {
-    const r = 4 + Math.sqrt(c.n) * 2.2;
-    s += `<line x1="${x(c.avg_pred)}" x2="${x(c.avg_pred)}" y1="${y(c.avg_pred)}" y2="${y(c.actual)}" stroke="${c.actual >= c.avg_pred ? '#3fb950' : '#f85149'}" stroke-width="1.5"/>`;
-    s += `<circle cx="${x(c.avg_pred)}" cy="${y(c.actual)}" r="${r}" fill="#58a6ff" opacity=".8"/><text x="${x(c.avg_pred) + r + 3}" y="${y(c.actual) + 3}" style="fill:#c9d1d9">n=${c.n}</text>`;
-  });
-  s += `<text x="${(W + P.l) / 2}" y="${H - 1}" text-anchor="middle">my predicted win % →</text></svg>`;
-  return s;
-}
-
 function renderTrack() {
-  const T = DATA.track || {}; const per = T.per_day || [];
-  const totW = per.reduce((a, d) => a + d.su_w, 0), totL = per.reduce((a, d) => a + d.su_l, 0);
-  const stated = per.filter(d => d.units !== null && d.units !== undefined);
-  const uSum = stated.reduce((a, d) => a + d.units, 0);
-  const sr = (DATA.season?.record_table || []);
-  const su = sr.find(r => /straight/i.test(r.category));
+  const T = DATA.track || {}, G = T.glance || {};
+  const rec = G.record || {}, l7 = G.last7, st = G.streak;
+  const off = (DATA.season?.record_table || []).find(r => /straight/i.test(r.category));
+  const B = G.brier;
+  const insightRow = i => {
+    const p = i.n ? i.w / i.n : 0, tone = p >= 0.6 ? 'pos' : p < 0.5 ? 'neg' : '';
+    return `<div class="ins"><div class="it">${esc(i.text)}</div><div class="iv ${tone}"><b>${i.w}/${i.n}</b> hit <span class="mut">${i.pct}%</span></div><div class="bar"><i style="width:${p * 100}%" class="${tone}"></i></div></div>`;
+  };
+  let brierLine = '';
+  if (B && has(B.me) && has(B.pm)) {
+    const better = B.me < Math.min(B.pm, B.dk ?? 9);
+    brierLine = `<div class="ins"><div class="it">Probability accuracy (Brier, lower = better)</div><div class="iv">${better ? '<span class="pos">I\'m sharper than the market</span>' : '<span class="mut">market slightly sharper</span>'}</div><div class="xs mut">me ${fmt(B.me, 3)} · Polymarket ${fmt(B.pm, 3)} · DraftKings ${fmt(B.dk, 3)} (${B.games ?? '?'} games)</div></div>`;
+  }
   const cal = T.calibration || [];
   app.innerHTML = `
-    <h2><span>Over time</span><small>${per.length} graded days</small></h2>
-    <div class="stats" style="margin-bottom:10px">
-      <div class="stat"><div class="v">${su ? esc(su.record) : totW + '-' + totL}</div><div class="k">SU (learnings.md)</div></div>
-      <div class="stat"><div class="v">${totW}-${totL}</div><div class="k">SU (graded games)</div></div>
-      <div class="stat"><div class="v ${uSum >= 0 ? 'pos' : 'neg'}">${sgn(uSum)}u</div><div class="k">units, ${stated.length}/${per.length} days stated</div></div>
+    <div class="tiles t2">
+      ${tile(`${rec.w ?? 0}-${rec.l ?? 0}`, 'season picks', '', `${rec.pct ?? '—'}% right`)}
+      ${tile(has(G.units_total) ? sgn(G.units_total) + 'u' : '—', 'units on bets', cls(G.units_total), `${G.units_days_stated}/${G.units_days_total} days reported`)}
+      ${tile(l7 ? `${l7.w}-${l7.l}` : '—', 'last 7 days', '', l7 ? `${has(l7.units) ? sgn(l7.units) + 'u · ' : ''}${l7.days} game days` : '')}
+      ${tile(st ? `${st.type}${st.len}` : '—', 'current streak', st ? (st.type === 'W' ? 'pos' : 'neg') : '', st ? `${st.len} ${st.type === 'W' ? 'right' : 'wrong'} in a row` : '')}
     </div>
-    <div class="card">${recordChart(per)}
-      <div class="legend"><span><i style="background:#3fb950"></i>units that day (from review)</span><span><i style="background:#f58220"></i>cumulative SU wins − losses</span></div>
-      <div class="xs mut" style="margin-top:4px">“n/a” = the review didn't state a units figure; nothing is estimated.</div>
-    </div>
-    <div class="card"><table><thead><tr><th>Day</th><th class="num">SU</th><th class="num">Units</th><th class="num">Brier me / DK / PM</th></tr></thead><tbody>
-      ${per.map(d => `<tr><td>${d.date.slice(5)}</td><td class="num">${d.su_w}-${d.su_l}${d.log?.su && (d.log.su[0] !== d.su_w || d.log.su[1] !== d.su_l) ? `<div class="xs warn">log: ${d.log.su[0]}-${d.log.su[1]}</div>` : ''}</td><td class="num">${d.units !== null && d.units !== undefined ? sgn(d.units) : 'n/a'}</td><td class="num">${d.brier ? `${fmt(d.brier.me, 3)} / ${fmt(d.brier.dk, 3)} / ${fmt(d.brier.pm, 3)}` : '—'}</td></tr>`).join('')}
-    </tbody></table></div>
-
-    <h2><span>Calibration</span><small>${T.graded_games ?? '?'} SU picks</small></h2>
-    <div class="card">${calibChart(cal)}
-      <table style="margin-top:8px"><thead><tr><th>My win %</th><th class="num">Picks</th><th class="num">Avg said</th><th class="num">Actually won</th></tr></thead><tbody>
-      ${cal.map(c => `<tr><td>${esc(c.bucket)}</td><td class="num">${c.n}</td><td class="num">${c.n ? fmt(c.avg_pred) + '%' : '—'}</td><td class="num ${c.n ? (c.actual >= c.avg_pred ? 'pos' : 'neg') : ''}">${c.n ? `${c.hits}/${c.n} = ${fmt(c.actual)}%` : '—'}</td></tr>`).join('')}
-      </tbody></table>
-      <div class="xs mut" style="margin-top:4px">Dots above the dashed line = I was under-confident; below = over-confident. Small samples.</div>
-    </div>
-
-    <h2><span>Splits</span><small>straight-up picks</small></h2>
-    <div class="card">${(T.splits || []).map(sp => `<h3>${esc(sp.name)}</h3>${sp.groups.map(g => {
-      const p = (g.w + g.l) ? 100 * g.w / (g.w + g.l) : 0;
-      return `<div class="split"><div class="lab"><span>${esc(g.label)}</span><span><b>${g.w}-${g.l}</b> <span class="mut">${pctS(g.w, g.l)}</span></span></div><div class="bar"><i style="width:${p}%;background:${p >= 50 ? '#3fb950' : '#f85149'}"></i></div></div>`;
-    }).join('')}`).join('')}
-    <div class="xs mut">Favorite/underdog by the pick side's Polymarket price (DraftKings de-vig if missing). “Above market” = my win % higher than the Polymarket price.</div></div>
-
-    <h2><span>Active lessons</span><small>${(DATA.lessons || []).length}</small></h2>
-    <div class="card">${(DATA.lessons || []).map(l => `<div class="lesson"><div class="lt">L${esc(l.n)}. ${esc(clean(l.title))}</div>${l.body ? `<div class="lb">${esc(clean(l.body))}</div>` : ''}</div>`).join('') || '<div class="empty">None parsed.</div>'}</div>
-
-    <div class="card"><details><summary>Daily log (learnings.md)</summary><div class="det">${(DATA.daily_log || []).map(d => `<p><b>${esc(d.date)}</b> ${esc(clean(d.text))}</p>`).join('')}</div></details></div>`;
+    <div class="card"><div class="ctitle">Units over time <span class="mut xs">cumulative, from daily reviews</span></div>${unitsChart(G.units_series)}
+      ${G.units_days_stated < G.units_days_total ? '<div class="xs mut">Grey dot = that review gave no units figure (counted as nothing, not estimated).</div>' : ''}</div>
+    <div class="card"><div class="ctitle">What's working</div>${(G.insights || []).map(insightRow).join('')}${brierLine}</div>
+    ${(G.value_bets || []).length ? `<div class="card"><div class="ctitle">Value bets</div>${G.value_bets.map(v => `<div class="ins"><div class="it">${esc(v.category)}</div><div class="iv"><b>${esc(v.record)}</b> ${has(v.units) ? `<span class="${cls(v.units)}">${sgn(v.units)}u</span>` : ''}</div></div>`).join('')}</div>` : ''}
+    ${fold('More detail', `
+      <div class="lbl">By day</div>
+      <table><tr><th>Day</th><th class="num">Picks</th><th class="num">Units</th><th class="num">Brier me/PM</th></tr>${(T.per_day || []).map(d => `<tr><td>${shortDay(d.date)}</td><td class="num">${d.su_w}-${d.su_l}</td><td class="num ${cls(d.units)}">${has(d.units) ? sgn(d.units) : 'n/a'}</td><td class="num">${d.brier ? fmt(d.brier.me, 3) + ' / ' + fmt(d.brier.pm, 3) : '—'}</td></tr>`).join('')}</table>
+      <div class="lbl" style="margin-top:12px">Calibration (did my % match reality?)</div>
+      <table><tr><th>I said</th><th class="num">Picks</th><th class="num">Avg</th><th class="num">Won</th></tr>${cal.map(c => `<tr><td>${esc(c.bucket)}</td><td class="num">${c.n}</td><td class="num">${fmt(c.avg_pred)}%</td><td class="num ${c.actual >= c.avg_pred ? 'pos' : 'neg'}">${fmt(c.actual)}%</td></tr>`).join('')}</table>
+      ${off && rec.w !== undefined && off.record !== `${rec.w}-${rec.l}` ? `<p class="warn">learnings.md says ${esc(off.record)} straight up; the review grades add up to ${rec.w}-${rec.l}. See Results → Data notes.</p>` : ''}`)}
+    ${fold(`📚 Active lessons (${(DATA.lessons || []).length})`, (DATA.lessons || []).map(l => `<div class="lesson"><div class="lt">L${esc(l.n)}. ${esc(clean(l.title))}</div>${l.body ? `<div class="lb">${esc(clean(l.body))}</div>` : ''}</div>`).join(''))}`;
 }
 
-/* ---------------- MY BETS ---------------- */
-const loadBets = () => { try { return JSON.parse(localStorage.getItem(BETS_KEY)) || []; } catch { return []; } };
-const saveBets = b => localStorage.setItem(BETS_KEY, JSON.stringify(b));
-function pnl(b) {
-  const st = +b.stake || 0, pr = +b.price || 0;
-  if (b.result === 'won') return pr > 0 && pr < 100 ? st * (100 / pr - 1) : 0;
-  if (b.result === 'lost') return -st;
-  if (b.result === 'cashout' && b.cashout !== undefined && b.cashout !== '') return (+b.cashout) - st;
-  return 0;
-}
-function renderBets() {
-  const bets = loadBets();
-  const pf = state.prefill || {}; state.prefill = null;
-  const settled = bets.filter(b => b.result === 'won' || b.result === 'lost');
-  const won = bets.filter(b => b.result === 'won').length, lost = bets.filter(b => b.result === 'lost').length;
-  const staked = settled.reduce((a, b) => a + (+b.stake || 0), 0);
-  const open = bets.filter(b => b.result === 'pending');
-  const openStake = open.reduce((a, b) => a + (+b.stake || 0), 0);
-  const total = bets.reduce((a, b) => a + pnl(b), 0);
-  const sorted = [...bets].sort((a, b) => (b.date || '').localeCompare(a.date || '') || b.id - a.id);
-  app.innerHTML = `
-    <h2><span>My bets</span><small>saved on this device only</small></h2>
-    <div class="stats" style="margin-bottom:10px">
-      <div class="stat"><div class="v ${total > 0 ? 'pos' : total < 0 ? 'neg' : ''}">${total >= 0 ? '+' : '−'}$${Math.abs(total).toFixed(2)}</div><div class="k">total P&amp;L</div></div>
-      <div class="stat"><div class="v">${won}-${lost}</div><div class="k">record${settled.length ? ' · ROI ' + (staked ? sgn(100 * total / staked) + '%' : '—') : ''}</div></div>
-      <div class="stat"><div class="v">${open.length}</div><div class="k">open · $${openStake.toFixed(2)} at risk</div></div>
-    </div>
-    <div class="card">
-      <form id="betform" class="form">
-        <label>Date<input type="date" name="date" value="${esc(pf.date || todayMYT())}" required></label>
-        <label>Price (¢)<input type="number" name="price" step="0.1" min="0.1" max="99.9" inputmode="decimal" value="${esc(pf.price ?? '')}" required></label>
-        <label class="full">Outcome<input name="outcome" placeholder="e.g. Rockets vs. Hawks — Hawks" value="${esc(pf.outcome || '')}" required></label>
-        <label>Stake ($)<input type="number" name="stake" step="0.01" min="0" inputmode="decimal" required></label>
-        <label>Result<select name="result"><option value="pending">Pending</option><option value="won">Won</option><option value="lost">Lost</option><option value="void">Void/refund</option></select></label>
-        <button class="btn pri full" style="grid-column:1/-1" type="submit">Add bet</button>
-      </form>
-      <div class="xs mut" style="margin-top:6px">Win pays stake × (100 / price − 1). Loss = −stake. Void = 0.</div>
-    </div>
-    <div class="card">${sorted.map(b => {
-      const p = pnl(b);
-      return `<div class="bet">
-        <div><div class="o">${esc(b.outcome)}</div><div class="xs mut">${esc(b.date)} · ${fmt(b.price)}¢ · $${(+b.stake).toFixed(2)} → pays $${(+b.price > 0 ? (+b.stake) * 100 / (+b.price) : 0).toFixed(2)}</div></div>
-        <div style="text-align:right"><div class="${p > 0 ? 'pos' : p < 0 ? 'neg' : 'mut'}" style="font-weight:700">${b.result === 'pending' ? 'open' : (p >= 0 ? '+' : '−') + '$' + Math.abs(p).toFixed(2)}</div></div>
-        <div class="row" style="grid-column:1/-1;gap:6px">
-          <select data-res="${b.id}">${['pending', 'won', 'lost', 'void'].map(r => `<option ${b.result === r ? 'selected' : ''} value="${r}">${r}</option>`).join('')}</select>
-          <button class="btn sm" data-del="${b.id}">Delete</button>
-        </div></div>`;
-    }).join('') || '<div class="empty">No bets yet. Tap “＋ Log this bet” on a play in Today, or add one above.</div>'}</div>
-    <div class="row" style="gap:8px;justify-content:center;margin:8px 0 20px">
-      <button class="btn sm" id="exp">Export JSON</button>
-      <label class="btn sm" style="cursor:pointer">Import JSON<input type="file" id="imp" accept="application/json" hidden></label>
+/* ---------------- MY POLYMARKET ---------------- */
+function renderAccount() {
+  const A = DATA.my_account || { connected: false };
+  if (!A.connected) {
+    app.innerHTML = `<div class="card connect">
+      <div style="font-size:42px">🔗</div>
+      <div class="h1">Connect your Polymarket account</div>
+      <p class="mut">Once your Polymarket wallet address is added, this tab updates daily with your real record: wins/losses, net P&amp;L, ROI, open positions and recent settled bets.</p>
+      <p class="sm">Where to find it: polymarket.com → your profile → copy the wallet address (starts with <b>0x</b>). It's read-only and public — no login or keys needed.</p>
+      ${A.error ? `<p class="warn">${esc(A.error)}</p>` : ''}
     </div>`;
-  $('#betform').onsubmit = e => {
-    e.preventDefault();
-    const f = Object.fromEntries(new FormData(e.target));
-    const all = loadBets();
-    all.push({ id: Date.now(), date: f.date, outcome: f.outcome.trim(), price: +f.price, stake: +f.stake, result: f.result });
-    saveBets(all); toast('Bet saved'); render();
-  };
-  document.querySelectorAll('[data-res]').forEach(s => s.onchange = () => { const all = loadBets(); const b = all.find(x => x.id == s.dataset.res); if (b) { b.result = s.value; saveBets(all); render(); } });
-  document.querySelectorAll('[data-del]').forEach(btn => btn.onclick = () => { if (!confirm('Delete this bet?')) return; saveBets(loadBets().filter(x => x.id != btn.dataset.del)); render(); });
-  $('#exp').onclick = () => {
-    const blob = new Blob([JSON.stringify(loadBets(), null, 1)], { type: 'application/json' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'nba-bets-' + todayMYT() + '.json'; a.click();
-  };
-  $('#imp').onchange = async e => {
-    try { const arr = JSON.parse(await e.target.files[0].text()); if (!Array.isArray(arr)) throw 0;
-      const all = loadBets(); const ids = new Set(all.map(b => b.id)); arr.forEach(b => { if (!ids.has(b.id)) all.push(b); }); saveBets(all); toast('Imported'); render();
-    } catch { alert('Not a valid bets export.'); }
-  };
-  if (pf.outcome) { const st = document.querySelector('[name=stake]'); st && st.focus(); }
+    return;
+  }
+  const views = ['nba', 'all'].filter(v => A[v]);
+  const vk = views.includes(state.acctView) ? state.acctView : (A.default_view || 'all');
+  const V = A[vk], S = V.summary;
+  const daily = (V.daily || []).slice(-14);
+  const dmax = Math.max(1, ...daily.map(d => Math.abs(d.pnl)));
+  app.innerHTML = `
+    <div class="hdr"><div><div class="h1">My Polymarket</div><div class="xs mut">${esc(A.address_short)} · ${A.fetched_at ? 'synced ' + mytTime(A.fetched_at) : ''}${A.stale ? ' · <span class="warn">stale</span>' : ''}</div></div>
+      <div class="seg">${views.map(v => `<button data-v="${v}" class="${v === vk ? 'on' : ''}">${v === 'nba' ? 'NBA' : 'All'}</button>`).join('')}</div></div>
+    ${A.error ? `<div class="card warn">${esc(A.error)}</div>` : ''}
+    <div class="tiles t2">
+      ${tile(`${S.w}-${S.l}`, 'settled W-L', '', pct(S.w, S.l) + ' won')}
+      ${tile(money(S.net_pnl), 'net P&L (settled)', cls(S.net_pnl), 'on ' + usd(S.settled_cost) + ' staked')}
+      ${tile(has(S.roi_pct) ? sgn(S.roi_pct) + '%' : '—', 'ROI', cls(S.roi_pct))}
+      ${tile(String(S.open_count), 'open positions', '', `worth ${usd(S.open_value)} <span class="${cls(S.open_unrealized)}">(${money(S.open_unrealized)})</span>`)}
+    </div>
+    ${daily.length ? `<div class="card"><div class="ctitle">Daily P&amp;L <span class="mut xs">settled, MYT dates</span></div><div class="dbars">${daily.map(d => `<div class="db"><div class="dbv ${cls(d.pnl)}">${money(d.pnl).replace('.00', '')}</div><div class="dbw"><i class="${d.pnl >= 0 ? 'up' : 'dn'}" style="height:${Math.max(3, 60 * Math.abs(d.pnl) / dmax)}px"></i></div><div class="dbd">${shortDay(d.date)}</div><div class="xs mut">${d.w}-${d.l}</div></div>`).join('')}</div></div>` : ''}
+    <div class="card"><div class="ctitle">Open positions <span class="mut">${S.open_count}</span></div>
+      ${V.open_positions.length ? V.open_positions.map(p => `<div class="prow"><div class="pt"><b>${esc(p.outcome)}</b> · ${esc(p.title)}</div><div class="pv"><span class="mut">avg ${fmt(p.avg_price * 100)}¢ → now ${fmt(p.cur_price * 100)}¢</span><span>${usd(p.current_value)} <span class="${cls(p.pnl)}">${money(p.pnl)}</span></span></div></div>`).join('') : '<div class="empty">No open positions.</div>'}
+      ${S.open_count > V.open_positions.length ? `<div class="xs mut">Showing top ${V.open_positions.length} by value.</div>` : ''}</div>
+    <div class="card"><div class="ctitle">Recently settled</div>
+      ${V.settled_recent.length ? V.settled_recent.map(s => `<div class="prow"><div class="pt">${s.result === 'won' ? '✅' : s.result === 'lost' ? '❌' : '➖'} <b>${esc(s.outcome)}</b> · ${esc(s.title)}</div><div class="pv"><span class="mut">${s.date ? shortDay(s.date) + ' · ' : ''}avg ${fmt(s.avg_price * 100)}¢ · ${usd(s.cost)}${s.unredeemed ? ' · unclaimed' : ''}</span><span class="${cls(s.pnl)}"><b>${money(s.pnl)}</b></span></div></div>`).join('') : '<div class="empty">Nothing settled yet.</div>'}</div>
+    <div class="xs mut" style="margin:4px 4px 16px">${has(A.portfolio_value) ? 'Total position value (all markets): ' + usd(A.portfolio_value) + '. ' : ''}${esc(A.notes || '')}${A.truncated ? ' History capped to the most recent records.' : ''}</div>`;
+  document.querySelectorAll('.seg button').forEach(b => b.onclick = () => { state.acctView = b.dataset.v; render(); });
 }
 
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+/* ---------------- iPhone install hint ---------------- */
+function installHint() {
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const standalone = window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;
+  if (!ios || standalone || localStorage.getItem('hideInstall')) return;
+  const inApp = /FBAN|FBAV|Instagram|Line\/|Twitter|XApp|GSA\//i.test(navigator.userAgent);
+  const div = document.createElement('div'); div.className = 'card install';
+  div.innerHTML = `<b>📲 Add to Home Screen</b><div class="sm">${inApp ? 'This in-app browser can’t install apps. Open this page in <b>Safari</b> first.' : 'Tap the <b>Share</b> button <span class="shareic">⬆︎</span> (bottom bar in Safari, or ⋯ menu), scroll down, then tap <b>Add to Home Screen</b> → <b>Add</b>.'}</div><button class="x" aria-label="dismiss">✕</button>`;
+  div.querySelector('.x').onclick = () => { localStorage.setItem('hideInstall', '1'); div.remove(); };
+  app.prepend(div);
+}
+
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').then(r => r.update()).catch(() => {}));
 load();
