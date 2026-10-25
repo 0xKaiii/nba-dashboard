@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T04:14:37+08:00",
+ "generated_at": "2026-10-25T12:13:37+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-10-25",
  "latest_review_date": "2026-10-24",
@@ -3780,21 +3780,84 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-25T04:14:37+08:00",
-  "portfolio_value": 9.82,
+  "fetched_at": "2026-10-25T12:13:37+08:00",
+  "portfolio_value": 4.87,
   "nba": {
    "summary": {
-    "w": 9,
-    "l": 4,
-    "net_pnl": 23.86,
-    "settled_cost": 65.0,
-    "roi_pct": 36.7,
+    "w": 10,
+    "l": 5,
+    "net_pnl": 25.24,
+    "settled_cost": 75.0,
+    "roi_pct": 33.6,
     "open_count": 1,
     "open_cost": 5.0,
-    "open_value": 4.95,
-    "open_unrealized": -0.05
+    "open_value": 10.22,
+    "open_unrealized": 5.22
    },
    "open_positions": [
+    {
+     "combo": true,
+     "title": "76ers + Cavaliers + Nuggets + Spurs",
+     "outcome": "COMBO · 4 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "76ers",
+       "market": "Bucks vs. 76ers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Cavaliers",
+       "market": "Nets vs. Cavaliers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Nuggets",
+       "market": "Pelicans vs. Nuggets",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Spurs",
+       "market": "Spurs vs. Mavericks",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      }
+     ],
+     "legs_total": 4,
+     "legs_pending": 0,
+     "nba_legs": 4,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.476999,
+     "shares": 10.215074,
+     "cost": 5.0,
+     "current_value": 10.22,
+     "cur_price": 1.0,
+     "pnl": 5.22,
+     "value_is_estimate": true,
+     "end_date": null
+    }
+   ],
+   "settled_recent": [
     {
      "title": "Rockets vs. Hawks",
      "outcome": "Hawks",
@@ -3802,14 +3865,13 @@
      "avg_price": 0.5099,
      "shares": 9.8039,
      "cost": 4.9999,
-     "current_value": 4.9509,
-     "cur_price": 0.505,
-     "pnl": -0.049,
-     "end_date": "2026-10-25",
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-25",
+     "ts": null,
+     "unredeemed": true,
      "nba": true
-    }
-   ],
-   "settled_recent": [
+    },
     {
      "title": "Grizzlies vs. Warriors",
      "outcome": "Grizzlies",
@@ -3879,6 +3941,58 @@
      "ts": null,
      "unredeemed": true,
      "nba": true
+    },
+    {
+     "combo": true,
+     "title": "Lakers + Rockets + Raptors",
+     "outcome": "COMBO · 3 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "Lakers",
+       "market": "Warriors vs. Lakers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      },
+      {
+       "pick": "Rockets",
+       "market": "Mavericks vs. Rockets",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      },
+      {
+       "pick": "Raptors",
+       "market": "Bulls vs. Raptors",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      }
+     ],
+     "legs_total": 3,
+     "legs_pending": 0,
+     "nba_legs": 3,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.427313,
+     "shares": null,
+     "cost": 5.0,
+     "pnl": 6.38,
+     "result": "won",
+     "date": "2026-10-22",
+     "ts": 1792645157,
+     "unredeemed": false,
+     "decided_early": false
     },
     {
      "title": "Pacers vs. Pelicans",
@@ -4008,31 +4122,100 @@
     },
     {
      "date": "2026-10-22",
-     "w": 4,
+     "w": 5,
      "l": 1,
-     "pnl": 12.17
+     "pnl": 18.55
     },
     {
      "date": "2026-10-24",
      "w": 4,
      "l": 1,
      "pnl": 16.27
+    },
+    {
+     "date": "2026-10-25",
+     "w": 0,
+     "l": 1,
+     "pnl": -5.0
     }
    ]
   },
   "all": {
    "summary": {
-    "w": 14,
-    "l": 20,
-    "net_pnl": -114.45,
-    "settled_cost": 349.88,
-    "roi_pct": -32.7,
+    "w": 15,
+    "l": 22,
+    "net_pnl": -128.07,
+    "settled_cost": 374.88,
+    "roi_pct": -34.2,
     "open_count": 1,
     "open_cost": 5.0,
-    "open_value": 4.95,
-    "open_unrealized": -0.05
+    "open_value": 10.22,
+    "open_unrealized": 5.22
    },
    "open_positions": [
+    {
+     "combo": true,
+     "title": "76ers + Cavaliers + Nuggets + Spurs",
+     "outcome": "COMBO · 4 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "76ers",
+       "market": "Bucks vs. 76ers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Cavaliers",
+       "market": "Nets vs. Cavaliers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Nuggets",
+       "market": "Pelicans vs. Nuggets",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      },
+      {
+       "pick": "Spurs",
+       "market": "Spurs vs. Mavericks",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-25",
+       "nba": true
+      }
+     ],
+     "legs_total": 4,
+     "legs_pending": 0,
+     "nba_legs": 4,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.476999,
+     "shares": 10.215074,
+     "cost": 5.0,
+     "current_value": 10.22,
+     "cur_price": 1.0,
+     "pnl": 5.22,
+     "value_is_estimate": true,
+     "end_date": null
+    }
+   ],
+   "settled_recent": [
     {
      "title": "Rockets vs. Hawks",
      "outcome": "Hawks",
@@ -4040,27 +4223,12 @@
      "avg_price": 0.5099,
      "shares": 9.8039,
      "cost": 4.9999,
-     "current_value": 4.9509,
-     "cur_price": 0.505,
-     "pnl": -0.049,
-     "end_date": "2026-10-25",
-     "nba": true
-    }
-   ],
-   "settled_recent": [
-    {
-     "title": "Backpack FDV above $1B one day after launch?",
-     "outcome": "Yes",
-     "event": "backpack-fdv-above-one-day-after-launch",
-     "avg_price": 0.0085,
-     "shares": 1166.7488,
-     "cost": 9.9395,
-     "pnl": -9.9395,
+     "pnl": -4.9999,
      "result": "lost",
-     "date": "2027-01-01",
+     "date": "2026-10-25",
      "ts": null,
      "unredeemed": true,
-     "nba": false
+     "nba": true
     },
     {
      "title": "Grizzlies vs. Warriors",
@@ -4119,6 +4287,58 @@
      "nba": true
     },
     {
+     "combo": true,
+     "title": "Bilibili Gaming + Anyone's Legend + Hanwha Life Esports",
+     "outcome": "COMBO · 3 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "Bilibili Gaming",
+       "market": "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Worlds Group Stage",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_LOSS",
+       "price": 0.0,
+       "resolved": "2026-10-24",
+       "nba": false
+      },
+      {
+       "pick": "Anyone's Legend",
+       "market": "LoL: Anyone's Legend vs Karmine Corp (BO1) - Worlds Group Stage",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_LOSS",
+       "price": 0.0,
+       "resolved": "2026-10-24",
+       "nba": false
+      },
+      {
+       "pick": "Hanwha Life Esports",
+       "market": "LoL: Hanwha Life Esports vs Top Esports (BO1) - Worlds Group Stage",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-24",
+       "nba": false
+      }
+     ],
+     "legs_total": 3,
+     "legs_pending": 0,
+     "nba_legs": 0,
+     "nba": false,
+     "mixed": false,
+     "avg_price": 0.417999,
+     "shares": 34.870457,
+     "cost": 15.0,
+     "pnl": -15.0,
+     "result": "lost",
+     "date": "2026-10-24",
+     "ts": 1792787828,
+     "unredeemed": false,
+     "decided_early": false
+    },
+    {
      "title": "Pelicans vs. Jazz",
      "outcome": "Pelicans",
      "event": "nba-nop-uta-2026-10-23",
@@ -4131,6 +4351,58 @@
      "ts": null,
      "unredeemed": true,
      "nba": true
+    },
+    {
+     "combo": true,
+     "title": "Lakers + Rockets + Raptors",
+     "outcome": "COMBO · 3 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "Lakers",
+       "market": "Warriors vs. Lakers",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      },
+      {
+       "pick": "Rockets",
+       "market": "Mavericks vs. Rockets",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      },
+      {
+       "pick": "Raptors",
+       "market": "Bulls vs. Raptors",
+       "type": "moneyline",
+       "line": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-10-22",
+       "nba": true
+      }
+     ],
+     "legs_total": 3,
+     "legs_pending": 0,
+     "nba_legs": 3,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.427313,
+     "shares": null,
+     "cost": 5.0,
+     "pnl": 6.38,
+     "result": "won",
+     "date": "2026-10-22",
+     "ts": 1792645157,
+     "unredeemed": false,
+     "decided_early": false
     },
     {
      "title": "Pacers vs. Pelicans",
@@ -4523,6 +4795,20 @@
      "ts": null,
      "unredeemed": true,
      "nba": false
+    },
+    {
+     "title": "Backpack FDV above $1B one day after launch?",
+     "outcome": "Yes",
+     "event": "backpack-fdv-above-one-day-after-launch",
+     "avg_price": 0.0085,
+     "shares": 1166.7488,
+     "cost": 9.9395,
+     "pnl": -9.9395,
+     "result": "lost",
+     "date": null,
+     "ts": null,
+     "unredeemed": true,
+     "nba": false
     }
    ],
    "daily": [
@@ -4636,21 +4922,21 @@
     },
     {
      "date": "2026-10-22",
-     "w": 4,
+     "w": 5,
      "l": 1,
-     "pnl": 12.17
+     "pnl": 18.55
     },
     {
      "date": "2026-10-24",
      "w": 4,
-     "l": 1,
-     "pnl": 16.27
+     "l": 2,
+     "pnl": 1.27
     },
     {
-     "date": "2027-01-01",
+     "date": "2026-10-25",
      "w": 0,
      "l": 1,
-     "pnl": -9.94
+     "pnl": -5.0
     }
    ]
   },
@@ -4659,14 +4945,21 @@
   "counts": {
    "positions_rows": 21,
    "closed_rows": 14,
-   "nba_items": 14
+   "nba_items": 16,
+   "combo_rows": 3,
+   "combos_open": 1,
+   "combos_settled": 2,
+   "combos_skipped": 0,
+   "combos_nba": 2,
+   "combos_nba_mixed": 0
   },
   "endpoints": [
    "https://data-api.polymarket.com/positions",
    "https://data-api.polymarket.com/closed-positions",
-   "https://data-api.polymarket.com/value"
+   "https://data-api.polymarket.com/value",
+   "https://data-api.polymarket.com/v2/positions/combos"
   ],
-  "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price."
+  "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price. Combos (multi-leg) count as one bet each: P&L = payout - fee-inclusive cost; a combo is in the NBA view if at least one leg is NBA; open combo value is estimated as shares x the product of the leg prices."
  },
  "parse_warnings": [
   "2026-10-22: learnings.md daily log says SU 8-3 but graded games (review marks/scores vs preview picks) give 9-2"

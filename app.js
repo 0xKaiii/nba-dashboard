@@ -251,15 +251,30 @@ function renderAccount() {
     </div>
     ${daily.length ? `<div class="card"><div class="ctitle">Daily P&amp;L <span class="mut xs">settled, MYT dates</span></div><div class="dbars">${daily.map(d => `<div class="db"><div class="dbv ${cls(d.pnl)}">${money(d.pnl).replace('.00', '')}</div><div class="dbw"><i class="${d.pnl >= 0 ? 'up' : 'dn'}" style="height:${Math.max(3, 60 * Math.abs(d.pnl) / dmax)}px"></i></div><div class="dbd">${shortDay(d.date)}</div><div class="xs mut">${d.w}-${d.l}</div></div>`).join('')}</div></div>` : ''}
     <div class="card"><div class="ctitle">Open positions <span class="mut">${S.open_count}</span></div>
-      ${V.open_positions.length ? V.open_positions.map(p => `<div class="prow"><div class="pt"><b>${esc(p.outcome)}</b> · ${esc(p.title)}</div><div class="pv"><span class="mut">avg ${fmt(p.avg_price * 100)}¢ → now ${fmt(p.cur_price * 100)}¢</span><span>${usd(p.current_value)} <span class="${cls(p.pnl)}">${money(p.pnl)}</span></span></div></div>`).join('') : '<div class="empty">No open positions.</div>'}
+      ${V.open_positions.length ? V.open_positions.map(p => p.combo ? comboRow(p, true) : `<div class="prow"><div class="pt"><b>${esc(p.outcome)}</b> · ${esc(p.title)}</div><div class="pv"><span class="mut">avg ${fmt(p.avg_price * 100)}¢ → now ${fmt(p.cur_price * 100)}¢</span><span>${usd(p.current_value)} <span class="${cls(p.pnl)}">${money(p.pnl)}</span></span></div></div>`).join('') : '<div class="empty">No open positions.</div>'}
       ${S.open_count > V.open_positions.length ? `<div class="xs mut">Showing top ${V.open_positions.length} by value.</div>` : ''}</div>
     <div class="card"><div class="ctitle">Recently settled</div>
-      ${V.settled_recent.length ? V.settled_recent.map(s => `<div class="prow"><div class="pt">${s.result === 'won' ? '✅' : s.result === 'lost' ? '❌' : '➖'} <b>${esc(s.outcome)}</b> · ${esc(s.title)}</div><div class="pv"><span class="mut">${s.date ? shortDay(s.date) + ' · ' : ''}avg ${fmt(s.avg_price * 100)}¢ · ${usd(s.cost)}${s.unredeemed ? ' · unclaimed' : ''}</span><span class="${cls(s.pnl)}"><b>${money(s.pnl)}</b></span></div></div>`).join('') : '<div class="empty">Nothing settled yet.</div>'}</div>
+      ${V.settled_recent.length ? V.settled_recent.map(s => s.combo ? comboRow(s, false) : `<div class="prow"><div class="pt">${s.result === 'won' ? '✅' : s.result === 'lost' ? '❌' : '➖'} <b>${esc(s.outcome)}</b> · ${esc(s.title)}</div><div class="pv"><span class="mut">${s.date ? shortDay(s.date) + ' · ' : ''}avg ${fmt(s.avg_price * 100)}¢ · ${usd(s.cost)}${s.unredeemed ? ' · unclaimed' : ''}</span><span class="${cls(s.pnl)}"><b>${money(s.pnl)}</b></span></div></div>`).join('') : '<div class="empty">Nothing settled yet.</div>'}</div>
     <div class="xs mut" style="margin:4px 4px 16px">${has(A.portfolio_value) ? 'Total position value (all markets): ' + usd(A.portfolio_value) + '. ' : ''}${esc(A.notes || '')}${A.truncated ? ' History capped to the most recent records.' : ''}</div>`;
   document.querySelectorAll('.seg button').forEach(b => b.onclick = () => { state.acctView = b.dataset.v; render(); });
 }
 
 /* ---------------- iPhone install hint ---------------- */
+
+function comboRow(c, open) {
+  const ic = st => st === 'RESOLVED_WIN' ? '✅' : st === 'RESOLVED_LOSS' ? '❌' : '⏳';
+  const mk = open ? '' : (c.result === 'won' ? '✅ ' : c.result === 'lost' ? '❌ ' : '➖ ');
+  const legs = (c.legs || []).map(l => `<li>${ic(l.status)} <b>${esc(l.pick)}</b> <span class="mut">· ${esc(l.market || '')}${l.status === 'OPEN' && has(l.price) ? ' · now ' + fmt(l.price * 100) + '¢' : ''}</span></li>`).join('');
+  const nbaNote = c.mixed ? `<div class="xs mut">${c.nba_legs}/${c.legs_total} legs NBA — shown in NBA view because at least one leg is NBA</div>` : '';
+  const left = open
+    ? `avg ${fmt(c.avg_price * 100)}¢ · cost ${usd(c.cost)}${c.legs_pending ? ' · ' + c.legs_pending + ' leg' + (c.legs_pending > 1 ? 's' : '') + ' left' : ''}`
+    : `${c.date ? shortDay(c.date) + ' · ' : ''}avg ${fmt(c.avg_price * 100)}¢ · ${usd(c.cost)}${c.unredeemed ? ' · unclaimed' : ''}${c.decided_early ? ' · decided (a leg lost)' : ''}`;
+  const right = open
+    ? `${has(c.current_value) ? '~' + usd(c.current_value) : 'n/a'} <span class="${cls(c.pnl)}">${has(c.pnl) ? money(c.pnl) : ''}</span>`
+    : `<b class="${cls(c.pnl)}">${money(c.pnl)}</b>`;
+  return `<details class="prow combo"><summary><div class="pt">${mk}<span class="ctag">COMBO</span> <b>${c.legs_total} legs</b> · ${esc(c.title)}</div><div class="pv"><span class="mut">${left}</span><span>${right}</span></div></summary><ul class="legs">${legs}</ul>${nbaNote}${open && has(c.current_value) ? '<div class="xs mut">~value = shares × product of the leg prices (estimate).</div>' : ''}</details>`;
+}
+
 function installHint() {
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const standalone = window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;

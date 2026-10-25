@@ -113,3 +113,8 @@ svg{display:block;width:100%;height:auto}svg text{fill:var(--mut);font-size:10.5
 .install{position:relative;border-color:rgba(88,166,255,.5);background:rgba(88,166,255,.08);padding-right:34px}
 .install .sm{margin-top:4px}.install .x{position:absolute;top:8px;right:8px;background:none;border:0;color:var(--mut);font-size:16px}
 .shareic{display:inline-block;border:1px solid var(--mut);border-radius:4px;padding:0 3px;font-size:11px}
+.ctag{display:inline-block;background:rgba(88,166,255,.16);color:var(--b);font-size:10px;font-weight:800;letter-spacing:.04em;padding:1px 6px;border-radius:5px;vertical-align:1px}
+.prow.combo>summary{display:block}.prow.combo>summary .pt::after{content:" ▾";color:var(--mut);font-size:11px}
+.prow.combo[open]>summary .pt::after{content:" ▴"}
+ul.legs{list-style:none;margin:6px 0 2px;padding:6px 8px;background:var(--card2);border-radius:8px;font-size:12.5px}
+ul.legs li{margin:3px 0}

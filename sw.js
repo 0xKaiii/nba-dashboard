@@ -1,6 +1,6 @@
 // Service worker: network-first for data.json, stale-while-revalidate for the app shell.
-const CACHE = 'nba-picks-v2';
-const SHELL = ['./', 'index.html', 'style.css?v=2', 'app.js?v=2', 'manifest.webmanifest',
+const CACHE = 'nba-picks-v3';
+const SHELL = ['./', 'index.html', 'style.css?v=3', 'app.js?v=3', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png', 'icons/favicon.png'];
 
 self.addEventListener('install', e => {
