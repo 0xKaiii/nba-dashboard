@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T12:13:37+08:00",
+ "generated_at": "2026-10-25T14:07:11+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-10-25",
- "latest_review_date": "2026-10-24",
+ "latest_review_date": "2026-10-25",
  "days": [
   {
    "date": "2026-10-21",
@@ -2730,7 +2730,21 @@
      "avoid": [
       "Heat-Hornets (three CHA guards are game-time calls)"
      ],
-     "result": null
+     "result": {
+      "winner": "CHA",
+      "final_text": "CHA 115, MIA 110",
+      "scores": {
+       "CHA": 115,
+       "MIA": 110
+      },
+      "hit": false,
+      "reason": "MIA 57%, conf 3: MISS. Mostly variance plus Giannis' fouls, but CHA's leftovers (Miller, Schröder, Reid, Allen) were better than I graded after the 81-point night.",
+      "grades": [
+       "MIA 57%, conf 3: MISS. Mostly variance plus Giannis' fouls, but CHA's leftovers (Miller, Schröder, Reid, Allen) were better than I graded after the 81-point night. I applied L6 (\"don't mark CHA down for one game\") in words but still picked MIA. \"Avoid\" was right."
+      ],
+      "how": null,
+      "notes": "Said to avoid. Unlisted tiny Under 230.5 lean would have won (225)"
+     }
     },
     {
      "id": "2026-10-25-BKN-CLE",
@@ -2783,7 +2797,21 @@
      "form": "CLE 0-1, blew a 29-point lead at PHI (Mitchell 32). BKN 0-1; Randle scored 33 in his Nets debut.",
      "sentiment": "94% of tickets / 96% of money on CLE ML; 78%/85% on CLE -11.5. Total down 5 points despite 64% of tickets on the Over. ESPN CLE 80.3%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "CLE",
+      "final_text": "CLE 125, BKN 121",
+      "scores": {
+       "CLE": 125,
+       "BKN": 121
+      },
+      "hit": true,
+      "reason": "CLE 81%, conf 7 (top pick): HIT, reasoning right (better and home after the collapse). My \"CLE by ~10\" was fine for 44 minutes; the late garbage-time run made it four.",
+      "grades": [
+       "CLE 81%, conf 7 (top pick): HIT, reasoning right (better and home after the collapse). My \"CLE by ~10\" was fine for 44 minutes; the late garbage-time run made it four."
+      ],
+      "how": null,
+      "notes": "BKN +11.5 pass, BKN covered"
+     }
     },
     {
      "id": "2026-10-25-MIL-PHI",
@@ -2839,7 +2867,21 @@
      "form": "PHI 2-0 (beat NYK, came back from 29 down vs CLE) but a 103.4 offensive rating (TheSpread). MIL 0-2, allowing ~130 a game; lost 132-125 to CHI Friday.",
      "sentiment": "94% of tickets / 87% of money on PHI ML; 77% of spread tickets on PHI. TheSpread takes MIL +12; SportsHub model PHI 84%, passes. ESPN PHI 87.4%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "PHI",
+      "final_text": "PHI 127, MIL 116",
+      "scores": {
+       "PHI": 127,
+       "MIL": 116
+      },
+      "hit": true,
+      "reason": "PHI 82%, conf 6: HIT, reasoning right. Exactly the L7 scenario: LeBron out, Embiid plus the rest edge still won. My \"PHI by ~11\" landed on the number.",
+      "grades": [
+       "PHI 82%, conf 6: HIT, reasoning right. Exactly the L7 scenario: LeBron out, Embiid plus the rest edge still won. My \"PHI by ~11\" landed on the number."
+      ],
+      "how": null,
+      "notes": "MIL +12.5 pass, MIL covered; my \"PHI by ~11\" exact"
+     }
     },
     {
      "id": "2026-10-25-WSH-CHI",
@@ -2897,7 +2939,21 @@
       "Avoid (game note)",
       "Wizards-Bulls (coin flip; value gone with the 4-point move)"
      ],
-     "result": null
+     "result": {
+      "winner": "WSH",
+      "final_text": "WSH 124, CHI 120",
+      "scores": {
+       "WSH": 124,
+       "CHI": 120
+      },
+      "hit": false,
+      "reason": "CHI 53%, conf 2: MISS. I moved toward CHI on the named rest/travel edge (L1), and the tired road team won anyway. Real cause: CHI's shooting (23% from three over three games) is a trend, not noise. \"Avoid\" was right.",
+      "grades": [
+       "CHI 53%, conf 2: MISS. I moved toward CHI on the named rest/travel edge (L1), and the tired road team won anyway. Real cause: CHI's shooting (23% from three over three games) is a trend, not noise. \"Avoid\" was right."
+      ],
+      "how": null,
+      "notes": "Said to avoid"
+     }
     },
     {
      "id": "2026-10-25-SAS-DAL",
@@ -2955,7 +3011,21 @@
      "form": "SAS 0-2 but both losses to good teams (OKC, then 114-110 to HOU). DAL 1-1, won 121-105 at IND Friday (Kyrie played ~24-25 min).",
      "sentiment": "88% of tickets / 85% of money on SAS ML, but spread tickets 55% on DAL. ESPN SAS 76.6%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "SAS",
+      "final_text": "SAS 122, DAL 106",
+      "scores": {
+       "SAS": 122,
+       "DAL": 106
+      },
+      "hit": true,
+      "reason": "SAS 79%, conf 6: HIT, reasoning right. My \"SAS by ~12 if Kyrie sits\" was close (16).",
+      "grades": [
+       "SAS 79%, conf 6: HIT, reasoning right. My \"SAS by ~12 if Kyrie sits\" was close (16)."
+      ],
+      "how": null,
+      "notes": "DAL +12.5 lean void (Kyrie sat); would have lost"
+     }
     },
     {
      "id": "2026-10-25-HOU-ATL",
@@ -3013,7 +3083,23 @@
      "form": "both 2-0. ATL beat CHA 128-81 Friday. HOU won 114-110 at SAS Friday on size and free throws.",
      "sentiment": "62% of tickets / 74% of money on HOU ML; the total fell 3 points against 90% of Over tickets (clear money on the Under). numberFire ATL 50.2%, BetMGM model ATL 51.9%, ESPN ATL 55.5%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "HOU",
+      "final_text": "HOU 121, ATL 114",
+      "scores": {
+       "HOU": 121,
+       "ATL": 114
+      },
+      "hit": false,
+      "reason": "ATL 56%, conf 4: MISS. Bad read. I listed Reed Sheppard as out, and he played 30 minutes and hit five threes; my whole \"HOU's backup guards\" angle rested on that. HOU's depth (Eason, Bogdanovic, Capela) absorbed the rest days.",
+      "grades": [
+       "ATL 56%, conf 4: MISS. Bad read. I listed Reed Sheppard as out, and he played 30 minutes and hit five threes; my whole \"HOU's backup guards\" angle rested on that. HOU's depth (Eason, Bogdanovic, Capela) absorbed the rest days. The market moved to HOU (-1.5 close) and was right.",
+       "ATL ML at 52.5¢ (0.5u): MISS. Same reason.",
+       "Under 227.5 at 50.5¢ (0.5u): MISS (235). HOU's offensive rebounding and Sheppard's shooting broke it; the tired-legs thesis didn't show up."
+      ],
+      "how": null,
+      "notes": "ATL ML ❌, Under 227.5 ❌ (235)"
+     }
     },
     {
      "id": "2026-10-25-NOP-DEN",
@@ -3068,7 +3154,21 @@
      "form": "DEN 0-1 at home (lost 96-84 at OKC; Jokic 5-19). NOP 0-2, lost by 1 at UTA Friday after a big comeback.",
      "sentiment": "94% of tickets / 95% of money on DEN ML; spread money split 52/48. Previews: Predictem, CBS. ESPN DEN 78.3%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "DEN",
+      "final_text": "DEN 141, NOP 135",
+      "scores": {
+       "DEN": 141,
+       "NOP": 135
+      },
+      "hit": true,
+      "reason": "DEN 80%, conf 7: HIT, but lucky in the shape of it. The tired-NOP-at-altitude read was wrong for three quarters; DEN's stars bailed it out.",
+      "grades": [
+       "DEN 80%, conf 7: HIT, but lucky in the shape of it. The tired-NOP-at-altitude read was wrong for three quarters; DEN's stars bailed it out."
+      ],
+      "how": null,
+      "notes": "Passes; NOP +11.5 covered"
+     }
     },
     {
      "id": "2026-10-25-GSW-PHX",
@@ -3126,7 +3226,21 @@
      "avoid": [
       "Warriors-Suns (Curry decision pending, price already moved)"
      ],
-     "result": null
+     "result": {
+      "winner": "PHX",
+      "final_text": "PHX 131, GSW 122",
+      "scores": {
+       "PHX": 131,
+       "GSW": 122
+      },
+      "hit": true,
+      "reason": "PHX 74%, conf 5: HIT, reasoning right (moved with the named Curry news, L1). My \"PHX by ~8\" vs actual 9.",
+      "grades": [
+       "PHX 74%, conf 5: HIT, reasoning right (moved with the named Curry news, L1). My \"PHX by ~8\" vs actual 9."
+      ],
+      "how": null,
+      "notes": "Said to avoid; GSW +9.5 covered by 0.5"
+     }
     }
    ],
    "summary": {
@@ -3255,18 +3369,39 @@
     "--"
    ],
    "pm_raw_file": "raw/d1025/pm-summary.txt",
-   "review": null
+   "review": {
+    "file": "review-2026-10-25.md",
+    "brier": {
+     "me": 0.142,
+     "dk": 0.136,
+     "pm": 0.131
+    },
+    "units": -1.0,
+    "units_text": "- Units: -1.0u on the day at preview prices (two 0.5u losses), before fees.",
+    "day_summary": [
+     "Straight up: 5-3 (misses: MIA, CHI, ATL; two of those were in my \"avoid\" list).",
+     "ATS: no picks (DAL +12.5 void because Kyrie sat). Totals: 0-1 (HOU-ATL Under). Small value: 0-2 (ATL ML, Under).",
+     "Units: -1.0u on the day at preview prices (two 0.5u losses), before fees.",
+     "Passed spreads in hindsight: closing favorites went 1-7 ATS (only SAS covered). Dogs I passed under L4 (BKN, MIL, GSW) all covered, but my own margins were only 1.5 pts off the line on each, so no rule change from one night (L6).",
+     "Totals in hindsight: Overs went 5-3 vs the close, reversing the early Under run; the three \"both on a back-to-back\" games other than HOU-ATL all went Under."
+    ],
+    "lessons": [
+     "Verify the injury list at tip, especially for players my thesis depends on. I had Sheppard as out; he played and hit five threes. A value lean that rests on a specific absence must be rechecked against the final report or skipped.",
+     "A rest edge only carries a team that's also good enough. It worked for PHI and PHX, which were better teams anyway; it didn't save CHI, whose 23% three-point shooting over three games is a real trend I didn't weigh.",
+     "Grade a deep team's depth when stars rest. HOU won by seven without VanVleet and Adams; its depth is a strength, not a hole."
+    ]
+   }
   }
  ],
  "season": {
   "record_table": [
    {
     "category": "Straight-up winners",
-    "record": "18-10",
-    "w": 18,
-    "l": 10,
+    "record": "24-12",
+    "w": 24,
+    "l": 12,
     "units": null,
-    "notes": null
+    "notes": "2026-10-22 corrected to 9-2 (was logged 8-3)"
    },
    {
     "category": "Spread picks",
@@ -3278,11 +3413,11 @@
    },
    {
     "category": "Totals",
-    "record": "4-1",
+    "record": "4-2",
     "w": 4,
-    "l": 1,
+    "l": 2,
     "units": null,
-    "notes": "Early-season Unders: 9 of 14 games on 10-23/10-24 went Under the close"
+    "notes": "Unders 9 of 14 on 10-23/10-24, then Overs 5-3 on 10-25"
    },
    {
     "category": "Core value picks",
@@ -3294,19 +3429,19 @@
    },
    {
     "category": "Small/secondary value",
-    "record": "8-4",
+    "record": "8-6",
     "w": 8,
-    "l": 4,
-    "units": 3.5,
-    "notes": "~+3.5u (rough, incl. 0.5u MEM lean 2026-10-24)"
+    "l": 6,
+    "units": 2.5,
+    "notes": "~+2.5u (rough, incl. 0.5u MEM lean 2026-10-24)"
    }
   ],
   "brier": {
-   "me": 0.213,
-   "dk": 0.207,
-   "pm": 0.208,
-   "games": 28,
-   "notes": "Cumulative, 28 games; Polymarket = preview-time prices"
+   "me": 0.197,
+   "dk": 0.191,
+   "pm": 0.191,
+   "games": 36,
+   "notes": "Cumulative, 36 games; Polymarket = preview-time prices"
   }
  },
  "lessons": [
@@ -3317,8 +3452,8 @@
   },
   {
    "n": 2,
-   "title": "Grade the players who are left, not departures or the injury count, on both sides.",
-   "body": "(2026-10-21: OKC and PHI benches. 2026-10-22: LAC \"missing five\" won by 25 behind Garland/Lopez/Wagler; CHA missing three starters still won with Reid/Schröder/Allen.)"
+   "title": "Grade the players who are left, not departures or the injury count, on both sides, and verify the final injury report for anyone my thesis depends on.",
+   "body": "(2026-10-25: I had HOU's Sheppard out; he played and hit five threes, and deep HOU won without VanVleet and Adams. 2026-10-21: OKC and PHI benches. 2026-10-22: LAC \"missing five\" won by 25 behind Garland/Lopez/Wagler; CHA missing three starters still won with Reid/Schröder/Allen.)"
   },
   {
    "n": 3,
@@ -3337,8 +3472,8 @@
   },
   {
    "n": 6,
-   "title": "Weight a single game lightly, in both directions.",
-   "body": "CHI (lost by 43, then won at MIL), DAL (bad defense, then won by 16 at IND), IND and SAC all reversed their openers on 2026-10-24."
+   "title": "Weight a single game lightly, in both directions, but respect a multi-game trend.",
+   "body": "CHI, DAL, IND and SAC reversed their openers on 2026-10-24; CHA bounced back from 81 points to beat MIA on 2026-10-25. But CHI's 23% three-point shooting over three games is a trend, and a rest edge didn't overcome it (lost to WSH on 2026-10-25)."
   },
   {
    "n": 7,
@@ -3370,10 +3505,10 @@
   },
   {
    "date": "2026-10-22",
-   "text": "SU 8-3 (misses: MIA, UTA, plus underrated LAC/TOR margins). ATS 1-3 (ATL +2.5 W; MIL +4.5, DAL +10.5, SAC +4.5 L). Totals 2-0 (MIL-WSH Over, CHI-TOR Under). Core value 1-2 (ATL ML W). Small value 3-2. Brier me 0.179 vs DK 0.171 / PM 0.170. Full review: review-2026-10-22.md.",
+   "text": "SU 9-2 (misses: MIA, UTA; corrected from 8-3 to match review marks). ATS 1-3 (ATL +2.5 W; MIL +4.5, DAL +10.5, SAC +4.5 L). Totals 2-0 (MIL-WSH Over, CHI-TOR Under). Core value 1-2 (ATL ML W). Small value 3-2. Brier me 0.179 vs DK 0.171 / PM 0.170. Full review: review-2026-10-22.md.",
    "su": [
-    8,
-    3
+    9,
+    2
    ],
    "ats": [
     1,
@@ -3424,6 +3559,27 @@
     2,
     1
    ]
+  },
+  {
+   "date": "2026-10-25",
+   "text": "SU 5-3 (misses: MIA and CHI, both on my avoid list; ATL). ATS 0-0 (DAL +12.5 void, Kyrie sat). Totals 0-1 (HOU-ATL Under). Small value 0-2 (ATL ML, Under), -1.0u. Closing favorites 1-7 ATS; Overs 5-3. Brier me 0.142 vs DK 0.136 / PM 0.131. Full review: review-2026-10-25.md.",
+   "su": [
+    5,
+    3
+   ],
+   "ats": [
+    0,
+    0
+   ],
+   "totals": [
+    0,
+    1
+   ],
+   "core_value": null,
+   "small_value": [
+    0,
+    2
+   ]
   }
  ],
  "track": {
@@ -3472,10 +3628,10 @@
     },
     "log": {
      "date": "2026-10-22",
-     "text": "SU 8-3 (misses: MIA, UTA, plus underrated LAC/TOR margins). ATS 1-3 (ATL +2.5 W; MIL +4.5, DAL +10.5, SAC +4.5 L). Totals 2-0 (MIL-WSH Over, CHI-TOR Under). Core value 1-2 (ATL ML W). Small value 3-2. Brier me 0.179 vs DK 0.171 / PM 0.170. Full review: review-2026-10-22.md.",
+     "text": "SU 9-2 (misses: MIA, UTA; corrected from 8-3 to match review marks). ATS 1-3 (ATL +2.5 W; MIL +4.5, DAL +10.5, SAC +4.5 L). Totals 2-0 (MIL-WSH Over, CHI-TOR Under). Core value 1-2 (ATL ML W). Small value 3-2. Brier me 0.179 vs DK 0.171 / PM 0.170. Full review: review-2026-10-22.md.",
      "su": [
-      8,
-      3
+      9,
+      2
      ],
      "ats": [
       1,
@@ -3549,15 +3705,47 @@
       1
      ]
     }
+   },
+   {
+    "date": "2026-10-25",
+    "su_w": 5,
+    "su_l": 3,
+    "units": -1.0,
+    "brier": {
+     "me": 0.142,
+     "dk": 0.136,
+     "pm": 0.131
+    },
+    "log": {
+     "date": "2026-10-25",
+     "text": "SU 5-3 (misses: MIA and CHI, both on my avoid list; ATL). ATS 0-0 (DAL +12.5 void, Kyrie sat). Totals 0-1 (HOU-ATL Under). Small value 0-2 (ATL ML, Under), -1.0u. Closing favorites 1-7 ATS; Overs 5-3. Brier me 0.142 vs DK 0.136 / PM 0.131. Full review: review-2026-10-25.md.",
+     "su": [
+      5,
+      3
+     ],
+     "ats": [
+      0,
+      0
+     ],
+     "totals": [
+      0,
+      1
+     ],
+     "core_value": null,
+     "small_value": [
+      0,
+      2
+     ]
+    }
    }
   ],
   "calibration": [
    {
     "bucket": "50–59%",
-    "n": 17,
+    "n": 20,
     "hits": 11,
-    "avg_pred": 54.3,
-    "actual": 64.7
+    "avg_pred": 54.5,
+    "actual": 55.0
    },
    {
     "bucket": "60–69%",
@@ -3568,10 +3756,17 @@
    },
    {
     "bucket": "70–79%",
-    "n": 7,
-    "hits": 6,
-    "avg_pred": 73.4,
-    "actual": 85.7
+    "n": 9,
+    "hits": 8,
+    "avg_pred": 74.1,
+    "actual": 88.9
+   },
+   {
+    "bucket": "80%+",
+    "n": 3,
+    "hits": 3,
+    "avg_pred": 81.0,
+    "actual": 100.0
    }
   ],
   "splits": [
@@ -3580,8 +3775,8 @@
     "groups": [
      {
       "label": "Picked favorite",
-      "w": 17,
-      "l": 7
+      "w": 22,
+      "l": 10
      },
      {
       "label": "Picked underdog",
@@ -3595,13 +3790,13 @@
     "groups": [
      {
       "label": "Home pick",
-      "w": 11,
-      "l": 7
+      "w": 15,
+      "l": 9
      },
      {
       "label": "Road pick",
-      "w": 8,
-      "l": 2
+      "w": 9,
+      "l": 3
      }
     ]
    },
@@ -3611,11 +3806,11 @@
      {
       "label": "I was above market",
       "w": 7,
-      "l": 5
+      "l": 8
      },
      {
       "label": "At/below market",
-      "w": 12,
+      "w": 17,
       "l": 4
      }
     ]
@@ -3625,32 +3820,32 @@
     "groups": [
      {
       "label": "Conf 1-5",
-      "w": 14,
-      "l": 8
+      "w": 15,
+      "l": 11
      },
      {
       "label": "Conf 6-10",
-      "w": 5,
+      "w": 9,
       "l": 1
      }
     ]
    }
   ],
-  "graded_games": 28,
+  "graded_games": 36,
   "glance": {
    "record": {
-    "w": 19,
-    "l": 9,
-    "n": 28,
-    "pct": 68
+    "w": 24,
+    "l": 12,
+    "n": 36,
+    "pct": 67
    },
    "streak": {
     "type": "W",
     "len": 2
    },
-   "units_total": 2.8,
-   "units_days_stated": 3,
-   "units_days_total": 4,
+   "units_total": 1.8,
+   "units_days_stated": 4,
+   "units_days_total": 5,
    "units_series": [
     {
      "date": "2026-10-21",
@@ -3671,65 +3866,70 @@
      "date": "2026-10-24",
      "units": 1.5,
      "cum": 2.8
+    },
+    {
+     "date": "2026-10-25",
+     "units": -1.0,
+     "cum": 1.8
     }
    ],
    "last7": {
-    "w": 19,
-    "l": 9,
-    "n": 28,
-    "pct": 68,
-    "units": 2.8,
-    "start": "2026-10-18",
-    "end": "2026-10-24",
-    "days": 4,
-    "units_days": 3
+    "w": 24,
+    "l": 12,
+    "n": 36,
+    "pct": 67,
+    "units": 1.8,
+    "start": "2026-10-19",
+    "end": "2026-10-25",
+    "days": 5,
+    "units_days": 4
    },
    "insights": [
     {
-     "w": 6,
+     "w": 11,
      "l": 1,
-     "n": 7,
-     "pct": 86,
+     "n": 12,
+     "pct": 92,
      "key": "big_fav",
      "text": "Big favourites (my win % 70+)"
     },
     {
      "w": 11,
-     "l": 6,
-     "n": 17,
-     "pct": 65,
+     "l": 9,
+     "n": 20,
+     "pct": 55,
      "key": "coin",
      "text": "Close calls (my win % 50–59)"
     },
     {
      "w": 2,
-     "l": 3,
-     "n": 5,
-     "pct": 40,
+     "l": 4,
+     "n": 6,
+     "pct": 33,
      "key": "disagree_up",
      "text": "When I rate the pick 3+ pts higher than Polymarket"
     },
     {
-     "w": 12,
-     "l": 5,
-     "n": 17,
-     "pct": 71,
+     "w": 16,
+     "l": 7,
+     "n": 23,
+     "pct": 70,
      "key": "agree",
      "text": "When I roughly agree with Polymarket (within 2.5 pts)"
     },
     {
-     "w": 5,
+     "w": 6,
      "l": 1,
-     "n": 6,
-     "pct": 83,
+     "n": 7,
+     "pct": 86,
      "key": "disagree_down",
      "text": "When I rate the pick 3+ pts lower than Polymarket"
     },
     {
-     "w": 5,
+     "w": 9,
      "l": 1,
-     "n": 6,
-     "pct": 83,
+     "n": 10,
+     "pct": 90,
      "key": "high_conf",
      "text": "High-confidence picks (6+/10)"
     },
@@ -3742,10 +3942,10 @@
      "text": "Picking the underdog"
     },
     {
-     "w": 8,
-     "l": 2,
-     "n": 10,
-     "pct": 80,
+     "w": 9,
+     "l": 3,
+     "n": 12,
+     "pct": 75,
      "key": "road",
      "text": "Picking the road team"
     }
@@ -3761,40 +3961,41 @@
     },
     {
      "category": "Small/secondary value",
-     "record": "8-4",
+     "record": "8-6",
      "w": 8,
-     "l": 4,
-     "units": 3.5,
-     "notes": "~+3.5u (rough, incl. 0.5u MEM lean 2026-10-24)"
+     "l": 6,
+     "units": 2.5,
+     "notes": "~+2.5u (rough, incl. 0.5u MEM lean 2026-10-24)"
     }
    ],
    "brier": {
-    "me": 0.213,
-    "dk": 0.207,
-    "pm": 0.208,
-    "games": 28,
-    "notes": "Cumulative, 28 games; Polymarket = preview-time prices"
+    "me": 0.197,
+    "dk": 0.191,
+    "pm": 0.191,
+    "games": 36,
+    "notes": "Cumulative, 36 games; Polymarket = preview-time prices"
    }
   }
  },
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-25T12:13:37+08:00",
-  "portfolio_value": 4.87,
+  "fetched_at": "2026-10-25T14:07:11+08:00",
+  "portfolio_value": 0.0,
   "nba": {
    "summary": {
-    "w": 10,
+    "w": 11,
     "l": 5,
-    "net_pnl": 25.24,
-    "settled_cost": 75.0,
-    "roi_pct": 33.6,
-    "open_count": 1,
-    "open_cost": 5.0,
-    "open_value": 10.22,
-    "open_unrealized": 5.22
+    "net_pnl": 30.46,
+    "settled_cost": 80.0,
+    "roi_pct": 38.1,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
+   "open_positions": [],
+   "settled_recent": [
     {
      "combo": true,
      "title": "76ers + Cavaliers + Nuggets + Spurs",
@@ -3848,16 +4049,15 @@
      "nba": true,
      "mixed": false,
      "avg_price": 0.476999,
-     "shares": 10.215074,
+     "shares": null,
      "cost": 5.0,
-     "current_value": 10.22,
-     "cur_price": 1.0,
      "pnl": 5.22,
-     "value_is_estimate": true,
-     "end_date": null
-    }
-   ],
-   "settled_recent": [
+     "result": "won",
+     "date": "2026-10-25",
+     "ts": 1792901665,
+     "unredeemed": false,
+     "decided_early": false
+    },
     {
      "title": "Rockets vs. Hawks",
      "outcome": "Hawks",
@@ -4134,25 +4334,26 @@
     },
     {
      "date": "2026-10-25",
-     "w": 0,
+     "w": 1,
      "l": 1,
-     "pnl": -5.0
+     "pnl": 0.22
     }
    ]
   },
   "all": {
    "summary": {
-    "w": 15,
+    "w": 16,
     "l": 22,
-    "net_pnl": -128.07,
-    "settled_cost": 374.88,
-    "roi_pct": -34.2,
-    "open_count": 1,
-    "open_cost": 5.0,
-    "open_value": 10.22,
-    "open_unrealized": 5.22
+    "net_pnl": -122.85,
+    "settled_cost": 379.88,
+    "roi_pct": -32.3,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
+   "open_positions": [],
+   "settled_recent": [
     {
      "combo": true,
      "title": "76ers + Cavaliers + Nuggets + Spurs",
@@ -4206,16 +4407,15 @@
      "nba": true,
      "mixed": false,
      "avg_price": 0.476999,
-     "shares": 10.215074,
+     "shares": null,
      "cost": 5.0,
-     "current_value": 10.22,
-     "cur_price": 1.0,
      "pnl": 5.22,
-     "value_is_estimate": true,
-     "end_date": null
-    }
-   ],
-   "settled_recent": [
+     "result": "won",
+     "date": "2026-10-25",
+     "ts": 1792901665,
+     "unredeemed": false,
+     "decided_early": false
+    },
     {
      "title": "Rockets vs. Hawks",
      "outcome": "Hawks",
@@ -4934,9 +5134,9 @@
     },
     {
      "date": "2026-10-25",
-     "w": 0,
+     "w": 1,
      "l": 1,
-     "pnl": -5.0
+     "pnl": 0.22
     }
    ]
   },
@@ -4947,8 +5147,8 @@
    "closed_rows": 14,
    "nba_items": 16,
    "combo_rows": 3,
-   "combos_open": 1,
-   "combos_settled": 2,
+   "combos_open": 0,
+   "combos_settled": 3,
    "combos_skipped": 0,
    "combos_nba": 2,
    "combos_nba_mixed": 0
@@ -4961,7 +5161,5 @@
   ],
   "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price. Combos (multi-leg) count as one bet each: P&L = payout - fee-inclusive cost; a combo is in the NBA view if at least one leg is NBA; open combo value is estimated as shares x the product of the leg prices."
  },
- "parse_warnings": [
-  "2026-10-22: learnings.md daily log says SU 8-3 but graded games (review marks/scores vs preview picks) give 9-2"
- ]
+ "parse_warnings": []
 }
