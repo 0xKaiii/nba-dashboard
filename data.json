@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:46:18+08:00",
+ "generated_at": "2026-10-27T04:01:13+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-10-27",
  "latest_review_date": "2026-10-26",
@@ -4590,7 +4590,7 @@
     "graded": "",
     "check_before": "Edwards and LaMelo (MIN), Flagg (DAL), Zubac and Haliburton (IND), Wallace and Jaylin Williams (OKC), Edey, Coward and Lopez (MEM), UTA's official report, Smart (HOU), Santos (GSW), Essengue and P. Williams (CHI).",
     "unverified": "",
-    "season_record": "SU 30-13, ATS 2-4, totals 6-2, core value 3-3, small value 10-6 (~+3.4u)."
+    "season_record": "SU 30-13, ATS 2-4, totals 6-2, core value 3-3, small value 10-6 (~+3.4u).\n---"
    },
    "buys": [
     {
@@ -5379,8 +5379,8 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-26T23:46:18+08:00",
-  "portfolio_value": 0.0,
+  "fetched_at": "2026-10-27T04:01:13+08:00",
+  "portfolio_value": 17.24,
   "nba": {
    "summary": {
     "w": 16,
@@ -5388,12 +5388,129 @@
     "net_pnl": 43.18,
     "settled_cost": 105.0,
     "roi_pct": 41.1,
-    "open_count": 0,
-    "open_cost": 0,
-    "open_value": 0,
-    "open_unrealized": 0
+    "open_count": 6,
+    "open_cost": 17.5,
+    "open_value": 17.2,
+    "open_unrealized": -0.3
    },
-   "open_positions": [],
+   "open_positions": [
+    {
+     "combo": true,
+     "title": "Thunder + Celtics + Nuggets",
+     "outcome": "COMBO · 3 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "Thunder",
+       "market": "Suns vs. Thunder",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.745,
+       "resolved": null,
+       "nba": true
+      },
+      {
+       "pick": "Celtics",
+       "market": "Bulls vs. Celtics",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.875,
+       "resolved": null,
+       "nba": true
+      },
+      {
+       "pick": "Nuggets",
+       "market": "Warriors vs. Nuggets",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.715,
+       "resolved": null,
+       "nba": true
+      }
+     ],
+     "legs_total": 3,
+     "legs_pending": 3,
+     "nba_legs": 3,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.469905,
+     "shares": 10.365711,
+     "cost": 5.0,
+     "current_value": 4.83,
+     "cur_price": 0.4661,
+     "pnl": -0.17,
+     "value_is_estimate": true,
+     "end_date": null
+    },
+    {
+     "title": "Suns vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event": "nba-phx-okc-2026-10-26",
+     "avg_price": 0.5299,
+     "shares": 4.7169,
+     "cost": 2.4999,
+     "current_value": 2.4764,
+     "cur_price": 0.525,
+     "pnl": -0.0235,
+     "end_date": "2026-10-27",
+     "nba": true
+    },
+    {
+     "title": "Spread: Heat (-7.5)",
+     "outcome": "Mavericks",
+     "event": "nba-dal-mia-2026-10-26",
+     "avg_price": 0.5099,
+     "shares": 4.9019,
+     "cost": 2.4999,
+     "current_value": 2.4754,
+     "cur_price": 0.505,
+     "pnl": -0.0245,
+     "end_date": "2026-10-26",
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets: O/U 227.5",
+     "outcome": "Under",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.5,
+     "shares": 5.0,
+     "cost": 2.5,
+     "current_value": 2.475,
+     "cur_price": 0.495,
+     "pnl": -0.025,
+     "end_date": "2026-10-26",
+     "nba": true
+    },
+    {
+     "title": "Grizzlies vs. Jazz",
+     "outcome": "Grizzlies",
+     "event": "nba-mem-uta-2026-10-26",
+     "avg_price": 0.5,
+     "shares": 5.0,
+     "cost": 2.5,
+     "current_value": 2.475,
+     "cur_price": 0.495,
+     "pnl": -0.025,
+     "end_date": "2026-10-27",
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets",
+     "outcome": "Wizards",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.4299,
+     "shares": 5.8139,
+     "cost": 2.4999,
+     "current_value": 2.4709,
+     "cur_price": 0.425,
+     "pnl": -0.029,
+     "end_date": "2026-10-26",
+     "nba": true
+    }
+   ],
    "settled_recent": [
     {
      "title": "Grizzlies vs. Kings",
@@ -5874,12 +5991,129 @@
     "net_pnl": -110.13,
     "settled_cost": 404.88,
     "roi_pct": -27.2,
-    "open_count": 0,
-    "open_cost": 0,
-    "open_value": 0,
-    "open_unrealized": 0
+    "open_count": 6,
+    "open_cost": 17.5,
+    "open_value": 17.2,
+    "open_unrealized": -0.3
    },
-   "open_positions": [],
+   "open_positions": [
+    {
+     "combo": true,
+     "title": "Thunder + Celtics + Nuggets",
+     "outcome": "COMBO · 3 legs",
+     "event": null,
+     "legs": [
+      {
+       "pick": "Thunder",
+       "market": "Suns vs. Thunder",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.745,
+       "resolved": null,
+       "nba": true
+      },
+      {
+       "pick": "Celtics",
+       "market": "Bulls vs. Celtics",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.875,
+       "resolved": null,
+       "nba": true
+      },
+      {
+       "pick": "Nuggets",
+       "market": "Warriors vs. Nuggets",
+       "type": "moneyline",
+       "line": null,
+       "status": "OPEN",
+       "price": 0.715,
+       "resolved": null,
+       "nba": true
+      }
+     ],
+     "legs_total": 3,
+     "legs_pending": 3,
+     "nba_legs": 3,
+     "nba": true,
+     "mixed": false,
+     "avg_price": 0.469905,
+     "shares": 10.365711,
+     "cost": 5.0,
+     "current_value": 4.83,
+     "cur_price": 0.4661,
+     "pnl": -0.17,
+     "value_is_estimate": true,
+     "end_date": null
+    },
+    {
+     "title": "Suns vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event": "nba-phx-okc-2026-10-26",
+     "avg_price": 0.5299,
+     "shares": 4.7169,
+     "cost": 2.4999,
+     "current_value": 2.4764,
+     "cur_price": 0.525,
+     "pnl": -0.0235,
+     "end_date": "2026-10-27",
+     "nba": true
+    },
+    {
+     "title": "Spread: Heat (-7.5)",
+     "outcome": "Mavericks",
+     "event": "nba-dal-mia-2026-10-26",
+     "avg_price": 0.5099,
+     "shares": 4.9019,
+     "cost": 2.4999,
+     "current_value": 2.4754,
+     "cur_price": 0.505,
+     "pnl": -0.0245,
+     "end_date": "2026-10-26",
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets: O/U 227.5",
+     "outcome": "Under",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.5,
+     "shares": 5.0,
+     "cost": 2.5,
+     "current_value": 2.475,
+     "cur_price": 0.495,
+     "pnl": -0.025,
+     "end_date": "2026-10-26",
+     "nba": true
+    },
+    {
+     "title": "Grizzlies vs. Jazz",
+     "outcome": "Grizzlies",
+     "event": "nba-mem-uta-2026-10-26",
+     "avg_price": 0.5,
+     "shares": 5.0,
+     "cost": 2.5,
+     "current_value": 2.475,
+     "cur_price": 0.495,
+     "pnl": -0.025,
+     "end_date": "2026-10-27",
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets",
+     "outcome": "Wizards",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.4299,
+     "shares": 5.8139,
+     "cost": 2.4999,
+     "current_value": 2.4709,
+     "cur_price": 0.425,
+     "pnl": -0.029,
+     "end_date": "2026-10-26",
+     "nba": true
+    }
+   ],
    "settled_recent": [
     {
      "title": "Grizzlies vs. Kings",
@@ -6742,14 +6976,14 @@
   "default_view": "nba",
   "truncated": false,
   "counts": {
-   "positions_rows": 21,
+   "positions_rows": 26,
    "closed_rows": 19,
-   "nba_items": 22,
-   "combo_rows": 4,
-   "combos_open": 0,
+   "nba_items": 28,
+   "combo_rows": 5,
+   "combos_open": 1,
    "combos_settled": 4,
    "combos_skipped": 0,
-   "combos_nba": 3,
+   "combos_nba": 4,
    "combos_nba_mixed": 0
   },
   "endpoints": [
