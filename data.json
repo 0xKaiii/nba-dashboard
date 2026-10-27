@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-27T14:06:42+08:00",
+ "generated_at": "2026-10-27T23:48:18+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-10-27",
+ "latest_preview_date": "2026-10-28",
  "latest_review_date": "2026-10-27",
  "days": [
   {
@@ -4886,6 +4886,376 @@
      "Conditional plays from the pre-tip recheck are working. Both triggered (DAL with Flagg, MIL without Nembhard) and won; keep writing them with a clear trigger and a price limit."
     ]
    }
+  },
+  {
+   "date": "2026-10-28",
+   "file": "preview-2026-10-28.md",
+   "written": "~00:15 MYT Wed Oct 28",
+   "games": [
+    {
+     "id": "2026-10-28-BKN-BOS",
+     "n": 1,
+     "away": {
+      "abbr": "BKN",
+      "city": "Brooklyn",
+      "name": "Nets"
+     },
+     "home": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "tip_myt": "07:30",
+     "tip_iso": "2026-10-28T07:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "win_pct": 80.0,
+     "confidence": 6,
+     "dk_ml": "BKN +425 / BOS -575 (opened +425/-575) → de-vig BOS 81.7%",
+     "dk_devig": {
+      "abbr": "BOS",
+      "pct": 81.7
+     },
+     "pm_ml": "BKN 17.5¢ / BOS 82.5¢ ($447k)",
+     "spread": {
+      "dk": "BOS -11.5 (opened -11.5)",
+      "pm": "BOS -11.5: 49.5 / BKN 50.5¢; BOS -12.5: 46.5 / BKN 53.5¢"
+     },
+     "total": {
+      "dk": "223.5 (opened 222.5)",
+      "pm": "O/U 222.5: Over 50.5 / Under 49.5¢; O/U 223.5: 47.5 / 52.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 82.5,
+     "edge": -2.5,
+     "dk_pick_pct": 81.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "BOS report not yet submitted. Tatum's status is uncertain on the B2B (left Monday's game with 6:53 left; Mazzulla non-committal). The Boston Globe says Tatum, Paul George and Mitchell Robinson could all rest. Devin Carter out. BKN (official): only two-way/G League players out (Bilodeau, Jefferson, Nelson, Powell, Saraf).",
+     "injury_flags": [
+      "not yet submitted",
+      "Tatum's status is uncertain on the B2B"
+     ],
+     "view": "BOS is the much better team and Brooklyn can't guard the three. With Tatum and George, BOS by ~12, ~85%. With both resting, BOS by ~7.5, ~74% (Pritchard/White/Hauser still beat this Nets defense). Blended for the rest risk, BOS by ~10, ~80%, so the market is fair to slightly rich. BKN +11.5 clears the L4 bar only in the both-sit case (L7). The total is fair: BKN's pace and bad defense vs bench-heavy B2B minutes.",
+     "bet": "Pass as it stands. Lean: BKN +11.5 at 50.5¢ (0.5u) only if Tatum and George are both ruled out. On Polymarket: market \"Spread: Celtics (-11.5)\", buy Nets at ≤52¢. Fallback: market \"Spread: Celtics (-12.5)\", Nets at ≤55¢. Prices will jump fast on the news; above those limits, pass.",
+     "bet_bold": [
+      "Lean: BKN +11.5 at 50.5¢ (0.5u) only if Tatum and George are both ruled out",
+      "Nets"
+     ],
+     "form": "BOS 2-1 (lost 121-113 at DET, beat NYK 107-103, beat CHI 134-99 Mon behind Pritchard's 28 off the bench). BKN 0-3 (lost 110-103 to CHA, 125-121 at CLE, 136-109 to IND), allowing 123.7 ppg with opponents shooting 40.3% from three (CBS). My calc: BOS net +10.1 (42.4% from three), BKN -11.9 (18.7 turnovers a game). BOS has won 11 of the last 12 meetings.",
+     "sentiment": "95% of tickets / 90% of money on BOS ML; 78%/81% on BOS -11.5; 91% of tickets on the Over and the total rose 1. SI's Peter Dewey takes BOS -11.5. ESPN BOS 85.1%; numberFire BOS 83.3%.",
+     "avoid": [
+      "Nets-Celtics until BOS files its report (rest decisions decide the spread)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-28-DET-NYK",
+     "n": 2,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-28T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 51.0,
+     "confidence": 3,
+     "dk_ml": "DET +130 / NYK -155 (opened +136/-162) → de-vig NYK 58.3%",
+     "dk_devig": {
+      "abbr": "NYK",
+      "pct": 58.3
+     },
+     "pm_ml": "DET 40.5¢ / NYK 59.5¢ ($499k)",
+     "spread": {
+      "dk": "NYK -3.5 (opened -3.5)",
+      "pm": "NYK -3.5: 52.5 / DET 47.5¢; NYK -4.5: 48.5 / DET 51.5¢"
+     },
+     "total": {
+      "dk": "219.5 (opened 218.5)",
+      "pm": "O/U 218.5: Over 51.5 / Under 48.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 40.5,
+     "edge": 10.5,
+     "dk_pick_pct": 41.7,
+     "pick_is_favorite": false,
+     "pick_is_home": false,
+     "injuries": "DET: Duren out (hamstring, re-eval Nov 8); Ausar Thompson questionable (ankle; went through warmups Sunday then was ruled out) and Isaiah Joe questionable (hip) (mlive). NYK: Alvarado out (ankle); Brunson, Towns, Anunoby, Bridges, Hart all available. Mitchell Robinson is now in Boston, so NYK's backup C minutes go to Drummond/Wiseman.",
+     "injury_flags": [
+      "Duren out",
+      "Ausar Thompson questionable",
+      "Isaiah Joe questionable",
+      "Alvarado out"
+     ],
+     "view": "NYK's offense is three games deep and it's the same core, so per L6 it moves my number: I take ~1.5 points off NYK's preseason rating. DET's defense has held up without Duren, and Cunningham has had NYK's number. Home court and NYK's talent keep it close. DET by ~0.5, ~51% (53% if Ausar plays, 49% if not). That's ~10 points over a 40.5¢ price. Biggest risk: a NYK bounce-back at MSG is exactly what the market is pricing, and three games is still a small sample. Total: fair; pass.",
+     "bet": "Small: DET ML at 40.5¢ (0.5u). On Polymarket: market \"Pistons vs. Knicks\", buy Pistons at ≤42¢. If both Ausar and Joe are ruled out, lower the limit to ≤40¢.",
+     "bet_bold": [
+      "Small: DET ML at 40.5¢ (0.5u)",
+      "Pistons"
+     ],
+     "form": "DET 3-0 (beat BOS 121-113, won 128-111 at MIA, won 106-93 at PHI without Duren and Ausar). Top-seven in ORtg, DRtg and net rating, 3-0 ATS (SI). NYK 0-3 (lost 106-100 to PHI, 107-103 at BOS, 111-102 to ORL), 29th in ORtg and last in points per game; Bridges has more fouls than points. My calc: DET net +12.3; NYK -6.2 (99.2 ORtg, 32.4% from three). DET swept NYK 3-0 last regular season and has won six straight regular-season meetings (CBS).",
+     "sentiment": "55% of tickets / 69% of money on NYK ML; 66%/58% on DET +3.5; 64% on the Over. ML moved slightly toward DET. SI takes DET +3.5; the SportsLine model (via CBS) takes the Over. ESPN NYK 61.4%. Polymarket US/Kalshi ~39–40% DET (Snori).",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-28-SAC-SAS",
+     "n": 3,
+     "away": {
+      "abbr": "SAC",
+      "city": "Sacramento",
+      "name": "Kings"
+     },
+     "home": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-28T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "win_pct": 89.0,
+     "confidence": 7,
+     "dk_ml": "SAC +950 / SAS -1650 (opened +1000/-1800) → de-vig SAS 90.8%",
+     "dk_devig": {
+      "abbr": "SAS",
+      "pct": 90.8
+     },
+     "pm_ml": "SAC 7.5¢ / SAS 92.5¢ ($292k)",
+     "spread": {
+      "dk": "SAS -18.5 (opened -18.5)",
+      "pm": "SAS -18.5: 49.5 / SAC 50.5¢; SAS -17.5: 53.5 / SAC 46.5¢"
+     },
+     "total": {
+      "dk": "232.5 (opened 230.5)",
+      "pm": "O/U 231.5: Over 52.5 / Under 47.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 92.5,
+     "edge": -3.5,
+     "dk_pick_pct": 90.8,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "SAC: Keegan Murray, Raynaud, Cardwell out (Sabonis is the only true big), Simmons out. SAS: Tobias Harris and Quaintance out; Wembanyama, Fox, Castle, Harper, Vassell all off the report.",
+     "injury_flags": [
+      "Keegan Murray, Raynaud, Cardwell out"
+     ],
+     "view": "A big talent and size gap: Wembanyama vs a Kings frontcourt with one center. SAC's defense and shooting are three-game trends (L6). SAS by ~15.5, ~89%. SAC +18.5 is ~3 pts on my number (garbage time helps), just below the L4 bar. I can't name a reason for the 2-point total rise, and the blowout/bench angle cuts the other way → pass.",
+     "bet": "Pass. Lean SAC +18.5 (watch only).",
+     "bet_bold": [],
+     "form": "SAS 1-2 (lost 116-104 to OKC, 114-110 to HOU, won 122-106 at DAL; four players scored 19+ in Dallas). SAC 0-3 (lost 121-96 at LAC, 128-120 to POR, 123-112 to MEM; LaVine 29 ppg, rookie Acuff 22 Sun). My calc: SAS net 0.0 (31.9% from three, tough schedule); SAC -14.1 (119.2 DRtg, 28.3% from three). SAS swept SAC 3-0 last season and won the preseason meeting 126-97 (TheSpread).",
+     "sentiment": "94% of tickets but only 76% of money on SAS ML; spread split 55/45 SAS; 61% on the Over and the total rose 2. Sportsbook Wire takes SAC +18.5 and Over 230.5; TheSpread takes Under 231. ESPN SAS 93.4%; numberFire SAS 90.4%.",
+     "avoid": [
+      "Kings-Spurs (SAS ML too expensive at 92.5¢; -18.5 hinges on garbage time; unexplained total rise)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-28-POR-LAL",
+     "n": 4,
+     "away": {
+      "abbr": "POR",
+      "city": "Portland",
+      "name": "Trail Blazers"
+     },
+     "home": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "tip_myt": "11:00",
+     "tip_iso": "2026-10-28T11:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "win_pct": 52.0,
+     "confidence": 3,
+     "dk_ml": "POR +114 / LAL -135 (opened +120/-142) → de-vig LAL 55.1%",
+     "dk_devig": {
+      "abbr": "LAL",
+      "pct": 55.1
+     },
+     "pm_ml": "POR 45.5¢ / LAL 54.5¢ ($733k)",
+     "spread": {
+      "dk": "LAL -2.5 (opened -2.5)",
+      "pm": "LAL -2.5: 47.5 / POR 52.5¢; LAL -1.5: 52 / POR 48¢"
+     },
+     "total": {
+      "dk": "233.5 (opened 236.5)",
+      "pm": "O/U 233.5: Over 50.5 / Under 49.5¢; O/U 235.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 54.5,
+     "edge": -2.5,
+     "dk_pick_pct": 55.1,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "POR: Scoot Henderson questionable (ankle; bench guard), Carlson questionable (concussion), Sharpe out (meniscus). LAL: Thiero and Cameron Carr out; Kessler available with a finger splint. Dončić and Reaves are off the report.",
+     "injury_flags": [
+      "Scoot Henderson questionable",
+      "Sharpe out"
+     ],
+     "view": "Dončić and Reaves vs the deeper, rested, better defensive team. LAL's offense numbers came against GSW, LAC and UTA; POR's defense has been elite in a tiny sample. LAL by ~1, ~52%. POR at 45.5¢ is ~2.5 points of value, too thin for a bet; POR +2.5 is ~1.5 pts, below the L4 bar. Total: the 3-point drop against 84–86% Over money is a sharp signal, and I have my own reasons for it (POR's defense and rest, LAL's soft early schedule) → small Under per L3.",
+     "bet": "Small: Under 233.5 at 49.5¢ (0.5u). On Polymarket: market \"Trail Blazers vs. Lakers: O/U 233.5\", buy Under at ≤50¢.",
+     "bet_bold": [
+      "Small: Under 233.5 at 49.5¢ (0.5u)",
+      "Under"
+     ],
+     "form": "LAL 3-0 (beat GSW 127-105, LAC 125-117, won 132-123 at UTA from 18 down; Dončić 52 in 38 min). 125+ points every game. POR 2-0 (beat PHX 124-83, won 128-120 at SAC) with balanced scoring: Avdija, Camara, Lillard, Morant, Holiday (Lineups). My calc: LAL net +12.5 (122.8 ORtg, 110.3 DRtg); POR +23.6 (98.0 DRtg), but only two games, both vs bottom-tier teams. LAL is without LeBron (signed with PHI).",
+     "sentiment": "75% of tickets / 71% of money on LAL ML; spread 56/53% on LAL. 84% of tickets / 86% of money on the Over, yet the total fell 3 points. Rotoworld takes Under 235.5 (cites Portland's league-best eFG% defense and none of the last 10 meetings closing above 229.5; I couldn't verify the H2H stat). Lineups.com takes the Over and LAL. ESPN LAL 52.4%.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Spurs over Kings, 89% (conf 7): Wembanyama vs a Kings frontcourt with one center; SAC's defense and shooting are three-game trends.",
+     "Celtics over Nets, 80% (conf 6): much better team at home vs the worst three-point defense; trimmed for Tatum/George B2B rest risk.",
+     "Lakers over Trail Blazers, 52% (conf 3): a coin flip; Dončić at home vs a deeper, rested POR. Only two strong picks tonight."
+    ],
+    "underdogs": [],
+    "avoid": [
+     "Kings-Spurs (SAS ML too expensive at 92.5¢; -18.5 hinges on garbage time; unexplained total rise)",
+     "Nets-Celtics until BOS files its report (rest decisions decide the spread)"
+    ],
+    "value": [
+     "Pistons ML at 40.5¢ (0.5u), Trail Blazers-Lakers Under 233.5 at 49.5¢ (0.5u).",
+     "Polymarket \"Pistons vs. Knicks\": buy Pistons at ≤42¢, 0.5u.",
+     "Polymarket \"Trail Blazers vs. Lakers: O/U 233.5\": buy Under at ≤50¢, 0.5u.",
+     "Conditional: Polymarket \"Spread: Celtics (-11.5)\": buy Nets at ≤52¢, 0.5u, only if Tatum and George are both ruled out. Fallback: \"Spread: Celtics (-12.5)\", Nets at ≤55¢."
+    ],
+    "graded": [],
+    "check_before": [
+     "Tatum, George and Mitchell Robinson (BOS report, likely ~05:00–07:00 MYT), Ausar Thompson and Isaiah Joe (DET), Scoot Henderson and Carlson (POR), Dončić/Reaves for any late rest ahead of the LAC game (LAL), Wembanyama minutes (SAS at UTA Wed)."
+    ],
+    "unverified": [],
+    "season_record": [
+     "SU 35-17, ATS 3-4, totals 7-3, core value 3-3, small value 14-8 (~+4.6u)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Spurs over Kings**, 89% (conf 7): Wembanyama vs a Kings frontcourt with one center; SAC's defense and shooting are three-game trends.\n2. **Celtics over Nets**, 80% (conf 6): much better team at home vs the worst three-point defense; trimmed for Tatum/George B2B rest risk.\n3. **Lakers over Trail Blazers**, 52% (conf 3): a coin flip; Dončić at home vs a deeper, rested POR. Only two strong picks tonight.",
+    "underdogs": "",
+    "avoid": "Kings-Spurs (SAS ML too expensive at 92.5¢; -18.5 hinges on garbage time; unexplained total rise), Nets-Celtics until BOS files its report (rest decisions decide the spread).",
+    "value": "Pistons ML at 40.5¢ (0.5u), Trail Blazers-Lakers Under 233.5 at 49.5¢ (0.5u).\n- Polymarket \"Pistons vs. Knicks\": buy **Pistons** at ≤42¢, 0.5u.\n- Polymarket \"Trail Blazers vs. Lakers: O/U 233.5\": buy **Under** at ≤50¢, 0.5u.\n- Conditional: Polymarket \"Spread: Celtics (-11.5)\": buy **Nets** at ≤52¢, 0.5u, only if Tatum and George are both ruled out. Fallback: \"Spread: Celtics (-12.5)\", Nets at ≤55¢.",
+    "graded": "",
+    "check_before": "Tatum, George and Mitchell Robinson (BOS report, likely ~05:00–07:00 MYT), Ausar Thompson and Isaiah Joe (DET), Scoot Henderson and Carlson (POR), Dončić/Reaves for any late rest ahead of the LAC game (LAL), Wembanyama minutes (SAS at UTA Wed).",
+    "unverified": "",
+    "season_record": "SU 35-17, ATS 3-4, totals 7-3, core value 3-3, small value 14-8 (~+4.6u)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-10-28-BKN-BOS",
+     "team": "BKN",
+     "kind": "spread",
+     "line": 11.5,
+     "side": null,
+     "selection": "BKN +11.5",
+     "price": 50.5,
+     "units": 0.5,
+     "tier": "lean",
+     "condition": "only if Tatum and George are both ruled out",
+     "context": "Lean: BKN +11.5 at 50.5¢ (0.5u) only if Tatum and George are both ruled out. On Polymarket: market \"Spread: Celtic",
+     "sources": [
+      "game bet (bold)"
+     ],
+     "matchup": "BKN @ BOS",
+     "polymarket": {
+      "event": "Nets vs. Celtics",
+      "market": "Spread: Celtics (-11.5)",
+      "outcome": "Nets",
+      "price_raw": 50.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-10-28-DET-NYK",
+     "team": "DET",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "DET ML",
+     "price": 40.5,
+     "units": 0.5,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: DET ML at 40.5¢ (0.5u). On Polymarket: market \"Pistons vs. Knicks\", buy Pistons at ≤42¢. If both Ausar an",
+     "sources": [
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "DET @ NYK",
+     "polymarket": {
+      "event": "Pistons vs. Knicks",
+      "market": "Pistons vs. Knicks",
+      "outcome": "Pistons",
+      "price_raw": 40.5
+     },
+     "my_pct": 51.0
+    },
+    {
+     "game_id": "2026-10-28-POR-LAL",
+     "team": null,
+     "kind": "total",
+     "line": 233.5,
+     "side": "Under",
+     "selection": "Under 233.5",
+     "price": 49.5,
+     "units": 0.5,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Under 233.5 at 49.5¢ (0.5u). On Polymarket: market \"Trail Blazers vs. Lakers: O/U 233.5\", buy Under at ≤50¢.",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "POR @ LAL",
+     "polymarket": {
+      "event": "Trail Blazers vs. Lakers",
+      "market": "Trail Blazers vs. Lakers: O/U 233.5",
+      "outcome": "Under",
+      "price_raw": 49.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "L1 (move my number by named reasons): POR-LAL total fell 3 (236.5 → 233.5) against 84% Over tickets; I can name reasons (Portland's defense, Lakers' points came vs bad defenses) → small Under. DET-NYK ML drifted slightly toward DET (-162 → -155); the named reason is NYK's 0-3 offense → I'm further toward DET than the market.",
+    "L2 (grade who's left, verify at tip): DET has won twice without Duren and once without Ausar too; I grade Cunningham/Jenkins/Robinson/Collins, not the injury count. BOS's report is pending, so the BKN-BOS side is \"check before tip\". SAC is down to Sabonis as its only big.",
+    "L3 (a total's move is an input, not an automatic pass): see POR-LAL. SAC-SAS rose 2 (230.5 → 232.5) with only 61% of Over tickets and I can't name a reason → pass.",
+    "L4 (dogs with points need ~3.5–4 pts of edge, small size): DET +3.5 (~3.5 pts on my number) is at the bar; I use the ML instead. SAC +18.5 (~3) and POR +2.5 (~1.5) miss it. BKN +11.5 clears it only if Tatum and George both sit.",
+    "L5 (no night-one penalty for Achilles returnees): Tatum and Lillard are graded at full value when they play; Tatum's B2B is a rest question, not a performance one.",
+    "L6 (three games is a trend): NYK's 0-3 with a 99 ORtg and 32% from three is the same roster that won the title, so it's a trend that moves my number (last time I called it noise, NYK lost to a Banchero-less ORL). SAC's 0-3 with 28% from three and a 119 DRtg, likewise.",
+    "L7 (if the questionable star plays, what decides it?): BKN-BOS has a written conditional on Tatum/George. For DET, if Ausar plays, DET's defense on Brunson decides it and I'm at 53%; if he sits, 49%.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1028/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -5591,7 +5961,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-27T14:06:42+08:00",
+  "fetched_at": "2026-10-27T23:48:18+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
@@ -5607,6 +5977,104 @@
    },
    "open_positions": [],
    "settled_recent": [
+    {
+     "title": "Thunder vs. Spurs",
+     "outcome": "Spurs",
+     "event": "nba-okc-sas-2026-10-20",
+     "avg_price": 0.4899,
+     "shares": 10.204,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "76ers vs. Knicks",
+     "outcome": "Knicks",
+     "event": "nba-phi-nyk-2026-10-20",
+     "avg_price": 0.6199,
+     "shares": 8.0645,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Jazz vs. Grizzlies",
+     "outcome": "Jazz",
+     "event": "nba-uta-mem-2026-10-21",
+     "avg_price": 0.4799,
+     "shares": 10.4166,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082338,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Pelicans vs. Jazz",
+     "outcome": "Pelicans",
+     "event": "nba-nop-uta-2026-10-23",
+     "avg_price": 0.4899,
+     "shares": 10.204,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082336,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Rockets vs. Hawks",
+     "outcome": "Hawks",
+     "event": "nba-hou-atl-2026-10-24",
+     "avg_price": 0.5099,
+     "shares": 9.8039,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082336,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets",
+     "outcome": "Wizards",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.4299,
+     "shares": 5.8139,
+     "cost": 2.5,
+     "pnl": -2.4999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082333,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Suns vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event": "nba-phx-okc-2026-10-26",
+     "avg_price": 0.5299,
+     "shares": 4.7169,
+     "cost": 2.5,
+     "pnl": -2.4999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082333,
+     "unredeemed": false,
+     "nba": true
+    },
     {
      "combo": true,
      "title": "Thunder + Celtics + Nuggets",
@@ -5699,20 +6167,6 @@
      "date": "2026-10-27",
      "ts": 1793065319,
      "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Suns vs. Thunder: O/U 222.5",
-     "outcome": "Under",
-     "event": "nba-phx-okc-2026-10-26",
-     "avg_price": 0.5299,
-     "shares": 4.7169,
-     "cost": 2.4999,
-     "pnl": -2.4999,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": null,
-     "unredeemed": true,
      "nba": true
     },
     {
@@ -5838,20 +6292,6 @@
      "nba": true
     },
     {
-     "title": "Wizards vs. Hornets",
-     "outcome": "Wizards",
-     "event": "nba-was-cha-2026-10-26",
-     "avg_price": 0.4299,
-     "shares": 5.8139,
-     "cost": 2.4999,
-     "pnl": -2.4999,
-     "result": "lost",
-     "date": "2026-10-26",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
      "combo": true,
      "title": "76ers + Cavaliers + Nuggets + Spurs",
      "outcome": "COMBO · 4 legs",
@@ -5914,20 +6354,6 @@
      "decided_early": false
     },
     {
-     "title": "Rockets vs. Hawks",
-     "outcome": "Hawks",
-     "event": "nba-hou-atl-2026-10-24",
-     "avg_price": 0.5099,
-     "shares": 9.8039,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-25",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
      "title": "Grizzlies vs. Warriors",
      "outcome": "Grizzlies",
      "event": "nba-mem-gsw-2026-10-23",
@@ -5981,20 +6407,6 @@
      "date": "2026-10-24",
      "ts": 1792806030,
      "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Pelicans vs. Jazz",
-     "outcome": "Pelicans",
-     "event": "nba-nop-uta-2026-10-23",
-     "avg_price": 0.4899,
-     "shares": 10.204,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-24",
-     "ts": null,
-     "unredeemed": true,
      "nba": true
     },
     {
@@ -6106,20 +6518,6 @@
      "nba": true
     },
     {
-     "title": "Jazz vs. Grizzlies",
-     "outcome": "Jazz",
-     "event": "nba-uta-mem-2026-10-21",
-     "avg_price": 0.4799,
-     "shares": 10.4166,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-22",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
      "title": "Celtics vs. Pistons",
      "outcome": "Pistons",
      "event": "nba-bos-det-2026-10-20",
@@ -6132,78 +6530,44 @@
      "ts": 1792533315,
      "unredeemed": false,
      "nba": true
-    },
-    {
-     "title": "Thunder vs. Spurs",
-     "outcome": "Spurs",
-     "event": "nba-okc-sas-2026-10-20",
-     "avg_price": 0.4899,
-     "shares": 10.204,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-21",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
-     "title": "76ers vs. Knicks",
-     "outcome": "Knicks",
-     "event": "nba-phi-nyk-2026-10-20",
-     "avg_price": 0.6199,
-     "shares": 8.0645,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-20",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
     }
    ],
    "daily": [
     {
-     "date": "2026-10-20",
-     "w": 0,
-     "l": 1,
-     "pnl": -5.0
-    },
-    {
      "date": "2026-10-21",
      "w": 1,
-     "l": 1,
-     "pnl": 0.42
+     "l": 0,
+     "pnl": 5.42
     },
     {
      "date": "2026-10-22",
      "w": 5,
-     "l": 1,
-     "pnl": 18.55
+     "l": 0,
+     "pnl": 23.55
     },
     {
      "date": "2026-10-24",
      "w": 4,
-     "l": 1,
-     "pnl": 16.27
+     "l": 0,
+     "pnl": 21.27
     },
     {
      "date": "2026-10-25",
      "w": 1,
-     "l": 1,
-     "pnl": 0.22
+     "l": 0,
+     "pnl": 5.22
     },
     {
      "date": "2026-10-26",
      "w": 5,
-     "l": 2,
-     "pnl": 10.22
+     "l": 1,
+     "pnl": 12.72
     },
     {
      "date": "2026-10-27",
      "w": 3,
-     "l": 2,
-     "pnl": -0.1
+     "l": 8,
+     "pnl": -27.6
     }
    ]
   },
@@ -6211,9 +6575,9 @@
    "summary": {
     "w": 24,
     "l": 26,
-    "net_pnl": -112.73,
-    "settled_cost": 422.38,
-    "roi_pct": -26.7,
+    "net_pnl": -114.39,
+    "settled_cost": 423.81,
+    "roi_pct": -27.0,
     "open_count": 0,
     "open_cost": 0,
     "open_value": 0,
@@ -6221,6 +6585,328 @@
    },
    "open_positions": [],
    "settled_recent": [
+    {
+     "title": "Will Lewis Hamilton win the 2026 F1 Australian Grand Prix?",
+     "outcome": "Yes",
+     "event": "f1-australian-grand-prix-winner-2026-03-07",
+     "avg_price": 0.0199,
+     "shares": 50.16,
+     "cost": 1.0,
+     "pnl": -0.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Lewis Hamilton win the 2026 F1 Singapore Grand Prix?",
+     "outcome": "Yes",
+     "event": "f1-singapore-grand-prix-winner-2026-10-11",
+     "avg_price": 0.2285,
+     "shares": 22.7272,
+     "cost": 5.19,
+     "pnl": -5.1949,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Max Verstappen be the 2025 Drivers Champion?",
+     "outcome": "Yes",
+     "event": "f1-drivers-champion",
+     "avg_price": 0.2129,
+     "shares": 352.1126,
+     "cost": 74.96,
+     "pnl": -74.9996,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Thunder vs. Spurs",
+     "outcome": "Spurs",
+     "event": "nba-okc-sas-2026-10-20",
+     "avg_price": 0.4899,
+     "shares": 10.204,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "US x Iran permanent peace deal by May 26, 2026?",
+     "outcome": "Yes",
+     "event": "us-x-iran-permanent-peace-deal-by",
+     "avg_price": 0.1699,
+     "shares": 29.4117,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Netanyahu out by March 31?",
+     "outcome": "Yes",
+     "event": "netanyahu-out-before-2027",
+     "avg_price": 0.0599,
+     "shares": 166.6666,
+     "cost": 9.98,
+     "pnl": -9.9998,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "76ers vs. Knicks",
+     "outcome": "Knicks",
+     "event": "nba-phi-nyk-2026-10-20",
+     "avg_price": 0.6199,
+     "shares": 8.0645,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "LoL: T1 vs Invictus Gaming (BO5)",
+     "outcome": "Invictus Gaming",
+     "event": "lol-t1-invictus-gaming-2025-10-14",
+     "avg_price": 0.2299,
+     "shares": 108.2608,
+     "cost": 24.89,
+     "pnl": -24.8998,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Portugal win the 2026 FIFA World Cup?",
+     "outcome": "Yes",
+     "event": "world-cup-winner",
+     "avg_price": 0.1088,
+     "shares": 227.2641,
+     "cost": 24.73,
+     "pnl": -24.7358,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will the highest temperature in Kuala Lumpur be 30°C on May 8?",
+     "outcome": "Yes",
+     "event": "highest-temperature-in-kuala-lumpur-on-may-8-2026",
+     "avg_price": 0.092,
+     "shares": 31.3636,
+     "cost": 2.89,
+     "pnl": -2.8858,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082348,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Max Verstappen win the 2026 F1 Australian Grand Prix?",
+     "outcome": "Yes",
+     "event": "f1-australian-grand-prix-winner-2026-03-07",
+     "avg_price": 0.02,
+     "shares": 50.0,
+     "cost": 1.0,
+     "pnl": -1.0,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Backpack FDV above $1B one day after launch?",
+     "outcome": "Yes",
+     "event": "backpack-fdv-above-one-day-after-launch",
+     "avg_price": 0.0085,
+     "shares": 1166.7488,
+     "cost": 9.92,
+     "pnl": -9.9395,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Valorant: Team Falcons VEGA vs swaglord9000 (BO3) - VCT Game Changers Pacific Playoffs",
+     "outcome": "swaglord9000",
+     "event": "val-flc-sl9-2026-09-15",
+     "avg_price": 0.0662,
+     "shares": 15.7941,
+     "cost": 1.05,
+     "pnl": -1.0468,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will the price of Bitcoin be between $88,000 and $90,000 on January 12?",
+     "outcome": "Yes",
+     "event": "bitcoin-price-on-january-12",
+     "avg_price": 0.0629,
+     "shares": 78.7301,
+     "cost": 4.95,
+     "pnl": -4.9599,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "MegaETH market cap (FDV) >$1B one day after launch?",
+     "outcome": "No",
+     "event": "megaeth-market-cap-fdv-one-day-after-launch",
+     "avg_price": 0.0068,
+     "shares": 1410.5555,
+     "cost": 9.59,
+     "pnl": -9.6665,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will the price of Bitcoin be between $94,000 and $96,000 on January 12?",
+     "outcome": "Yes",
+     "event": "bitcoin-price-on-january-12",
+     "avg_price": 0.0563,
+     "shares": 88.6915,
+     "cost": 4.99,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Lando Norris win the 2026 F1 Australian Grand Prix?",
+     "outcome": "Yes",
+     "event": "f1-australian-grand-prix-winner-2026-03-07",
+     "avg_price": 0.0149,
+     "shares": 66.6666,
+     "cost": 0.99,
+     "pnl": -0.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Will Oscar Piastri be the 2025 Drivers Champion?",
+     "outcome": "Yes",
+     "event": "f1-drivers-champion",
+     "avg_price": 0.0456,
+     "shares": 539.5544,
+     "cost": 24.6,
+     "pnl": -24.6295,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082347,
+     "unredeemed": false,
+     "nba": false
+    },
+    {
+     "title": "Jazz vs. Grizzlies",
+     "outcome": "Jazz",
+     "event": "nba-uta-mem-2026-10-21",
+     "avg_price": 0.4799,
+     "shares": 10.4166,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082338,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Pelicans vs. Jazz",
+     "outcome": "Pelicans",
+     "event": "nba-nop-uta-2026-10-23",
+     "avg_price": 0.4899,
+     "shares": 10.204,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082336,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Rockets vs. Hawks",
+     "outcome": "Hawks",
+     "event": "nba-hou-atl-2026-10-24",
+     "avg_price": 0.5099,
+     "shares": 9.8039,
+     "cost": 5.0,
+     "pnl": -4.9999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082336,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Wizards vs. Hornets",
+     "outcome": "Wizards",
+     "event": "nba-was-cha-2026-10-26",
+     "avg_price": 0.4299,
+     "shares": 5.8139,
+     "cost": 2.5,
+     "pnl": -2.4999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082333,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Suns vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event": "nba-phx-okc-2026-10-26",
+     "avg_price": 0.5299,
+     "shares": 4.7169,
+     "cost": 2.5,
+     "pnl": -2.4999,
+     "result": "lost",
+     "date": "2026-10-27",
+     "ts": 1793082333,
+     "unredeemed": false,
+     "nba": true
+    },
     {
      "combo": true,
      "title": "Thunder + Celtics + Nuggets",
@@ -6313,20 +6999,6 @@
      "date": "2026-10-27",
      "ts": 1793065319,
      "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Suns vs. Thunder: O/U 222.5",
-     "outcome": "Under",
-     "event": "nba-phx-okc-2026-10-26",
-     "avg_price": 0.5299,
-     "shares": 4.7169,
-     "cost": 2.4999,
-     "pnl": -2.4999,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": null,
-     "unredeemed": true,
      "nba": true
     },
     {
@@ -6452,20 +7124,6 @@
      "nba": true
     },
     {
-     "title": "Wizards vs. Hornets",
-     "outcome": "Wizards",
-     "event": "nba-was-cha-2026-10-26",
-     "avg_price": 0.4299,
-     "shares": 5.8139,
-     "cost": 2.4999,
-     "pnl": -2.4999,
-     "result": "lost",
-     "date": "2026-10-26",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
      "combo": true,
      "title": "76ers + Cavaliers + Nuggets + Spurs",
      "outcome": "COMBO · 4 legs",
@@ -6526,20 +7184,6 @@
      "ts": 1792901665,
      "unredeemed": false,
      "decided_early": false
-    },
-    {
-     "title": "Rockets vs. Hawks",
-     "outcome": "Hawks",
-     "event": "nba-hou-atl-2026-10-24",
-     "avg_price": 0.5099,
-     "shares": 9.8039,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-25",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
     },
     {
      "title": "Grizzlies vs. Warriors",
@@ -6650,20 +7294,6 @@
      "decided_early": false
     },
     {
-     "title": "Pelicans vs. Jazz",
-     "outcome": "Pelicans",
-     "event": "nba-nop-uta-2026-10-23",
-     "avg_price": 0.4899,
-     "shares": 10.204,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-24",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
      "combo": true,
      "title": "Lakers + Rockets + Raptors",
      "outcome": "COMBO · 3 legs",
@@ -6714,311 +7344,9 @@
      "ts": 1792645157,
      "unredeemed": false,
      "decided_early": false
-    },
-    {
-     "title": "Pacers vs. Pelicans",
-     "outcome": "Pacers",
-     "event": "nba-ind-nop-2026-10-21",
-     "avg_price": 0.5799,
-     "shares": 8.6206,
-     "cost": 5.0,
-     "pnl": 3.6206,
-     "result": "won",
-     "date": "2026-10-22",
-     "ts": 1792637595,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Hornets vs. Nets",
-     "outcome": "Hornets",
-     "event": "nba-cha-bkn-2026-10-21",
-     "avg_price": 0.5199,
-     "shares": 9.6153,
-     "cost": 5.0,
-     "pnl": 4.6153,
-     "result": "won",
-     "date": "2026-10-22",
-     "ts": 1792636365,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Hawks vs. Magic",
-     "outcome": "Hawks",
-     "event": "nba-atl-orl-2026-10-21",
-     "avg_price": 0.4599,
-     "shares": 10.8695,
-     "cost": 5.0,
-     "pnl": 5.8695,
-     "result": "won",
-     "date": "2026-10-22",
-     "ts": 1792635134,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Bucks vs. Wizards",
-     "outcome": "Wizards",
-     "event": "nba-mil-was-2026-10-21",
-     "avg_price": 0.6199,
-     "shares": 8.0645,
-     "cost": 5.0,
-     "pnl": 3.0645,
-     "result": "won",
-     "date": "2026-10-22",
-     "ts": 1792634435,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Jazz vs. Grizzlies",
-     "outcome": "Jazz",
-     "event": "nba-uta-mem-2026-10-21",
-     "avg_price": 0.4799,
-     "shares": 10.4166,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-22",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
-     "title": "Celtics vs. Pistons",
-     "outcome": "Pistons",
-     "event": "nba-bos-det-2026-10-20",
-     "avg_price": 0.4799,
-     "shares": 10.4166,
-     "cost": 5.0,
-     "pnl": 5.4166,
-     "result": "won",
-     "date": "2026-10-21",
-     "ts": 1792533315,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Thunder vs. Spurs",
-     "outcome": "Spurs",
-     "event": "nba-okc-sas-2026-10-20",
-     "avg_price": 0.4899,
-     "shares": 10.204,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-21",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
-     "title": "76ers vs. Knicks",
-     "outcome": "Knicks",
-     "event": "nba-phi-nyk-2026-10-20",
-     "avg_price": 0.6199,
-     "shares": 8.0645,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-20",
-     "ts": null,
-     "unredeemed": true,
-     "nba": true
-    },
-    {
-     "title": "Will Lewis Hamilton win the 2026 F1 Singapore Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-singapore-grand-prix-winner-2026-10-11",
-     "avg_price": 0.2199,
-     "shares": 22.7272,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-10-18",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
-    },
-    {
-     "title": "Will Kimi Antonelli finish on the podium at the 2026 F1 Singapore Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-singapore-grand-prix-driver-podium-2026-10-11",
-     "avg_price": 0.4924,
-     "shares": 20.8333,
-     "cost": 10.26,
-     "pnl": 10.5733,
-     "result": "won",
-     "date": "2026-10-12",
-     "ts": 1791743202,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Valorant: Team Falcons VEGA vs swaglord9000 (BO3) - VCT Game Changers Pacific Playoffs",
-     "outcome": "swaglord9000",
-     "event": "val-flc-sl9-2026-09-15",
-     "avg_price": 0.0633,
-     "shares": 15.7941,
-     "cost": 0.9999,
-     "pnl": -0.9999,
-     "result": "lost",
-     "date": "2026-09-15",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
-    },
-    {
-     "title": "Will Kimi Antonelli win the 2026 F1 Spanish Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-spanish-grand-prix-winner-2026-09-13",
-     "avg_price": 0.2696,
-     "shares": 19.2307,
-     "cost": 5.18,
-     "pnl": 14.0457,
-     "result": "won",
-     "date": "2026-09-14",
-     "ts": 1789330777,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Predict.fun FDV above $300M one day after launch?",
-     "outcome": "Yes",
-     "event": "predictfun-fdv-above-one-day-after-launch",
-     "avg_price": 0.4499,
-     "shares": 111.1111,
-     "cost": 49.99,
-     "pnl": 18.1869,
-     "result": "won",
-     "date": "2026-09-13",
-     "ts": 1789305358,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Will Portugal win the 2026 FIFA World Cup?",
-     "outcome": "Yes",
-     "event": "world-cup-winner",
-     "avg_price": 0.1059,
-     "shares": 227.2641,
-     "cost": 24.0897,
-     "pnl": -24.0897,
-     "result": "lost",
-     "date": "2026-07-20",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
-    },
-    {
-     "title": "US x Iran permanent peace deal by May 26, 2026?",
-     "outcome": "Yes",
-     "event": "us-x-iran-permanent-peace-deal-by",
-     "avg_price": 0.1699,
-     "shares": 29.4117,
-     "cost": 4.9999,
-     "pnl": -4.9999,
-     "result": "lost",
-     "date": "2026-05-26",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
-    },
-    {
-     "title": "Will Kimi Antonelli win the 2026 F1 Canadian Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-canadian-grand-prix-winner-2026-05-24",
-     "avg_price": 0.3265,
-     "shares": 15.1875,
-     "cost": 4.96,
-     "pnl": 10.2283,
-     "result": "won",
-     "date": "2026-05-25",
-     "ts": 1779692412,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Will the highest temperature in Kuala Lumpur be 30°C on May 8?",
-     "outcome": "Yes",
-     "event": "highest-temperature-in-kuala-lumpur-on-may-8-2026",
-     "avg_price": 0.0879,
-     "shares": 31.3636,
-     "cost": 2.7599,
-     "pnl": -2.7599,
-     "result": "lost",
-     "date": "2026-05-08",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
-    },
-    {
-     "title": "Will Kimi Antonelli win the 2026 F1 Miami Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-miami-grand-prix-winner-2026-05-03",
-     "avg_price": 0.3769,
-     "shares": 27.027,
-     "cost": 10.19,
-     "pnl": 12.9576,
-     "result": "won",
-     "date": "2026-05-04",
-     "ts": 1777855652,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Netanyahu out by March 31?",
-     "outcome": "Yes",
-     "event": "netanyahu-out-before-2027",
-     "avg_price": 0.0599,
-     "shares": 166.6666,
-     "cost": 9.9998,
-     "pnl": -9.9998,
-     "result": "lost",
-     "date": "2026-04-01",
-     "ts": null,
-     "unredeemed": true,
-     "nba": false
     }
    ],
    "daily": [
-    {
-     "date": "2025-10-14",
-     "w": 0,
-     "l": 1,
-     "pnl": -24.9
-    },
-    {
-     "date": "2025-12-07",
-     "w": 0,
-     "l": 2,
-     "pnl": -99.63
-    },
-    {
-     "date": "2025-12-31",
-     "w": 0,
-     "l": 1,
-     "pnl": -9.02
-    },
-    {
-     "date": "2026-01-12",
-     "w": 0,
-     "l": 2,
-     "pnl": -9.96
-    },
-    {
-     "date": "2026-03-15",
-     "w": 0,
-     "l": 3,
-     "pnl": -3.0
-    },
-    {
-     "date": "2026-04-01",
-     "w": 0,
-     "l": 1,
-     "pnl": -10.0
-    },
     {
      "date": "2026-05-04",
      "w": 1,
@@ -7026,28 +7354,10 @@
      "pnl": 12.96
     },
     {
-     "date": "2026-05-08",
-     "w": 0,
-     "l": 1,
-     "pnl": -2.76
-    },
-    {
      "date": "2026-05-25",
      "w": 1,
      "l": 0,
      "pnl": 10.23
-    },
-    {
-     "date": "2026-05-26",
-     "w": 0,
-     "l": 1,
-     "pnl": -5.0
-    },
-    {
-     "date": "2026-07-20",
-     "w": 0,
-     "l": 1,
-     "pnl": -24.09
     },
     {
      "date": "2026-09-13",
@@ -7062,72 +7372,54 @@
      "pnl": 14.05
     },
     {
-     "date": "2026-09-15",
-     "w": 0,
-     "l": 1,
-     "pnl": -1.0
-    },
-    {
      "date": "2026-10-12",
      "w": 1,
      "l": 0,
      "pnl": 10.57
     },
     {
-     "date": "2026-10-18",
-     "w": 0,
-     "l": 1,
-     "pnl": -5.0
-    },
-    {
-     "date": "2026-10-20",
-     "w": 0,
-     "l": 1,
-     "pnl": -5.0
-    },
-    {
      "date": "2026-10-21",
      "w": 1,
-     "l": 1,
-     "pnl": 0.42
+     "l": 0,
+     "pnl": 5.42
     },
     {
      "date": "2026-10-22",
      "w": 5,
-     "l": 1,
-     "pnl": 18.55
+     "l": 0,
+     "pnl": 23.55
     },
     {
      "date": "2026-10-24",
      "w": 4,
-     "l": 2,
-     "pnl": 1.27
+     "l": 1,
+     "pnl": 6.27
     },
     {
      "date": "2026-10-25",
      "w": 1,
-     "l": 1,
-     "pnl": 0.22
+     "l": 0,
+     "pnl": 5.22
     },
     {
      "date": "2026-10-26",
      "w": 5,
-     "l": 2,
-     "pnl": 10.22
+     "l": 1,
+     "pnl": 12.72
     },
     {
      "date": "2026-10-27",
      "w": 3,
-     "l": 2,
-     "pnl": -0.1
+     "l": 24,
+     "pnl": -233.55
     }
    ]
   },
   "default_view": "nba",
   "truncated": false,
   "counts": {
-   "positions_rows": 23,
-   "closed_rows": 22,
+   "positions_rows": 0,
+   "closed_rows": 45,
    "nba_items": 28,
    "combo_rows": 5,
    "combos_open": 0,
