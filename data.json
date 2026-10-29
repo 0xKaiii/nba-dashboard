@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T14:10:27+08:00",
+ "generated_at": "2026-10-29T23:37:32+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-10-29",
+ "latest_preview_date": "2026-10-30",
  "latest_review_date": "2026-10-29",
  "days": [
   {
@@ -6451,6 +6451,264 @@
      "An Under that leans on a shooting slump is half an Under. TOR's cold three-point shooting was half of my ORL-TOR Under case, and TOR hit 15-35. Bet an Under only when the slow-pace and defense reasons carry it alone (like CHA-DET)."
     ]
    }
+  },
+  {
+   "date": "2026-10-30",
+   "file": "preview-2026-10-30.md",
+   "written": "~23:45 MYT Thu Oct 29",
+   "games": [
+    {
+     "id": "2026-10-30-CLE-ATL",
+     "n": 1,
+     "away": {
+      "abbr": "CLE",
+      "city": "Cleveland",
+      "name": "Cavaliers"
+     },
+     "home": {
+      "abbr": "ATL",
+      "city": "Atlanta",
+      "name": "Hawks"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-30T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "CLE",
+      "city": "Cleveland",
+      "name": "Cavaliers"
+     },
+     "win_pct": 52.0,
+     "confidence": 3,
+     "dk_ml": "CLE -105 / ATL -115 (opened -110/-110) → de-vig ATL 51.1%",
+     "dk_devig": {
+      "abbr": "ATL",
+      "pct": 51.1
+     },
+     "pm_ml": "CLE 48.5¢ / ATL 51.5¢ ($131k)",
+     "spread": {
+      "dk": "ATL -1.5 (opened -1.5)",
+      "pm": "ATL -1.5: 49.5 / CLE 50.5¢; CLE -1.5: 46 / ATL 54¢"
+     },
+     "total": {
+      "dk": "237.5 (opened 239.5)",
+      "pm": "O/U 237.5: Over 50.5 / Under 49.5¢; O/U 239.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 48.5,
+     "edge": 3.5,
+     "dk_pick_pct": 48.9,
+     "pick_is_favorite": false,
+     "pick_is_home": false,
+     "injuries": "both reports not yet submitted (B2B). ESPN: ATL Gueye and Veesaar out; CLE lists nobody (Tomlin was out Wed). All CLE starters played 28–34 min Wed; ATL's starters 20–36.",
+     "injury_flags": [
+      "reports not yet submitted",
+      "Gueye and Veesaar out"
+     ],
+     "view": "CLE has the better top end (Mitchell, Mobley, Allen, Harden), and its size fits the way ATL just lost, though one game is half weight (L6). ATL has home and slightly fresher legs. I make it CLE by ~0.5, ~52%: about 3.5 points over 48.5¢, but the line has moved against the CLE tickets and I can't name why, so per L1 I keep the lean and skip the bet. Total: two top-10 paces vs two tired teams; the 2-point drop is fair → pass.",
+     "bet": "Pass. Coin flip; I lean CLE but the money disagrees.",
+     "bet_bold": [],
+     "form": "CLE 3-1 (lost at PHI, then home wins 125-121 BKN, 127-125 MIN, 121-111 WSH). ATL 2-3 (won at ORL and CHA, then lost to HOU twice and 129-117 to MIA Wed, allowing 70 paint points). My calc: CLE net +1.9 (111.1 ORtg, pace 107.8); ATL +4.7 (pace 106.6), but that includes the 128-81 win at CHA; without it ATL is negative (Covers). Last season the teams split four meetings, home team winning each (CBS).",
+     "sentiment": "65% of ML tickets / 56% of money on CLE, yet the ML moved toward ATL. Spread money 50/50. 75% of Over tickets, but the total fell 2. SI and the SportsLine model take the Over; Covers takes CLE ML (frontcourt vs ATL's rebounding); numberFire ATL 55.5%; ESPN ATL 52.3%. X touts lean CLE ML.",
+     "avoid": [
+      "Cavaliers-Hawks (coin flip, two B2Bs, reports pending, money against my lean)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-30-SAC-NOP",
+     "n": 2,
+     "away": {
+      "abbr": "SAC",
+      "city": "Sacramento",
+      "name": "Kings"
+     },
+     "home": {
+      "abbr": "NOP",
+      "city": "New Orleans",
+      "name": "Pelicans"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-30T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "NOP",
+      "city": "New Orleans",
+      "name": "Pelicans"
+     },
+     "win_pct": 69.0,
+     "confidence": 5,
+     "dk_ml": "SAC +195 / NOP -238 (opened +160/-192) → de-vig NOP 67.5%",
+     "dk_devig": {
+      "abbr": "NOP",
+      "pct": 67.5
+     },
+     "pm_ml": "SAC 31.5¢ / NOP 68.5¢ ($167k)",
+     "spread": {
+      "dk": "NOP -5.5 (opened -5.5; some feeds now -6.5)",
+      "pm": "NOP -5.5: 52.5 / SAC 47.5¢; NOP -6.5: 48.5 / SAC 51.5¢"
+     },
+     "total": {
+      "dk": "236.5 (opened 237.5)",
+      "pm": "O/U 236.5: Over 48.5 / Under 51.5¢; O/U 235.5: Over 51.5 / Under 48.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 68.5,
+     "edge": 0.5,
+     "dk_pick_pct": 67.5,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "SAC (official): Keegan Murray, Raynaud, Cardwell out, Simmons out, Pedulla (two-way) out; Achiuwa starts at C next to Sabonis. NOP: report not yet submitted (B2B). Missi out (knee bone bruise); Jordan Poole uncertain: left ankle, left after 7 min Wed, no diagnosis (WhyNBA).",
+     "injury_flags": [
+      "Keegan Murray, Raynaud, Cardwell out",
+      "report not yet submitted",
+      "Missi out",
+      "Jordan Poole uncertain"
+     ],
+     "view": "NOP has been competitive and unlucky; SAC has been blown out by everyone decent, and its frontcourt is down to Sabonis and Achiuwa against Zion and Queen. The B2B and Poole cost NOP a little. NOP by ~6.5, ~69%: within 1 point of 68.5¢. The 4.5-point ML move has no named reason (SAC's injuries were known by Monday), but it went my way, so it just removes the value. -5.5 is ~1 pt of edge → pass. Total: NOP's three-point slump is half weight (L6) and SAC's defense is real; fair.",
+     "bet": "Pass.",
+     "bet_bold": [],
+     "form": "both 0-4. NOP lost three by a combined 10 (123-120 IND, 120-119 at UTA, 141-135 at DEN), then 104-91 to DEN Wed. SAC lost by 25 at LAC, 8 to POR, 11 to MEM and 27 at SAS. My calc: NOP net -5.4 (114.2 DRtg, pace 106.9, 29.0% from three); SAC -17.1 (121.3 DRtg, 30.2% from three). No meetings yet this season.",
+     "sentiment": "82%/81% on NOP ML and it moved from -192 to -238; 76%/77% on NOP spread; totals 54% Under tickets, fell 1. SI and WagerTalk take NOP -5.5 (WagerTalk also Under 236.5, NOP 119-111); BetMGM model NOP 73.9% but SAC to cover; numberFire NOP 63.2%; ESPN NOP 72.3%.",
+     "avoid": [
+      "Kings-Pelicans spread and total (fair; Poole pending)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-30-MEM-POR",
+     "n": 3,
+     "away": {
+      "abbr": "MEM",
+      "city": "Memphis",
+      "name": "Grizzlies"
+     },
+     "home": {
+      "abbr": "POR",
+      "city": "Portland",
+      "name": "Trail Blazers"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-10-30T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "POR",
+      "city": "Portland",
+      "name": "Trail Blazers"
+     },
+     "win_pct": 67.0,
+     "confidence": 5,
+     "dk_ml": "MEM +235 / POR -290 (opened +230/-285) → de-vig POR 71.4%",
+     "dk_devig": {
+      "abbr": "POR",
+      "pct": 71.4
+     },
+     "pm_ml": "MEM 27.5¢ / POR 72.5¢ ($667k)",
+     "spread": {
+      "dk": "POR -7.5 (opened -7.5)",
+      "pm": "POR -7.5: 51.5 / MEM 48.5¢; POR -8.5: 47.5 / MEM 52.5¢; POR -6.5: 54.5 / MEM 45.5¢"
+     },
+     "total": {
+      "dk": "232.5 (opened 232.5)",
+      "pm": "O/U 232.5: Over 51.5 / Under 48.5¢; O/U 233.5: Over 49 / Under 51¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 72.5,
+     "edge": -5.5,
+     "dk_pick_pct": 71.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "POR: Shaedon Sharpe out (surgery); two-ways Kent, Tonje, Youngblood and Yang questionable (depth only). MEM: nobody listed.",
+     "injury_flags": [
+      "Shaedon Sharpe out",
+      "nobody listed"
+     ],
+     "view": "POR is deeper and more talented (Lillard, Avdija, Morant, Holiday) and at home, so it's the right pick. But the price leans on POR's opening blowout, and MEM is fully healthy and better rested, with the stingier defense so far (104.7 DRtg, my calc). POR by ~5.5, ~67%. MEM at 27.5¢ vs my ~33% is ~5.5 points of value; MEM +7.5 is only ~2 pts (below L4), so the ML is the cleaner small play. Risk: MEM's 4-0 came against soft opponents, and this is its first real road test. Total: fair → pass.",
+     "bet": "Small: Grizzlies ML at 27.5¢ (0.25u). On Polymarket: market \"Grizzlies vs. Trail Blazers\", buy Grizzlies at ≤29¢. Quarter stake: the record is soft, and POR's guards can run away with it.",
+     "bet_bold": [
+      "Small: Grizzlies ML at 27.5¢ (0.25u)",
+      "Grizzlies"
+     ],
+     "form": "MEM 4-0 (beat UTA twice, won at GSW 111-108 and at SAC 123-112), all against weak or short-handed teams. POR 3-0 (beat PHX 124-83, won at SAC 128-120 and 136-129 at LAL Tue). My calc: MEM net +9.5 (104.7 DRtg, 39.3% from three, pace 102.2); POR +18.1 (125.2 ORtg), much of it from the 41-point opener. POR won 3 of 4 meetings last season (NBA.com), but both rosters have changed since: Ja Morant faces Memphis for the first time since the June trade.",
+     "sentiment": "88% of ML tickets / 83% of money on POR; 77%/78% on POR -7.5; 77% Over. Lines unchanged. SI's best bet is MEM +7.5 (\"I don't think the gap is this wide\"); numberFire POR 74.2%; ESPN POR 70.7%. X touts are almost all POR ML.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Pelicans over Kings, 69% (conf 5): SAC is -17.1 net with three bigs out; NOP's B2B and Poole are the risks.",
+     "Trail Blazers over Grizzlies, 67% (conf 5): deeper, more talented roster at home, though less than the market thinks.",
+     "Cavaliers over Hawks, 52% (conf 3): a coin-flip lean, not a strong call; CLE's size against ATL's thin frontline."
+    ],
+    "underdogs": [],
+    "avoid": [
+     "Cavaliers-Hawks (coin flip, two B2Bs, reports pending, money against my lean)",
+     "Kings-Pelicans spread and total (fair; Poole pending)"
+    ],
+    "value": [
+     "Grizzlies ML at 27.5¢ (0.25u).",
+     "Polymarket \"Grizzlies vs. Trail Blazers\": buy Grizzlies at ≤29¢, 0.25u."
+    ],
+    "graded": [],
+    "check_before": [
+     "CLE, ATL and NOP B2B reports (likely ~06:00–07:00 MYT). Jordan Poole (NOP ankle). POR's final report and any MEM late scratch before the Grizzlies bet (~09:30 MYT)."
+    ],
+    "unverified": [],
+    "season_record": [
+     "SU 46-22, ATS 3-4, totals 8-5, core value 3-3, small value 15-13 (~+2.9u)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Pelicans over Kings**, 69% (conf 5): SAC is -17.1 net with three bigs out; NOP's B2B and Poole are the risks.\n2. **Trail Blazers over Grizzlies**, 67% (conf 5): deeper, more talented roster at home, though less than the market thinks.\n3. **Cavaliers over Hawks**, 52% (conf 3): a coin-flip lean, not a strong call; CLE's size against ATL's thin frontline.",
+    "underdogs": "",
+    "avoid": "Cavaliers-Hawks (coin flip, two B2Bs, reports pending, money against my lean), Kings-Pelicans spread and total (fair; Poole pending).",
+    "value": "Grizzlies ML at 27.5¢ (0.25u).\n- Polymarket \"Grizzlies vs. Trail Blazers\": buy **Grizzlies** at ≤29¢, 0.25u.",
+    "graded": "",
+    "check_before": "CLE, ATL and NOP B2B reports (likely ~06:00–07:00 MYT). Jordan Poole (NOP ankle). POR's final report and any MEM late scratch before the Grizzlies bet (~09:30 MYT).",
+    "unverified": "",
+    "season_record": "SU 46-22, ATS 3-4, totals 8-5, core value 3-3, small value 15-13 (~+2.9u)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-10-30-MEM-POR",
+     "team": "MEM",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "MEM ML",
+     "price": 27.5,
+     "units": 0.25,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Grizzlies ML at 27.5¢ (0.25u). On Polymarket: market \"Grizzlies vs. Trail Blazers\", buy Grizzlies at ≤29¢. Quar",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "MEM @ POR",
+     "polymarket": {
+      "event": "Grizzlies vs. Trail Blazers",
+      "market": "Grizzlies vs. Trail Blazers",
+      "outcome": "Grizzlies",
+      "price_raw": 27.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "L1 (markets are an input; money against me with no reason = no bet): CLE-ATL moved toward ATL (-110 → -115) while 65% of ML tickets are on CLE, and I can't name a reason → I keep my lean CLE but don't bet it (this is the exact MIA-ATL spot I lost on yesterday). SAC-NOP moved hard to NOP (-192 → -238) with no new SAC injury; it moves toward my side, so it only trims value.",
+    "L2 (grade who's left, verify at tip): SAC without Murray/Raynaud/Cardwell (Achiuwa played 14 min at C), NOP without Missi and maybe Poole, POR without Sharpe: graded on who plays. Three B2B reports pending: every game is \"check before tip\".",
+    "L3 (a total's move is an input): CLE-ATL fell 2 (239.5 → 237.5) against 75% Over tickets, but my reasons (two fast teams, two B2Bs) point both ways → pass. SAC-NOP and MEM-POR totals are flat → pass.",
+    "L4 (dogs with points need ~3.5–4 pts of edge): MEM +7.5 (~2 pts) and SAC +5.5 (~1 pt) both miss it; MEM is a small ML play instead.",
+    "L5 (no Achilles-returnee penalty): Lillard is shooting 42.9% from three in his first three games back; no penalty.",
+    "L6 (weight a single game lightly; trends need the same roster): ATL being \"bullied inside\" by MIA is one game (half weight), but it's 0-3 against HOU/MIA size. MEM's 4-0 and POR's 3-0 came against soft schedules; POR's +18.1 net is mostly the 41-point PHX opener. NOP's 29% from three is a shooting slump (half weight); SAC's 121.3 DRtg over four games is a trend.",
+    "L7 (questionable star: what decides the game if he plays): Poole is the only real question; NOP is my pick with or without him (Murray, Fears and Bey cover his minutes), so no conditional.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1030/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -7272,7 +7530,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-29T14:10:27+08:00",
+  "fetched_at": "2026-10-29T23:37:32+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
