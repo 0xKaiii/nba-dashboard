@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:37:32+08:00",
+ "generated_at": "2026-10-29T23:38:11+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-10-30",
  "latest_review_date": "2026-10-29",
@@ -1183,10 +1183,20 @@
      "Under 237.5 at 49.5¢"
     ],
     "graded": [
-     "11 SU picks."
+     "11 SU picks.",
+     "ATS picks (4): ATL +2.5, MIL +4.5, DAL +10.5, SAC +4.5.",
+     "Totals (2): MIL-WSH Over 239.5, CHI-TOR Under 237.5."
     ],
     "check_before": [],
-    "unverified": [],
+    "unverified": [
+     "Late injury reports: the latest NBA report used was 11:30 AM ET. Final statuses for Avdija, Potter, Monk, Sexton, Steven Adams, Kennard and Bassey, plus CHI's Hawkins and Swain (doubtful), were still pending. Recheck the 5:00 PM ET report (05:00 MYT) before betting, especially PHX-POR and SAC-LAC.",
+     "The cause of the line moves in UTA@MEM, DAL@HOU and SAC@LAC is inferred from injuries. No report confirms it. \"Sharp money\" claims on X come from small, unverified accounts.",
+     "numberFire probabilities for CHA, NOP and LAC look inconsistent with the injury news, so I treated them as unreliable.",
+     "One source conflict: BettingPros lists Mathurin with LAC. SI and Polymarket's prop markets put him on NOP, and I went with NOP.",
+     "Not verified: last season's records and ratings for PHX, CHI, HOU, DAL, SAC and LAC; current-season ORtg/DRtg (no games played yet); projected starting lineups beyond those cited.",
+     "Not checked: Reddit. X sentiment comes mostly from low-follower tipster accounts.",
+     "Polymarket depth beyond the best bid/ask was not checked."
+    ],
     "season_record": []
    },
    "summary_raw": {
@@ -1194,9 +1204,9 @@
     "underdogs": "- **Kings +4.5 at 47.5¢ (ML at 35.5¢).** The Clippers are missing five rotation players. This is the largest gap between my number and the price on the slate.\n- **Hawks ML at 45.5¢ (+2.5 at 51.5¢).** ATL swept last season's series, has the better net rating, and ORL is without Black.\n- **Bucks +4.5 at 49.5¢.** Dybantsa is out, and WSH had the league's worst defense.\n- Thinner: **Jazz ML at 47.5¢** (a public side, against a sharp-looking line move).",
     "avoid": "- **MIN @ MIA, the side.** A true coin flip (my 52/48), with Polymarket at 51.5/48.5.\n- **PHX @ POR, the side.** Avdija is questionable, and Polymarket is thin.\n- **CHA @ BKN, the total.** The 7-point drop has already priced in the Under (L3).\n- **IND @ NOP and GSW @ LAL moneylines.** Priced at my number, with no edge.",
     "value": "ATL ML at 45.5¢, MIL +4.5 at 49.5¢, SAC +4.5 at 47.5¢.\nCHA ML at 51.5¢, UTA ML at 47.5¢, DAL +10.5 at 52.5¢, Over 239.5 at 47.5¢, Under 237.5 at 49.5¢.",
-    "graded": "| Game (MYT Thu) | SU pick | Win % | Conf. | Polymarket winner (my side) | ATS pick | Total pick | Polymarket value pick |\n|---|---|---|---|---|---|---|---|\n| ATL @ ORL 07:00 | **Hawks** | 51% | 3 | 45.5¢ | **ATL +2.5** (lean) | Pass | **ATL ML 45.5¢** (core) |\n| MIL @ WSH 07:00 | **Wizards** | 57% | 4 | 61.5¢ | **MIL +4.5** (lean) | **Over 239.5** (lean) | MIL +4.5 at 49.5¢ (core); Over 239.5 at 47.5¢ |\n| MIN @ MIA 07:30 | **Heat** | 52% | 2 | 51.5¢ | Pass | Pass | None (avoid) |\n| CHA @ BKN 07:30 | **Hornets** | 54% | 4 | 51.5¢ | Pass | Pass (L3) | CHA ML 51.5¢ (small) |\n| CHI @ TOR 07:30 | **Raptors** | 76% | 7 | 79.5¢ | Pass | **Under 237.5** (lean) | Under 237.5 at 49.5¢ |\n| UTA @ MEM 08:00 | **Jazz** | 52% | 3 | 47.5¢ | Pass | Pass | UTA ML 47.5¢ (small) |\n| IND @ NOP 08:00 | **Pacers** | 57% | 4 | 57.5¢ | Pass | Pass | None |\n| DAL @ HOU 08:30 | **Rockets** | 75% | 6 | 77.5¢ | **DAL +10.5** (lean) | Pass | DAL +10.5 at 52.5¢ (small) |\n| GSW @ LAL 10:00 | **Lakers** | 68% | 5 | 67.5¢ | Pass | Pass | None |\n| PHX @ POR 10:00 | **Blazers** | 55% | 3 | 56.5¢ | Pass | Pass | None (avoid until Avdija's status is known) |\n| SAC @ LAC 10:30 | **Clippers** | 57% | 3 | 64.5¢ | **SAC +4.5** | Pass | **SAC +4.5 at 47.5¢** (core); SAC ML 35.5¢ |\n- **11 SU picks.**",
+    "graded": "| Game (MYT Thu) | SU pick | Win % | Conf. | Polymarket winner (my side) | ATS pick | Total pick | Polymarket value pick |\n|---|---|---|---|---|---|---|---|\n| ATL @ ORL 07:00 | **Hawks** | 51% | 3 | 45.5¢ | **ATL +2.5** (lean) | Pass | **ATL ML 45.5¢** (core) |\n| MIL @ WSH 07:00 | **Wizards** | 57% | 4 | 61.5¢ | **MIL +4.5** (lean) | **Over 239.5** (lean) | MIL +4.5 at 49.5¢ (core); Over 239.5 at 47.5¢ |\n| MIN @ MIA 07:30 | **Heat** | 52% | 2 | 51.5¢ | Pass | Pass | None (avoid) |\n| CHA @ BKN 07:30 | **Hornets** | 54% | 4 | 51.5¢ | Pass | Pass (L3) | CHA ML 51.5¢ (small) |\n| CHI @ TOR 07:30 | **Raptors** | 76% | 7 | 79.5¢ | Pass | **Under 237.5** (lean) | Under 237.5 at 49.5¢ |\n| UTA @ MEM 08:00 | **Jazz** | 52% | 3 | 47.5¢ | Pass | Pass | UTA ML 47.5¢ (small) |\n| IND @ NOP 08:00 | **Pacers** | 57% | 4 | 57.5¢ | Pass | Pass | None |\n| DAL @ HOU 08:30 | **Rockets** | 75% | 6 | 77.5¢ | **DAL +10.5** (lean) | Pass | DAL +10.5 at 52.5¢ (small) |\n| GSW @ LAL 10:00 | **Lakers** | 68% | 5 | 67.5¢ | Pass | Pass | None |\n| PHX @ POR 10:00 | **Blazers** | 55% | 3 | 56.5¢ | Pass | Pass | None (avoid until Avdija's status is known) |\n| SAC @ LAC 10:30 | **Clippers** | 57% | 3 | 64.5¢ | **SAC +4.5** | Pass | **SAC +4.5 at 47.5¢** (core); SAC ML 35.5¢ |\n- **11 SU picks.**\n- **ATS picks (4):** ATL +2.5, MIL +4.5, DAL +10.5, SAC +4.5.\n- **Totals (2):** MIL-WSH Over 239.5, CHI-TOR Under 237.5.",
     "check_before": "",
-    "unverified": "",
+    "unverified": "- **Late injury reports:** the latest NBA report used was 11:30 AM ET. Final statuses for **Avdija, Potter, Monk, Sexton, Steven Adams, Kennard and Bassey**, plus CHI's Hawkins and Swain (doubtful), were still pending. **Recheck the 5:00 PM ET report (05:00 MYT) before betting**, especially PHX-POR and SAC-LAC.\n- **The cause of the line moves** in UTA@MEM, DAL@HOU and SAC@LAC is inferred from injuries. No report confirms it. \"Sharp money\" claims on X come from small, unverified accounts.\n- **numberFire probabilities** for CHA, NOP and LAC look inconsistent with the injury news, so I treated them as unreliable.\n- **One source conflict:** BettingPros lists Mathurin with LAC. SI and Polymarket's prop markets put him on NOP, and I went with NOP.\n- **Not verified:** last season's records and ratings for PHX, CHI, HOU, DAL, SAC and LAC; current-season ORtg/DRtg (no games played yet); projected starting lineups beyond those cited.\n- **Not checked:** Reddit. X sentiment comes mostly from low-follower tipster accounts.\n- **Polymarket depth** beyond the best bid/ask was not checked.",
     "season_record": ""
    },
    "buys": [
@@ -4691,7 +4701,11 @@
      "Thunder over Suns, 74% (conf 5): elite OKC defense vs the league's worst defense, trimmed for J-Dub's injury and the B2B.",
      "Nuggets over Warriors, 72% (conf 5): Jokić at altitude vs a GSW without Butler and Porzingis."
     ],
-    "underdogs": [],
+    "underdogs": [
+     "Wizards ML (PM 42.5¢): I make it ~51%. CHA is missing Knueppel/White/G. Williams and has the worst offense.",
+     "Grizzlies ML (PM 48.5¢): I make it ~55%. Better on both ends, and UTA's turnovers are a trend.",
+     "Mavericks +7.5 (PM 49.5¢) only if Flagg is active. Timberwolves +4.5 (PM 50.5¢) only if Edwards and Ball both play; watch only."
+    ],
     "avoid": [
      "Timberwolves-Cavaliers (B2B, Edwards' knee and LaMelo rest risk, report pending)",
      "Pacers-Bucks (Zubac/Haliburton B2B statuses pending, price fair)",
@@ -4716,7 +4730,7 @@
    },
    "summary_raw": {
     "top3": "1. **Celtics over Bulls**, 85% (conf 7): talent gap, rest edge; CHI can't shoot (22.6% from three, three games deep).\n2. **Thunder over Suns**, 74% (conf 5): elite OKC defense vs the league's worst defense, trimmed for J-Dub's injury and the B2B.\n3. **Nuggets over Warriors**, 72% (conf 5): Jokić at altitude vs a GSW without Butler and Porzingis.",
-    "underdogs": "",
+    "underdogs": "- **Wizards ML (PM 42.5¢):** I make it ~51%. CHA is missing Knueppel/White/G. Williams and has the worst offense.\n- **Grizzlies ML (PM 48.5¢):** I make it ~55%. Better on both ends, and UTA's turnovers are a trend.\n- Mavericks +7.5 (PM 49.5¢) only if Flagg is active. Timberwolves +4.5 (PM 50.5¢) only if Edwards and Ball both play; watch only.",
     "avoid": "Timberwolves-Cavaliers (B2B, Edwards' knee and LaMelo rest risk, report pending), Pacers-Bucks (Zubac/Haliburton B2B statuses pending, price fair), Mavericks-Heat (Flagg sources conflict; unexplained 5-pt total jump).",
     "value": "Wizards ML at 42.5¢ (0.5u), Grizzlies ML at 48.5¢ (0.5u), Wizards-Hornets Under 227.5 at 48.5¢ (0.5u), Suns-Thunder Under 220.5 at 49¢ (0.5u).\n- Polymarket \"Wizards vs. Hornets\": buy **Wizards** at ≤44¢, 0.5u.\n- Polymarket \"Grizzlies vs. Jazz\": buy **Grizzlies** at ≤51¢, 0.5u.\n- Polymarket \"Wizards vs. Hornets: O/U 227.5\": buy **Under** at ≤49¢, 0.5u.\n- Polymarket \"Suns vs. Thunder: O/U 220.5\": buy **Under** at ≤50¢, 0.5u.\n- Conditional: Polymarket \"Spread: Heat (-7.5)\": buy **Mavericks** at ≤50¢, 0.5u, only if Flagg is active.",
     "graded": "",
@@ -4739,7 +4753,8 @@
      "context": "Small: WSH ML at 42.5¢ (0.5u). On Polymarket: market \"Wizards vs. Hornets\", buy Wizards at ≤44¢. Small: Under 22",
      "sources": [
       "game bet (bold)",
-      "summary: value"
+      "summary: value",
+      "summary: underdogs"
      ],
      "matchup": "WSH @ CHA",
      "polymarket": {
@@ -4840,7 +4855,8 @@
      "context": "Small: MEM ML at 48.5¢ (0.5u). On Polymarket: market \"Grizzlies vs. Jazz\", buy Grizzlies at ≤51¢.",
      "sources": [
       "game bet (bold)",
-      "summary: value"
+      "summary: value",
+      "summary: underdogs"
      ],
      "matchup": "MEM @ UTA",
      "polymarket": {
@@ -5195,7 +5211,11 @@
      "Celtics over Nets, 80% (conf 6): much better team at home vs the worst three-point defense; trimmed for Tatum/George B2B rest risk.",
      "Lakers over Trail Blazers, 52% (conf 3): a coin flip; Dončić at home vs a deeper, rested POR. Only two strong picks tonight."
     ],
-    "underdogs": [],
+    "underdogs": [
+     "Pistons ML (PM 40.5¢): I make it ~51%. 3-0, top-seven on both ends, swept NYK last year; NYK's 0-3 offense is now a trend.",
+     "Trail Blazers ML (PM 45.5¢): I make it ~48%, too thin to bet.",
+     "Nets +11.5 (PM 50.5¢) only if Tatum and George both sit."
+    ],
     "avoid": [
      "Kings-Spurs (SAS ML too expensive at 92.5¢; -18.5 hinges on garbage time; unexplained total rise)",
      "Nets-Celtics until BOS files its report (rest decisions decide the spread)"
@@ -5217,7 +5237,7 @@
    },
    "summary_raw": {
     "top3": "1. **Spurs over Kings**, 89% (conf 7): Wembanyama vs a Kings frontcourt with one center; SAC's defense and shooting are three-game trends.\n2. **Celtics over Nets**, 80% (conf 6): much better team at home vs the worst three-point defense; trimmed for Tatum/George B2B rest risk.\n3. **Lakers over Trail Blazers**, 52% (conf 3): a coin flip; Dončić at home vs a deeper, rested POR. Only two strong picks tonight.",
-    "underdogs": "",
+    "underdogs": "- **Pistons ML (PM 40.5¢):** I make it ~51%. 3-0, top-seven on both ends, swept NYK last year; NYK's 0-3 offense is now a trend.\n- Trail Blazers ML (PM 45.5¢): I make it ~48%, too thin to bet.\n- Nets +11.5 (PM 50.5¢) only if Tatum and George both sit.",
     "avoid": "Kings-Spurs (SAS ML too expensive at 92.5¢; -18.5 hinges on garbage time; unexplained total rise), Nets-Celtics until BOS files its report (rest decisions decide the spread).",
     "value": "Pistons ML at 40.5¢ (0.5u), Trail Blazers-Lakers Under 233.5 at 49.5¢ (0.5u).\n- Polymarket \"Pistons vs. Knicks\": buy **Pistons** at ≤42¢, 0.5u.\n- Polymarket \"Trail Blazers vs. Lakers: O/U 233.5\": buy **Under** at ≤50¢, 0.5u.\n- Conditional: Polymarket \"Spread: Celtics (-11.5)\": buy **Nets** at ≤52¢, 0.5u, only if Tatum and George are both ruled out. Fallback: \"Spread: Celtics (-12.5)\", Nets at ≤55¢.",
     "graded": "",
@@ -5239,7 +5259,8 @@
      "condition": "only if Tatum and George are both ruled out",
      "context": "Lean: BKN +11.5 at 50.5¢ (0.5u) only if Tatum and George are both ruled out. On Polymarket: market \"Spread: Celtic",
      "sources": [
-      "game bet (bold)"
+      "game bet (bold)",
+      "summary: underdogs"
      ],
      "matchup": "BKN @ BOS",
      "polymarket": {
@@ -5264,7 +5285,8 @@
      "context": "Small: DET ML at 40.5¢ (0.5u). On Polymarket: market \"Pistons vs. Knicks\", buy Pistons at ≤42¢. If both Ausar an",
      "sources": [
       "game bet (bold)",
-      "summary: value"
+      "summary: value",
+      "summary: underdogs"
      ],
      "matchup": "DET @ NYK",
      "polymarket": {
@@ -6228,7 +6250,11 @@
      "Cavaliers over Wizards, 74% (conf 6): Mitchell/Mobley/Allen at home vs a young team with soft wins.",
      "Knicks over Bulls, 74% (conf 5): CHI's defense (116.7 DRtg, 124+ allowed every game) outweighs NYK's B2B; confirm NYK's report."
     ],
-    "underdogs": [],
+    "underdogs": [
+     "Bucks ML (PM 24.5¢): I make it ~29%. HOU without Şengün and Adams; MIL has Turner/Ware size and no injuries.",
+     "Mavericks ML (PM 34.5¢): ~36% as is (too thin); ~41% if Kyrie plays and Ajay Mitchell sits (conditional bet).",
+     "Warriors ML (PM 39.5¢): ~40%, fair after the Edwards move."
+    ],
     "avoid": [
      "Warriors-Timberwolves (Edwards move fully priced)",
      "Nuggets-Pelicans (fair; total already pushed up by the public)",
@@ -6255,7 +6281,7 @@
    },
    "summary_raw": {
     "top3": "1. **Spurs over Jazz**, 84% (conf 6): Wembanyama vs a Jazz frontcourt without Jackson Jr. and Nurkić; only a B2B rest day changes it.\n2. **Cavaliers over Wizards**, 74% (conf 6): Mitchell/Mobley/Allen at home vs a young team with soft wins.\n3. **Knicks over Bulls**, 74% (conf 5): CHI's defense (116.7 DRtg, 124+ allowed every game) outweighs NYK's B2B; confirm NYK's report.",
-    "underdogs": "",
+    "underdogs": "- **Bucks ML (PM 24.5¢):** I make it ~29%. HOU without Şengün and Adams; MIL has Turner/Ware size and no injuries.\n- Mavericks ML (PM 34.5¢): ~36% as is (too thin); ~41% if Kyrie plays and Ajay Mitchell sits (conditional bet).\n- Warriors ML (PM 39.5¢): ~40%, fair after the Edwards move.",
     "avoid": "Warriors-Timberwolves (Edwards move fully priced), Nuggets-Pelicans (fair; total already pushed up by the public), Lakers-Clippers (fair; LAL report pending), Spurs-Jazz spread (-13.5 needs a full-effort B2B blowout).",
     "value": "Hawks ML at 55.5¢ (0.5u), Hornets-Pistons Under 213.5 at 47.5¢ (0.5u), Magic-Raptors Under 223.5 at 50.5¢ (0.5u), Bucks ML at 24.5¢ (0.25u).\n- Polymarket \"Heat vs. Hawks\": buy **Hawks** at ≤57¢, 0.5u.\n- Polymarket \"Hornets vs. Pistons: O/U 213.5\": buy **Under** at ≤49¢, 0.5u.\n- Polymarket \"Magic vs. Raptors: O/U 223.5\": buy **Under** at ≤52¢, 0.5u.\n- Polymarket \"Rockets vs. Bucks\": buy **Bucks** at ≤26¢, 0.25u.\n- Conditional: Polymarket \"Spread: 76ers (-5.5)\": buy **76ers** at ≤53¢, 0.5u, only if Haliburton and Nembhard are both ruled out.\n- Conditional: Polymarket \"Thunder vs. Mavericks\": buy **Mavericks** at ≤37¢, 0.5u, only if Kyrie plays and Ajay Mitchell is ruled out.",
     "graded": "",
@@ -6381,7 +6407,8 @@
      "sources": [
       "game bet (bold)",
       "game bet (bold)",
-      "summary: value"
+      "summary: value",
+      "summary: underdogs"
      ],
      "matchup": "HOU @ MIL",
      "polymarket": {
@@ -6413,6 +6440,30 @@
       "market": "Thunder vs. Mavericks",
       "outcome": "Mavericks",
       "price_raw": 34.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-10-29-GSW-MIN",
+     "team": "GSW",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "GSW ML",
+     "price": 39.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Warriors ML (PM 39.5¢): ~40%, fair after the Edwards move.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "GSW @ MIN",
+     "polymarket": {
+      "event": "Warriors vs. Timberwolves",
+      "market": "Warriors vs. Timberwolves",
+      "outcome": "Warriors",
+      "price_raw": 39.5
      },
      "my_pct": null
     }
@@ -6641,7 +6692,11 @@
      "Trail Blazers over Grizzlies, 67% (conf 5): deeper, more talented roster at home, though less than the market thinks.",
      "Cavaliers over Hawks, 52% (conf 3): a coin-flip lean, not a strong call; CLE's size against ATL's thin frontline."
     ],
-    "underdogs": [],
+    "underdogs": [
+     "Grizzlies ML (PM 27.5¢): I make it ~33%. Healthy, rested, strong defense; POR's numbers are padded by one blowout.",
+     "Cavaliers ML (PM 48.5¢): ~52%, but the line moved toward ATL against the tickets, so no bet (L1).",
+     "Kings ML (PM 31.5¢): ~31%, fair; no value."
+    ],
     "avoid": [
      "Cavaliers-Hawks (coin flip, two B2Bs, reports pending, money against my lean)",
      "Kings-Pelicans spread and total (fair; Poole pending)"
@@ -6661,7 +6716,7 @@
    },
    "summary_raw": {
     "top3": "1. **Pelicans over Kings**, 69% (conf 5): SAC is -17.1 net with three bigs out; NOP's B2B and Poole are the risks.\n2. **Trail Blazers over Grizzlies**, 67% (conf 5): deeper, more talented roster at home, though less than the market thinks.\n3. **Cavaliers over Hawks**, 52% (conf 3): a coin-flip lean, not a strong call; CLE's size against ATL's thin frontline.",
-    "underdogs": "",
+    "underdogs": "- **Grizzlies ML (PM 27.5¢):** I make it ~33%. Healthy, rested, strong defense; POR's numbers are padded by one blowout.\n- Cavaliers ML (PM 48.5¢): ~52%, but the line moved toward ATL against the tickets, so no bet (L1).\n- Kings ML (PM 31.5¢): ~31%, fair; no value.",
     "avoid": "Cavaliers-Hawks (coin flip, two B2Bs, reports pending, money against my lean), Kings-Pelicans spread and total (fair; Poole pending).",
     "value": "Grizzlies ML at 27.5¢ (0.25u).\n- Polymarket \"Grizzlies vs. Trail Blazers\": buy **Grizzlies** at ≤29¢, 0.25u.",
     "graded": "",
@@ -6685,7 +6740,8 @@
      "sources": [
       "game bet (bold)",
       "game bet (bold)",
-      "summary: value"
+      "summary: value",
+      "summary: underdogs"
      ],
      "matchup": "MEM @ POR",
      "polymarket": {
@@ -6693,6 +6749,54 @@
       "market": "Grizzlies vs. Trail Blazers",
       "outcome": "Grizzlies",
       "price_raw": 27.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-10-30-CLE-ATL",
+     "team": "CLE",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "CLE ML",
+     "price": 48.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Cavaliers ML (PM 48.5¢): ~52%, but the line moved toward ATL against the tickets, so no bet (L1).",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "CLE @ ATL",
+     "polymarket": {
+      "event": "Cavaliers vs. Hawks",
+      "market": "Cavaliers vs. Hawks",
+      "outcome": "Cavaliers",
+      "price_raw": 48.5
+     },
+     "my_pct": 52.0
+    },
+    {
+     "game_id": "2026-10-30-SAC-NOP",
+     "team": "SAC",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "SAC ML",
+     "price": 31.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Kings ML (PM 31.5¢): ~31%, fair; no value.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "SAC @ NOP",
+     "polymarket": {
+      "event": "Kings vs. Pelicans",
+      "market": "Kings vs. Pelicans",
+      "outcome": "Kings",
+      "price_raw": 31.5
      },
      "my_pct": null
     }
@@ -7530,7 +7634,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-29T23:37:32+08:00",
+  "fetched_at": "2026-10-29T23:38:11+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
