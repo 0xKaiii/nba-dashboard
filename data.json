@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T14:02:31+08:00",
+ "generated_at": "2026-10-30T23:41:51+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-10-30",
+ "latest_preview_date": "2026-10-31",
  "latest_review_date": "2026-10-30",
  "days": [
   {
@@ -6878,6 +6878,753 @@
      "Name the opposing big before calling a frontline thin. I called ATL thin inside off one MIA game; Okongwu had 29 and 12 and ATL won the boards by 8."
     ]
    }
+  },
+  {
+   "date": "2026-10-31",
+   "file": "preview-2026-10-31.md",
+   "written": "~23:50 MYT Fri Oct 30",
+   "games": [
+    {
+     "id": "2026-10-31-CHA-WSH",
+     "n": 1,
+     "away": {
+      "abbr": "CHA",
+      "city": "Charlotte",
+      "name": "Hornets"
+     },
+     "home": {
+      "abbr": "WSH",
+      "city": "Washington",
+      "name": "Wizards"
+     },
+     "tip_myt": "07:00",
+     "tip_iso": "2026-10-31T07:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "WSH",
+      "city": "Washington",
+      "name": "Wizards"
+     },
+     "win_pct": 51.0,
+     "confidence": 2,
+     "dk_ml": "CHA -102 / WSH -118 (opened CHA -115 / WSH -105) → de-vig WSH 51.7%",
+     "dk_devig": {
+      "abbr": "WSH",
+      "pct": 51.7
+     },
+     "pm_ml": "CHA 49.5¢ / WSH 50.5¢ ($355k)",
+     "spread": {
+      "dk": "WSH -1.5",
+      "pm": "WSH -1.5: 47.5 / CHA 52.5¢; CHA -1.5: 46.5 / WSH 53.5¢"
+     },
+     "total": {
+      "dk": "219.5 (ESPN open 234.5, likely a stale placeholder, unverified)",
+      "pm": "O/U 219.5: Over 50.5 / Under 49.5¢; O/U 221.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 50.5,
+     "edge": 0.5,
+     "dk_pick_pct": 51.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "CHA: Knueppel out (G League assignment, hamstring reconditioning), Coby White out (calf), Grant Williams out, Schröder questionable (foot). WSH: Tre Johnson questionable (Achilles soreness, upgraded after a late scratch Wed); Champagnie, Vukčević, Watkins out (WhyNBA).",
+     "injury_flags": [
+      "Knueppel out",
+      "Coby White out",
+      "Schröder questionable",
+      "Tre Johnson questionable"
+     ],
+     "view": "CHA beat WSH by 7 four days ago and its non-blowout form is better, but that was at home, and Schröder (their main ball-handler with White and Knueppel out) is questionable. The flip toward WSH has nameable reasons (Schröder Q, Tre Johnson upgrade). I make it a true coin flip with a tiny home lean: WSH ~51%. Total: CHA games average ~209, WSH ~229; 219.5 is fair → pass.",
+     "bet": "Pass. Coin flip with two questionable guards.",
+     "bet_bold": [],
+     "form": "CHA 3-2 (W at BKN, L 81-128 vs ATL, W vs MIA, W 110-103 vs WSH Mon, L 89-97 at DET Wed). WSH 2-3 (W vs MIL, L vs TOR, W at CHI, L at CHA, L 111-121 at CLE Wed). My calc: CHA net -7.2 but +2.8 per game without the ATL blowout (L6), slowest pace on the slate (100.0), 20.2 TOV/game; WSH net -2.1, pace 103.4, 28.5% from three (slump, half weight). CHA leads the season series 1-0.",
+     "sentiment": "69% of ML tickets / 88% of money on WSH, and the line flipped to WSH. 86% of tickets on the Over, yet the total sits at 219.5. SI takes Under 220.5 (CHA 5-0 to the Under); BetMGM model WSH 51%; StatSniper calls it a coin flip; HoopVantage CHA by 1.7; ESPN WSH 52.8%. X touts: Wizards ML.",
+     "avoid": [
+      "Hornets-Wizards (coin flip, two questionable guards, unreliable total history)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-CHI-BOS",
+     "n": 2,
+     "away": {
+      "abbr": "CHI",
+      "city": "Chicago",
+      "name": "Bulls"
+     },
+     "home": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "tip_myt": "07:30",
+     "tip_iso": "2026-10-31T07:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "win_pct": 87.0,
+     "confidence": 7,
+     "dk_ml": "CHI +600 / BOS -900 (opened +425/-575) → de-vig BOS 86.3%",
+     "dk_devig": {
+      "abbr": "BOS",
+      "pct": 86.3
+     },
+     "pm_ml": "CHI 12.5¢ / BOS 87.5¢ ($89k)",
+     "spread": {
+      "dk": "BOS -14.5 (opened ~-11.5)",
+      "pm": "BOS -14.5: 51.5 / CHI 48.5¢; BOS -15.5: 47.5 / CHI 52.5¢"
+     },
+     "total": {
+      "dk": "235.5 (opened 232.5)",
+      "pm": "O/U 234.5: Over 51.5 / Under 48.5¢; O/U 236.5: Over 46.5 / Under 53.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 87.5,
+     "edge": -0.5,
+     "dk_pick_pct": 86.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "CHI: Claxton out; Awaka, Jalen Smith and Patrick Williams questionable. BOS: Devin Carter out (illness).",
+     "injury_flags": [
+      "Claxton out"
+     ],
+     "view": "CHI's defense is a 5-game trend, not a slump, and Claxton's absence thins its only real rim protector. BOS is rested at home with its offense humming. The 35-point win is one game (L6), so I fade the margin, not the winner: BOS by ~13, ~87%. Spread and total both fair (CHI's pace pushes the total up; already moved 3) → pass.",
+     "bet": "Pass. Price too short on the ML, spread fair.",
+     "bet_bold": [],
+     "form": "BOS 3-1 (L at DET, then W vs NYK, W 134-99 vs CHI Mon, W 125-124 vs BKN). CHI 1-4 (L 92-135 at TOR, W at MIL, L vs WSH, L at BOS, L 127-133 vs NYK Wed). My calc: BOS net +7.7 (114.5 ORtg, 106.9 DRtg, 38.6% from three); CHI -14.6 with the worst DRtg on the slate (117.7), fastest pace (110.6), 27.6% from three.",
+     "sentiment": "96% of ML tickets / 84% of money on BOS; spread split 49/51 at -15. Sporting News takes Bulls +15.5; StatSniper's model has BOS -14.9 (no value); HoopVantage BOS by 11.1; ESPN BOS 86.9%. X touts: Celtics ML.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-DET-BKN",
+     "n": 3,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "BKN",
+      "city": "Brooklyn",
+      "name": "Nets"
+     },
+     "tip_myt": "07:30",
+     "tip_iso": "2026-10-31T07:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 72.0,
+     "confidence": 6,
+     "dk_ml": "DET -325 / BKN +260 (opened -310/+250) → de-vig DET 73.4%",
+     "dk_devig": {
+      "abbr": "DET",
+      "pct": 73.4
+     },
+     "pm_ml": "DET 74.5¢ / BKN 25.5¢ ($283k)",
+     "spread": {
+      "dk": "DET -8.5 (opened -7.5)",
+      "pm": "DET -8.5: 48.5 / BKN 51.5¢; DET -7.5: 52.5 / BKN 47.5¢"
+     },
+     "total": {
+      "dk": "223.5 (opened 226.5)",
+      "pm": "O/U 223.5: Over 45.5 / Under 54.5¢; O/U 221.5: Over 49.5 / Under 50.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 74.5,
+     "edge": -2.5,
+     "dk_pick_pct": 73.4,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DET: Duren out; Isaiah Joe questionable. BKN: Demin out; Clowney day-to-day (ESPN).",
+     "injury_flags": [
+      "Duren out"
+     ],
+     "view": "DET's defense travels and Cunningham is the best player on the floor; it has already won twice without Duren. BKN has lost close games to BOS and CLE, so it isn't a pushover at home with rest. DET by ~7, ~72%. Spread fair (BKN +8.5 is ~1.5 pts of edge, under the L4 bar); total already down 3 → pass.",
+     "bet": "Pass.",
+     "bet_bold": [],
+     "form": "DET 4-1 (W vs BOS, W at MIA, W at PHI, L 97-111 at NYK, W 97-89 vs CHA Wed). BKN 0-4 (L vs CHA, L at CLE by 4, L 109-136 vs IND, L 124-125 at BOS). My calc: DET net +6.4 (103.2 DRtg, pace 100.2); BKN -9.0 (114.7 DRtg, pace 108.1, 18 TOV). No meeting yet.",
+     "sentiment": "93% of ML tickets / 91% of money on DET; 67% of spread tickets on DET -8.5. AccuScore and FanDuel ~73% DET; HoopVantage DET by only 4.9; ESPN DET 70.5%. X touts: Pistons ML; one widely shared card has DET -8.5.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-NYK-PHI",
+     "n": 4,
+     "away": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "home": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "tip_myt": "07:30",
+     "tip_iso": "2026-10-31T07:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "win_pct": 52.0,
+     "confidence": 3,
+     "dk_ml": "NYK -125 / PHI +105 (opened NYK +105 / PHI -125) → de-vig PHI 46.8%",
+     "dk_devig": {
+      "abbr": "PHI",
+      "pct": 46.8
+     },
+     "pm_ml": "NYK 53.5¢ / PHI 46.5¢ ($473k)",
+     "spread": {
+      "dk": "NYK -1.5 (opened PHI ~-1.5)",
+      "pm": "NYK -1.5: 51.5 / PHI 48.5¢; PHI -1.5: 43.5 / NYK 56.5¢"
+     },
+     "total": {
+      "dk": "226.5 (opened 231.5)",
+      "pm": "O/U 227.5: Over 48.5 / Under 51.5¢; O/U 225.5: Over 53.5 / Under 46.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 46.5,
+     "edge": 5.5,
+     "dk_pick_pct": 46.8,
+     "pick_is_favorite": false,
+     "pick_is_home": true,
+     "injuries": "PHI: Jaylen Brown questionable (left knee soreness); Barlow, Fall, Hukporti, Walker out. NYK: Alvarado out (roundtable).",
+     "injury_flags": [
+      "Jaylen Brown questionable"
+     ],
+     "view": "PHI won at MSG and has the better defense; NYK's two wins came against DET and CHI's porous defense. With Brown I make PHI ~55%; without him ~49%. The flip is the market pricing Brown as doubtful (L1: named reason, so I move my number to a blended PHI ~52%, not higher). Total: two top-8 defenses, NYK slows it down, first meeting was 206. I make it ~221, so the Under still has ~5 pts after the drop.",
+     "bet": "Small: Under 227.5 at 51.5¢ (0.25u). On Polymarket: market \"Knicks vs. 76ers: O/U 227.5\", buy Under at ≤53¢. Conditional: 76ers ML at 46.5¢ (0.25u) only if Jaylen Brown is active. On Polymarket: market \"Knicks vs. 76ers\", buy 76ers at ≤50¢. If Brown is out, pass the side.",
+     "bet_bold": [
+      "Small: Under 227.5 at 51.5¢ (0.25u)",
+      "Under",
+      "Conditional: 76ers ML at 46.5¢ (0.25u) only if Jaylen Brown is active",
+      "76ers"
+     ],
+     "form": "PHI 4-1 (W 106-100 at NYK in the opener, W vs CLE, W vs MIL, L vs DET, W 114-109 at IND Wed). NYK 2-3 (lost first three, then beat DET and CHI 133-127 on a Tue-Wed B2B). My calc: PHI net +3.2 (100.6 DRtg, 103.8 ORtg, pace 106.8); NYK +0.2 (106.6 / 106.4, pace 103.0). Under 4-1 in both teams' games (SI).",
+     "sentiment": "61% of ML tickets / 78% of money on PHI, yet the line flipped ~9% toward NYK. 79% of Over tickets, but the total fell 5. BettingPros takes PHI ML +110; Covers prices PHI ~56%; SI, FanDuel Research and Predictem take the Under; HoopVantage NYK by 0.1; ESPN PHI 56.2%. X is split (Knicks ML on one big card, 76ers ML on another).",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-ORL-TOR",
+     "n": 5,
+     "away": {
+      "abbr": "ORL",
+      "city": "Orlando",
+      "name": "Magic"
+     },
+     "home": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "tip_myt": "07:30",
+     "tip_iso": "2026-10-31T07:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "win_pct": 67.0,
+     "confidence": 5,
+     "dk_ml": "ORL +180 / TOR -218 (opened +130/-155) → de-vig TOR 65.7%",
+     "dk_devig": {
+      "abbr": "TOR",
+      "pct": 65.7
+     },
+     "pm_ml": "ORL 34.5¢ / TOR 65.5¢ ($358k)",
+     "spread": {
+      "dk": "TOR -5.5 (opened ~-3.5)",
+      "pm": "TOR -5.5: 50.5 / ORL 49.5¢; TOR -4.5: 53.5 / ORL 46.5¢"
+     },
+     "total": {
+      "dk": "226.5 (opened 226.5)",
+      "pm": "O/U 226.5: Over 49.5 / Under 50.5¢; O/U 225.5: Over 53.5 / Under 46.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 65.5,
+     "edge": 1.5,
+     "dk_pick_pct": 65.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "ORL: Banchero, Suggs, Isaac out, plus Penda and I. Nelson. TOR: Kawhi Leonard out (~3–4 weeks), Bittle out.",
+     "injury_flags": [
+      "Banchero, Suggs, Isaac out",
+      "Kawhi Leonard out"
+     ],
+     "view": "ORL without Banchero and Suggs has no second creator next to Wagner, and TOR's defense is a 4-game trend (still ~98 DRtg with the CHI blowout stripped). Rematches after a 30-point loss usually tighten, which is why I stop at the market number: TOR by ~5.5, ~67%. Spread and total fair → pass.",
+     "bet": "Pass. The move after Wednesday's blowout already took the value.",
+     "bet_bold": [],
+     "form": "TOR 3-1 (W 135-92 vs CHI, W at WSH, L 94-117 at MIN, W 129-99 vs ORL Wed). ORL 1-3 (L vs ATL, L vs MIN, W at NYK, L at TOR). My calc: TOR net +13.9 (95.0 DRtg, pace 107.9, but 30.4% from three); ORL -11.8 (100.7 ORtg, 18 TOV). TOR leads the season series 1-0.",
+     "sentiment": "92% of ML tickets / 94% of money on TOR; 84% on TOR -5.5; 86% on the Over. FanDuel Research takes TOR -5.5; HoopVantage TOR by 3.9; ESPN TOR only 54.7%. X touts: Raptors ML.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-IND-MIA",
+     "n": 6,
+     "away": {
+      "abbr": "IND",
+      "city": "Indiana",
+      "name": "Pacers"
+     },
+     "home": {
+      "abbr": "MIA",
+      "city": "Miami",
+      "name": "Heat"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-31T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIA",
+      "city": "Miami",
+      "name": "Heat"
+     },
+     "win_pct": 69.0,
+     "confidence": 5,
+     "dk_ml": "IND +260 / MIA -325 (opened +130/-155) → de-vig MIA 73.4%",
+     "dk_devig": {
+      "abbr": "MIA",
+      "pct": 73.4
+     },
+     "pm_ml": "IND 26.5¢ / MIA 73.5¢ ($264k)",
+     "spread": {
+      "dk": "MIA -8.5 (opened ~-3.5)",
+      "pm": "MIA -8.5: 51.5 / IND 48.5¢; MIA -7.5: 54.5 / IND 45.5¢"
+     },
+     "total": {
+      "dk": "237.5 (opened 240.5)",
+      "pm": "O/U 237.5: Over 49.5 / Under 50.5¢; O/U 235.5: Over 53.5 / Under 46.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 73.5,
+     "edge": -4.5,
+     "dk_pick_pct": 73.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "IND: Haliburton out (≥2 weeks), McConnell out, Zubac out, B. Sheppard and Furphy out. MIA: Fontecchio questionable (Covers).",
+     "injury_flags": [
+      "Haliburton out (≥2 weeks), McConnell out, Zubac out"
+     ],
+     "view": "The 5-pt move has a named reason: IND lost both point guards and its starting center (L1). Graded on who's left (L2), IND has Siakam, Nembhard and Nesmith and very little size against Giannis and Adebayo. MIA's 0-3 home start is a real worry but mostly came against good teams. MIA by ~6, ~69%: MIA ML is overpriced by ~4, but IND +8.5 is only ~2.5 pts of edge (under L4), and a thin dog is how I lost the Bucks bet. Total: IND without its two playmakers should play slower and score less; I make it ~232.",
+     "bet": "Small: Under 237.5 at 50.5¢ (0.25u). On Polymarket: market \"Pacers vs. Heat: O/U 237.5\", buy Under at ≤52¢. Side: pass.",
+     "bet_bold": [
+      "Small: Under 237.5 at 50.5¢ (0.25u)",
+      "Under"
+     ],
+     "form": "MIA 1-4, 0-3 at home (L 106-131 vs MIN, L vs DET, L at CHA, L vs DAL, W 129-117 at ATL Wed). IND 2-3 (lost 114-109 to PHI Wed in the first game without Haliburton). My calc: MIA net -7.3 (113.1 DRtg, pace 106.8, 31.7% from three); IND +0.2 (31.2% from three). No meeting yet.",
+     "sentiment": "87% of ML tickets / 88% of money on MIA, but 65% of spread money on IND +8.5 (46% of tickets on MIA -8.5). 82% of Over tickets, total down 3. FanDuel Research and Covers take the Under 237.5; Covers also IND +8.5; numberFire MIA 84.4%; SportsHub model 62% (pass); HoopVantage MIA by 5.3; ESPN 73.8%. X: split between Heat ML and Pacers +9.5.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-HOU-DAL",
+     "n": 7,
+     "away": {
+      "abbr": "HOU",
+      "city": "Houston",
+      "name": "Rockets"
+     },
+     "home": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-31T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "HOU",
+      "city": "Houston",
+      "name": "Rockets"
+     },
+     "win_pct": 66.0,
+     "confidence": 5,
+     "dk_ml": "HOU -238 / DAL +195 (opened -175/+145) → de-vig HOU 67.5%",
+     "dk_devig": {
+      "abbr": "HOU",
+      "pct": 67.5
+     },
+     "pm_ml": "HOU 68.5¢ / DAL 31.5¢ ($368k)",
+     "spread": {
+      "dk": "HOU -6.5",
+      "pm": "HOU -6.5: 50.5 / DAL 49.5¢; HOU -5.5: 54.5 / DAL 45.5¢"
+     },
+     "total": {
+      "dk": "223.5 (opened 225.5)",
+      "pm": "O/U 223.5: Over 51.5 / Under 48.5¢; O/U 225.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 68.5,
+     "edge": -2.5,
+     "dk_pick_pct": 67.5,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "HOU: Şengün questionable (low back), Smart questionable (ESPN lists out), Sheppard and Adams out. HOU hosts OKC Saturday, so a rest-day call on Şengün is plausible (SI). DAL: Lively out, de Larrea out, Aldama and Biberovic doubtful, Marshall questionable (illness).",
+     "injury_flags": [
+      "Şengün questionable",
+      "Smart questionable",
+      "Lively out"
+     ],
+     "view": "HOU is deep enough that Şengün out is ~2 pts (L2, proven Wednesday), and DAL is without Lively, so its frontline is thin against Adams-less HOU too. DAL's 24-pt win over OKC is one game (L6). HOU by ~5, ~66%; slightly under the market, but DAL +6.5 is only ~1.5 pts of edge → pass. Total fair.",
+     "bet": "Pass.",
+     "bet_bold": [],
+     "form": "HOU 5-0 (W 128-110 vs DAL in the opener, W at SAS, W at ATL, W vs ATL, W 132-100 at MIL Wed without Şengün/Adams/Smart). DAL 3-2 (W at IND, L vs SAS, W at MIA, W 120-96 vs OKC Wed). My calc: HOU net +13.8 (119.8 ORtg, 40.4% from three, a hot streak I give half weight); DAL +1.9 (pace 103.2). HOU leads the season series 1-0.",
+     "sentiment": "84% of ML tickets but only 65% of money on HOU (DAL gets 35% of money on 16% of tickets); 68% of spread money on HOU -6.5; 89% Over. SI takes Mavericks +5.5; SportsJaw HOU 116-112 (pass); HoopVantage HOU by 4.9; ESPN HOU 63.9%. X touts: Rockets ML.",
+     "avoid": [
+      "Rockets-Mavericks (Şengün call pending; spread fair)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-LAC-MIN",
+     "n": 8,
+     "away": {
+      "abbr": "LAC",
+      "city": "LA",
+      "name": "Clippers"
+     },
+     "home": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-10-31T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "win_pct": 68.0,
+     "confidence": 5,
+     "dk_ml": "LAC +225 / MIN -278 (opened +285/-360) → de-vig MIN 70.5%",
+     "dk_devig": {
+      "abbr": "MIN",
+      "pct": 70.5
+     },
+     "pm_ml": "LAC 29.5¢ / MIN 70.5¢ ($43k)",
+     "spread": {
+      "dk": "MIN -7.5 (opened -9.5)",
+      "pm": "MIN -7.5: 47.5 / LAC 52.5¢; MIN -6.5: 52.5 / LAC 47.5¢"
+     },
+     "total": {
+      "dk": "223.5 (opened 230.5)",
+      "pm": "O/U 224.5: Over 48.5 / Under 51.5¢; O/U 222.5: Over 52.5 / Under 47.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 70.5,
+     "edge": -2.5,
+     "dk_pick_pct": 70.5,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "MIN: Anthony Edwards out (arthroscopic knee surgery Thursday; up to ~2 months), DiVincenzo out. LAC: Beal, Ingram, Strus, J. Miller, Niederhauser out; Hachimura questionable.",
+     "injury_flags": [
+      "Anthony Edwards out",
+      "Beal, Ingram, Strus, J. Miller, Niederhauser out"
+     ],
+     "view": "Without Edwards, MIN's half-court offense is thin (Ball and Kuminga as creators), but LAC is missing four rotation scorers and turns it over constantly, and MIN's length (Kuminga, McDaniels, Gobert) feeds on that. MIN by ~6, ~68%. LAC +7.5 is ~1.5 pts of edge (under L4). The total already fell 7, which took my Under → pass.",
+     "bet": "Pass.",
+     "bet_bold": [],
+     "form": "MIN 3-2 (three big wins, then L 125-127 at CLE and L 114-119 vs GSW Wed, the first game without Edwards). LAC 1-3, three straight losses (L at LAL, L at OKC, L 87-103 vs LAL Wed). My calc: MIN net +11.8 (100.9 DRtg), almost all with Edwards; LAC -1.5 (103.6 ORtg, 23.5 TOV/game, a 4-game trend). No meeting yet.",
+     "sentiment": "94% of ML tickets / 91% of money on MIN, but the line moved 2 pts toward LAC; 80% Over tickets while the total fell 7. numberFire MIN 68.2%; BetMGM lean Under; HoopVantage MIN by 4.7; ESPN MIN 81%. X: Clippers +7.5 is a popular dog.",
+     "avoid": [
+      "Clippers-Timberwolves total (the 7-pt drop took the value)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-LAL-GSW",
+     "n": 9,
+     "away": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "home": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-10-31T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "win_pct": 58.0,
+     "confidence": 4,
+     "dk_ml": "LAL -148 / GSW +124 (opened -115/-105) → de-vig LAL 57.2%",
+     "dk_devig": {
+      "abbr": "LAL",
+      "pct": 57.2
+     },
+     "pm_ml": "LAL 56.5¢ / GSW 43.5¢ ($468k)",
+     "spread": {
+      "dk": "LAL -3.5 (opened ~-1.5)",
+      "pm": "LAL -2.5: 52.5 / GSW 47.5¢; LAL -3.5: 48.5 / GSW 51.5¢"
+     },
+     "total": {
+      "dk": "234.5 (opened 234.5)",
+      "pm": "O/U 233.5: Over 51.5 / Under 48.5¢; O/U 235.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 56.5,
+     "edge": 1.5,
+     "dk_pick_pct": 57.2,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "LAL: Dončić off the report (available); Ziaire Williams questionable; Carr, Thiero out; Kessler available. GSW: Butler, Moody, Porziņģis out; Santos doubtful (SI).",
+     "injury_flags": [
+      "Dončić off the report (available)",
+      "Butler, Moody, Porziņģis out"
+     ],
+     "view": "Dončić back is the named reason for the move (L1). LAL's offense with him is ~120, and GSW's defense is 27th; but GSW at home with Curry hot and Lendeborg producing is not the team LAL blew out in the opener (Curry played 21 min). LAL by ~2.5, ~58%: matches the market. Spread and total fair.",
+     "bet": "Pass. Fair price.",
+     "bet_bold": [],
+     "form": "LAL 4-1 (W 127-105 vs GSW in the opener, W vs LAC, W at UTA, L vs POR, W 103-87 at LAC Wed without Dončić). GSW 2-3 (0-3 start, then W 134-114 at DEN and W 119-114 at MIN with Curry scoring 44). My calc: LAL net +9.4 (120.1 ORtg); GSW -1.8 (116.1 DRtg). LAL leads the season series 1-0.",
+     "sentiment": "66% of ML tickets / 57% of money on LAL (money lags tickets); 61% of spread money on LAL. SI and Sporting News take LAL ML; BettingPros takes GSW ML +124; Covers prices LAL ~63%; HoopVantage GSW by 1.1; ESPN LAL 63.3%. X touts: Lakers ML.",
+     "avoid": [
+      "Lakers-Warriors (fair after the Dončić move)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-10-31-DEN-PHX",
+     "n": 10,
+     "away": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "home": {
+      "abbr": "PHX",
+      "city": "Phoenix",
+      "name": "Suns"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-10-31T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "win_pct": 55.0,
+     "confidence": 3,
+     "dk_ml": "DEN -180 / PHX +150 (opened -135/+114) → de-vig DEN 61.6%",
+     "dk_devig": {
+      "abbr": "DEN",
+      "pct": 61.6
+     },
+     "pm_ml": "DEN 62.5¢ / PHX 37.5¢ ($91k)",
+     "spread": {
+      "dk": "DEN -4.5 (opened ~-2.5)",
+      "pm": "DEN -4.5: 47.5 / PHX 52.5¢; DEN -3.5: 52.5 / PHX 47.5¢"
+     },
+     "total": {
+      "dk": "231.5 (opened 233.5)",
+      "pm": "O/U 231.5: Over 49.5 / Under 50.5¢; O/U 233.5: Over 45.5 / Under 54.5¢"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 62.5,
+     "edge": -7.5,
+     "dk_pick_pct": 61.6,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DEN: Cam Johnson questionable (ankle; missed 3 games, upgraded), Diallo questionable (personal), Strawther and S. Jones out (SI). PHX: Mark Williams out, Ighodaro questionable.",
+     "injury_flags": [
+      "Cam Johnson questionable",
+      "Mark Williams out"
+     ],
+     "view": "Jokić against a PHX frontcourt without Williams is DEN's edge (L2: the PHX big is rookie Maluach), and Johnson/Diallo upgrades explain part of the 2-pt move. But DEN has been a below-average team so far, and it's on the road against a rested home team whose form is mostly one blowout. The move is public-driven: tickets ran ahead of money. I make it DEN by ~1.5, ~55%, so PHX at 37.5¢ is ~7.5 pts cheap. PHX +4.5 is ~3 pts of edge, just short of the L4 bar → the ML, small.",
+     "bet": "Small: Suns ML at 37.5¢ (0.25u). On Polymarket: market \"Nuggets vs. Suns\", buy Suns at ≤39¢. Quarter stake: Jokić vs a thin frontline can swing it, and Johnson's return would trim the edge.",
+     "bet_bold": [
+      "Small: Suns ML at 37.5¢ (0.25u)",
+      "Suns"
+     ],
+     "form": "DEN 2-2 (L 84-96 at OKC, W vs NOP in OT, L 114-134 vs GSW, W 104-91 at NOP Wed). PHX 1-2 (L 83-124 at POR, W 131-122 vs GSW, L 114-125 at OKC). My calc: DEN net -3.2 (107.8 ORtg, 32.8% from three without Cam Johnson); PHX -14.1, but about -1 with the POR blowout stripped (L6), and its defense is still poor (~117). No meeting yet.",
+     "sentiment": "89% of ML tickets / 79% of money on DEN (money lags tickets); 71% of spread tickets on DEN -4.5; 87% Over. FanDuel Research takes DEN -4.5; StatSniper leans Over 229.5; HoopVantage DEN by 2.6; ESPN DEN only 53.9%. X touts: Nuggets ML on nearly every card.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Celtics over Bulls, 87% (conf 7): rested BOS at home vs the slate's worst defense, now without Claxton.",
+     "Pistons over Nets, 72% (conf 6): Cunningham and a top defense vs 0-4 BKN; already 2-0 without Duren.",
+     "Heat over Pacers, 69% (conf 5): IND has no PG and no starting C against Giannis/Adebayo; MIA's home struggles keep it from higher."
+    ],
+    "underdogs": [
+     "Suns ML (PM 37.5¢): I make it ~45%. Rested home team, DEN's offense is shaky, PHX's bad numbers are mostly one blowout.",
+     "76ers ML (PM 46.5¢): ~52% blended; ~55% if Brown plays (conditional bet).",
+     "Pacers ML (PM 26.5¢): ~31%, but too thin to bet (L2)."
+    ],
+    "avoid": [
+     "Hornets-Wizards (coin flip, two questionable guards, unreliable total history)",
+     "Lakers-Warriors (fair after the Dončić move)",
+     "Rockets-Mavericks (Şengün call pending; spread fair)",
+     "Clippers-Timberwolves total (the 7-pt drop took the value)",
+     "Celtics -14.5 (fair)"
+    ],
+    "value": [
+     "Suns ML at 37.5¢ (0.25u), Knicks-76ers Under 227.5 at 51.5¢ (0.25u), Pacers-Heat Under 237.5 at 50.5¢ (0.25u).",
+     "Polymarket \"Nuggets vs. Suns\": buy Suns at ≤39¢, 0.25u.",
+     "Polymarket \"Knicks vs. 76ers: O/U 227.5\": buy Under at ≤53¢, 0.25u.",
+     "Polymarket \"Pacers vs. Heat: O/U 237.5\": buy Under at ≤52¢, 0.25u.",
+     "Conditional: Polymarket \"Knicks vs. 76ers\": buy 76ers at ≤50¢, 0.25u, only if Jaylen Brown is active."
+    ],
+    "graded": [],
+    "check_before": [
+     "Jaylen Brown (PHI), Şengün and Smart (HOU), Schröder (CHA), Tre Johnson (WSH), Cam Johnson, Diallo (DEN) and Ighodaro (PHX), Ziaire Williams (LAL), Isaiah Joe (DET), Fontecchio (MIA), Hachimura (LAC). Final reports land ~30 min before each tip (~07:00–09:30 MYT)."
+    ],
+    "unverified": [],
+    "season_record": [
+     "SU 47-24, ATS 3-4, totals 8-5, core value 3-3, small value 16-13 (~+3.6u)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Celtics over Bulls**, 87% (conf 7): rested BOS at home vs the slate's worst defense, now without Claxton.\n2. **Pistons over Nets**, 72% (conf 6): Cunningham and a top defense vs 0-4 BKN; already 2-0 without Duren.\n3. **Heat over Pacers**, 69% (conf 5): IND has no PG and no starting C against Giannis/Adebayo; MIA's home struggles keep it from higher.",
+    "underdogs": "- **Suns ML (PM 37.5¢):** I make it ~45%. Rested home team, DEN's offense is shaky, PHX's bad numbers are mostly one blowout.\n- 76ers ML (PM 46.5¢): ~52% blended; ~55% if Brown plays (conditional bet).\n- Pacers ML (PM 26.5¢): ~31%, but too thin to bet (L2).",
+    "avoid": "Hornets-Wizards (coin flip, two questionable guards, unreliable total history), Lakers-Warriors (fair after the Dončić move), Rockets-Mavericks (Şengün call pending; spread fair), Clippers-Timberwolves total (the 7-pt drop took the value), Celtics -14.5 (fair).",
+    "value": "Suns ML at 37.5¢ (0.25u), Knicks-76ers Under 227.5 at 51.5¢ (0.25u), Pacers-Heat Under 237.5 at 50.5¢ (0.25u).\n- Polymarket \"Nuggets vs. Suns\": buy **Suns** at ≤39¢, 0.25u.\n- Polymarket \"Knicks vs. 76ers: O/U 227.5\": buy **Under** at ≤53¢, 0.25u.\n- Polymarket \"Pacers vs. Heat: O/U 237.5\": buy **Under** at ≤52¢, 0.25u.\n- Conditional: Polymarket \"Knicks vs. 76ers\": buy **76ers** at ≤50¢, 0.25u, only if Jaylen Brown is active.",
+    "graded": "",
+    "check_before": "Jaylen Brown (PHI), Şengün and Smart (HOU), Schröder (CHA), Tre Johnson (WSH), Cam Johnson, Diallo (DEN) and Ighodaro (PHX), Ziaire Williams (LAL), Isaiah Joe (DET), Fontecchio (MIA), Hachimura (LAC). Final reports land ~30 min before each tip (~07:00–09:30 MYT).",
+    "unverified": "",
+    "season_record": "SU 47-24, ATS 3-4, totals 8-5, core value 3-3, small value 16-13 (~+3.6u)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-10-31-NYK-PHI",
+     "team": null,
+     "kind": "total",
+     "line": 227.5,
+     "side": "Under",
+     "selection": "Under 227.5",
+     "price": 51.5,
+     "units": 0.25,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Under 227.5 at 51.5¢ (0.25u). On Polymarket: market \"Knicks vs. 76ers: O/U 227.5\", buy Under at ≤53¢. Conditio",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "NYK @ PHI",
+     "polymarket": {
+      "event": "Knicks vs. 76ers",
+      "market": "Knicks vs. 76ers: O/U 227.5",
+      "outcome": "Under",
+      "price_raw": 51.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-10-31-NYK-PHI",
+     "team": "PHI",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "PHI ML",
+     "price": 46.5,
+     "units": 0.25,
+     "tier": null,
+     "condition": "only if Jaylen Brown is active",
+     "context": "Conditional: 76ers ML at 46.5¢ (0.25u) only if Jaylen Brown is active. On Polymarket: market \"Knicks vs. 76ers\", buy 76e",
+     "sources": [
+      "game bet (bold)",
+      "summary: underdogs"
+     ],
+     "matchup": "NYK @ PHI",
+     "polymarket": {
+      "event": "Knicks vs. 76ers",
+      "market": "Knicks vs. 76ers",
+      "outcome": "76ers",
+      "price_raw": 46.5
+     },
+     "my_pct": 52.0
+    },
+    {
+     "game_id": "2026-10-31-IND-MIA",
+     "team": null,
+     "kind": "total",
+     "line": 237.5,
+     "side": "Under",
+     "selection": "Under 237.5",
+     "price": 50.5,
+     "units": 0.25,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Under 237.5 at 50.5¢ (0.25u). On Polymarket: market \"Pacers vs. Heat: O/U 237.5\", buy Under at ≤52¢. Side: pas",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "IND @ MIA",
+     "polymarket": {
+      "event": "Pacers vs. Heat",
+      "market": "Pacers vs. Heat: O/U 237.5",
+      "outcome": "Under",
+      "price_raw": 50.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-10-31-DEN-PHX",
+     "team": "PHX",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "PHX ML",
+     "price": 37.5,
+     "units": 0.25,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Suns ML at 37.5¢ (0.25u). On Polymarket: market \"Nuggets vs. Suns\", buy Suns at ≤39¢. Quarter stake: Jokić",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value",
+      "summary: underdogs"
+     ],
+     "matchup": "DEN @ PHX",
+     "polymarket": {
+      "event": "Nuggets vs. Suns",
+      "market": "Nuggets vs. Suns",
+      "outcome": "Suns",
+      "price_raw": 37.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "L1 (markets are an input; name the reason): NYK-PHI flipped from PHI -125 to NYK -125 against 61% of ML tickets and 78% of money on PHI. I can name a reason (Jaylen Brown questionable, knee), so I move my number for it, and make PHI a conditional on Brown rather than a straight bet. IND-MIA (+5 pts toward MIA: Haliburton, McConnell, Zubac out), LAL-GSW (Dončić cleared) and CHI-BOS (Claxton out) moves have named reasons. LAC-MIN moved 2 pts toward LAC against 94% MIN tickets; the reason is mostly MIN's first Edwards-less loss, and it's on a game I'm not betting.",
+    "L2 (grade who's left, name the big): IND without Haliburton/McConnell/Zubac is thin at both PG and C vs Giannis/Adebayo → I don't take the IND dog. HOU's depth: Şengün out ≈ 2 pts, not more. PHX without Mark Williams: Jokić faces rookie Maluach (and Ighodaro, Q), which is why I stop at a small PHX stake.",
+    "L3 (a total's move is an input; no tiny-sample totals): NYK-PHI fell 5 (231.5 → 226.5) and IND-MIA fell 3 (240.5 → 237.5), both against ~80% Over tickets and both with reasons I agree with (two good defenses; IND missing its playmakers) → small Unders. CHA-WSH's quoted 234.5 open looks like a stale placeholder (unverified) → no read, pass.",
+    "L4 (dogs with points need ~3.5–4 pts of edge): IND +8.5 (~2.5), LAC +7.5 (~1.5), DAL +6.5 (~1.5), PHX +4.5 (~3): none clear the bar.",
+    "L5 (no Achilles-returnee penalty): not relevant tonight.",
+    "L6 (one game is light; strip single blowouts): PHX's -14.1 net is mostly the 41-point POR opener; without it PHX is about -1. CHA's -7.2 includes the 128-81 ATL loss; without it CHA is +2.8 per game. TOR's 30-point win over ORL Wed and BOS's 35-point win over CHI are single games; they inform, not decide. WSH's 28.5% from three is a slump (half weight).",
+    "L7 (questionable star: conditional with trigger): Brown → PHI conditional. Şengün → my HOU pick holds either way (HOU won by 32 without him), so no conditional.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1031/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -7757,7 +8504,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-10-30T14:02:31+08:00",
+  "fetched_at": "2026-10-30T23:41:51+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
@@ -8602,10 +9349,10 @@
   "all": {
    "summary": {
     "w": 25,
-    "l": 33,
-    "net_pnl": -132.17,
-    "settled_cost": 446.31,
-    "roi_pct": -29.6,
+    "l": 34,
+    "net_pnl": -133.17,
+    "settled_cost": 447.31,
+    "roi_pct": -29.8,
     "open_count": 0,
     "open_cost": 0,
     "open_value": 0,
@@ -8613,6 +9360,20 @@
    },
    "open_positions": [],
    "settled_recent": [
+    {
+     "title": "Bitcoin Up or Down - October 30, 2:15AM-2:30AM ET",
+     "outcome": "Down",
+     "event": "btc-updown-15m-1793340900",
+     "avg_price": 0.5799,
+     "shares": 1.7241,
+     "cost": 0.9999,
+     "pnl": -0.9999,
+     "result": "lost",
+     "date": "2026-10-30",
+     "ts": null,
+     "unredeemed": true,
+     "nba": false
+    },
     {
      "combo": true,
      "title": "Cavaliers + 76ers + Pistons + Spurs + Lakers + Raptors + Nuggets + Rockets + Thunder + Knicks",
@@ -9342,20 +10103,6 @@
      "ts": 1792979765,
      "unredeemed": false,
      "decided_early": false
-    },
-    {
-     "title": "Raptors vs. Timberwolves: O/U 229.5",
-     "outcome": "Under",
-     "event": "nba-tor-min-2026-10-25",
-     "avg_price": 0.5,
-     "shares": 5.0,
-     "cost": 2.5,
-     "pnl": 2.5,
-     "result": "won",
-     "date": "2026-10-26",
-     "ts": 1792979538,
-     "unredeemed": false,
-     "nba": true
     }
    ],
    "daily": [
@@ -9436,13 +10183,19 @@
      "w": 1,
      "l": 2,
      "pnl": -2.78
+    },
+    {
+     "date": "2026-10-30",
+     "w": 0,
+     "l": 1,
+     "pnl": -1.0
     }
    ]
   },
   "default_view": "nba",
   "truncated": false,
   "counts": {
-   "positions_rows": 6,
+   "positions_rows": 7,
    "closed_rows": 46,
    "nba_items": 36,
    "combo_rows": 6,
