@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T23:42:13+08:00",
+ "generated_at": "2026-11-01T23:42:43+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-02",
  "latest_review_date": "2026-11-01",
@@ -8764,13 +8764,13 @@
       "Kawhi Leonard out",
       "Ziaire Williams questionable"
      ],
-     "view": "LAL has the best player on the floor and the healthier roster (L4). Toronto without Kawhi is a good defense with a weak half-court offense (32% from three; Barnes 1-of-5 from three on the season). Its three games without him: -23, +30, -7. Friday's loss in GSW was one game driven by Curry's shooting (L6, light weight). Ratings regressed hard plus home court say LAL by ~4, ~63%. But the 2-pt move against 86% of tickets is real money I can't explain (L1), so I trim to ~61%. That's still ~3.5 pts over Polymarket's 57.5¢, so it's a value play, sized small because the sharp money disagrees.",
+     "view": "LAL has the best player on the floor and the healthier roster (L4). Toronto without Kawhi is a good defense with a weak half-court offense (32% from three; Barnes 3-of-18 from three on the season). Its three games without him: -23, +30, -7. Friday's loss in GSW was one game driven by Curry's shooting (L6, light weight). Ratings regressed hard plus home court say LAL by ~4, ~63%. But the 2-pt move against 86% of tickets is real money I can't explain (L1), so I trim to ~61%. That's still ~3.5 pts over Polymarket's 57.5¢, so it's a value play, sized small because the sharp money disagrees.",
      "bet": "Small: Lakers ML at 57.5¢ (0.25u). On Polymarket: market \"Raptors vs. Lakers\", buy Lakers at ≤58¢. If Dončić is ruled out, pass. Total: pass (sharp move down vs my ~226).",
      "bet_bold": [
       "Small: Lakers ML at 57.5¢ (0.25u)",
       "Lakers"
      ],
-     "form": "LAL 4-2 (wins over GSW, LAC twice, UTA; lost to POR 129-136 and at GSW 95-112 Friday, when Luka scored 37 but LAL shot 1-of-6 from three outside him and Reaves). TOR 3-2, but 1-2 since Kawhi went out (at MIN by 23, beat ORL by 30, lost to ORL by 7 Friday despite Barnes 41). My calc: LAL +5.1 (116.3 ORtg, 111.2 DRtg, pace 101.9); TOR +10.1 (111.5 / 101.4 DRtg, 32.1% from three), mostly built in two Kawhi games plus the ORL blowout.",
+     "form": "LAL 4-2 (wins over GSW, LAC twice, UTA; lost to POR 129-136 and at GSW 95-112 Friday, when Luka scored 37 and Reaves went 1-of-6 from three). TOR 3-2, but 1-2 since Kawhi went out (at MIN by 23, beat ORL by 30, lost to ORL by 7 Friday despite Barnes 41). My calc: LAL +5.1 (116.3 ORtg, 111.2 DRtg, pace 101.9); TOR +10.1 (111.5 / 101.4 DRtg, 32.1% from three), mostly built in two Kawhi games plus the ORL blowout.",
      "sentiment": "86% of ML tickets / 77% of money on LAL; 77% / 75% on LAL -2.5, yet the line fell 2 pts toward TOR (DK -4.5 → -2.5; Polymarket's LAL -3.5 is now TOR 52.5). 77% Over tickets with the total down 2. numberFire LAL 57.9%; ESPN LAL 67.5%; BetMGM model LAL 68% (but TOR covers); SI Raptors +4.5. X: Lakers ML on public cards; Raptors ML / +3.5 on several \"sharp\" cards.",
      "avoid": [
       "Raptors-Lakers total and Celtics-Magic total (sharp moves down vs my numbers at or above the line)"
@@ -9923,7 +9923,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-01T23:42:13+08:00",
+  "fetched_at": "2026-11-01T23:42:43+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
