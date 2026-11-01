@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-01T14:10:22+08:00",
+ "generated_at": "2026-11-01T23:42:13+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-01",
+ "latest_preview_date": "2026-11-02",
  "latest_review_date": "2026-11-01",
  "days": [
   {
@@ -8530,6 +8530,404 @@
      "When the trigger is good news for my side, expect the price to jump. The Jazz moved 3¢ in four minutes as Markkanen's return leaked, before the official report, and never came back to my limit. Set conditional limits assuming the news moves the price, and only write the bet if the edge survives that move. The limit did its job today (saved 0.25u)."
     ]
    }
+  },
+  {
+   "date": "2026-11-02",
+   "file": "preview-2026-11-02.md",
+   "written": "~23:55 MYT Sun Nov 1",
+   "games": [
+    {
+     "id": "2026-11-02-BOS-ORL",
+     "n": 1,
+     "away": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "home": {
+      "abbr": "ORL",
+      "city": "Orlando",
+      "name": "Magic"
+     },
+     "tip_myt": "04:30",
+     "tip_iso": "2026-11-02T04:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "win_pct": 68.0,
+     "confidence": 5,
+     "dk_ml": "BOS -258 / ORL +210 (opened -258/+210) → de-vig ORL 30.9%",
+     "dk_devig": {
+      "abbr": "ORL",
+      "pct": 30.9
+     },
+     "pm_ml": "BOS 70.5¢ / ORL 29.5¢ ($283k)",
+     "spread": {
+      "dk": "BOS -6.5 (opened -6.5; earlier -4.5 per OddsandPicks, unverified)",
+      "pm": "BOS -6.5: 50.5 / ORL 49.5; BOS -5.5: 55.5 / ORL 44.5"
+     },
+     "total": {
+      "dk": "220.5 (opened 222.5)",
+      "pm": "O/U 220.5: Over 51.5 / Under 48.5; O/U 222.5: Over 47.5 / Under 52.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 70.5,
+     "edge": -2.5,
+     "dk_pick_pct": 69.1,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "BOS: Devin Carter out (illness); Mitchell Robinson questionable (rest), Queta starts if he sits. ORL: Banchero out (high ankle sprain, ~Nov 22), Suggs out (knee bone bruise, ~Nov 9), Isaac, Penda, Nelson out.",
+     "injury_flags": [
+      "Mitchell Robinson questionable (rest)",
+      "Banchero out",
+      "Suggs out"
+     ],
+     "view": "Boston is the better, healthier team, and four straight wins with Tatum running the offense (7.8 ast) is real. Orlando's offense without Banchero and Suggs runs through Wagner and Bane, and it scored 121 on Toronto's top defense Friday, so it isn't helpless at home. Ratings (regressed) plus home court say BOS by ~6–7. The B2B and Boston's older stars (George is 36) are a small late-game factor, capped at ~1 pt (L4). BOS by ~6, ~68%. That matches the market (70.5¢), and Magic +6.5 is ~0.5 pt of edge, nowhere near the bar.",
+     "bet": "Pass on side and total. The total dropped 2 against 87% Over tickets, and my pace math (~104 possessions) points Over, so the two signals conflict.",
+     "bet_bold": [],
+     "form": "BOS 4-1, four straight wins (NYK by 4, CHI by 35, BKN by 1, CHI by 14 Fri with Pritchard 30). ORL 2-3: lost at TOR by 30 on 10-28, then beat TOR 121-114 Friday without Banchero and Suggs (Bane 28, Wagner 26, Carter 20). My calc: BOS net +8.8 (115.3 ORtg / 106.5 DRtg, pace 104.8); ORL -8.3 (106.2 / 114.5).",
+     "sentiment": "92% of ML tickets / 90% of money on BOS; 77% / 78% on BOS -6.5; 87% of tickets on the Over, but the total dropped 2. numberFire BOS 61.8%; ESPN BOS 63.3%; SportsJaw BOS 112-107 (pass); TheSpread Magic +6.5; SI takes BOS first half -3.5. X: Celtics -6.5 on most public cards; Magic +6.5 on the \"sharp\" cards.",
+     "avoid": [
+      "Celtics-Magic spread (fair at 6.5)",
+      "Raptors-Lakers total and Celtics-Magic total (sharp moves down vs my numbers at or above the line)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-02-BKN-IND",
+     "n": 2,
+     "away": {
+      "abbr": "BKN",
+      "city": "Brooklyn",
+      "name": "Nets"
+     },
+     "home": {
+      "abbr": "IND",
+      "city": "Indiana",
+      "name": "Pacers"
+     },
+     "tip_myt": "06:00",
+     "tip_iso": "2026-11-02T06:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "IND",
+      "city": "Indiana",
+      "name": "Pacers"
+     },
+     "win_pct": 62.0,
+     "confidence": 4,
+     "dk_ml": "BKN +142 / IND -170 (opened +136/-162) → de-vig IND 60.4%",
+     "dk_devig": {
+      "abbr": "IND",
+      "pct": 60.4
+     },
+     "pm_ml": "BKN 38.5¢ / IND 61.5¢ ($100k)",
+     "spread": {
+      "dk": "IND -3.5 (opened -4.5)",
+      "pm": "IND -3.5: 51.5 / BKN 48.5; IND -4.5: 47.5 / BKN 52.5; IND -2.5: 55 / BKN 45"
+     },
+     "total": {
+      "dk": "231.5 (opened 230.5)",
+      "pm": "O/U 230.5: Over 49.5 / Under 50.5; O/U 232.5: Over 45.5 / Under 54.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 61.5,
+     "edge": 0.5,
+     "dk_pick_pct": 60.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "IND: Haliburton out (hamstring, ~Nov 11), Zubac out (ankle), McConnell, Sheppard, Furphy out; Nesmith probable; Toppin questionable (back). BKN: Mikel Brown Jr. out (back management), Demin out (bone bruise); Bilodeau and three others are in the G League.",
+     "injury_flags": [
+      "Haliburton out",
+      "Zubac out",
+      "Toppin questionable",
+      "Mikel Brown Jr. out",
+      "Demin out"
+     ],
+     "view": "IND without its point guard, starting center and backup PG is a much weaker team, and Friday's 145 allowed shows it. But BKN is down its two rookie guards, which leaves Traore and Ellis to handle the ball for a team that already turns it over 19 times a game (structural, L6). I grade the players who are left (L2): IND still has the best player on the floor in Siakam, plus Nembhard running the offense and home court. IND by ~4, ~62%. Fair against 61.5¢. The money is drifting to BKN and I can't name a reason (L1), so no IND bet, and Nets +3.5 is no edge on my number.",
+     "bet": "Pass. Total: my pace math lands ~232 against 231.5, so no edge either way.",
+     "bet_bold": [],
+     "form": "BKN 0-5, but it lost at CLE by 4 and at BOS by 1; lost 109-136 at home to IND on 10-25, then lost 94-110 to DET Friday. IND 2-4, three straight losses (PHI by 5, at MIL by 8, at MIA by 20 Friday, the first game without Haliburton). My calc: BKN net -10.2 (102.7 / 112.9, pace 107.3, 19.2 TOV/g); IND -3.0 (111.4 / 114.4, pace 104.7).",
+     "sentiment": "85% of ML tickets on IND, but only 71% of the money; BKN gets 29% of money on 15% of tickets. 75% of spread tickets on IND -3.5, yet the line came down a point. 75% Over. numberFire IND 62.6%; ESPN BKN 56.6%; Wunderdog IND 117-114 (BKN covers); Action Network and SI lean Nets. X: split between Pacers -3.5 / ML and Nets +3.5 / ML.",
+     "avoid": [
+      "Nets-Pacers (unexplained move and money against my side)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-02-LAC-GSW",
+     "n": 3,
+     "away": {
+      "abbr": "LAC",
+      "city": "LA",
+      "name": "Clippers"
+     },
+     "home": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "tip_myt": "09:30",
+     "tip_iso": "2026-11-02T09:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "win_pct": 54.0,
+     "confidence": 2,
+     "dk_ml": "LAC +114 / GSW -135 (opened +110/-130) → de-vig GSW 55.1%",
+     "dk_devig": {
+      "abbr": "GSW",
+      "pct": 55.1
+     },
+     "pm_ml": "LAC 46.5¢ / GSW 53.5¢ ($243k)",
+     "spread": {
+      "dk": "GSW -2.5 (opened -2.5; FanDuel -1.5)",
+      "pm": "GSW -2.5: 47.5 / LAC 52.5; GSW -1.5: 52.5 / LAC 47.5"
+     },
+     "total": {
+      "dk": "221.5 (opened 219.5)",
+      "pm": "O/U 219.5: Over 53.5 / Under 46.5; O/U 220.5: Over 51 / Under 49; O/U 222.5: Over 46 / Under 54"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 53.5,
+     "edge": 0.5,
+     "dk_pick_pct": 55.1,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "GSW: Curry out (right knee management), Green out (back management), Butler, Moody, Porziņģis (not with team) out; Santos probable; Horford plays tonight and rests Monday (WhyNBA). LAC: Beal out (knee management), Ingram, Strus, J. Miller, Niederhäuser out.",
+     "injury_flags": [
+      "Curry out",
+      "Green out",
+      "Beal out"
+     ],
+     "view": "This is two short-handed teams. LAC's -6.2 already reflects playing without Beal and Ingram, and its turnover problem is structural. GSW without Curry (~5–6 pts) and Green (~1.5) drops from a +1 team to about -5, roughly LAC's level, and then home court decides it. GSW by ~1.5, ~54%. That's in line with the market at 53.5¢. Total: LAC's offense is near the bottom of the league, and GSW loses its only real shot-creator. My number is ~219.5 against 221.5, a 2-pt Under lean that fights a 2-pt move up, so no bet (L3: it fails the size test, not the direction).",
+     "bet": "Pass on the side. Lean Under 221.5, no stake.",
+     "bet_bold": [],
+     "form": "GSW 3-3, three straight wins (at DEN by 20, at MIN by 5 with Curry 44, beat LAL 112-95 Friday). It lost at PHX 122-131 on 10-24, the last game Curry and Green missed. LAC 1-4, four straight losses (LAL twice, at OKC by 7, at MIN 101-127 Friday). My calc: GSW +1.3 (114.2 / 112.9) with Curry; LAC -6.2 (102.8 ORtg, 109.1 DRtg, 22.4 TOV/g, league-worst in my sample).",
+     "sentiment": "83% of ML tickets on GSW, but only 64% of the money; LAC gets 36% of the money on 17% of tickets. 78% of spread tickets on GSW; 75% Over, and the total is up 2. numberFire GSW 57.1% (FanDuel's projection page 56.3%); ESPN GSW 70%; BetMGM model GSW 51%; SI takes the Under (219.5). X: split between Warriors -2.5 and Clippers +2.5.",
+     "avoid": [
+      "Clippers-Warriors side (two depleted rosters, 54/46 coin flip)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-02-TOR-LAL",
+     "n": 4,
+     "away": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "home": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-11-02T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "win_pct": 61.0,
+     "confidence": 4,
+     "dk_ml": "TOR +124 / LAL -148 (opened +145/-175) → de-vig LAL 57.2%",
+     "dk_devig": {
+      "abbr": "LAL",
+      "pct": 57.2
+     },
+     "pm_ml": "TOR 42.5¢ / LAL 57.5¢ ($152k)",
+     "spread": {
+      "dk": "LAL -2.5 (opened -4.5; FanDuel -4.5, BetMGM -3.5 earlier today)",
+      "pm": "LAL -2.5: 51.5 / TOR 48.5 (thin); LAL -3.5: 47.5 / TOR 52.5"
+     },
+     "total": {
+      "dk": "225.5 (opened 227.5)",
+      "pm": "O/U 225.5: Over 50.5 / Under 49.5; O/U 227.5: Over 45.5 / Under 54.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 57.5,
+     "edge": 3.5,
+     "dk_pick_pct": 57.2,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "TOR: Kawhi Leonard out (knee, ~Nov 23), Bittle out. LAL: Thiero out; Ziaire Williams questionable (foot); Kessler available (finger splint); Cameron Carr cleared to debut.",
+     "injury_flags": [
+      "Kawhi Leonard out",
+      "Ziaire Williams questionable"
+     ],
+     "view": "LAL has the best player on the floor and the healthier roster (L4). Toronto without Kawhi is a good defense with a weak half-court offense (32% from three; Barnes 1-of-5 from three on the season). Its three games without him: -23, +30, -7. Friday's loss in GSW was one game driven by Curry's shooting (L6, light weight). Ratings regressed hard plus home court say LAL by ~4, ~63%. But the 2-pt move against 86% of tickets is real money I can't explain (L1), so I trim to ~61%. That's still ~3.5 pts over Polymarket's 57.5¢, so it's a value play, sized small because the sharp money disagrees.",
+     "bet": "Small: Lakers ML at 57.5¢ (0.25u). On Polymarket: market \"Raptors vs. Lakers\", buy Lakers at ≤58¢. If Dončić is ruled out, pass. Total: pass (sharp move down vs my ~226).",
+     "bet_bold": [
+      "Small: Lakers ML at 57.5¢ (0.25u)",
+      "Lakers"
+     ],
+     "form": "LAL 4-2 (wins over GSW, LAC twice, UTA; lost to POR 129-136 and at GSW 95-112 Friday, when Luka scored 37 but LAL shot 1-of-6 from three outside him and Reaves). TOR 3-2, but 1-2 since Kawhi went out (at MIN by 23, beat ORL by 30, lost to ORL by 7 Friday despite Barnes 41). My calc: LAL +5.1 (116.3 ORtg, 111.2 DRtg, pace 101.9); TOR +10.1 (111.5 / 101.4 DRtg, 32.1% from three), mostly built in two Kawhi games plus the ORL blowout.",
+     "sentiment": "86% of ML tickets / 77% of money on LAL; 77% / 75% on LAL -2.5, yet the line fell 2 pts toward TOR (DK -4.5 → -2.5; Polymarket's LAL -3.5 is now TOR 52.5). 77% Over tickets with the total down 2. numberFire LAL 57.9%; ESPN LAL 67.5%; BetMGM model LAL 68% (but TOR covers); SI Raptors +4.5. X: Lakers ML on public cards; Raptors ML / +3.5 on several \"sharp\" cards.",
+     "avoid": [
+      "Raptors-Lakers total and Celtics-Magic total (sharp moves down vs my numbers at or above the line)"
+     ],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Celtics over Magic, 68% (conf 5): the healthier, better team vs an ORL side missing Banchero and Suggs; fairly priced, no bet.",
+     "Pacers over Nets, 62% (conf 4): Siakam + home court vs a Nets team without its two rookie guards and turning it over 19 times a game.",
+     "Lakers over Raptors, 61% (conf 4): Luka at home vs a Kawhi-less TOR offense; the only spot where I'm clearly above the market."
+    ],
+    "underdogs": [
+     "None clear the L4 bar tonight. Closest: Magic +6.5 (PM 49.5¢), ~0.5 pt of edge. Clippers ML (PM 46.5¢) is a near coin flip at ~46% on my number, fair.",
+     "Raptors ML (PM 42.5¢) is the sharp side per line movement, but I make it ~39%, so it's not a buy."
+    ],
+    "avoid": [
+     "Clippers-Warriors side (two depleted rosters, 54/46 coin flip)",
+     "Nets-Pacers (unexplained move and money against my side)",
+     "Celtics-Magic spread (fair at 6.5)",
+     "Raptors-Lakers total and Celtics-Magic total (sharp moves down vs my numbers at or above the line)"
+    ],
+    "value": [
+     "Lakers ML at 57.5¢ (0.25u).",
+     "Polymarket \"Raptors vs. Lakers\": buy Lakers at ≤58¢, 0.25u. Skip if Dončić is ruled out or the price runs past 58¢."
+    ],
+    "graded": [],
+    "check_before": [
+     "Mitchell Robinson (BOS, before 04:30 MYT), Toppin and Nesmith (IND, before 06:00), Santos (GSW) and any late Clippers rest (before 09:30), Ziaire Williams and Dončić (LAL, before 10:00). Final reports land ~30 min before each tip."
+    ],
+    "unverified": [],
+    "season_record": [
+     "SU 60-28, ATS 3-5, totals 10-6, core value 3-3, small value 19-16 (~+3.5u)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Celtics over Magic**, 68% (conf 5): the healthier, better team vs an ORL side missing Banchero and Suggs; fairly priced, no bet.\n2. **Pacers over Nets**, 62% (conf 4): Siakam + home court vs a Nets team without its two rookie guards and turning it over 19 times a game.\n3. **Lakers over Raptors**, 61% (conf 4): Luka at home vs a Kawhi-less TOR offense; the only spot where I'm clearly above the market.",
+    "underdogs": "- None clear the L4 bar tonight. Closest: **Magic +6.5 (PM 49.5¢)**, ~0.5 pt of edge. **Clippers ML (PM 46.5¢)** is a near coin flip at ~46% on my number, fair.\n- **Raptors ML (PM 42.5¢)** is the sharp side per line movement, but I make it ~39%, so it's not a buy.",
+    "avoid": "Clippers-Warriors side (two depleted rosters, 54/46 coin flip), Nets-Pacers (unexplained move and money against my side), Celtics-Magic spread (fair at 6.5), Raptors-Lakers total and Celtics-Magic total (sharp moves down vs my numbers at or above the line).",
+    "value": "Lakers ML at 57.5¢ (0.25u).\n- Polymarket \"Raptors vs. Lakers\": buy **Lakers** at ≤58¢, 0.25u. Skip if Dončić is ruled out or the price runs past 58¢.",
+    "graded": "",
+    "check_before": "Mitchell Robinson (BOS, before 04:30 MYT), Toppin and Nesmith (IND, before 06:00), Santos (GSW) and any late Clippers rest (before 09:30), Ziaire Williams and Dončić (LAL, before 10:00). Final reports land ~30 min before each tip.",
+    "unverified": "",
+    "season_record": "SU 60-28, ATS 3-5, totals 10-6, core value 3-3, small value 19-16 (~+3.5u)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-11-02-TOR-LAL",
+     "team": "LAL",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "LAL ML",
+     "price": 57.5,
+     "units": 0.25,
+     "tier": "small",
+     "condition": null,
+     "context": "Small: Lakers ML at 57.5¢ (0.25u). On Polymarket: market \"Raptors vs. Lakers\", buy Lakers at ≤58¢. If Dončić is rul",
+     "sources": [
+      "game bet (bold)",
+      "game bet (bold)",
+      "summary: value"
+     ],
+     "matchup": "TOR @ LAL",
+     "polymarket": {
+      "event": "Raptors vs. Lakers",
+      "market": "Raptors vs. Lakers",
+      "outcome": "Lakers",
+      "price_raw": 57.5
+     },
+     "my_pct": 61.0
+    },
+    {
+     "game_id": "2026-11-02-BOS-ORL",
+     "team": "ORL",
+     "kind": "spread",
+     "line": 6.5,
+     "side": null,
+     "selection": "ORL +6.5",
+     "price": 49.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "the L4 bar tonight. Closest: Magic +6.5 (PM 49.5¢), ~0.5 pt of edge. Clippers ML (PM 46.5¢) is a near coin flip at ~46% on my number, fair.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "BOS @ ORL",
+     "polymarket": {
+      "event": "Celtics vs. Magic",
+      "market": "Spread: Celtics (-6.5)",
+      "outcome": "Magic",
+      "price_raw": 49.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-11-02-LAC-GSW",
+     "team": "LAC",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "LAC ML",
+     "price": 46.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "(PM 49.5¢), ~0.5 pt of edge. Clippers ML (PM 46.5¢) is a near coin flip at ~46% on my number, fair.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "LAC @ GSW",
+     "polymarket": {
+      "event": "Clippers vs. Warriors",
+      "market": "Clippers vs. Warriors",
+      "outcome": "Clippers",
+      "price_raw": 46.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-11-02-TOR-LAL",
+     "team": "TOR",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "TOR ML",
+     "price": 42.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Raptors ML (PM 42.5¢) is the sharp side per line movement, but I make it ~39%, so it's not a buy.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "TOR @ LAL",
+     "polymarket": {
+      "event": "Raptors vs. Lakers",
+      "market": "Raptors vs. Lakers",
+      "outcome": "Raptors",
+      "price_raw": 42.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "L1 (markets are an input; name the reason): TOR-LAL moved 2 pts toward Toronto (LAL -4.5 → -2.5) against 86% of ML tickets on the Lakers. I can't name a roster reason; Luka, Reaves and Kessler are all expected to play. So I keep the Lakers pick, trim my number from ~63% to ~61%, and size the bet small. TOR's ML money (23%) is ahead of its tickets (14%), but not by the margin that triggered past passes (MIN, 62% vs 13%). BKN-IND moved 1 pt toward Brooklyn with BKN's ML money (29%) at about twice its tickets (15%). That's against my side with no named reason, so no IND bet (this rule changed the call).",
+    "L2 (grade who's left): GSW without Curry, Green, Butler, Porziņģis and Moody still has Lendeborg, Podziemski, Melton and Horford. LAC's injured players (Beal, Ingram, Strus) have barely played, so its -6.2 net already reflects this roster. IND without Haliburton/Zubac/McConnell still has Siakam, Nembhard and Nesmith, and BKN loses both rookie guards (Brown Jr., Demin). ORL without Banchero and Suggs beat TOR on Friday, so I price those absences at ~3 pts combined, not more.",
+    "L3 (totals move is an input): BOS-ORL (222.5 → 220.5) and TOR-LAL (227.5 → 225.5) both fell against ~80% Over tickets, and my numbers sit at or above the line, so I pass both. LAC-GSW rose 2 (219.5 → 221.5), and my number is ~219.5, which makes it a lean only.",
+    "L4 (dogs need 3.5–4 pts of edge; respect the healthier roster): No dog clears the bar. Magic +6.5 is ~0.5 pt of edge, Nets +3.5 ~-1 and Raptors +2.5 ~-1.5. I don't stack \"B2B rest\" plus \"Tatum/George minutes\" bumps for Orlando; together they're capped at ~1 pt.",
+    "L6 (one game is light): ORL's 30-pt loss at TOR on 10-28 was followed by a 7-pt win in the rematch, so I don't strip either one. LAL's 17-pt loss at GSW was one game (Curry 8-of-14 from three). BKN's 19.2 turnovers per game is structural (5 games), so full weight.",
+    "L7: no conditional triggers needed. Every report is filed and the big absences are confirmed. Only Mitchell Robinson (BOS, rest), Toppin (IND) and Ziaire Williams (LAL) are questionable.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1102/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -9525,7 +9923,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-01T14:10:22+08:00",
+  "fetched_at": "2026-11-01T23:42:13+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
