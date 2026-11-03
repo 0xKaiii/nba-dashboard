@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T14:09:12+08:00",
+ "generated_at": "2026-11-03T23:41:33+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-03",
+ "latest_preview_date": "2026-11-04",
  "latest_review_date": "2026-11-03",
  "days": [
   {
@@ -10274,6 +10274,38 @@
      "\"Thin\" needs a thin star tier too. OKC without four rotation players still has SGA (43) and beat a rested CLE; POR without Morant still has Holiday, Avdija and Clingan. A team keeping its best player plus real depth isn't an L2 collapse case."
     ]
    }
+  },
+  {
+   "date": "2026-11-04",
+   "file": "preview-2026-11-04.md",
+   "written": "~23:50 MYT Tue Nov 3",
+   "games": [],
+   "summary": {
+    "top3": [],
+    "underdogs": [],
+    "avoid": [],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 74-33, ATS 3-5, totals 11-6, core value 3-3 (~+0.2u), small value 23-18 (~+3.9u)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "",
+    "underdogs": "",
+    "avoid": "",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 74-33, ATS 3-5, totals 11-6, core value 3-3 (~+0.2u), small value 23-18 (~+3.9u)."
+   },
+   "buys": [],
+   "lessons_applied": [],
+   "pm_raw_file": "raw/d1104/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -11385,36 +11417,36 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-03T14:09:12+08:00",
-  "portfolio_value": 4.38,
+  "fetched_at": "2026-11-03T23:41:33+08:00",
+  "portfolio_value": 0.0,
   "nba": {
    "summary": {
-    "w": 23,
+    "w": 24,
     "l": 21,
-    "net_pnl": 18.91,
-    "settled_cost": 166.32,
-    "roi_pct": 11.4,
-    "open_count": 1,
-    "open_cost": 2.55,
-    "open_value": 4.38,
-    "open_unrealized": 1.83
+    "net_pnl": 20.74,
+    "settled_cost": 168.87,
+    "roi_pct": 12.3,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
+   "open_positions": [],
+   "settled_recent": [
     {
      "title": "Suns vs. Warriors",
      "outcome": "Warriors",
      "event": "nba-phx-gsw-2026-11-02",
-     "avg_price": 0.5699,
+     "avg_price": 0.5822,
      "shares": 4.3859,
-     "cost": 2.55365,
-     "current_value": 4.3837,
-     "cur_price": 0.9995,
-     "pnl": 1.8837,
-     "end_date": "2026-11-03",
+     "cost": 2.55,
+     "pnl": 1.8322,
+     "result": "won",
+     "date": "2026-11-03",
+     "ts": 1793686182,
+     "unredeemed": false,
      "nba": true
-    }
-   ],
-   "settled_recent": [
+    },
     {
      "combo": true,
      "title": "Knicks + Spurs + Mavericks",
@@ -11586,9 +11618,9 @@
        "market": "Suns vs. Warriors",
        "type": "moneyline",
        "line": null,
-       "status": "OPEN",
-       "price": 0.9995,
-       "resolved": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-11-03",
        "nba": true
       },
       {
@@ -11606,9 +11638,9 @@
        "market": "Raptors vs. Clippers",
        "type": "moneyline",
        "line": null,
-       "status": "OPEN",
-       "price": 0.9995,
-       "resolved": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-11-03",
        "nba": true
       },
       {
@@ -11653,7 +11685,7 @@
       }
      ],
      "legs_total": 15,
-     "legs_pending": 2,
+     "legs_pending": 0,
      "nba_legs": 15,
      "nba": true,
      "mixed": false,
@@ -12454,20 +12486,6 @@
      "ts": 1792645157,
      "unredeemed": false,
      "decided_early": false
-    },
-    {
-     "title": "Pacers vs. Pelicans",
-     "outcome": "Pacers",
-     "event": "nba-ind-nop-2026-10-21",
-     "avg_price": 0.5799,
-     "shares": 8.6206,
-     "cost": 5.0,
-     "pnl": 3.6206,
-     "result": "won",
-     "date": "2026-10-22",
-     "ts": 1792637595,
-     "unredeemed": false,
-     "nba": true
     }
    ],
    "daily": [
@@ -12527,40 +12545,40 @@
     },
     {
      "date": "2026-11-03",
-     "w": 2,
+     "w": 3,
      "l": 4,
-     "pnl": -3.15
+     "pnl": -1.32
     }
    ]
   },
   "all": {
    "summary": {
-    "w": 28,
+    "w": 29,
     "l": 39,
-    "net_pnl": -137.09,
-    "settled_cost": 468.66,
-    "roi_pct": -29.3,
-    "open_count": 1,
-    "open_cost": 2.55,
-    "open_value": 4.38,
-    "open_unrealized": 1.83
+    "net_pnl": -135.26,
+    "settled_cost": 471.21,
+    "roi_pct": -28.7,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
+   "open_positions": [],
+   "settled_recent": [
     {
      "title": "Suns vs. Warriors",
      "outcome": "Warriors",
      "event": "nba-phx-gsw-2026-11-02",
-     "avg_price": 0.5699,
+     "avg_price": 0.5822,
      "shares": 4.3859,
-     "cost": 2.55365,
-     "current_value": 4.3837,
-     "cur_price": 0.9995,
-     "pnl": 1.8837,
-     "end_date": "2026-11-03",
+     "cost": 2.55,
+     "pnl": 1.8322,
+     "result": "won",
+     "date": "2026-11-03",
+     "ts": 1793686182,
+     "unredeemed": false,
      "nba": true
-    }
-   ],
-   "settled_recent": [
+    },
     {
      "combo": true,
      "title": "Knicks + Spurs + Mavericks",
@@ -12732,9 +12750,9 @@
        "market": "Suns vs. Warriors",
        "type": "moneyline",
        "line": null,
-       "status": "OPEN",
-       "price": 0.9995,
-       "resolved": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-11-03",
        "nba": true
       },
       {
@@ -12752,9 +12770,9 @@
        "market": "Raptors vs. Clippers",
        "type": "moneyline",
        "line": null,
-       "status": "OPEN",
-       "price": 0.9995,
-       "resolved": null,
+       "status": "RESOLVED_WIN",
+       "price": 1.0,
+       "resolved": "2026-11-03",
        "nba": true
       },
       {
@@ -12799,7 +12817,7 @@
       }
      ],
      "legs_total": 15,
-     "legs_pending": 2,
+     "legs_pending": 0,
      "nba_legs": 15,
      "nba": true,
      "mixed": false,
@@ -13438,20 +13456,6 @@
      "ts": 1793082333,
      "unredeemed": false,
      "nba": true
-    },
-    {
-     "title": "Suns vs. Thunder: O/U 222.5",
-     "outcome": "Under",
-     "event": "nba-phx-okc-2026-10-26",
-     "avg_price": 0.5299,
-     "shares": 4.7169,
-     "cost": 2.5,
-     "pnl": -2.4999,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": 1793082333,
-     "unredeemed": false,
-     "nba": true
     }
    ],
    "daily": [
@@ -13547,17 +13551,17 @@
     },
     {
      "date": "2026-11-03",
-     "w": 2,
+     "w": 3,
      "l": 4,
-     "pnl": -3.15
+     "pnl": -1.32
     }
    ]
   },
   "default_view": "nba",
   "truncated": false,
   "counts": {
-   "positions_rows": 10,
-   "closed_rows": 49,
+   "positions_rows": 9,
+   "closed_rows": 50,
    "nba_items": 45,
    "combo_rows": 9,
    "combos_open": 0,
