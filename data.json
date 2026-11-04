@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T23:40:32+08:00",
+ "generated_at": "2026-11-04T23:40:51+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-05",
  "latest_review_date": "2026-11-03",
@@ -10357,7 +10357,7 @@
      "pick_is_home": true,
      "injuries": "PHI out Barlow, Hukporti only; Embiid and LeBron off the report. DET out Jalen Duren and Isaiah Joe (Duren has barely played, so it's priced into DET's numbers).",
      "injury_flags": [],
-     "view": "model DET +3 neutral, ~5 with home court. Embiid's return narrows it, so DET by ~3.5, ~59%. Market 55.5¢.",
+     "view": "model DET +3 neutral, ~5 with home court. Embiid's return narrows it, so DET by ~3.5, ~58%. Market 55.5¢.",
      "bet": "lean only. The gap is ~3.5 pts and Embiid's matchup is a real counter-argument. Total: pass.",
      "bet_bold": [],
      "form": "PHI 7-1 (net +5.6, DRtg 102.4), beat CHI 126-107 Mon. DET 6-1, the league's best defense by my numbers (DRtg 99.6, net +11.5), won at CHA 124-91 Mon. DET won the first meeting 106-93 in Philly when Embiid sat.",
@@ -12411,7 +12411,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-04T23:40:32+08:00",
+  "fetched_at": "2026-11-04T23:40:51+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
