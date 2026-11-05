@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T14:25:50+08:00",
+ "generated_at": "2026-11-05T23:37:59+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-05",
+ "latest_preview_date": "2026-11-06",
  "latest_review_date": "2026-11-05",
  "days": [
   {
@@ -11520,6 +11520,254 @@
      "Small dog moneylines went 0-3 (WSH, TOR, LAC) while favorites kept winning big (NYK by 30, DEN by 19). The DAL +12.5 win shows the better way to back a dog I like is usually the points, not the moneyline, when the favorite is clearly better."
     ]
    }
+  },
+  {
+   "date": "2026-11-06",
+   "file": "preview-2026-11-06.md",
+   "written": "~23:45 MYT Thu Nov 5",
+   "games": [
+    {
+     "id": "2026-11-06-ORL-PHX",
+     "n": 1,
+     "away": {
+      "abbr": "ORL",
+      "city": "Orlando",
+      "name": "Magic"
+     },
+     "home": {
+      "abbr": "PHX",
+      "city": "Phoenix",
+      "name": "Suns"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-11-06T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "ORL",
+      "city": "Orlando",
+      "name": "Magic"
+     },
+     "win_pct": 54.0,
+     "confidence": 5,
+     "dk_ml": "ORL -108 / PHX -110 (opened +100/-118) → de-vig PHX 50.2%",
+     "dk_devig": {
+      "abbr": "PHX",
+      "pct": 50.2
+     },
+     "pm_ml": "Magic 48.5¢ / Suns 51.5¢ ($235k)",
+     "spread": {
+      "dk": "PHX -1.5 (opened -1.5)",
+      "pm": "Suns -1.5: 48.5 / Magic 51.5; Suns -2.5: 44.5"
+     },
+     "total": {
+      "dk": "222.5 (opened 224.5)",
+      "pm": "O/U 222.5: Over 50.5; O/U 223.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": null,
+     "edge": null,
+     "dk_pick_pct": 49.8,
+     "pick_is_favorite": false,
+     "pick_is_home": false,
+     "injuries": "ORL Out: Banchero (ankle), Suggs (knee), Isaac, Nelson, Penda. Projected: Richardson / Black / Bane / Wagner / Carter. PHX Out (HoopMetrics / StatIQ; official PHX report not yet on the 10:30 AM PDF): Mark Williams (shoulder surgery), Goodwin (calf), Fleming (ankle). Projected: Booker / Green / Brooks / Bridges / Maluach.",
+     "injury_flags": [
+      "Out:",
+      "Out"
+     ],
+     "view": "model ORL +0.9 neutral, so PHX by ~1.1 with home court. Cap the rest/B2B soft bump at ~1.5–2 (L4) → roughly Magic by ~0.5, ~54%. PHX's defense is a confirmed trend (L6), and ORL's bad offensive rating already reflects life without Banchero/Suggs (L2). Market 51.5¢ on PHX is ~3 pts above my number on the favorite side.",
+     "bet": "Magic ML at 48.5¢ is ~5–6 pts cheap. Small stake. Spread edge (~2 pts vs +1.5) is under the L4 dog bar → lean only. Total: pass (model 230.5 vs 222.5 looks high given ORL's offense; don't force the Over).",
+     "bet_bold": [],
+     "form": "ORL 2-5 (net -8.9, ORtg 104.9, 17.3 TOV/g), lost 94-103 at home to WSH Mon; 2-1 on the road, 0-4 at home. PHX 1-5 (net -10.8, DRtg 121.7), just lost 119-132 at home to POR on Wed (Booker/Green combined for 55 in a losing effort; POR outscored them 43-25 in Q2). PHX's only win was vs a Curry/Draymond-less GSW.",
+     "sentiment": "expert lean is mostly Magic ML / +1.5 (FanDuel, BettingPros, Deadspin); VegasOdds prefers Suns ML. numberFire has PHX at 58%. Action Network ticket/money % not available at pull time.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-06-MIA-GSW",
+     "n": 2,
+     "away": {
+      "abbr": "MIA",
+      "city": "Miami",
+      "name": "Heat"
+     },
+     "home": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "tip_myt": "11:00",
+     "tip_iso": "2026-11-06T11:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "win_pct": 69.0,
+     "confidence": 6,
+     "dk_ml": "MIA +228 / GS -279 (opened +138/-164) → de-vig GS 70.7%",
+     "dk_devig": {
+      "abbr": "GSW",
+      "pct": 70.7
+     },
+     "pm_ml": "Heat 29.5¢ / Warriors 70.5¢ ($83k)",
+     "spread": {
+      "dk": "GS -7.5 (opened -4.5)",
+      "pm": "Warriors -6.5: 52.5 / Heat 47.5 ($252k); Warriors -7.5: 48.5 / Heat 51.5"
+     },
+     "total": {
+      "dk": "235.5 (opened 238.5)",
+      "pm": "O/U 235.5: Over 46.5; O/U 233.5: Over 50.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": null,
+     "edge": null,
+     "dk_pick_pct": 70.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "GSW Out (official): Butler (ACL), Moody (patellar tendon), Porziņģis (not with team), Gui Santos (knee). Horford / Bassey questionable on secondary feeds — unverified vs official. MIA: official report not yet submitted. SportCrow lists Giannis questionable (wrist) and Gardner questionable; Giannis played through the wrist Wed and was probable for that game per WhyNBA. Projected Heat: Mitchell / Klay / Wiggins / Giannis / Bam. Projected GSW: Curry / Podziemski / Will Richard / Lendeborg / Draymond.",
+     "injury_flags": [
+      "Out",
+      "not yet submitted",
+      "questionable"
+     ],
+     "view": "model GS +3.8 neutral, ~5.8 with home court. Soft B2B/travel bump capped at ~2 (L4) → GS by ~7.5–8. L4's \"favorites win bigger\" leans me away from the Heat dog. With Giannis expected to play: Warriors ~69%. If he sits: ~76–78%. Market ML 70.5¢ is about fair if he plays; -7.5 is about fair to a slight favorite lean.",
+     "bet": "pass the Warriors ML pre-report (L7 — price moves with Giannis news). No Heat +7.5 (my number doesn't clear L4's dog bar; disagree with FanDuel here). Conditional only: if Giannis is ruled out, Warriors -7.5 gets real. Total: pass (model 235.5 = market).",
+     "bet_bold": [],
+     "form": "MIA 3-5 (net -4.6, pace 106.7), just won 117-116 in OT at LAC on Wed — Bam 35, Giannis 27/14, Klay hit the OT winner after a 20-point comeback (WhyNBA). GSW 5-3 on a five-game win streak after an 0-3 start (net +2.8, 38.9% from three); beat PHX 116-113 Mon with Curry 34. Rookie Yaxel Lendeborg is averaging 21.5/7.0/3.9 in 32 mpg.",
+     "sentiment": "BettingPros, Deadspin, and VegasOdds all like Warriors -7.5; FanDuel prefers Heat +7.5. The DK spread moved 3 pts toward GSW (opened -4.5 → -7.5) on the B2B/travel. PM's heaviest spread book is Warriors -6.5.",
+     "avoid": [
+      "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals."
+     ],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "(only 2 games)",
+     "Warriors over Heat, 69% (conf 6): rested 5-game streak vs a B2B-after-OT Heat traveling up the coast. Fair at 70.5¢ if Giannis plays; bigger if he sits.",
+     "Magic over Suns, 54% (conf 5): rested ORL vs a B2B PHX defense that just got lit for 132 at home. Small ML value."
+    ],
+    "underdogs": [
+     "Magic ML (PM 48.5¢): my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).",
+     "Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.",
+     "Heat +7.5 (PM 51.5¢ on -7.5): pass. My number is already ~7.5–8 to GSW."
+    ],
+    "avoid": [
+     "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals."
+    ],
+    "value": [
+     "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.",
+     "Polymarket \"Magic vs. Suns\": buy Magic at ≤50¢, 0.25u.",
+     "Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy Warriors at ≤52¢, 0.25u, only if Giannis is ruled out. Skip if the price has already jumped past 55¢ after the news (L7)."
+    ],
+    "graded": [],
+    "check_before": [
+     "PHX final report (Goodwin / Fleming confirmation) before 10:00 MYT; MIA final report (Giannis, Gardner) and GSW (Horford / Bassey) before 11:00 MYT. Final reports land ~30 min before each tip. PHX and MIA were still \"NOT YET SUBMITTED\" on the 10:30 AM ET league PDF."
+    ],
+    "unverified": [
+     "Action Network ticket/money percentages (null at pull); Wunderdog consensus (Cloudflare); official PHX and MIA injury submissions on the 10:30 AM ET PDF (used StatIQ / HoopMetrics / SportCrow for those sides); Horford/Bassey/Anthony Black designations beyond secondary feeds."
+    ],
+    "season_record": [
+     "SU 83-38; ATS 4-6; totals 11-7; core value 3-3 (~+0.2u); small/secondary 25-23 (~+2.6u). Brier Me 0.199 / DK 0.192 / PM 0.194 (121 games)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "(only 2 games)\n1. **Warriors over Heat**, 69% (conf 6): rested 5-game streak vs a B2B-after-OT Heat traveling up the coast. Fair at 70.5¢ if Giannis plays; bigger if he sits.\n2. **Magic over Suns**, 54% (conf 5): rested ORL vs a B2B PHX defense that just got lit for 132 at home. Small ML value.",
+    "underdogs": "- **Magic ML (PM 48.5¢):** my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).\n- Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.\n- Heat +7.5 (PM 51.5¢ on -7.5): **pass**. My number is already ~7.5–8 to GSW.",
+    "avoid": "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals.",
+    "value": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.\n- Polymarket \"Magic vs. Suns\": buy **Magic** at ≤50¢, 0.25u.\n- Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy **Warriors** at ≤52¢, 0.25u, **only if Giannis is ruled out**. Skip if the price has already jumped past 55¢ after the news (L7).",
+    "graded": "",
+    "check_before": "PHX final report (Goodwin / Fleming confirmation) before 10:00 MYT; MIA final report (**Giannis**, Gardner) and GSW (Horford / Bassey) before 11:00 MYT. Final reports land ~30 min before each tip. PHX and MIA were still \"NOT YET SUBMITTED\" on the 10:30 AM ET league PDF.",
+    "unverified": "Action Network ticket/money percentages (null at pull); Wunderdog consensus (Cloudflare); official PHX and MIA injury submissions on the 10:30 AM ET PDF (used StatIQ / HoopMetrics / SportCrow for those sides); Horford/Bassey/Anthony Black designations beyond secondary feeds.",
+    "season_record": "SU 83-38; ATS 4-6; totals 11-7; core value 3-3 (~+0.2u); small/secondary 25-23 (~+2.6u). Brier Me 0.199 / DK 0.192 / PM 0.194 (121 games)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-11-06-ORL-PHX",
+     "team": "ORL",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "ORL ML",
+     "price": 48.5,
+     "units": 0.25,
+     "tier": null,
+     "condition": null,
+     "context": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.\n- Polymarket \"Magic vs. Suns\": buy",
+     "sources": [
+      "summary: value",
+      "summary: underdogs"
+     ],
+     "matchup": "ORL @ PHX",
+     "polymarket": {
+      "event": "Magic vs. Suns",
+      "market": "Magic vs. Suns",
+      "outcome": "Magic",
+      "price_raw": 48.5
+     },
+     "my_pct": 54.0
+    },
+    {
+     "game_id": "2026-11-06-ORL-PHX",
+     "team": "ORL",
+     "kind": "spread",
+     "line": 1.5,
+     "side": null,
+     "selection": "ORL +1.5",
+     "price": 51.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "ORL @ PHX",
+     "polymarket": {
+      "event": "Magic vs. Suns",
+      "market": "Spread: Suns (-1.5)",
+      "outcome": "Magic",
+      "price_raw": 51.5
+     },
+     "my_pct": null
+    },
+    {
+     "game_id": "2026-11-06-MIA-GSW",
+     "team": "MIA",
+     "kind": "spread",
+     "line": 7.5,
+     "side": null,
+     "selection": "MIA +7.5",
+     "price": 51.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "Heat +7.5 (PM 51.5¢ on -7.5): pass. My number is already ~7.5–8 to GSW.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "MIA @ GSW",
+     "polymarket": {
+      "event": "Heat vs. Warriors",
+      "market": "Spread: Warriors (-7.5)",
+      "outcome": "Heat",
+      "price_raw": 51.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "L1 (own judgement; hard-pass only when money ~30+ pts ahead of tickets against me): ticket/money splits are blank tonight, so no L1 hard pass fires. Expert consensus is split on ORL–PHX and mostly on GSW ATS; I keep my own numbers.",
+    "L2 (grade who's left; verify final report; never pre-bet collapse on Q-only): ORL's season sample is mostly without Banchero (2g) and Suggs (3g), so those outs are already in ORL's ratings — not an extra 3.5-pt tax. Mark Williams (shoulder surgery) is a season-long PHX absence, already priced. Giannis is listed questionable on secondary feeds while MIA's official report is still blank — write any Giannis-out play as a conditional, do not assume he sits.",
+    "L3 (totals): model totals sit near the market; MIA's B2B-after-OT is real but neither defense is elite enough for a stake Under. Pass both totals.",
+    "L4 (dogs need ~3.5–4 pts; cap soft adjustments ~2; favorites win bigger): rest/B2B soft bump capped at ~1.5–2 pts. Magic +1.5 is only ~2 pts of edge → lean, not a spread bet. Prefer Magic ML at the cheap price. On MIA–GSW my number lands near the market 7.5, so no dog-with-points bet; L4's \"favorites win bigger\" keeps me off Heat +7.5 despite FanDuel liking it.",
+    "L6 (trend by game three; strip only named flukes): PHX's 41-pt opener at POR was a named outlier earlier, but Wed's 132–119 home loss to POR is a second defensive blowout by the same short-handed roster → PHX's DRtg 121.7 stands as a trend, not something to strip again.",
+    "L7 (conditionals need fillable post-news price; don't pre-buy 75¢+ favs with a star Q): Warriors ML at 70.5¢ sits under the 75¢ line but still hinges on Giannis's status. Pass the ML pre-report; only a Giannis-out conditional on the spread with a limit that survives a 3–4¢ move.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1106/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -12698,35 +12946,21 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-05T14:25:50+08:00",
+  "fetched_at": "2026-11-05T23:37:59+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
     "w": 26,
-    "l": 25,
-    "net_pnl": 14.5,
-    "settled_cost": 184.25,
-    "roi_pct": 7.9,
-    "open_count": 1,
-    "open_cost": 2.58,
-    "open_value": 0.0,
-    "open_unrealized": -2.58
+    "l": 26,
+    "net_pnl": 11.92,
+    "settled_cost": 186.83,
+    "roi_pct": 6.4,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
-    {
-     "title": "Heat vs. Clippers",
-     "outcome": "Clippers",
-     "event": "nba-mia-lac-2026-11-04",
-     "avg_price": 0.3499,
-     "shares": 7.1428,
-     "cost": 2.58115,
-     "current_value": 0.0035,
-     "cur_price": 0.0005,
-     "pnl": -2.4964,
-     "end_date": "2026-11-05",
-     "nba": true
-    }
-   ],
+   "open_positions": [],
    "settled_recent": [
     {
      "title": "Spread: Spurs (-12.5)",
@@ -12778,6 +13012,20 @@
      "shares": 6.5789,
      "cost": 2.5774,
      "pnl": -2.5774,
+     "result": "lost",
+     "date": "2026-11-05",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
+    {
+     "title": "Heat vs. Clippers",
+     "outcome": "Clippers",
+     "event": "nba-mia-lac-2026-11-04",
+     "avg_price": 0.3499,
+     "shares": 7.1428,
+     "cost": 2.58115,
+     "pnl": -2.5812,
      "result": "lost",
      "date": "2026-11-05",
      "ts": null,
@@ -13681,20 +13929,6 @@
      "ts": 1792979538,
      "unredeemed": false,
      "nba": true
-    },
-    {
-     "title": "Raptors vs. Timberwolves",
-     "outcome": "Timberwolves",
-     "event": "nba-tor-min-2026-10-25",
-     "avg_price": 0.5,
-     "shares": 10.0,
-     "cost": 5.0,
-     "pnl": 5.0,
-     "result": "won",
-     "date": "2026-10-26",
-     "ts": 1792979537,
-     "unredeemed": false,
-     "nba": true
     }
    ],
    "daily": [
@@ -13761,38 +13995,24 @@
     {
      "date": "2026-11-05",
      "w": 2,
-     "l": 4,
-     "pnl": -6.24
+     "l": 5,
+     "pnl": -8.82
     }
    ]
   },
   "all": {
    "summary": {
     "w": 31,
-    "l": 43,
-    "net_pnl": -141.5,
-    "settled_cost": 486.59,
-    "roi_pct": -29.1,
-    "open_count": 1,
-    "open_cost": 2.58,
-    "open_value": 0.0,
-    "open_unrealized": -2.58
+    "l": 44,
+    "net_pnl": -144.08,
+    "settled_cost": 489.17,
+    "roi_pct": -29.5,
+    "open_count": 0,
+    "open_cost": 0,
+    "open_value": 0,
+    "open_unrealized": 0
    },
-   "open_positions": [
-    {
-     "title": "Heat vs. Clippers",
-     "outcome": "Clippers",
-     "event": "nba-mia-lac-2026-11-04",
-     "avg_price": 0.3499,
-     "shares": 7.1428,
-     "cost": 2.58115,
-     "current_value": 0.0035,
-     "cur_price": 0.0005,
-     "pnl": -2.4964,
-     "end_date": "2026-11-05",
-     "nba": true
-    }
-   ],
+   "open_positions": [],
    "settled_recent": [
     {
      "title": "Spread: Spurs (-12.5)",
@@ -13844,6 +14064,20 @@
      "shares": 6.5789,
      "cost": 2.5774,
      "pnl": -2.5774,
+     "result": "lost",
+     "date": "2026-11-05",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
+    {
+     "title": "Heat vs. Clippers",
+     "outcome": "Clippers",
+     "event": "nba-mia-lac-2026-11-04",
+     "avg_price": 0.3499,
+     "shares": 7.1428,
+     "cost": 2.58115,
+     "pnl": -2.5812,
      "result": "lost",
      "date": "2026-11-05",
      "ts": null,
@@ -14671,20 +14905,6 @@
      "ts": 1793082347,
      "unredeemed": false,
      "nba": false
-    },
-    {
-     "title": "MegaETH market cap (FDV) >$1B one day after launch?",
-     "outcome": "No",
-     "event": "megaeth-market-cap-fdv-one-day-after-launch",
-     "avg_price": 0.0068,
-     "shares": 1410.5555,
-     "cost": 9.59,
-     "pnl": -9.6665,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": 1793082347,
-     "unredeemed": false,
-     "nba": false
     }
    ],
    "daily": [
@@ -14787,8 +15007,8 @@
     {
      "date": "2026-11-05",
      "w": 2,
-     "l": 4,
-     "pnl": -6.24
+     "l": 5,
+     "pnl": -8.82
     }
    ]
   },
@@ -14813,5 +15033,8 @@
   ],
   "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price. Combos (multi-leg) count as one bet each: P&L = payout - fee-inclusive cost; a combo is in the NBA view if at least one leg is NBA; open combo value is estimated as shares x the product of the leg prices."
  },
- "parse_warnings": []
+ "parse_warnings": [
+  "preview-2026-11-06.md game 1: Polymarket winner price not parsed",
+  "preview-2026-11-06.md game 2: Polymarket winner price not parsed"
+ ]
 }
