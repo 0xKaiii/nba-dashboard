@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T23:37:59+08:00",
+ "generated_at": "2026-11-05T23:38:20+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-06",
  "latest_review_date": "2026-11-05",
@@ -11554,7 +11554,7 @@
       "abbr": "PHX",
       "pct": 50.2
      },
-     "pm_ml": "Magic 48.5¢ / Suns 51.5¢ ($235k)",
+     "pm_ml": "ORL 48.5¢ / PHX 51.5¢ ($235k)",
      "spread": {
       "dk": "PHX -1.5 (opened -1.5)",
       "pm": "Suns -1.5: 48.5 / Magic 51.5; Suns -2.5: 44.5"
@@ -11564,8 +11564,8 @@
       "pm": "O/U 222.5: Over 50.5; O/U 223.5: Over 48.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 48.5,
+     "edge": 5.5,
      "dk_pick_pct": 49.8,
      "pick_is_favorite": false,
      "pick_is_home": false,
@@ -11610,7 +11610,7 @@
       "abbr": "GSW",
       "pct": 70.7
      },
-     "pm_ml": "Heat 29.5¢ / Warriors 70.5¢ ($83k)",
+     "pm_ml": "MIA 29.5¢ / GS 70.5¢ ($83k)",
      "spread": {
       "dk": "GS -7.5 (opened -4.5)",
       "pm": "Warriors -6.5: 52.5 / Heat 47.5 ($252k); Warriors -7.5: 48.5 / Heat 51.5"
@@ -11620,8 +11620,8 @@
       "pm": "O/U 235.5: Over 46.5; O/U 233.5: Over 50.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 70.5,
+     "edge": -1.5,
      "dk_pick_pct": 70.7,
      "pick_is_favorite": true,
      "pick_is_home": true,
@@ -11650,8 +11650,8 @@
     ],
     "underdogs": [
      "Magic ML (PM 48.5¢): my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).",
-     "Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.",
-     "Heat +7.5 (PM 51.5¢ on -7.5): pass. My number is already ~7.5–8 to GSW."
+     "Magic +1.5 (~51.5¢): lean only, too thin (~2 pts of edge, under the L4 bar).",
+     "Heat with the points at the market number: not recommended (my number is already ~7.5–8 to GSW)."
     ],
     "avoid": [
      "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals."
@@ -11674,7 +11674,7 @@
    },
    "summary_raw": {
     "top3": "(only 2 games)\n1. **Warriors over Heat**, 69% (conf 6): rested 5-game streak vs a B2B-after-OT Heat traveling up the coast. Fair at 70.5¢ if Giannis plays; bigger if he sits.\n2. **Magic over Suns**, 54% (conf 5): rested ORL vs a B2B PHX defense that just got lit for 132 at home. Small ML value.",
-    "underdogs": "- **Magic ML (PM 48.5¢):** my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).\n- Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.\n- Heat +7.5 (PM 51.5¢ on -7.5): **pass**. My number is already ~7.5–8 to GSW.",
+    "underdogs": "- **Magic ML (PM 48.5¢):** my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).\n- Magic +1.5 (~51.5¢): lean only, too thin (~2 pts of edge, under the L4 bar).\n- Heat with the points at the market number: **not recommended** (my number is already ~7.5–8 to GSW).",
     "avoid": "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals.",
     "value": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.\n- Polymarket \"Magic vs. Suns\": buy **Magic** at ≤50¢, 0.25u.\n- Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy **Warriors** at ≤52¢, 0.25u, **only if Giannis is ruled out**. Skip if the price has already jumped past 55¢ after the news (L7).",
     "graded": "",
@@ -11707,54 +11707,6 @@
       "price_raw": 48.5
      },
      "my_pct": 54.0
-    },
-    {
-     "game_id": "2026-11-06-ORL-PHX",
-     "team": "ORL",
-     "kind": "spread",
-     "line": 1.5,
-     "side": null,
-     "selection": "ORL +1.5",
-     "price": 51.5,
-     "units": null,
-     "tier": null,
-     "condition": null,
-     "context": "Magic +1.5 (PM 51.5¢): lean only — ~2 pts of edge, under the L4 bar.",
-     "sources": [
-      "summary: underdogs"
-     ],
-     "matchup": "ORL @ PHX",
-     "polymarket": {
-      "event": "Magic vs. Suns",
-      "market": "Spread: Suns (-1.5)",
-      "outcome": "Magic",
-      "price_raw": 51.5
-     },
-     "my_pct": null
-    },
-    {
-     "game_id": "2026-11-06-MIA-GSW",
-     "team": "MIA",
-     "kind": "spread",
-     "line": 7.5,
-     "side": null,
-     "selection": "MIA +7.5",
-     "price": 51.5,
-     "units": null,
-     "tier": null,
-     "condition": null,
-     "context": "Heat +7.5 (PM 51.5¢ on -7.5): pass. My number is already ~7.5–8 to GSW.",
-     "sources": [
-      "summary: underdogs"
-     ],
-     "matchup": "MIA @ GSW",
-     "polymarket": {
-      "event": "Heat vs. Warriors",
-      "market": "Spread: Warriors (-7.5)",
-      "outcome": "Heat",
-      "price_raw": 51.5
-     },
-     "my_pct": null
     }
    ],
    "lessons_applied": [
@@ -12946,7 +12898,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-05T23:37:59+08:00",
+  "fetched_at": "2026-11-05T23:38:20+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
@@ -15033,8 +14985,5 @@
   ],
   "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price. Combos (multi-leg) count as one bet each: P&L = payout - fee-inclusive cost; a combo is in the NBA view if at least one leg is NBA; open combo value is estimated as shares x the product of the leg prices."
  },
- "parse_warnings": [
-  "preview-2026-11-06.md game 1: Polymarket winner price not parsed",
-  "preview-2026-11-06.md game 2: Polymarket winner price not parsed"
- ]
+ "parse_warnings": []
 }
