@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T23:38:20+08:00",
+ "generated_at": "2026-11-05T23:38:34+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-06",
  "latest_review_date": "2026-11-05",
@@ -11657,7 +11657,7 @@
      "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals."
     ],
     "value": [
-     "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.",
+     "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 at 48.5¢ (0.25u) if Giannis is ruled out.",
      "Polymarket \"Magic vs. Suns\": buy Magic at ≤50¢, 0.25u.",
      "Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy Warriors at ≤52¢, 0.25u, only if Giannis is ruled out. Skip if the price has already jumped past 55¢ after the news (L7)."
     ],
@@ -11676,7 +11676,7 @@
     "top3": "(only 2 games)\n1. **Warriors over Heat**, 69% (conf 6): rested 5-game streak vs a B2B-after-OT Heat traveling up the coast. Fair at 70.5¢ if Giannis plays; bigger if he sits.\n2. **Magic over Suns**, 54% (conf 5): rested ORL vs a B2B PHX defense that just got lit for 132 at home. Small ML value.",
     "underdogs": "- **Magic ML (PM 48.5¢):** my ~54%. Rest edge + PHX's confirmed bad D, without needing to invent a Banchero \"collapse\" tax (L2).\n- Magic +1.5 (~51.5¢): lean only, too thin (~2 pts of edge, under the L4 bar).\n- Heat with the points at the market number: **not recommended** (my number is already ~7.5–8 to GSW).",
     "avoid": "Warriors ML at 70.5¢ before the final MIA report; Heat +7.5 as a dog-with-points play; both totals.",
-    "value": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.\n- Polymarket \"Magic vs. Suns\": buy **Magic** at ≤50¢, 0.25u.\n- Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy **Warriors** at ≤52¢, 0.25u, **only if Giannis is ruled out**. Skip if the price has already jumped past 55¢ after the news (L7).",
+    "value": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 at 48.5¢ (0.25u) if Giannis is ruled out.\n- Polymarket \"Magic vs. Suns\": buy **Magic** at ≤50¢, 0.25u.\n- Polymarket \"Heat vs. Warriors\", market \"Spread: Warriors (-7.5)\": buy **Warriors** at ≤52¢, 0.25u, **only if Giannis is ruled out**. Skip if the price has already jumped past 55¢ after the news (L7).",
     "graded": "",
     "check_before": "PHX final report (Goodwin / Fleming confirmation) before 10:00 MYT; MIA final report (**Giannis**, Gardner) and GSW (Horford / Bassey) before 11:00 MYT. Final reports land ~30 min before each tip. PHX and MIA were still \"NOT YET SUBMITTED\" on the 10:30 AM ET league PDF.",
     "unverified": "Action Network ticket/money percentages (null at pull); Wunderdog consensus (Cloudflare); official PHX and MIA injury submissions on the 10:30 AM ET PDF (used StatIQ / HoopMetrics / SportCrow for those sides); Horford/Bassey/Anthony Black designations beyond secondary feeds.",
@@ -11694,7 +11694,7 @@
      "units": 0.25,
      "tier": null,
      "condition": null,
-     "context": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 if Giannis is out.\n- Polymarket \"Magic vs. Suns\": buy",
+     "context": "Magic ML at 48.5¢ (0.25u). Conditional Warriors -7.5 at 48.5¢ (0.25u) if Giannis is ruled out.\n- Polymarket",
      "sources": [
       "summary: value",
       "summary: underdogs"
@@ -11707,6 +11707,30 @@
       "price_raw": 48.5
      },
      "my_pct": 54.0
+    },
+    {
+     "game_id": "2026-11-06-MIA-GSW",
+     "team": "GSW",
+     "kind": "spread",
+     "line": -7.5,
+     "side": null,
+     "selection": "GSW -7.5",
+     "price": 48.5,
+     "units": 0.25,
+     "tier": null,
+     "condition": "if Giannis is ruled out",
+     "context": "at 48.5¢ (0.25u). Conditional Warriors -7.5 at 48.5¢ (0.25u) if Giannis is ruled out.\n- Polymarket \"Magic vs. Suns\": buy Magic at ≤50¢, 0.25u.",
+     "sources": [
+      "summary: value"
+     ],
+     "matchup": "MIA @ GSW",
+     "polymarket": {
+      "event": "Heat vs. Warriors",
+      "market": "Spread: Warriors (-7.5)",
+      "outcome": "Warriors",
+      "price_raw": 48.5
+     },
+     "my_pct": null
     }
    ],
    "lessons_applied": [
@@ -12898,7 +12922,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-05T23:38:20+08:00",
+  "fetched_at": "2026-11-05T23:38:34+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
