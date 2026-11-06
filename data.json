@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T23:42:59+08:00",
+ "generated_at": "2026-11-06T23:43:17+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-07",
  "latest_review_date": "2026-11-06",
@@ -11830,7 +11830,7 @@
       "abbr": "ATL",
       "pct": 71.0
      },
-     "pm_ml": "Wizards 27.5¢ / Hawks 72.5¢ ($51k)",
+     "pm_ml": "WSH 27.5¢ / ATL 72.5¢ ($51k)",
      "spread": {
       "dk": "ATL -7.5 (opened -6.5)",
       "pm": "Hawks -7.5: 51.5 / Wizards 48.5; Hawks -6.5: 55.5"
@@ -11840,8 +11840,8 @@
       "pm": "O/U 228.5: Over 50.5; O/U 229.5: Over 48.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 72.5,
+     "edge": -16.5,
      "dk_pick_pct": 71.0,
      "pick_is_favorite": true,
      "pick_is_home": true,
@@ -11891,7 +11891,7 @@
       "abbr": "BOS",
       "pct": 73.4
      },
-     "pm_ml": "Celtics 74.5¢ / Hornets 25.5¢ ($29k)",
+     "pm_ml": "BOS 74.5¢ / CHA 25.5¢ ($29k)",
      "spread": {
       "dk": "BOS -8.5 (opened -8.5)",
       "pm": "Celtics -8.5: 49.5 / Hornets 50.5; Celtics -7.5: 55.0"
@@ -11901,8 +11901,8 @@
       "pm": "O/U 208.5: Over 48.5; O/U 209.5: Over 47.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 74.5,
+     "edge": -2.5,
      "dk_pick_pct": 73.4,
      "pick_is_favorite": true,
      "pick_is_home": false,
@@ -11949,7 +11949,7 @@
       "abbr": "PHI",
       "pct": 57.2
      },
-     "pm_ml": "76ers 57.5¢ / Cavaliers 42.5¢ ($106k)",
+     "pm_ml": "PHI 57.5¢ / CLE 42.5¢ ($106k)",
      "spread": {
       "dk": "PHI -2.5 (opened home +2.5)",
       "pm": "76ers -2.5: 50.0 / Cavs 50.0; 76ers -1.5: 53.5"
@@ -11959,8 +11959,8 @@
       "pm": "O/U 230.5: Over 50.5; O/U 228.5: Over 55.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 57.5,
+     "edge": -2.5,
      "dk_pick_pct": 57.2,
      "pick_is_favorite": true,
      "pick_is_home": false,
@@ -12007,7 +12007,7 @@
       "abbr": "DAL",
       "pct": 70.6
      },
-     "pm_ml": "Jazz 28.5¢ / Mavericks 71.5¢ ($17k)",
+     "pm_ml": "UTAH 28.5¢ / DAL 71.5¢ ($17k)",
      "spread": {
       "dk": "DAL -7.5 (opened -7.5)",
       "pm": "Mavericks -7.5: 48.5 / Jazz 51.5; Mavericks -6.5: 53.5"
@@ -12017,8 +12017,8 @@
       "pm": "O/U 225.5: Over 52.5; O/U 226.5: Over 50.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 71.5,
+     "edge": -1.5,
      "dk_pick_pct": 70.6,
      "pick_is_favorite": true,
      "pick_is_home": true,
@@ -12064,7 +12064,7 @@
       "abbr": "OKC",
       "pct": 60.4
      },
-     "pm_ml": "Thunder 59.5¢ / Grizzlies 40.5¢ ($139k)",
+     "pm_ml": "OKC 59.5¢ / MEM 40.5¢ ($139k)",
      "spread": {
       "dk": "OKC -3.5 (opened -3.5)",
       "pm": "Thunder -3.5: 52.5 / Grizzlies 47.5; Thunder -4.5: 49.0"
@@ -12074,8 +12074,8 @@
       "pm": "O/U 224.5: Over 49.5; O/U 225.5: Over 46.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 40.5,
+     "edge": 17.5,
      "dk_pick_pct": 39.6,
      "pick_is_favorite": false,
      "pick_is_home": true,
@@ -12122,7 +12122,7 @@
       "abbr": "TOR",
       "pct": 69.1
      },
-     "pm_ml": "Raptors 68.5¢ / Bucks 31.5¢ ($16k)",
+     "pm_ml": "TOR 68.5¢ / MIL 31.5¢ ($16k)",
      "spread": {
       "dk": "TOR -6.5 (opened -7.5)",
       "pm": "Raptors -6.5: 50.5 / Bucks 49.5; Raptors -7.5: 46.5"
@@ -12132,8 +12132,8 @@
       "pm": "O/U 230.5: Over 50.5; O/U 231.5: Over 47.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 68.5,
+     "edge": -2.5,
      "dk_pick_pct": 69.1,
      "pick_is_favorite": true,
      "pick_is_home": false,
@@ -12180,7 +12180,7 @@
       "abbr": "MIN",
       "pct": 61.0
      },
-     "pm_ml": "Timberwolves 61.5¢ / Pelicans 38.5¢ ($10k)",
+     "pm_ml": "MIN 61.5¢ / NO 38.5¢ ($10k)",
      "spread": {
       "dk": "MIN -4.5 (opened -5.5)",
       "pm": "Wolves -4.5: 48.5 / Pelicans 51.5; Wolves -3.5: 52.5"
@@ -12190,8 +12190,8 @@
       "pm": "O/U 231.5: Over 47.5; O/U 229.5: Over 51.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 61.5,
+     "edge": -4.5,
      "dk_pick_pct": 61.0,
      "pick_is_favorite": true,
      "pick_is_home": false,
@@ -12238,7 +12238,7 @@
       "abbr": "LAL",
       "pct": 58.3
      },
-     "pm_ml": "Trail Blazers 42.5¢ / Lakers 57.5¢ ($31k)",
+     "pm_ml": "POR 42.5¢ / LAL 57.5¢ ($31k)",
      "spread": {
       "dk": "LAL -2.5 (opened -4.5)",
       "pm": "Lakers -2.5: 52.5 / Blazers 47.5; Lakers -3.5: 48.5"
@@ -12248,8 +12248,8 @@
       "pm": "O/U 231.5: Over 49.5; O/U 232.5: Over 47.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 42.5,
+     "edge": 9.5,
      "dk_pick_pct": 41.7,
      "pick_is_favorite": false,
      "pick_is_home": false,
@@ -12297,7 +12297,7 @@
       "abbr": "SAS",
       "pct": 88.6
      },
-     "pm_ml": "Spurs 89.5¢ / Kings 10.5¢ ($47k)",
+     "pm_ml": "SA 89.5¢ / SAC 10.5¢ ($47k)",
      "spread": {
       "dk": "SA -16.5 (opened -15.5)",
       "pm": "Spurs -16.5: 50.5 / Kings 49.5; Spurs -15.5: 53.5"
@@ -12307,8 +12307,8 @@
       "pm": "O/U 229.5: Over 49.5; O/U 230.5: Over 45.5"
      },
      "sb_raw": null,
-     "pm_pick_price": null,
-     "edge": null,
+     "pm_pick_price": 89.5,
+     "edge": -3.5,
      "dk_pick_pct": 88.6,
      "pick_is_favorite": true,
      "pick_is_home": false,
@@ -13695,7 +13695,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-06T23:42:59+08:00",
+  "fetched_at": "2026-11-06T23:43:17+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
@@ -15794,15 +15794,5 @@
   ],
   "notes": "W/L = sign of realizedPnl for closed positions (positions sold early count by their realized P&L); resolved-but-unredeemed positions count as won/lost by their final price. Combos (multi-leg) count as one bet each: P&L = payout - fee-inclusive cost; a combo is in the NBA view if at least one leg is NBA; open combo value is estimated as shares x the product of the leg prices."
  },
- "parse_warnings": [
-  "preview-2026-11-07.md game 1: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 2: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 3: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 4: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 5: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 6: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 7: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 8: Polymarket winner price not parsed",
-  "preview-2026-11-07.md game 9: Polymarket winner price not parsed"
- ]
+ "parse_warnings": []
 }
