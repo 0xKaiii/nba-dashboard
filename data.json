@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:19:19+08:00",
+ "generated_at": "2026-11-07T14:19:47+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-07",
  "latest_review_date": "2026-11-07",
@@ -12597,6 +12597,7 @@
      "Straight up: 6-3 (misses: 76ers, Grizzlies, Trail Blazers).",
      "ATS: 0-0 (Wizards +7.5 cancelled with AD out, would have covered; Bucks +6.5 triggered but not filled, would have lost). Totals: 0-0 (all passed). Core value: 0-0. Small value: 0-2 (Grizzlies ML, Blazers ML).",
      "Units: -0.50u on the day (Grizzlies ML -0.25u, Blazers ML -0.25u), at preview prices, before fees. Cancelled/unfilled conditionals not counted.",
+     "Account (@0xkai.kjt, per dashboard tracker): actual fills differed from the written plan. Wizards +7.5 bought at ~50¢ even with AD out (won, +$2.54); Bucks +6.5 at ~56¢ after the trigger, above the 52¢ limit (lost, -$2.55); Grizzlies ML at ~40¢ (lost, -$2.58); Blazers ML at ~42¢ (lost; market still at 0.05¢ awaiting final resolution, so it shows as open, -$2.57). Net about -$5.16 on the night. The units line above grades the written picks only.",
      "No-stake leans (spread/total): 3-2 (Mavs -7.5, BOS-CHA Under, PHI-CLE Under W; 76ers -2.5, Pelicans +4.5 L).",
      "Avoid list: Spurs ML/-16.5 right; Hawks and Raptors ML pre-report passes right on process (both won, no value); Celtics -8.5 and Kings +16.5 would both have covered; all totals passed (Unders 5-4 vs close).",
      "Season: SU 90-42, ATS 4-6, totals 11-7, core value 3-3 (~+0.2u), small value 25-26 (roughly +1.85u overall).",
@@ -13903,7 +13904,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-07T14:19:19+08:00",
+  "fetched_at": "2026-11-07T14:19:47+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
