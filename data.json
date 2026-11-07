@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-06T23:43:17+08:00",
+ "generated_at": "2026-11-07T14:19:19+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-07",
- "latest_review_date": "2026-11-06",
+ "latest_review_date": "2026-11-07",
  "days": [
   {
    "date": "2026-10-21",
@@ -11861,7 +11861,21 @@
      "form": "WSH 4-4 (net -0.1), lost 105-120 at home to these same Hawks on Wed (AD 26/10/3 blk). ATL 5-4 (net +2.6), 2-0 in the season series after that win. Rematch, short travel both ways.",
      "sentiment": "OddsandPicks — 62% bets / 65% money on Wizards +6.5; 28% bets / 60% money on Wizards ML (sharp money on WSH). FanDuel numberFire has Hawks at 83.5% (well above the market).",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "ATL",
+      "final_text": "ATL 139, WSH 132",
+      "scores": {
+       "ATL": 139,
+       "WSH": 132
+      },
+      "hit": true,
+      "reason": "Hawks 56%, conf 4: HIT, reasoning partly right. 56% was the AD-plays number. AD sat, and my AD-out number (~70%) matched the market (DK close 73.4%). Right winner, but the stated probability was the wrong branch at tip.",
+      "grades": [
+       "Hawks 56%, conf 4: HIT, reasoning partly right. 56% was the AD-plays number. AD sat, and my AD-out number (~70%) matched the market (DK close 73.4%). Right winner, but the stated probability was the wrong branch at tip."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-BOS-CHA",
@@ -11919,7 +11933,21 @@
      "form": "BOS 6-2 (net +6.0), beat MIL 109-102 at home Wed. CHA 3-6 (net -11.3, 29.6% from three, 19.4 TOV/g), lost 104-114 at BKN. Lowest pace on the slate (98.5).",
      "sentiment": "SI likes Celtics 1H -4.5. FanDuel numberFire oddly has Hornets 50.6% (conflicts with -8.5 favorite — ignore). Public heavy on BOS.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "BOS",
+      "final_text": "BOS 119, CHA 80",
+      "scores": {
+       "BOS": 119,
+       "CHA": 80
+      },
+      "hit": true,
+      "reason": "Celtics 72%, conf 6: HIT, reasoning right. The structural CHA shooting and turnover problem (L6) showed up again. The 39-point margin dwarfed my ~6.6 (L4: favorites win bigger).",
+      "grades": [
+       "Celtics 72%, conf 6: HIT, reasoning right. The structural CHA shooting and turnover problem (L6) showed up again. The 39-point margin dwarfed my ~6.6 (L4: favorites win bigger)."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-PHI-CLE",
@@ -11977,7 +12005,21 @@
      "form": "PHI 8-1 (net +5.6, DRtg 102.6), won 112-106 at DET Wed with Embiid / LeBron / Brown / Maxey all available. CLE 4-4 (net +2.0), just lost both ends of a home-and-home to short-handed OKC (112-117, 116-124). Harden 37.9% FG on the year per Deadspin.",
      "sentiment": "Deadspin highlights the 76ers. FanDuel numberFire has Cavs 71% — again conflicts with PHI being the favorite; discount.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "CLE",
+      "final_text": "CLE 119, PHI 95",
+      "scores": {
+       "CLE": 119,
+       "PHI": 95
+      },
+      "hit": false,
+      "reason": "76ers 55%, conf 5: MISS, bad read plus shooting variance. I stacked soft edges toward PHI (CLE's OKC-to-home travel, Allen Q) onto a model that had this at pick'em with home court. Allen sat and CLE still dominated the glass.",
+      "grades": [
+       "76ers 55%, conf 5: MISS, bad read plus shooting variance. I stacked soft edges toward PHI (CLE's OKC-to-home travel, Allen Q) onto a model that had this at pick'em with home court. Allen sat and CLE still dominated the glass. That is L4's soft-adjustment cap, which applies to favorites too. PHI's 25% from three was variance, but CLE led by double digits for most of the game."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-UTA-DAL",
@@ -12034,7 +12076,21 @@
      "form": "UTAH 1-7 (net -10.7), lost 113-120 at NO Wed. DAL 4-4 (net -0.1), lost 111-112 at SA on a Wemby masterclass. Kyrie / Flagg / Gafford available.",
      "sentiment": "standard chalk on DAL. No sharp signal in the null AN splits.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "DAL",
+      "final_text": "DAL 112, UTA 100",
+      "scores": {
+       "DAL": 112,
+       "UTA": 100
+      },
+      "hit": true,
+      "reason": "Mavericks 70%, conf 6: HIT, reasoning right. Utah's frontcourt holes (JJJ, Nurkić) showed: DAL won the glass by 14 and had 48 paint points.",
+      "grades": [
+       "Mavericks 70%, conf 6: HIT, reasoning right. Utah's frontcourt holes (JJJ, Nurkić) showed: DAL won the glass by 14 and had 48 paint points."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-OKC-MEM",
@@ -12092,7 +12148,21 @@
      "form": "both 6-2. OKC (net +1.2) just beat CLE twice with SGA dropping 43 then 42 — Caruso back in the mix. MEM (net +10.3, ORtg 115.7 / DRtg 105.4) dropped the last two at home (NOP in OT, IND 103-107) but the underlying rating is still elite.",
      "sentiment": "BettingPros +EV likes Grizzlies ML (+147). Sports Mole prefers Thunder. Heavy PM volume on the ML ($139k).",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "OKC",
+      "final_text": "OKC 128, MEM 97",
+      "scores": {
+       "OKC": 128,
+       "MEM": 97
+      },
+      "hit": false,
+      "reason": "Grizzlies 58%, conf 5: MISS, bad read; the market knew. My ratings had MEM +10.3 and OKC +1.2, but OKC's number included the two collapse losses without Caruso.",
+      "grades": [
+       "Grizzlies 58%, conf 5: MISS, bad read; the market knew. My ratings had MEM +10.3 and OKC +1.2, but OKC's number included the two collapse losses without Caruso. The current group (SGA, Caruso back, Mitchell averaging 21.6 over five games, McCain) had already won twice at CLE. L6 says a same-roster trend by game three counts; I weighted the season sample over the current roster's form. A 17-pt gap to the market was a warning sign, not value."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-TOR-MIL",
@@ -12150,7 +12220,21 @@
      "form": "TOR 4-4 (net +4.2), lost 109-128 at DEN Wed (third loss in four). MIL 1-7 (net -11.8), lost 102-109 at BOS after erasing a 22-point deficit — fight, but the defensive trend is real (L6).",
      "sentiment": "BettingPros top pick Bucks +6.5. Moneyline_mav script also had Bucks +8.5.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "TOR",
+      "final_text": "TOR 121, MIL 107",
+      "scores": {
+       "TOR": 121,
+       "MIL": 107
+      },
+      "hit": true,
+      "reason": "Raptors 66%, conf 5: HIT, reasoning partly right, partly lucky. My TOR-with-Barnes number held even though Barnes and Quickley both sat (my no-Barnes number was ~58%). A career night from a little-used second-rounder carried it.",
+      "grades": [
+       "Raptors 66%, conf 5: HIT, reasoning partly right, partly lucky. My TOR-with-Barnes number held even though Barnes and Quickley both sat (my no-Barnes number was ~58%). A career night from a little-used second-rounder carried it. MIL's defensive trend (L6) was real."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-MIN-NOP",
@@ -12208,7 +12292,21 @@
      "form": "MIN 6-3 (net +10.8, DRtg 103.1) even without Edwards — won 117-107 at HOU Wed with Dosunmu / LaMelo / Kuminga / Gobert / McDaniels. NO 4-4 (net +2.2), won four of five including OT at MEM; beat UTAH 120-113 Wed.",
      "sentiment": "Sports Mole likes Pelicans +4.5. Public chalk on MIN.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "MIN",
+      "final_text": "MIN 115, NOP 109",
+      "scores": {
+       "MIN": 115,
+       "NOP": 109
+      },
+      "hit": true,
+      "reason": "Timberwolves 57%, conf 5: HIT, reasoning right. No extra Edwards tax (L2), and MIN's depth and late creation (Ball) decided a close game. The 6-pt margin was near my ~2.5–4.5.",
+      "grades": [
+       "Timberwolves 57%, conf 5: HIT, reasoning right. No extra Edwards tax (L2), and MIN's depth and late creation (Ball) decided a close game. The 6-pt margin was near my ~2.5–4.5."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-POR-LAL",
@@ -12267,7 +12365,21 @@
      "form": "POR 6-1 (net +10.9), 3-0 on this road trip after 132-119 at PHX Wed (Lillard 25). Beat these Lakers 136-129 in LA on Oct 28. LAL 7-2 (net +7.7), Luka averaging 38.5 with five 40-point games in his last six; won 116-103 at SAC Wed.",
      "sentiment": "BettingPros +EV likes Blazers ML (+123); Sports Mole Blazers +3.5. Line moved from LAL -4.5 → -2.5 toward POR.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "LAL",
+      "final_text": "LAL 124, POR 118",
+      "scores": {
+       "LAL": 124,
+       "POR": 118
+      },
+      "hit": false,
+      "reason": "Trail Blazers 52%, conf 5: MISS, mostly variance (a 53-point Luka night) plus a known risk. My read (POR's Morant-less road form) held for a half. Turnovers (24) and fouls (31) gave it away, the same failure as ORL's 25 TO last night.",
+      "grades": [
+       "Trail Blazers 52%, conf 5: MISS, mostly variance (a 53-point Luka night) plus a known risk. My read (POR's Morant-less road form) held for a half. Turnovers (24) and fouls (31) gave it away, the same failure as ORL's 25 TO last night. The market (LAL 58%) had it right."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-07-SAS-SAC",
@@ -12325,7 +12437,21 @@
      "form": "SA 6-2, six-game win streak, just survived DAL 112-111 with Wemby 52/24/8 blk. Earlier smoked these Kings 130-103 on Oct 27 (Wemby 29, Champagnie 26). SAC 1-7 (net -13.4, DRtg 118.0), lost 103-116 at home to LAL Wed.",
      "sentiment": "BettingPros likes Spurs -15.5. Deadspin leans Spurs. Sports Mole Wemby over 27.5 pts.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "SAS",
+      "final_text": "SAS 124, SAC 109",
+      "scores": {
+       "SAS": 124,
+       "SAC": 109
+      },
+      "hit": true,
+      "reason": "Spurs 86%, conf 7: HIT, reasoning right. SA's form and Wemby were the right read, and L4 kept me off the Kings.",
+      "grades": [
+       "Spurs 86%, conf 7: HIT, reasoning right. SA's form and Wemby were the right read, and L4 kept me off the Kings."
+      ],
+      "how": null,
+      "notes": null
+     }
     }
    ],
    "summary": {
@@ -12458,18 +12584,42 @@
     "--"
    ],
    "pm_raw_file": "raw/d1107/pm-summary.txt",
-   "review": null
+   "review": {
+    "file": "review-2026-11-07.md",
+    "brier": {
+     "me": 0.177,
+     "dk": 0.135,
+     "pm": 0.128
+    },
+    "units": -0.5,
+    "units_text": "- Units: -0.50u on the day (Grizzlies ML -0.25u, Blazers ML -0.25u), at preview prices, before fees. Cancelled/unfilled conditionals not counted.; - Season: SU 90-42, ATS 4-6, totals 11-7, core value 3-3 (~+0.2u), small value 25-26 (roughly +1.85u overall).",
+    "day_summary": [
+     "Straight up: 6-3 (misses: 76ers, Grizzlies, Trail Blazers).",
+     "ATS: 0-0 (Wizards +7.5 cancelled with AD out, would have covered; Bucks +6.5 triggered but not filled, would have lost). Totals: 0-0 (all passed). Core value: 0-0. Small value: 0-2 (Grizzlies ML, Blazers ML).",
+     "Units: -0.50u on the day (Grizzlies ML -0.25u, Blazers ML -0.25u), at preview prices, before fees. Cancelled/unfilled conditionals not counted.",
+     "No-stake leans (spread/total): 3-2 (Mavs -7.5, BOS-CHA Under, PHI-CLE Under W; 76ers -2.5, Pelicans +4.5 L).",
+     "Avoid list: Spurs ML/-16.5 right; Hawks and Raptors ML pre-report passes right on process (both won, no value); Celtics -8.5 and Kings +16.5 would both have covered; all totals passed (Unders 5-4 vs close).",
+     "Season: SU 90-42, ATS 4-6, totals 11-7, core value 3-3 (~+0.2u), small value 25-26 (roughly +1.85u overall).",
+     "Market context: closing favorites 6-3 ATS (ATL -8.5, PHI -2.5, SA -17.5 failed). One dog won outright (CLE). Unders 5-4 vs the close.",
+     "Big disagreements with the market (4+ pts vs DK close): 1-4 tonight. Raptors 66 vs 59 was right; Hawks 56 vs 73, Celtics 72 vs 78, Grizzlies 58 vs 39, and Blazers 52 vs 42 went the market's way. Running total now 10-13."
+    ],
+    "lessons": [
+     "Big model-vs-market gaps on dog MLs are where I lose. Small dog MLs are 1-6 since 11-05 (POR W; WSH, TOR, LAC, ORL, MEM, POR L), and tonight's two 10–17-pt gaps both lost clearly. When I'm 10+ pts off the market with no fresh news, assume my ratings are stale (OKC's net still carried the no-Caruso collapse games while the current roster had just won twice at CLE). Re-weight to the current roster's last 2–3 games before staking. Without a named, unpriced roster fact, it's a no-stake lean.",
+     "Conditional price limits work; one-star cancellations can cost winners. The Bucks trigger (Barnes Out ~1 h before tip) came with the price already past the skip line, saving a loser. But cancelling Wizards +7.5 on AD-out lost a winner: George 33, Tre Johnson 23. Grade who's left (L2) before writing \"cancel if X is out.\"",
+     "The soft-adjustment cap applies to favorites too, and favorites still win bigger. PHI got soft nudges (CLE travel, Allen Q) and lost by 24. Meanwhile BOS (39), OKC (31), DAL (12), TOR (14), and SA (15) all beat my margins. Keep L4's compressed-margin bias, but don't stack soft bumps on either side."
+    ]
+   }
   }
  ],
  "season": {
   "record_table": [
    {
     "category": "Straight-up winners",
-    "record": "84-39",
-    "w": 84,
-    "l": 39,
+    "record": "90-42",
+    "w": 90,
+    "l": 42,
     "units": null,
-    "notes": "Re-verified 2026-11-02 against every review's ✅/❌ marks: no mismatches (10-22 is 9-2, already corrected from 8-3; 10-23 is 2-0 from text, no glance table); 11-02 is 3-1; 11-03 is 11-4; 11-05 is 9-5 (no games 11-04); 11-06 is 1-1"
+    "notes": "Re-verified 2026-11-07 with the dashboard parser against every review's ✅/❌ marks: 90-42, no mismatches (10-22 is 9-2; 10-23 now has a glance table, 2-0; no games 11-04); 11-06 is 1-1; 11-07 is 6-3"
    },
    {
     "category": "Spread picks",
@@ -12485,7 +12635,7 @@
     "w": 11,
     "l": 7,
     "units": null,
-    "notes": "Unders 9 of 14 on 10-23/10-24, Overs 5-3 on 10-25, Unders 4-3 on 10-26, Unders 5-4 on 10-27, Overs 3-1 on 10-28, Unders 7-5 on 10-29, Unders 2-1 on 10-30 (all passed), Unders 5-5 on 10-31, Overs 4-3 on 11-01, 2-2 on 11-02 (no bets), Unders 10-5 on 11-03 (CHI-PHI Under W), 7-7 on 11-05 (MIN-HOU Under L)"
+    "notes": "Unders 9 of 14 on 10-23/10-24, Overs 5-3 on 10-25, Unders 4-3 on 10-26, Unders 5-4 on 10-27, Overs 3-1 on 10-28, Unders 7-5 on 10-29, Unders 2-1 on 10-30 (all passed), Unders 5-5 on 10-31, Overs 4-3 on 11-01, 2-2 on 11-02 (no bets), Unders 10-5 on 11-03 (CHI-PHI Under W), 7-7 on 11-05 (MIN-HOU Under L), Unders 5-4 on 11-07 (all passed)"
    },
    {
     "category": "Core value picks",
@@ -12497,26 +12647,26 @@
    },
    {
     "category": "Small/secondary value",
-    "record": "25-24",
+    "record": "25-26",
     "w": 25,
-    "l": 24,
-    "units": 2.35,
-    "notes": "~+2.35u (rough, incl. 0.5u MEM lean 2026-10-24 and triggered conditionals; Magic ML -0.25u 11-06)"
+    "l": 26,
+    "units": 1.85,
+    "notes": "~+1.85u (rough, incl. 0.5u MEM lean 2026-10-24 and triggered conditionals; Magic ML -0.25u 11-06; Grizzlies and Blazers ML -0.50u 11-07)"
    }
   ],
   "brier": {
-   "me": 0.199,
-   "dk": 0.192,
-   "pm": 0.194,
-   "games": 123,
-   "notes": "Cumulative, 123 games; Polymarket = preview-time prices"
+   "me": 0.197,
+   "dk": 0.188,
+   "pm": 0.19,
+   "games": 132,
+   "notes": "Cumulative, 132 games; Polymarket = preview-time prices"
   }
  },
  "lessons": [
   {
    "n": 1,
    "title": "Trust my own judgement; markets are an input, not the answer.",
-   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 4-for-4: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03 with OKC at 69% of money on 23% of tickets; each time the money side won outright). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 9-9 (1-1 on 11-06: Magic 54 vs ~48 wrong; Warriors 69 vs DK close ~60 right; 3-5 on 11-05: DEN, OKC, MIA, MEM, WSH went the market's way), so there's no proven edge there: keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced."
+   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 4-for-4: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03 with OKC at 69% of money on 23% of tickets; each time the money side won outright). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 10-13 (1-4 on 11-07: only TOR right; MEM 58 vs 39 and POR 52 vs 42 lost as dog MLs), so there's no edge there: keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced. At 10+ pts off with no fresh news, assume my ratings are stale: re-weight to the current roster's last 2-3 games (OKC's net still carried no-Caruso collapse losses while the current group had just won twice at CLE; lost by 31 at MEM, 11-07)."
   },
   {
    "n": 2,
@@ -12531,7 +12681,7 @@
   {
    "n": 4,
    "title": "Margins: respect the clearly better, healthier roster; don't stack soft dog-friendly adjustments.",
-   "body": "Dogs-with-points are 3-5; require ~3.5-4 pts of edge on my own margin and size small. Rest edge + \"strip the blowout\" + \"keeps games close\" each nudged me 1-2 pts toward dogs and together made fake edges: Bucks +9.5 lost by 25, and four favorites won by 21-31 against my 2.5-8.5 margins (11-01). Cap combined soft adjustments at ~2 pts unless one is a named roster fact. Five-game \"never won by more than X\" trends are noise. My margins are compressed: over 11-01/11-02 my nine winning picks won by ~16 pts on average vs my ~5. Regress ratings once, not again on top of soft adjustments. Still true 11-03 (DET 33 vs 6, HOU 16 vs 5.5, LAL 21 vs 3.5) and 11-05 (NYK 30, DEN 19); my losing favorites are mostly where I sat above the market (MEM 74 vs 67, 11-05). Back a dog I like with the points, not the ML, when the favorite is clearly better: small dog MLs 0-3 on 11-05 (WSH, TOR, LAC) while DAL +12.5 won. Soft rest/B2B edges also die when the dog can't secure the ball (ORL 25 TO → 36 PHX pts, Magic ML L, 11-06)."
+   "body": "Dogs-with-points are 3-5; require ~3.5-4 pts of edge on my own margin and size small. Rest edge + \"strip the blowout\" + \"keeps games close\" each nudged me 1-2 pts toward dogs and together made fake edges: Bucks +9.5 lost by 25, and four favorites won by 21-31 against my 2.5-8.5 margins (11-01). Cap combined soft adjustments at ~2 pts unless one is a named roster fact. Five-game \"never won by more than X\" trends are noise. My margins are compressed: over 11-01/11-02 my nine winning picks won by ~16 pts on average vs my ~5. Regress ratings once, not again on top of soft adjustments. Still true 11-03 (DET 33 vs 6, HOU 16 vs 5.5, LAL 21 vs 3.5) and 11-05 (NYK 30, DEN 19); my losing favorites are mostly where I sat above the market (MEM 74 vs 67, 11-05). Small dog MLs are 1-6 since 11-05 (WSH, TOR, LAC, ORL, MEM, POR L): back a dog I like with the points, not the ML, and only with a named roster edge. Soft edges also die when the dog can't secure the ball (ORL 25 TO, 11-06; POR 24 TO / 31 fouls vs Luka 53, 11-07). The cap applies to favorites too: PHI got soft bumps (CLE travel, Allen Q) and lost by 24 (11-07), while BOS 39, OKC 31, TOR 14, SA 15 beat my margins."
   },
   {
    "n": 5,
@@ -12546,7 +12696,7 @@
   {
    "n": 7,
    "title": "Conditional plays: clear trigger + price limit, and assume the trigger news moves the price.",
-   "body": "Triggered conditionals 3-1 (DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06): passed pre-report, wrote -7.5 only as Giannis-out conditional; he was Available and played, ML/spread softened into tip (~61.5¢ / -3.5), conditional untriggered (not counted)."
+   "body": "Triggered conditionals 3-1 (DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06) and Hawks/Raptors ML pre-report (11-07). Triggered-but-unfillable isn't counted: Bucks +6.5 needed ≤52¢ but Barnes went Out ~1 h before tip with the Bucks side already ~59.5¢ (would have lost, 11-07). Before writing \"cancel if star X is out,\" grade who's left: Wizards +7.5 was cancelled on AD-out and would have covered (George 33, T. Johnson 23)."
   }
  ],
  "daily_log": [
@@ -12887,6 +13037,27 @@
    "small_value": [
     0,
     1
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "text": "SU 6-3 (misses: PHI lost by 24 at CLE without Allen; MEM lost by 31 to OKC, Mitchell 35; POR lost by 6 to Luka's 53). ATS 0-0 (Wizards +7.5 cancelled with AD out, would have covered; Bucks +6.5 conditional triggered by Barnes out but past the price limit, not placed, would have lost). Totals 0-0 (all passed; Unders 5-4 vs close). Small value 0-2 (Grizzlies ML, Blazers ML), -0.50u. No-stake leans 3-2. Closing favorites 6-3 ATS. Big disagreements 1-4. Brier me 0.177 vs DK 0.135 / PM 0.128. Full review: review-2026-11-07.md.",
+   "su": [
+    6,
+    3
+   ],
+   "ats": [
+    0,
+    0
+   ],
+   "totals": [
+    0,
+    0
+   ],
+   "core_value": null,
+   "small_value": [
+    0,
+    2
    ]
   }
  ],
@@ -13397,36 +13568,68 @@
       1
      ]
     }
+   },
+   {
+    "date": "2026-11-07",
+    "su_w": 6,
+    "su_l": 3,
+    "units": -0.5,
+    "brier": {
+     "me": 0.177,
+     "dk": 0.135,
+     "pm": 0.128
+    },
+    "log": {
+     "date": "2026-11-07",
+     "text": "SU 6-3 (misses: PHI lost by 24 at CLE without Allen; MEM lost by 31 to OKC, Mitchell 35; POR lost by 6 to Luka's 53). ATS 0-0 (Wizards +7.5 cancelled with AD out, would have covered; Bucks +6.5 conditional triggered by Barnes out but past the price limit, not placed, would have lost). Totals 0-0 (all passed; Unders 5-4 vs close). Small value 0-2 (Grizzlies ML, Blazers ML), -0.50u. No-stake leans 3-2. Closing favorites 6-3 ATS. Big disagreements 1-4. Brier me 0.177 vs DK 0.135 / PM 0.128. Full review: review-2026-11-07.md.",
+     "su": [
+      6,
+      3
+     ],
+     "ats": [
+      0,
+      0
+     ],
+     "totals": [
+      0,
+      0
+     ],
+     "core_value": null,
+     "small_value": [
+      0,
+      2
+     ]
+    }
    }
   ],
   "calibration": [
    {
     "bucket": "50–59%",
-    "n": 48,
-    "hits": 28,
-    "avg_pred": 54.5,
-    "actual": 58.3
+    "n": 53,
+    "hits": 30,
+    "avg_pred": 54.6,
+    "actual": 56.6
    },
    {
     "bucket": "60–69%",
-    "n": 35,
-    "hits": 22,
-    "avg_pred": 65.1,
-    "actual": 62.9
+    "n": 36,
+    "hits": 23,
+    "avg_pred": 65.2,
+    "actual": 63.9
    },
    {
     "bucket": "70–79%",
-    "n": 23,
-    "hits": 18,
-    "avg_pred": 73.5,
-    "actual": 78.3
+    "n": 25,
+    "hits": 20,
+    "avg_pred": 73.3,
+    "actual": 80.0
    },
    {
     "bucket": "80%+",
-    "n": 17,
-    "hits": 16,
-    "avg_pred": 84.1,
-    "actual": 94.1
+    "n": 18,
+    "hits": 17,
+    "avg_pred": 84.2,
+    "actual": 94.4
    }
   ],
   "splits": [
@@ -13435,13 +13638,13 @@
     "groups": [
      {
       "label": "Picked favorite",
-      "w": 79,
-      "l": 32
+      "w": 85,
+      "l": 33
      },
      {
       "label": "Picked underdog",
       "w": 5,
-      "l": 7
+      "l": 9
      }
     ]
    },
@@ -13450,13 +13653,13 @@
     "groups": [
      {
       "label": "Home pick",
-      "w": 51,
-      "l": 26
+      "w": 53,
+      "l": 27
      },
      {
       "label": "Road pick",
-      "w": 33,
-      "l": 13
+      "w": 37,
+      "l": 15
      }
     ]
    },
@@ -13466,12 +13669,12 @@
      {
       "label": "I was above market",
       "w": 32,
-      "l": 24
+      "l": 26
      },
      {
       "label": "At/below market",
-      "w": 52,
-      "l": 15
+      "w": 58,
+      "l": 16
      }
     ]
    },
@@ -13480,32 +13683,32 @@
     "groups": [
      {
       "label": "Conf 1-5",
-      "w": 55,
-      "l": 34
+      "w": 58,
+      "l": 37
      },
      {
       "label": "Conf 6-10",
-      "w": 29,
+      "w": 32,
       "l": 5
      }
     ]
    }
   ],
-  "graded_games": 123,
+  "graded_games": 132,
   "glance": {
    "record": {
-    "w": 84,
-    "l": 39,
-    "n": 123,
+    "w": 90,
+    "l": 42,
+    "n": 132,
     "pct": 68
    },
    "streak": {
     "type": "W",
     "len": 1
    },
-   "units_total": 1.67,
-   "units_days_stated": 15,
-   "units_days_total": 16,
+   "units_total": 1.17,
+   "units_days_stated": 16,
+   "units_days_total": 17,
    "units_series": [
     {
      "date": "2026-10-21",
@@ -13586,81 +13789,86 @@
      "date": "2026-11-06",
      "units": -0.25,
      "cum": 1.67
+    },
+    {
+     "date": "2026-11-07",
+     "units": -0.5,
+     "cum": 1.17
     }
    ],
    "last7": {
-    "w": 37,
+    "w": 36,
     "l": 15,
-    "n": 52,
+    "n": 51,
     "pct": 71,
-    "units": -1.26,
-    "start": "2026-10-31",
-    "end": "2026-11-06",
+    "units": -1.5,
+    "start": "2026-11-01",
+    "end": "2026-11-07",
     "days": 6,
     "units_days": 6
    },
    "insights": [
     {
-     "w": 34,
+     "w": 37,
      "l": 6,
-     "n": 40,
-     "pct": 85,
+     "n": 43,
+     "pct": 86,
      "key": "big_fav",
      "text": "Big favourites (my win % 70+)"
     },
     {
-     "w": 28,
-     "l": 20,
-     "n": 48,
-     "pct": 58,
+     "w": 30,
+     "l": 23,
+     "n": 53,
+     "pct": 57,
      "key": "coin",
      "text": "Close calls (my win % 50–59)"
     },
     {
      "w": 9,
-     "l": 14,
-     "n": 23,
-     "pct": 39,
+     "l": 16,
+     "n": 25,
+     "pct": 36,
      "key": "disagree_up",
      "text": "When I rate the pick 3+ pts higher than Polymarket"
     },
     {
-     "w": 53,
-     "l": 19,
-     "n": 72,
+     "w": 56,
+     "l": 20,
+     "n": 76,
      "pct": 74,
      "key": "agree",
      "text": "When I roughly agree with Polymarket (within 2.5 pts)"
     },
     {
-     "w": 22,
+     "w": 25,
      "l": 6,
-     "n": 28,
-     "pct": 79,
+     "n": 31,
+     "pct": 81,
      "key": "disagree_down",
      "text": "When I rate the pick 3+ pts lower than Polymarket"
     },
     {
-     "w": 29,
+     "w": 32,
      "l": 5,
-     "n": 34,
-     "pct": 85,
+     "n": 37,
+     "pct": 86,
      "key": "high_conf",
      "text": "High-confidence picks (6+/10)"
     },
     {
      "w": 5,
-     "l": 7,
-     "n": 12,
-     "pct": 42,
+     "l": 9,
+     "n": 14,
+     "pct": 36,
      "key": "dogs",
      "text": "Picking the underdog"
     },
     {
-     "w": 33,
-     "l": 13,
-     "n": 46,
-     "pct": 72,
+     "w": 37,
+     "l": 15,
+     "n": 52,
+     "pct": 71,
      "key": "road",
      "text": "Picking the road team"
     }
@@ -13676,41 +13884,97 @@
     },
     {
      "category": "Small/secondary value",
-     "record": "25-24",
+     "record": "25-26",
      "w": 25,
-     "l": 24,
-     "units": 2.35,
-     "notes": "~+2.35u (rough, incl. 0.5u MEM lean 2026-10-24 and triggered conditionals; Magic ML -0.25u 11-06)"
+     "l": 26,
+     "units": 1.85,
+     "notes": "~+1.85u (rough, incl. 0.5u MEM lean 2026-10-24 and triggered conditionals; Magic ML -0.25u 11-06; Grizzlies and Blazers ML -0.50u 11-07)"
     }
    ],
    "brier": {
-    "me": 0.199,
-    "dk": 0.192,
-    "pm": 0.194,
-    "games": 123,
-    "notes": "Cumulative, 123 games; Polymarket = preview-time prices"
+    "me": 0.197,
+    "dk": 0.188,
+    "pm": 0.19,
+    "games": 132,
+    "notes": "Cumulative, 132 games; Polymarket = preview-time prices"
    }
   }
  },
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-06T23:43:17+08:00",
+  "fetched_at": "2026-11-07T14:19:19+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
-    "w": 26,
-    "l": 27,
-    "net_pnl": 6.79,
-    "settled_cost": 191.95,
-    "roi_pct": 3.5,
-    "open_count": 0,
-    "open_cost": 0,
-    "open_value": 0,
-    "open_unrealized": 0
+    "w": 27,
+    "l": 29,
+    "net_pnl": 4.2,
+    "settled_cost": 199.64,
+    "roi_pct": 2.1,
+    "open_count": 1,
+    "open_cost": 2.57,
+    "open_value": 0.0,
+    "open_unrealized": -2.57
    },
-   "open_positions": [],
+   "open_positions": [
+    {
+     "title": "Trail Blazers vs. Lakers",
+     "outcome": "Trail Blazers",
+     "event": "nba-por-lal-2026-11-06",
+     "avg_price": 0.4199,
+     "shares": 5.9523,
+     "cost": 2.5724,
+     "current_value": 0.0029,
+     "cur_price": 0.0005,
+     "pnl": -2.497,
+     "end_date": "2026-11-07",
+     "nba": true
+    }
+   ],
    "settled_recent": [
+    {
+     "title": "Spread: Hawks (-7.5)",
+     "outcome": "Wizards",
+     "event": "nba-was-atl-2026-11-06",
+     "avg_price": 0.5024,
+     "shares": 5.102,
+     "cost": 2.56,
+     "pnl": 2.5382,
+     "result": "won",
+     "date": "2026-11-07",
+     "ts": 1794019017,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Spread: Raptors (-6.5)",
+     "outcome": "Bucks",
+     "event": "nba-tor-mil-2026-11-06",
+     "avg_price": 0.5599,
+     "shares": 4.4642,
+     "cost": 2.5549,
+     "pnl": -2.5549,
+     "result": "lost",
+     "date": "2026-11-07",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
+    {
+     "title": "Thunder vs. Grizzlies",
+     "outcome": "Grizzlies",
+     "event": "nba-okc-mem-2026-11-06",
+     "avg_price": 0.4,
+     "shares": 6.25,
+     "cost": 2.575,
+     "pnl": -2.575,
+     "result": "lost",
+     "date": "2026-11-07",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
     {
      "title": "Magic vs. Suns",
      "outcome": "Magic",
@@ -14598,86 +14862,6 @@
      "ts": 1792986423,
      "unredeemed": false,
      "nba": true
-    },
-    {
-     "title": "Pistons vs. 76ers",
-     "outcome": "Pistons",
-     "event": "nba-det-phi-2026-10-25",
-     "avg_price": 0.5099,
-     "shares": 9.8039,
-     "cost": 5.0,
-     "pnl": 4.8039,
-     "result": "won",
-     "date": "2026-10-26",
-     "ts": 1792981704,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "title": "Magic vs. Knicks: O/U 224.5",
-     "outcome": "Under",
-     "event": "nba-orl-nyk-2026-10-25",
-     "avg_price": 0.5,
-     "shares": 5.0,
-     "cost": 2.5,
-     "pnl": 2.5,
-     "result": "won",
-     "date": "2026-10-26",
-     "ts": 1792979822,
-     "unredeemed": false,
-     "nba": true
-    },
-    {
-     "combo": true,
-     "title": "Knicks + Lakers + Pacers",
-     "outcome": "COMBO · 3 legs",
-     "event": null,
-     "legs": [
-      {
-       "pick": "Knicks",
-       "market": "Magic vs. Knicks",
-       "type": "moneyline",
-       "line": null,
-       "status": "RESOLVED_LOSS",
-       "price": 0.0,
-       "resolved": "2026-10-26",
-       "nba": true
-      },
-      {
-       "pick": "Lakers",
-       "market": "Lakers vs. Jazz",
-       "type": "moneyline",
-       "line": null,
-       "status": "RESOLVED_WIN",
-       "price": 1.0,
-       "resolved": "2026-10-26",
-       "nba": true
-      },
-      {
-       "pick": "Pacers",
-       "market": "Pacers vs. Nets",
-       "type": "moneyline",
-       "line": null,
-       "status": "RESOLVED_WIN",
-       "price": 1.0,
-       "resolved": "2026-10-26",
-       "nba": true
-      }
-     ],
-     "legs_total": 3,
-     "legs_pending": 0,
-     "nba_legs": 3,
-     "nba": true,
-     "mixed": false,
-     "avg_price": 0.349206,
-     "shares": 13.866911,
-     "cost": 5.0,
-     "pnl": -5.0,
-     "result": "lost",
-     "date": "2026-10-26",
-     "ts": 1792979765,
-     "unredeemed": false,
-     "decided_early": false
     }
    ],
    "daily": [
@@ -14752,23 +14936,85 @@
      "w": 0,
      "l": 1,
      "pnl": -5.12
+    },
+    {
+     "date": "2026-11-07",
+     "w": 1,
+     "l": 2,
+     "pnl": -2.59
     }
    ]
   },
   "all": {
    "summary": {
-    "w": 31,
-    "l": 45,
-    "net_pnl": -149.2,
-    "settled_cost": 494.29,
+    "w": 32,
+    "l": 47,
+    "net_pnl": -151.79,
+    "settled_cost": 501.98,
     "roi_pct": -30.2,
-    "open_count": 0,
-    "open_cost": 0,
-    "open_value": 0,
-    "open_unrealized": 0
+    "open_count": 1,
+    "open_cost": 2.57,
+    "open_value": 0.0,
+    "open_unrealized": -2.57
    },
-   "open_positions": [],
+   "open_positions": [
+    {
+     "title": "Trail Blazers vs. Lakers",
+     "outcome": "Trail Blazers",
+     "event": "nba-por-lal-2026-11-06",
+     "avg_price": 0.4199,
+     "shares": 5.9523,
+     "cost": 2.5724,
+     "current_value": 0.0029,
+     "cur_price": 0.0005,
+     "pnl": -2.497,
+     "end_date": "2026-11-07",
+     "nba": true
+    }
+   ],
    "settled_recent": [
+    {
+     "title": "Spread: Hawks (-7.5)",
+     "outcome": "Wizards",
+     "event": "nba-was-atl-2026-11-06",
+     "avg_price": 0.5024,
+     "shares": 5.102,
+     "cost": 2.56,
+     "pnl": 2.5382,
+     "result": "won",
+     "date": "2026-11-07",
+     "ts": 1794019017,
+     "unredeemed": false,
+     "nba": true
+    },
+    {
+     "title": "Spread: Raptors (-6.5)",
+     "outcome": "Bucks",
+     "event": "nba-tor-mil-2026-11-06",
+     "avg_price": 0.5599,
+     "shares": 4.4642,
+     "cost": 2.5549,
+     "pnl": -2.5549,
+     "result": "lost",
+     "date": "2026-11-07",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
+    {
+     "title": "Thunder vs. Grizzlies",
+     "outcome": "Grizzlies",
+     "event": "nba-okc-mem-2026-11-06",
+     "avg_price": 0.4,
+     "shares": 6.25,
+     "cost": 2.575,
+     "pnl": -2.575,
+     "result": "lost",
+     "date": "2026-11-07",
+     "ts": null,
+     "unredeemed": true,
+     "nba": true
+    },
     {
      "title": "Magic vs. Suns",
      "outcome": "Magic",
@@ -15618,48 +15864,6 @@
      "ts": 1793082347,
      "unredeemed": false,
      "nba": false
-    },
-    {
-     "title": "Will Max Verstappen win the 2026 F1 Australian Grand Prix?",
-     "outcome": "Yes",
-     "event": "f1-australian-grand-prix-winner-2026-03-07",
-     "avg_price": 0.02,
-     "shares": 50.0,
-     "cost": 1.0,
-     "pnl": -1.0,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": 1793082347,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Valorant: Team Falcons VEGA vs swaglord9000 (BO3) - VCT Game Changers Pacific Playoffs",
-     "outcome": "swaglord9000",
-     "event": "val-flc-sl9-2026-09-15",
-     "avg_price": 0.0662,
-     "shares": 15.7941,
-     "cost": 1.05,
-     "pnl": -1.0468,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": 1793082347,
-     "unredeemed": false,
-     "nba": false
-    },
-    {
-     "title": "Will the price of Bitcoin be between $88,000 and $90,000 on January 12?",
-     "outcome": "Yes",
-     "event": "bitcoin-price-on-january-12",
-     "avg_price": 0.0629,
-     "shares": 78.7301,
-     "cost": 4.95,
-     "pnl": -4.9599,
-     "result": "lost",
-     "date": "2026-10-27",
-     "ts": 1793082347,
-     "unredeemed": false,
-     "nba": false
     }
    ],
    "daily": [
@@ -15770,15 +15974,21 @@
      "w": 0,
      "l": 1,
      "pnl": -5.12
+    },
+    {
+     "date": "2026-11-07",
+     "w": 1,
+     "l": 2,
+     "pnl": -2.59
     }
    ]
   },
   "default_view": "nba",
   "truncated": false,
   "counts": {
-   "positions_rows": 15,
-   "closed_rows": 52,
-   "nba_items": 53,
+   "positions_rows": 18,
+   "closed_rows": 53,
+   "nba_items": 57,
    "combo_rows": 9,
    "combos_open": 0,
    "combos_settled": 9,
