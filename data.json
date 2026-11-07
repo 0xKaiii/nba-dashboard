@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T23:38:48+08:00",
+ "generated_at": "2026-11-07T23:39:01+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-08",
  "latest_review_date": "2026-11-07",
@@ -12903,7 +12903,7 @@
       "Q:"
      ],
      "view": "model HOU by 7.1 with HCA → HOU ~72% if Durant plays (~64% if he sits). Fair at 71.5¢.",
-     "bet": "small Over, only if Durant is active (Under-the-hood: his absence takes scoring out, not pace). Polymarket \"Rockets vs. Suns: O/U 223.5\": buy Over ≤53¢, 0.25u.",
+     "bet": "small Over, only if Durant is active (his absence takes scoring out of a slow-paced team). Polymarket \"Rockets vs. Suns: O/U 223.5\": buy Over ≤53¢, 0.25u.",
      "bet_bold": [
       "only if Durant is active",
       "Over ≤53¢"
@@ -14365,7 +14365,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-07T23:38:48+08:00",
+  "fetched_at": "2026-11-07T23:39:01+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
