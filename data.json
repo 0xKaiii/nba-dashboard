@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T23:39:01+08:00",
+ "generated_at": "2026-11-07T23:39:15+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-08",
  "latest_review_date": "2026-11-07",
@@ -12617,6 +12617,66 @@
    "written": "~23:50 MYT Sat Nov 7",
    "games": [
     {
+     "id": "2026-11-08-DEN-IND",
+     "n": 1,
+     "away": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "home": {
+      "abbr": "IND",
+      "city": "Indiana",
+      "name": "Pacers"
+     },
+     "tip_myt": "06:00",
+     "tip_iso": "2026-11-08T06:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "win_pct": 67.0,
+     "confidence": 5,
+     "dk_ml": "DEN -268 / IND +220 (opened -241/+199) → de-vig DEN 70.0%",
+     "dk_devig": {
+      "abbr": "DEN",
+      "pct": 70.0
+     },
+     "pm_ml": "DEN 73.5¢ / IND 26.5¢ ($35k)",
+     "spread": {
+      "dk": "DEN -7.5 (opened -6.5)",
+      "pm": "Nuggets -7.5: 49.5 / Pacers 50.5; Nuggets -6.5: 53.5"
+     },
+     "total": {
+      "dk": "229.5 (opened 228.5)",
+      "pm": "O/U 229.5: Over 48.5; O/U 230.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 73.5,
+     "edge": -6.5,
+     "dk_pick_pct": 70.0,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DEN Out: Strawther. Probable: DeRozan (back). IND Out: Haliburton (hamstring), Furphy, Sheppard. Q: McConnell (hamstring), Oubre (calf).",
+     "injury_flags": [
+      "Out:",
+      "Probable:",
+      "Out:",
+      "Q:"
+     ],
+     "view": "model DEN by ~2 neutral, but DEN's net is dragged by early losses and the healthy Jokić–Murray–Gordon core is clearly the better roster (L4: favorites win bigger). With ~0.5 pt of HCA for IND, I land DEN by ~5, ~67%. Market (-7.5, 73.5¢) is a touch rich but not a 3.5–4-pt dog edge.",
+     "bet": "pass. Pacers +7.5 is a lean only.",
+     "bet_bold": [],
+     "form": "DEN 4-3 (net +0.7; pace 100.7), beat TOR 128-109 Wed (Jokić 32 in 30 min). IND 3-6 (net -2.9, 32.8% from three), won 107-103 at MEM Wed without Haliburton; lost 90-98 at home to BKN earlier.",
+     "sentiment": "consensus ~92% of ML tickets / 93% of money on DEN, ~82% of spread money on DEN, ~71% money on the Over (ScoresAndOdds via snippet). Covers: Nuggets 70%. BettingPros: Pacers team total Under 111.5.",
+     "avoid": [
+      "Thunder ML at 82.5¢ and -11.5; Cavs +4.5 (money rule); Nuggets -7.5 / Pacers +7.5; Hawks–Nets side; Spurs–Blazers side; every total except the conditional HOU–PHX Over."
+     ],
+     "result": null
+    },
+    {
      "id": "2026-11-08-BKN-ATL",
      "n": 2,
      "away": {
@@ -12726,7 +12786,7 @@
       "Q:"
      ],
      "view": "model CLE by 1.7 with HCA; minus 1.5 B2B and ~1 for Merrill/Watson on top of Allen → NYK by ~1, ~53%. That's ~3.5 pts off the market toward CLE, but the money-vs-tickets gap is ~33 pts on NYK — L1 hard pass on Cavs +4.5. Keep the pick on NYK at low confidence.",
-     "bet": null,
+     "bet": "pass (L1 hard pass on Cavs +4.5; Under lean, no stake).",
      "bet_bold": [],
      "form": "NYK 4-4 (net +4.9, DRtg 105.0), beat CHI 135-105 Wed; Unders 6-2 in their games. CLE 5-4 (net +4.3), crushed PHI 119-95 Fri without Allen (Mitchell 23/7/8).",
      "sentiment": "Knicks -4.5 47% of tickets but 80% of money; ML 77/77 Knicks; total 45% tickets / 73% money Over (Wise Guy Team via snippet). BettingPros: Under 225.5. numberFire: Knicks 54.6%.",
@@ -14365,7 +14425,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-07T23:39:01+08:00",
+  "fetched_at": "2026-11-07T23:39:15+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
