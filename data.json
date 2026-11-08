@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T14:08:17+08:00",
+ "generated_at": "2026-11-08T14:08:34+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-08",
  "latest_review_date": "2026-11-08",
@@ -13241,6 +13241,7 @@
      "Straight up: 6-1 (miss: Rockets).",
      "ATS: 0-0. Totals: 0-1 (HOU–PHX Over). Core value: 0-0. Small value: 0-1 (HOU–PHX Over).",
      "Units: -0.25u on the day (HOU–PHX Over 223.5, 0.25u at ~51¢), at preview prices, before fees.",
+     "Account (@0xkai.kjt, per dashboard tracker): HOU–PHX Over 223.5 bought at ~52¢ (lost, -$2.56); a 7-leg moneyline combo of all seven of my picks, $2.50 at ~12¢ (lost on the Rockets leg after the other six hit, -$2.50). Net about -$5.06 on the night. The units line above grades the written picks only.",
      "No-stake leans: 2-3 (NYK–CLE Under, Warriors -5.5 in OT W; Pacers +7.5, Wizards +11.5, Blazers +5.5 L). All three dog-with-points leans lost by 4.5–27.5.",
      "Avoid list: Thunder ML/-11.5 (OKC covered, no value at 82.5¢), Cavs +4.5 (money rule right), Nuggets/Pacers side (DEN covered), Hawks–Nets side (Nets covered), Spurs–Blazers side (SA covered). All other totals passed (5-1 Under among them vs close).",
      "Season: SU 96-43, ATS 4-6, totals 11-8, core value 3-3 (~+0.2u), small value 25-27 (roughly +1.60u overall).",
@@ -14605,7 +14606,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-08T14:08:17+08:00",
+  "fetched_at": "2026-11-08T14:08:34+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
