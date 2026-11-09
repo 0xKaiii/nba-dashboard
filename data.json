@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T14:03:10+08:00",
+ "generated_at": "2026-11-09T23:37:29+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-09",
+ "latest_preview_date": "2026-11-10",
  "latest_review_date": "2026-11-09",
  "days": [
   {
@@ -13817,6 +13817,534 @@
      "A \"money against me\" spread split is only a hard pass on the side I like if the money is on the favorite. The Nets +7.5 63%-of-money signal (31-pt gap) lost by 44.5 (DAL 130-93). Hard pass stays for money on the side opposing my pick with a gap of 30+ (CLE, IND, NYK cases); here the money was on the side I had no lean on, and a dog backed by money on a back-to-back with both ball-handlers out should have been read as a stale-injury price, not sharp money."
     ]
    }
+  },
+  {
+   "date": "2026-11-10",
+   "file": "preview-2026-11-10.md",
+   "written": "~23:50 MYT Mon Nov 9",
+   "games": [
+    {
+     "id": "2026-11-10-LAL-ATL",
+     "n": 1,
+     "away": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "home": {
+      "abbr": "ATL",
+      "city": "Atlanta",
+      "name": "Hawks"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-10T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "ATL",
+      "city": "Atlanta",
+      "name": "Hawks"
+     },
+     "win_pct": 57.0,
+     "confidence": 4,
+     "dk_ml": "LAL +101 / ATL -120 (opened -133/+112) → de-vig ATL 52.3%",
+     "dk_devig": {
+      "abbr": "ATL",
+      "pct": 52.3
+     },
+     "pm_ml": "LAL 48.5¢ / ATL 51.5¢ ($131k)",
+     "spread": {
+      "dk": "ATL -1.5 (opened LAL -2.5)",
+      "pm": "Hawks -1.5: 50.5 / Lakers 49.5; Hawks -2.5: 46.5; Lakers -1.5: 44.5"
+     },
+     "total": {
+      "dk": "237.5 (opened 236.5)",
+      "pm": "O/U 236.5: Over 48.5; O/U 235.5: Over 51.5; O/U 237.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 51.5,
+     "edge": 5.5,
+     "dk_pick_pct": 52.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "LAL Luka Dončić Out (back) per FanDuel Research / HoopMetrics; LAL had not submitted the official report at 10:30 AM ET. Grimes day-to-day (finger). ATL Out: Newell, Gueye, Gilbert, Veesaar. Q: Landale (hip), backup C.",
+     "injury_flags": [
+      "Luka Dončić Out (back)",
+      "Out:",
+      "Q: Landale (hip)"
+     ],
+     "view": "model ATL by 0.2 with Luka. Without him: −3 (a 40-ppg creator, but LAL is 2-0 without him, so I keep it small per L2) and −1.5 for the B2B → ATL by ~4, ~59%. I trim to 57% because Reaves has carried them twice. That's ~5.5 pts over 51.5¢ with no unpriced fact (L1).",
+     "bet": "pass. Hawks ML lean, no stake (PM 51.5¢). Total: pass (ATL's last three 225/271/245 vs LAL without Luka).",
+     "bet_bold": [
+      "Hawks ML lean, no stake"
+     ],
+     "form": "LAL 9-2 (net +7.3, ORtg 118.8), five straight wins incl. 121-116 at DET last night without Luka (Reaves 43); 2-0 without Luka this season. ATL 7-4 (net +3.0, pace 105.6), four straight wins (124-121 vs BKN Sat; Jalen Johnson back with 30). No H2H yet.",
+     "sentiment": "LAL 79% of ML tickets / 71% money; spread LAL +1.5 74%/56%. Total 74/76 Over. Covers backs Hawks (prices ~52%, before Luka was ruled out). Sports Mole: Over 235.5. ESPN BPI ATL 59%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-CLE-CHA",
+     "n": 2,
+     "away": {
+      "abbr": "CLE",
+      "city": "Cleveland",
+      "name": "Cavaliers"
+     },
+     "home": {
+      "abbr": "CHA",
+      "city": "Charlotte",
+      "name": "Hornets"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-10T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "CLE",
+      "city": "Cleveland",
+      "name": "Cavaliers"
+     },
+     "win_pct": 78.0,
+     "confidence": 7,
+     "dk_ml": "CLE -337 / CHA +270 (opened -309/+250) → de-vig CLE 74.0%",
+     "dk_devig": {
+      "abbr": "CLE",
+      "pct": 74.0
+     },
+     "pm_ml": "CLE 75.5¢ / CHA 24.5¢ ($63k)",
+     "spread": {
+      "dk": "CLE -8.5 (opened -9.5)",
+      "pm": "Cavaliers -8.5: 48.5 / Hornets 51.5; -7.5: 52.5; -9.5: 44.5"
+     },
+     "total": {
+      "dk": "214.5 (opened 217.5)",
+      "pm": "O/U 215.5: Over 48.5 / Under 51.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 75.5,
+     "edge": 2.5,
+     "dk_pick_pct": 74.0,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "CLE Out: Merrill, Tyson, Tomlin. Q: Jarrett Allen (knee contusion); missed the last two (1-1). CHA Out: Brandon Miller (hip/groin), Kon Knueppel (hamstring, ~4 weeks per Covers), Schröder, Grant Williams. Q: Diabaté.",
+     "injury_flags": [
+      "Out:",
+      "Q: Jarrett Allen (knee contusion)",
+      "Out:",
+      "Brandon Miller (hip/groin)",
+      "Kon Knueppel (hamstring, ~4 weeks per Covers)",
+      "Schröder",
+      "Grant Williams"
+     ],
+     "view": "model CLE by 6.6; CHA without Miller on top of the others is a thin team losing several (L2) → +3 → CLE by ~9.5, ~78%. 2.5 pts over 75.5¢, and only ~1 pt on -8.5. Not enough.",
+     "bet": "pass. Total pass (line already moved 3 down; CHA's last three 215/218/199).",
+     "bet_bold": [],
+     "form": "CLE 5-5 (net +2.8), lost 97-109 to NYK Sat (Mitchell 37, Harden 7 pts); beat PHI by 24 the night before. CHA 3-7 (net -14.1, ORtg 97.8, 19.2 TOV), five straight losses incl. 80-119 vs BOS Fri.",
+     "sentiment": "96% of ML tickets and money CLE; spread 84% tickets / 76% money CLE. Total line down 3 (217.5 → 214.5) with 79% of tickets on the Over. Sports Mole and SI: CLE (-8.5 / ML parlay). Covers contrarian: Hornets at ~27% fair. BPI CLE 76%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-WSH-DET",
+     "n": 3,
+     "away": {
+      "abbr": "WSH",
+      "city": "Washington",
+      "name": "Wizards"
+     },
+     "home": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-10T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 76.0,
+     "confidence": 6,
+     "dk_ml": "WSH +376 / DET -490 (opened +348/-448) → de-vig DET 79.8%",
+     "dk_devig": {
+      "abbr": "DET",
+      "pct": 79.8
+     },
+     "pm_ml": "WSH 18.5¢ / DET 81.5¢ ($12k)",
+     "spread": {
+      "dk": "DET -10.5 (opened -11.5)",
+      "pm": "Pistons -10.5: 50.5 / Wizards 49.5"
+     },
+     "total": {
+      "dk": "217.5 (opened 218.5)",
+      "pm": "O/U 218.5: Over 48.5 / Under 51.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 81.5,
+     "edge": -5.5,
+     "dk_pick_pct": 79.8,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "WSH Q: Anthony Davis (ankle; missed two). Out: Beekman, Champagnie, Vukčević, Watkins. DET (official not submitted) Out: Duren (hamstring), Isaiah Joe (hip). Cunningham not listed.",
+     "injury_flags": [
+      "Q: Anthony Davis (ankle; missed two)",
+      "Out:",
+      "Duren"
+     ],
+     "view": "model DET by 8.3, −1.5 B2B, +0.5 if AD sits → DET by ~7, ~72%. That's 9.5 pts under 81.5¢ with no roster fact → L1 halfway → ~76%, DET by ~9. Wizards +10.5 is then ~1.5 pts of edge, below the L4 bar. Davis playing would add ~2 but the line would move with him.",
+     "bet": "pass.",
+     "bet_bold": [],
+     "form": "WSH 4-6 (net -4.6, 30.2% from three), three straight losses incl. 75-114 at OKC Sat without AD. DET 6-3 (net +7.7, DRtg 103.1), lost 116-121 to LAL last night (Jenkins 31, Cunningham 14 in 38 min).",
+     "sentiment": "Wizards ML 6% of tickets but 25% of money (soft gap). Spread 75/76 DET. Total 80/76 Over. Sports Mole: Wizards +10.5. Covers: Pistons at 83% (value even with AD). BPI DET 78%.",
+     "avoid": [
+      "Nuggets–Rockets side and total until Denver's final report; Raptors ML / -2.5 before the Barnes/Quickley news; Mavericks side before the Kyrie decision; Pistons -10.5 / Wizards +10.5; Warriors -9.5 / Pelicans +9.5; Spurs -8.5; Cavs -8.5; every total."
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-MEM-TOR",
+     "n": 4,
+     "away": {
+      "abbr": "MEM",
+      "city": "Memphis",
+      "name": "Grizzlies"
+     },
+     "home": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "tip_myt": "08:30",
+     "tip_iso": "2026-11-10T08:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "win_pct": 52.0,
+     "confidence": 2,
+     "dk_ml": "MEM +125 / TOR -148 (opened +117/-139) → de-vig TOR 57.3%",
+     "dk_devig": {
+      "abbr": "TOR",
+      "pct": 57.3
+     },
+     "pm_ml": "MEM 42.5¢ / TOR 57.5¢ ($21k)",
+     "spread": {
+      "dk": "TOR -2.5 (opened -2.5; book 15 at -3.5)",
+      "pm": "Raptors -2.5: 52.5 / Grizzlies 47.5; Raptors -3.5: 48.5 / Grizzlies 51.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 228.5)",
+      "pm": "O/U 228.5: Over 50.5; O/U 229.5: Over 48.5; O/U 230.5: Over 46.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 57.5,
+     "edge": -5.5,
+     "dk_pick_pct": 57.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "TOR Q: Scottie Barnes (groin), Immanuel Quickley (hamstring); both missed Sat and were limited Sunday (per Predictem/Sportsnet). Out: Kawhi Leonard (knee management), Bittle. MEM Out: Pippen Jr. (back), Isaiah Stewart (knee), Saunders.",
+     "injury_flags": [
+      "Q: Scottie Barnes (groin), Immanuel Quickley (hamstring)",
+      "Out:",
+      "Out:"
+     ],
+     "view": "model TOR by 1.7 with Barnes/Quickley. Both out → about −4.5 → MEM by ~2. Weighted by ~55% each to play → pick'em, TOR ~52%. The market's 57.5¢ assumes they mostly play.",
+     "bet": "pre-report pass. Conditional: if Barnes and Quickley are both ruled Out, Grizzlies +2.5 at 55¢ (0.25u, small, only if both are Out). That's a named roster edge (L4). Skip if the post-news price is above 55¢ (L7).",
+     "bet_bold": [
+      "Conditional:",
+      "Barnes and Quickley are both ruled Out"
+     ],
+     "form": "MEM 6-3 (net +5.9, 37.9% from three), lost three straight (OT at NO, IND, 97-128 vs OKC with 10-45 from three); 4-0 on the road. TOR 5-4 (net +5.2, league-best opponent TOV%), beat MIL 121-107 Sat without Barnes and Quickley (A. Martin 27, Poeltl 19).",
+     "sentiment": "TOR 73% of ML tickets / 68% money; spread TOR 64/62. Total 67/71 Over. Experts split: Predictem and Sports Mole Grizzlies +3.5; Covers and Squawka Raptors (Covers assumes both play). BPI TOR 51%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-IND-DAL",
+     "n": 5,
+     "away": {
+      "abbr": "IND",
+      "city": "Indiana",
+      "name": "Pacers"
+     },
+     "home": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-10T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "win_pct": 60.0,
+     "confidence": 4,
+     "dk_ml": "IND +136 / DAL -161 (opened +142/-169) → de-vig DAL 59.3%",
+     "dk_devig": {
+      "abbr": "DAL",
+      "pct": 59.3
+     },
+     "pm_ml": "IND 40.5¢ / DAL 59.5¢ ($70k)",
+     "spread": {
+      "dk": "DAL -3.5 (opened -4.5)",
+      "pm": "Mavericks -3.5: 48.5 / Pacers 51.5; -2.5: 52.5; -4.5: 45.5"
+     },
+     "total": {
+      "dk": "223.5 (opened 222.5)",
+      "pm": "O/U 222.5: Over 50.5; O/U 221.5: Over 53.5; O/U 223.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 59.5,
+     "edge": 0.5,
+     "dk_pick_pct": 59.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "IND Out: Haliburton (hamstring), Furphy, Sheppard. Q: T.J. McConnell (Covers expects him back). DAL (official not submitted) Out: Lively, Biberović, de Larrea. Kyrie Irving: B2B decision Monday morning. He sat the second night of DAL's only other B2B, and DAL lost both games he missed.",
+     "injury_flags": [
+      "Out:",
+      "Haliburton",
+      "Q: T.J. McConnell",
+      "Out:",
+      "Kyrie Irving: B2B decision Monday morning"
+     ],
+     "view": "model DAL by 6.3, −1.5 B2B, −1.5 for ~70% chance Kyrie sits → DAL by ~3.5, ~60%. Same as the market.",
+     "bet": "pass (at my number; Kyrie pending). Total: model 224 vs 222.5 and both teams' last three were low. Mixed signals, so no lean.",
+     "bet_bold": [],
+     "form": "IND 3-7 (net -3.8, ORtg 107.1), lost 102-114 to DEN Sat. DAL 6-4 (net +4.7, DRtg 106.9), routed BKN 130-93 last night (Flagg 25/12 ast in 28 min; starters rested late). H2H Oct 23: DAL 121-105 at IND (Haliburton played).",
+     "sentiment": "DAL 91% of ML tickets / 94% money; spread 87/87 DAL; total 81/83 Over. Covers: Pacers (~46% fair; Gafford minutes limited). SI: Under 223.5; Sports Mole: Over 222.5. BPI DAL 74%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-DEN-HOU",
+     "n": 6,
+     "away": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "home": {
+      "abbr": "HOU",
+      "city": "Houston",
+      "name": "Rockets"
+     },
+     "tip_myt": "09:30",
+     "tip_iso": "2026-11-10T09:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "HOU",
+      "city": "Houston",
+      "name": "Rockets"
+     },
+     "win_pct": 75.0,
+     "confidence": 5,
+     "dk_ml": "DEN +276 / HOU -344 (opened +139/-166) → de-vig HOU 74.4%",
+     "dk_devig": {
+      "abbr": "HOU",
+      "pct": 74.4
+     },
+     "pm_ml": "DEN 26.5¢ / HOU 73.5¢ ($145k)",
+     "spread": {
+      "dk": "HOU -8.5 (opened -4.5)",
+      "pm": "Rockets -8.5: 51.5 / Nuggets 48.5; -7.5: 55.5; -9.5: 47.5"
+     },
+     "total": {
+      "dk": "219.5 (opened 222.5)",
+      "pm": "O/U 218.5: Over 53.5 / Under 46.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 73.5,
+     "edge": 1.5,
+     "dk_pick_pct": 74.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "DEN Q: Jokić (elbow), Murray (shin), Gordon, C. Johnson (both lower-body management), Braun (calf/illness), DeRozan (back). Strawther Out. The team spent 21+ hours stuck at the Mexico City airport and only flew Sunday afternoon (DenverSports). Covers thinks DEN may sit the whole starting five. HOU Out: Adams, Capela (backup bigs; Şengün starts).",
+     "injury_flags": [
+      "21+ hours stuck at the Mexico City airport",
+      "Out:"
+     ],
+     "view": "model HOU by 5.5 at full strength. Everyone plays but tired → HOU by ~7 (~71%). Jokić + Murray sit → HOU by ~13 (~85%). Weighted → HOU ~75%, about the market.",
+     "bet": "pass (L7: wait for the final report; the news will move the price past any edge either way). Total pass for the same reason.",
+     "bet_bold": [],
+     "form": "DEN 5-3 (net +2.1), beat IND 114-102 in Mexico City Sat. HOU 7-3 (net +9.0, DRtg 106.7, pace 100.3), lost two straight (MIN, 99-102 at PHX). Last three totals HOU 202/224/201.",
+     "sentiment": "line moved 4 pts to HOU on the report. ML 74/72 HOU; but spread tickets 60% / money 54% on Nuggets +8.5. Total 88% tickets Over but the line fell 3. Sports Mole: Under 217.5. Covers: Rockets only if the starters sit. BPI HOU 78%.",
+     "avoid": [
+      "Nuggets–Rockets side and total until Denver's final report; Raptors ML / -2.5 before the Barnes/Quickley news; Mavericks side before the Kyrie decision; Pistons -10.5 / Wizards +10.5; Warriors -9.5 / Pelicans +9.5; Spurs -8.5; Cavs -8.5; every total."
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-SAS-PHX",
+     "n": 7,
+     "away": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "home": {
+      "abbr": "PHX",
+      "city": "Phoenix",
+      "name": "Suns"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-11-10T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "win_pct": 74.0,
+     "confidence": 6,
+     "dk_ml": "SA -359 / PHX +286 (opened -243/+200) → de-vig SA 75.1%",
+     "dk_devig": {
+      "abbr": "SAS",
+      "pct": 75.1
+     },
+     "pm_ml": "SA 77.5¢ / PHX 22.5¢ ($27k)",
+     "spread": {
+      "dk": "SA -8.5 (opened -7.5)",
+      "pm": "Spurs -8.5: 50.5 / Suns 49.5; -7.5: 54.5; -9.5: 47.5"
+     },
+     "total": {
+      "dk": "227.5 (opened 225.5)",
+      "pm": "O/U 226.5: Over 51.5; O/U 227.5: Over 48.5; O/U 229.5: Over 43.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 77.5,
+     "edge": -3.5,
+     "dk_pick_pct": 75.1,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "SA Out: Tobias Harris (calf), Quaintance. Q: Devin Vassell (adductor). PHX Out: Mark Williams (shoulder), Jordan Goodwin (calf).",
+     "injury_flags": [
+      "Out:",
+      "Q: Devin Vassell (adductor)",
+      "Out:",
+      "Jordan Goodwin (calf)"
+     ],
+     "view": "model SA by 6.2 → ~69%, ~8.5 under 77.5¢. L1 halfway → ~74%, SA by ~8. SA's recent margins (+16 avg over five) suggest my rating still lags. Spread at my number.",
+     "bet": "pass.",
+     "bet_bold": [],
+     "form": "SA 8-2 (net +10.0, DRtg 104.6), five straight wins by 10/22/1/15/22 incl. 125-103 at POR Sat (Wembanyama 29 in 24 min). PHX 3-5 (net -6.1, DRtg 116.6), won two straight (ORL, HOU 102-99). Home side has won the last six meetings (Sports Mole).",
+     "sentiment": "SA 95% of ML tickets / 86% money; spread 79/81 SA; total 78/80 Over. Sports Mole: Spurs -8.5; SI: SA ML in a parlay; Covers: Spurs (no one to handle Wemby). BPI SA 76%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-10-NOP-GSW",
+     "n": 8,
+     "away": {
+      "abbr": "NOP",
+      "city": "New Orleans",
+      "name": "Pelicans"
+     },
+     "home": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "tip_myt": "11:00",
+     "tip_iso": "2026-11-10T11:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "GSW",
+      "city": "Golden State",
+      "name": "Warriors"
+     },
+     "win_pct": 73.0,
+     "confidence": 6,
+     "dk_ml": "NO +312 / GS -395 (opened +300/-378) → de-vig GS 76.7%",
+     "dk_devig": {
+      "abbr": "GSW",
+      "pct": 76.7
+     },
+     "pm_ml": "NO 22.5¢ / GS 77.5¢ ($150k)",
+     "spread": {
+      "dk": "GS -9.5 (opened -9.5)",
+      "pm": "Warriors -9.5: 48.5 / Pelicans 51.5; Warriors -10.5: 43.5 / Pelicans 56.5"
+     },
+     "total": {
+      "dk": "232.5 (opened 231.5)",
+      "pm": "O/U 231.5: Over 51.5; O/U 232.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 77.5,
+     "edge": -4.5,
+     "dk_pick_pct": 76.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "NO (official not submitted): Missi out; Poole has DNP'd three straight. GS Out: Butler, Moody, Porzingis (not with team), Will Richard. Santos probable.",
+     "injury_flags": [
+      "Out:",
+      "Porzingis (not with team)"
+     ],
+     "view": "model GS by 4.7, +1.5 NO B2B → GS by ~6, ~69%, 8.5 under 77.5¢. L1 halfway → ~73%, GS by ~8. Pelicans +9.5 is ~1.5 pts, below the L4 bar.",
+     "bet": "pass. Total pass (model 235 vs 232.5).",
+     "bet_bold": [],
+     "form": "NO 4-6 (net -0.3, pace 107.1), lost 123-139 at LAC last night (D. Murray 6 pts). Road games average ~261 combined (Sports Mole). GS 7-3 (net +4.9, 39.5% from three), seven straight wins, 126-119 vs ORL Sat (Curry 41).",
+     "sentiment": "GS 95% of ML tickets / 93% money; spread GS 77% tickets / 66% money (Pelicans +9.5 has 34% of money on 23% of tickets, an 11-pt soft gap). Total 71/68 Over. Covers: Warriors; Sports Mole: Over 231.5; SI: Curry assists prop. BPI GS 71%.",
+     "avoid": [
+      "Nuggets–Rockets side and total until Denver's final report; Raptors ML / -2.5 before the Barnes/Quickley news; Mavericks side before the Kyrie decision; Pistons -10.5 / Wizards +10.5; Warriors -9.5 / Pelicans +9.5; Spurs -8.5; Cavs -8.5; every total."
+     ],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Cavaliers over Hornets, 78% (conf 7): CHA (ORtg 97.8) now without Miller, Knueppel, Schröder and G. Williams. No bet at 75.5¢ / -8.5.",
+     "Pistons over Wizards, 76% (conf 6): halfway rule applied. DET on a B2B, AD Q. No bet at 81.5¢.",
+     "Spurs over Suns, 74% (conf 6): Wembanyama vs a Suns team with no starting center; halfway rule applied. No bet at 77.5¢."
+    ],
+    "underdogs": [
+     "Grizzlies +2.5 (conditional): Polymarket \"Spread: Raptors (-2.5)\", Grizzlies currently 47.5¢. Only if both Barnes and Quickley are Out (my number then MEM by ~2).",
+     "Hawks ML lean (PM 51.5¢; DK has ATL as a small favorite, so not a true dog): my 57%, no stake.",
+     "No 8+ pt dog worth backing. Wizards +10.5 and Pelicans +9.5 are ~1.5 pts after the halfway rule. Big dogs are 0-36 SU this season (SI)."
+    ],
+    "avoid": [
+     "Nuggets–Rockets side and total until Denver's final report; Raptors ML / -2.5 before the Barnes/Quickley news; Mavericks side before the Kyrie decision; Pistons -10.5 / Wizards +10.5; Warriors -9.5 / Pelicans +9.5; Spurs -8.5; Cavs -8.5; every total."
+    ],
+    "value": [
+     "Conditional: if Scottie Barnes and Immanuel Quickley are both ruled Out, Polymarket \"Spread: Raptors (-2.5)\": buy Grizzlies at ≤55¢, 0.25u. Skip if past 55¢ after the news, or if either one plays."
+    ],
+    "graded": [],
+    "check_before": [
+     "CLE (Allen), WSH (Davis), DET/LAL official reports (Luka, Grimes) before 08:00 MYT; TOR (Barnes, Quickley) before 08:30; DAL (Kyrie) and IND (McConnell) before 09:00; DEN (Jokić, Murray, Gordon, Johnson, Braun, DeRozan) before 09:30; SA (Vassell) before 10:00; NOP official report before 11:00. Latest official PDF at pull: 10:30 AM ET Nov 9 (23:30 MYT)."
+    ],
+    "unverified": [
+     "Luka \"Out\" comes from FanDuel Research / HoopMetrics, not the official PDF (LAL hadn't submitted); DAL, DET and NOP reports not submitted; Kyrie's decision pending; whether Denver will actually sit anyone; X and Reddit not sampled."
+    ],
+    "season_record": [
+     "SU 101-45; ATS 4-6; totals 11-9; core value 3-3 (~+0.2u); small/secondary 25-28 (~+1.35u). Brier Me 0.194 / DK 0.184 / PM 0.185 (146 games)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Cavaliers over Hornets**, 78% (conf 7): CHA (ORtg 97.8) now without Miller, Knueppel, Schröder and G. Williams. No bet at 75.5¢ / -8.5.\n2. **Pistons over Wizards**, 76% (conf 6): halfway rule applied. DET on a B2B, AD Q. No bet at 81.5¢.\n3. **Spurs over Suns**, 74% (conf 6): Wembanyama vs a Suns team with no starting center; halfway rule applied. No bet at 77.5¢.",
+    "underdogs": "- **Grizzlies +2.5 (conditional):** Polymarket \"Spread: Raptors (-2.5)\", Grizzlies currently 47.5¢. Only if both Barnes and Quickley are Out (my number then MEM by ~2).\n- **Hawks ML lean** (PM 51.5¢; DK has ATL as a small favorite, so not a true dog): my 57%, no stake.\n- No 8+ pt dog worth backing. Wizards +10.5 and Pelicans +9.5 are ~1.5 pts after the halfway rule. Big dogs are 0-36 SU this season (SI).",
+    "avoid": "Nuggets–Rockets side and total until Denver's final report; Raptors ML / -2.5 before the Barnes/Quickley news; Mavericks side before the Kyrie decision; Pistons -10.5 / Wizards +10.5; Warriors -9.5 / Pelicans +9.5; Spurs -8.5; Cavs -8.5; every total.",
+    "value": "- Conditional: if **Scottie Barnes and Immanuel Quickley are both ruled Out**, Polymarket \"Spread: Raptors (-2.5)\": buy **Grizzlies** at ≤55¢, 0.25u. Skip if past 55¢ after the news, or if either one plays.",
+    "graded": "",
+    "check_before": "CLE (**Allen**), WSH (**Davis**), DET/LAL official reports (Luka, Grimes) before 08:00 MYT; TOR (**Barnes, Quickley**) before 08:30; DAL (**Kyrie**) and IND (**McConnell**) before 09:00; DEN (**Jokić, Murray, Gordon, Johnson, Braun, DeRozan**) before 09:30; SA (**Vassell**) before 10:00; NOP official report before 11:00. Latest official PDF at pull: **10:30 AM ET Nov 9** (23:30 MYT).",
+    "unverified": "Luka \"Out\" comes from FanDuel Research / HoopMetrics, not the official PDF (LAL hadn't submitted); DAL, DET and NOP reports not submitted; Kyrie's decision pending; whether Denver will actually sit anyone; X and Reddit not sampled.",
+    "season_record": "SU 101-45; ATS 4-6; totals 11-9; core value 3-3 (~+0.2u); small/secondary 25-28 (~+1.35u). Brier Me 0.194 / DK 0.184 / PM 0.185 (146 games)."
+   },
+   "buys": [],
+   "lessons_applied": [
+    "L1 (halfway rule at 5+ pts below the market on a favorite; 4+ pt disagreements are 10-18): DET (model ~72% vs 81.5¢), SA (~69% vs 77.5¢) and GS (~69% vs 77.5¢) all trigger it; I move to 76%, 74% and 73% and keep them as no-stake. LAL–ATL: I'm ~6 pts above the market on the Hawks, but Luka's absence is already priced (line moved LAL -133 → +101), so no named unpriced fact → no-stake lean instead of a 0.25u Hawks ML. No 30+ pt money/ticket gaps tonight; the biggest is Wizards ML 6% tickets / 25% money (soft, against my DET pick, which trims DET confidence by 1).",
+    "L2 (grade who's left; thin teams can collapse): CHA adds Brandon Miller to Knueppel/Schröder/G. Williams. That's four rotation pieces from a team with a 97.8 ORtg, so I add ~3 pts to CLE. CLE is 1-1 without Jarrett Allen (won by 24 vs PHI), so his Q is small. Denver's six Qs are a travel precaution, not injuries. I grade the possible lineups, not the injury count.",
+    "L3 (totals): no total passes. IND–DAL (model 224 vs 222.5) is too close to call. Both teams' last three were low (IND 212/210/216, DAL 223/212/223), but that conflicts with the model, so no lean.",
+    "L4 (dogs need ~3.5–4 pts and a named roster edge): Wizards +10.5 (~1.5 pts after halfway) and Pelicans +9.5 (~2) fall short. Grizzlies +2.5 only as a conditional on Barnes and Quickley both Out (a named roster edge).",
+    "L7 (no pre-report buys on Q stars; the limit must be fillable after the news): no Rockets or Nuggets position before Denver's final report. No Raptors ML before Barnes/Quickley news. No Mavericks play before the Kyrie decision.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1110/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -15227,7 +15755,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-09T14:03:10+08:00",
+  "fetched_at": "2026-11-09T23:37:29+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
