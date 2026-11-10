@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:07:27+08:00",
+ "generated_at": "2026-11-10T14:11:15+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-10",
  "latest_review_date": "2026-11-10",
@@ -14483,12 +14483,12 @@
      "dk": 0.188,
      "pm": 0.192
     },
-    "units": 0.2,
-    "units_text": "- Units: 0.00u on the day at preview prices (nothing confirmed placed). If the Grizzlies +2.5 filled at ~55¢ on 0.25u, that would be about +0.20u.; - Season: SU 106-48, ATS 4-6, totals 11-9, core value 3-3 (~+0.2u), small value 25-28 (~+1.35u).",
+    "units": 1.55,
+    "units_text": "- Season: SU 106-48, ATS 4-6, totals 11-9, core value 3-3 (~+0.2u), small value 25-28 (~+1.35u).",
     "day_summary": [
      "Straight up: 5-3 (misses: Hawks, Cavaliers, Raptors).",
-     "ATS: 0-0. Totals: 0-0. Core value: 0-0. Small value: 0-0 counted (Grizzlies +2.5 conditional triggered, fill ⏳ unverified).",
-     "Units: 0.00u on the day at preview prices (nothing confirmed placed). If the Grizzlies +2.5 filled at ~55¢ on 0.25u, that would be about +0.20u.",
+     "ATS: 0-0. Totals: 0-0. Core value: 0-0. Small value: 0-0 (planned Grizzlies +2.5 triggered but skipped at ~60¢, over the 57¢ cap; would have won).",
+     "Units: 0.00u on the day at preview prices (no model value pick was placed). The user-requested Grizzlies ML test is in the Crisp P&L only, +$4.52.",
      "No-stake leans: 0-1 (Hawks ML).",
      "Avoid list: Nuggets–Rockets pre-report (right: the line swung 4 pts), Raptors pre-news (right), Mavericks pre-Kyrie (fine, DAL by 3), Wizards +10.5 (right by 0.5), Pelicans +9.5 (right, lost by 51), Spurs -8.5 (would have covered), Cavs -8.5 (right, CLE lost outright), every total (four Overs, four Unders; the three big misses were Overs by 14.5-20.5).",
      "Season: SU 106-48, ATS 4-6, totals 11-9, core value 3-3 (~+0.2u), small value 25-28 (~+1.35u).",
@@ -14498,7 +14498,7 @@
     "lessons": [
      "A secondary-source \"Out\" before the team files is still a Q. Luka was \"Out\" per FanDuel Research / HoopMetrics and played 39 minutes; the Hawks pick was built on it. Jalen Johnson (11-08) was the same mistake. Until the official report lists a star Out, write the pick both ways or call it a coin flip.",
      "Reverse line movement against a 80%+ public favorite is a warning, not noise. CLE -9.5 → -8.5 with 84% of spread tickets on CLE and the total down 3; I still added 3 pts for an injury the market had priced, and CHA won by 12. Don't stack an injury bump on a line that's already moved toward the dog.",
-     "Conditionals on a likely trigger need a price limit that survives the news, and a stake that meets Crisp's 10-share minimum. The Grizzlies trigger hit and the bet would have won by 18.5, but with DK at MEM -1.5 the +2.5 line was likely ~60¢. Size conditionals at 10+ shares (≈$5.50 at 55¢) and set the limit where the post-news number still has edge."
+     "Conditionals on a likely trigger need a price limit that survives the news, and a stake that meets Crisp's 10-share minimum. The Grizzlies trigger hit and the +2.5 would have won by 18.5, but after the news the line was about 60¢, over the 57¢ cap, so it was correctly skipped. Size conditionals at 10+ shares (≈$5.50 at 55¢) and set the limit where the post-news number still has edge. A separate user-requested Grizzlies ML test (10 shares at 53¢, $5.48) did fill and won +$4.52."
     ]
    }
   }
@@ -14547,11 +14547,11 @@
    },
    {
     "category": "Crisp real money",
-    "record": "Unverified",
-    "w": null,
-    "l": null,
+    "record": "1-0, +$4.52",
+    "w": 1,
+    "l": 0,
     "units": null,
-    "notes": "Managed since 2026-11-09. 11-10 slate: only the Grizzlies +2.5 conditional (triggered, would have won); fill not confirmed, so $ P&L pending an account check. Running Crisp total: unknown until fills are confirmed"
+    "notes": "Managed since 2026-11-09 (starting cash $62.00). 11-10: user-requested Grizzlies ML test, 10 shares at 53¢, $5.48 incl. fees, WON +$4.52; settled cash about $66.52. Planned Grizzlies +2.5 skipped (~60¢ over 57¢ cap). Live Hawks ML test not placed (10-share minimum). No other Crisp orders. Running Crisp total: +$4.52. Test bets are in this dollar P&L only, not in the model's value-pick units."
    }
   ],
   "brier": {
@@ -14596,7 +14596,7 @@
   {
    "n": 7,
    "title": "Conditional plays: clear trigger + price limit, and assume the trigger news moves the price.",
-   "body": "Triggered conditionals 3-1 (DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06) and Hawks/Raptors ML pre-report (11-07). Triggered-but-unfillable isn't counted: Bucks +6.5 needed ≤52¢ but Barnes went Out ~1 h before tip with the Bucks side already ~59.5¢ (would have lost, 11-07). Before writing \"cancel if star X is out,\" grade who's left: Wizards +7.5 was cancelled on AD-out and would have covered (George 33, T. Johnson 23). Size every conditional to Crisp's 10-share minimum (≈$5.50 at 55¢) and set its limit where the post-news price still has edge: Grizzlies +2.5 ≤55¢ triggered (Barnes and Quickley Out) and would have won by 18.5, but DK closed MEM -1.5, so it was likely ~60¢ (11-10; fill unverified, not counted). Proposal pending 0xKai's OK: a two-branch pre-report entry when the bet is ≥ fair even if the trigger misses. Q stars with a repeat injury (Luka, 11-09): don't back the favorite at 62-65% pre-report; LAL is 2-0 without him (Reaves 43) and DET lost as an -8.5 close favorite."
+   "body": "Triggered conditionals 3-1 (DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06) and Hawks/Raptors ML pre-report (11-07). Triggered-but-unfillable isn't counted: Bucks +6.5 needed ≤52¢ but Barnes went Out ~1 h before tip with the Bucks side already ~59.5¢ (would have lost, 11-07). Before writing \"cancel if star X is out,\" grade who's left: Wizards +7.5 was cancelled on AD-out and would have covered (George 33, T. Johnson 23). Size every conditional to Crisp's 10-share minimum (≈$5.50 at 55¢) and set its limit where the post-news price still has edge: Grizzlies +2.5 ≤55¢ triggered (Barnes and Quickley Out) and would have won by 18.5, but after the news it was about 60¢, over the 57¢ cap, so it was skipped (11-10; not counted in model units). A user-requested Grizzlies ML test (10 shares at 53¢, $5.48) filled and won +$4.52, counted in Crisp real-money P&L only. Proposal pending 0xKai's OK: a two-branch pre-report entry when the bet is ≥ fair even if the trigger misses. Q stars with a repeat injury (Luka, 11-09): don't back the favorite at 62-65% pre-report; LAL is 2-0 without him (Reaves 43) and DET lost as an -8.5 close favorite."
   }
  ],
  "daily_log": [
@@ -15004,7 +15004,7 @@
   },
   {
    "date": "2026-11-10",
-   "text": "SU 5-3 (misses: ATL, Luka played after secondary sources had him Out; CLE lost 112-124 at CHA, 23-46 from three; TOR, Barnes and Quickley Out). ATS 0-0. Totals 0-0 (all passed; 4-4 vs close, three Overs by 14.5-20.5). Small value 0-0 counted, 0.00u (Grizzlies +2.5 conditional triggered, would have won by 18.5; fill unverified, likely past the 55¢ limit with DK at MEM -1.5). No-stake leans 0-1 (Hawks ML). Pre-report passes on DEN-HOU and DAL right. SA by 26 and GS by 51 again beat my margins. Closing favorites 5-3 ATS; two dogs won outright. Big disagreements 0-3. Crisp real money: fills unverified. Brier me 0.203 vs DK 0.188 / PM 0.192. Full review: review-2026-11-10.md.",
+   "text": "SU 5-3 (misses: ATL, Luka played after secondary sources had him Out; CLE lost 112-124 at CHA, 23-46 from three; TOR, Barnes and Quickley Out). ATS 0-0. Totals 0-0 (all passed; 4-4 vs close, three Overs by 14.5-20.5). Small value 0-0 counted, 0.00u (Grizzlies +2.5 conditional triggered but skipped at ~60¢, over the 57¢ cap; would have won by 18.5). No-stake leans 0-1 (Hawks ML). Pre-report passes on DEN-HOU and DAL right. SA by 26 and GS by 51 again beat my margins. Closing favorites 5-3 ATS; two dogs won outright. Big disagreements 0-3. Crisp real money: user-requested Grizzlies ML test WON +$4.52 (10 shares at 53¢, $5.48); running Crisp total +$4.52. Brier me 0.203 vs DK 0.188 / PM 0.192. Full review: review-2026-11-10.md.",
    "su": [
     5,
     3
@@ -15632,7 +15632,7 @@
     "date": "2026-11-10",
     "su_w": 5,
     "su_l": 3,
-    "units": 0.2,
+    "units": 1.55,
     "brier": {
      "me": 0.203,
      "dk": 0.188,
@@ -15640,7 +15640,7 @@
     },
     "log": {
      "date": "2026-11-10",
-     "text": "SU 5-3 (misses: ATL, Luka played after secondary sources had him Out; CLE lost 112-124 at CHA, 23-46 from three; TOR, Barnes and Quickley Out). ATS 0-0. Totals 0-0 (all passed; 4-4 vs close, three Overs by 14.5-20.5). Small value 0-0 counted, 0.00u (Grizzlies +2.5 conditional triggered, would have won by 18.5; fill unverified, likely past the 55¢ limit with DK at MEM -1.5). No-stake leans 0-1 (Hawks ML). Pre-report passes on DEN-HOU and DAL right. SA by 26 and GS by 51 again beat my margins. Closing favorites 5-3 ATS; two dogs won outright. Big disagreements 0-3. Crisp real money: fills unverified. Brier me 0.203 vs DK 0.188 / PM 0.192. Full review: review-2026-11-10.md.",
+     "text": "SU 5-3 (misses: ATL, Luka played after secondary sources had him Out; CLE lost 112-124 at CHA, 23-46 from three; TOR, Barnes and Quickley Out). ATS 0-0. Totals 0-0 (all passed; 4-4 vs close, three Overs by 14.5-20.5). Small value 0-0 counted, 0.00u (Grizzlies +2.5 conditional triggered but skipped at ~60¢, over the 57¢ cap; would have won by 18.5). No-stake leans 0-1 (Hawks ML). Pre-report passes on DEN-HOU and DAL right. SA by 26 and GS by 51 again beat my margins. Closing favorites 5-3 ATS; two dogs won outright. Big disagreements 0-3. Crisp real money: user-requested Grizzlies ML test WON +$4.52 (10 shares at 53¢, $5.48); running Crisp total +$4.52. Brier me 0.203 vs DK 0.188 / PM 0.192. Full review: review-2026-11-10.md.",
      "su": [
       5,
       3
@@ -15765,7 +15765,7 @@
     "type": "W",
     "len": 4
    },
-   "units_total": 0.87,
+   "units_total": 2.22,
    "units_days_stated": 19,
    "units_days_total": 20,
    "units_series": [
@@ -15866,8 +15866,8 @@
     },
     {
      "date": "2026-11-10",
-     "units": 0.2,
-     "cum": 0.87
+     "units": 1.55,
+     "cum": 2.22
     }
    ],
    "last7": {
@@ -15875,7 +15875,7 @@
     "l": 15,
     "n": 47,
     "pct": 68,
-    "units": -2.38,
+    "units": -1.03,
     "start": "2026-11-04",
     "end": "2026-11-10",
     "days": 6,
@@ -15977,7 +15977,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-10T14:07:27+08:00",
+  "fetched_at": "2026-11-10T14:11:15+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
