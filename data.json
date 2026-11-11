@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T23:28:29+08:00",
+ "generated_at": "2026-11-11T23:28:42+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-12",
  "latest_review_date": "2026-11-11",
@@ -15659,7 +15659,7 @@
      "NYK (Hart), BOS (Tatum on the B2B), TOR (Quickley), CLE (Tyson), IND (McConnell) before 08:00 MYT; CHI (Powell, Collins), SA (Vassell), MEM (Stewart), MIL, BKN (Traore) before 09:00; UTA (Markkanen) and ORL before 10:00; GSW (Richard) before 10:30; OKC/POR before 11:00. Latest official PDF at pull: 10:00 AM ET Nov 11 (23:00 MYT)."
     ],
     "unverified": [
-     "reports for BOS, NYK, MIL, ORL, UTA, OKC, POR (not submitted); why GSW–HOU moved 47 cents of ML toward HOU; Allen (CLE; official report doesn't list him); da Silva (ORL; WGT only); X and Reddit not sampled; Crisp event URLs (the app is client-rendered, so pages can't be checked from the box)."
+     "reports for BOS, NYK, MIL, ORL, UTA, OKC, POR (not submitted); why the GSW–HOU price moved +158 → +205 toward HOU; Allen (CLE; official report doesn't list him); da Silva (ORL; WGT only); X and Reddit not sampled; Crisp event URLs (the app is client-rendered, so pages can't be checked from the box)."
     ],
     "season_record": [
      "SU 111-49; ATS 4-6; totals 11-9; core value 3-3 (~+0.2u); small/secondary 25-28 (~+1.35u). Brier Me 0.193 / DK 0.182 / PM 0.183 (160 games). Crisp real money 1-0, +$4.52."
@@ -15672,7 +15672,7 @@
     "value": "none unconditional tonight.\n- Conditional: if **Lauri Markkanen is active**, Polymarket \"Spread: Magic (-3.5)\": buy **Jazz** at ≤55¢, 10 shares (0.5u, ≤$5.50). Skip if the Jazz side is above 55¢ after the news, or if the line moves to Magic -2.5 or shorter (then re-check).",
     "graded": "",
     "check_before": "NYK (**Hart**), BOS (Tatum on the B2B), TOR (**Quickley**), CLE (**Tyson**), IND (**McConnell**) before 08:00 MYT; CHI (**Powell**, Collins), SA (**Vassell**), MEM (**Stewart**), MIL, BKN (Traore) before 09:00; **UTA (Markkanen)** and ORL before 10:00; GSW (**Richard**) before 10:30; OKC/POR before 11:00. Latest official PDF at pull: **10:00 AM ET Nov 11** (23:00 MYT).",
-    "unverified": "reports for BOS, NYK, MIL, ORL, UTA, OKC, POR (not submitted); why GSW–HOU moved 47 cents of ML toward HOU; Allen (CLE; official report doesn't list him); da Silva (ORL; WGT only); X and Reddit not sampled; Crisp event URLs (the app is client-rendered, so pages can't be checked from the box).",
+    "unverified": "reports for BOS, NYK, MIL, ORL, UTA, OKC, POR (not submitted); why the GSW–HOU price moved +158 → +205 toward HOU; Allen (CLE; official report doesn't list him); da Silva (ORL; WGT only); X and Reddit not sampled; Crisp event URLs (the app is client-rendered, so pages can't be checked from the box).",
     "season_record": "SU 111-49; ATS 4-6; totals 11-9; core value 3-3 (~+0.2u); small/secondary 25-28 (~+1.35u). Brier Me 0.193 / DK 0.182 / PM 0.183 (160 games). Crisp real money 1-0, +$4.52."
    },
    "buys": [],
@@ -17221,7 +17221,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-11T23:28:29+08:00",
+  "fetched_at": "2026-11-11T23:28:42+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
