@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T14:32:41+08:00",
+ "generated_at": "2026-11-11T14:33:04+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-11",
  "latest_review_date": "2026-11-11",
@@ -15053,11 +15053,11 @@
   "record_table": [
    {
     "category": "Straight-up winners",
-    "record": "106-48",
-    "w": 106,
-    "l": 48,
+    "record": "111-49",
+    "w": 111,
+    "l": 49,
     "units": null,
-    "notes": "Verified against every review's ✅/❌ marks (10-22 is 9-2, not 8-3; no games 11-04); 11-07 is 6-3; 11-08 is 6-1; 11-09 is 5-2; 11-10 is 5-3"
+    "notes": "Verified against every review's ✅/❌ marks (10-22 is 9-2, not 8-3; no games 11-04); 11-07 is 6-3; 11-08 is 6-1; 11-09 is 5-2; 11-10 is 5-3; 11-11 is 5-1"
    },
    {
     "category": "Spread picks",
@@ -15073,7 +15073,7 @@
     "w": 11,
     "l": 9,
     "units": null,
-    "notes": "Unders 9 of 14 on 10-23/10-24, Overs 5-3 on 10-25, Unders 4-3 on 10-26, Unders 5-4 on 10-27, Overs 3-1 on 10-28, Unders 7-5 on 10-29, Unders 2-1 on 10-30 (all passed), Unders 5-5 on 10-31, Overs 4-3 on 11-01, 2-2 on 11-02 (no bets), Unders 10-5 on 11-03 (CHI-PHI Under W), 7-7 on 11-05 (MIN-HOU Under L), Unders 5-4 on 11-07 (all passed), Unders 5-2 on 11-08 (HOU-PHX Over L), Unders 4-3 on 11-09 (PHI-CHI Under L), 4-4 on 11-10 (all passed)"
+    "notes": "Unders 9 of 14 on 10-23/10-24, Overs 5-3 on 10-25, Unders 4-3 on 10-26, Unders 5-4 on 10-27, Overs 3-1 on 10-28, Unders 7-5 on 10-29, Unders 2-1 on 10-30 (all passed), Unders 5-5 on 10-31, Overs 4-3 on 11-01, 2-2 on 11-02 (no bets), Unders 10-5 on 11-03 (CHI-PHI Under W), 7-7 on 11-05 (MIN-HOU Under L), Unders 5-4 on 11-07 (all passed), Unders 5-2 on 11-08 (HOU-PHX Over L), Unders 4-3 on 11-09 (PHI-CHI Under L), 4-4 on 11-10 (all passed), Unders 4-2 on 11-11 (all passed)"
    },
    {
     "category": "Core value picks",
@@ -15097,37 +15097,37 @@
     "w": 1,
     "l": 0,
     "units": null,
-    "notes": "Managed since 2026-11-09 (starting cash $62.00). 11-10: user-requested Grizzlies ML test, 10 shares at 53¢, $5.48 incl. fees, WON +$4.52; settled cash about $66.52. Planned Grizzlies +2.5 skipped (~60¢ over 57¢ cap). Live Hawks ML test not placed (10-share minimum). No other Crisp orders. Running Crisp total: +$4.52. Test bets are in this dollar P&L only, not in the model's value-pick units."
+    "notes": "Managed since 2026-11-09 (starting cash $62.00). 11-10: user-requested Grizzlies ML test, 10 shares at 53¢, $5.48 incl. fees, WON +$4.52; settled cash about $66.52. Planned Grizzlies +2.5 skipped (~60¢ over 57¢ cap). Live Hawks ML test not placed (10-share minimum). No other Crisp orders. 11-11: no planned bet triggered (Clippers ML conditional needed Booker Out; he played); $0.00 unless a live bet is found in the account history. Running Crisp total: +$4.52. Test bets are in this dollar P&L only, not in the model's value-pick units."
    }
   ],
   "brier": {
-   "me": 0.194,
-   "dk": 0.184,
-   "pm": 0.185,
-   "games": 154,
-   "notes": "Cumulative, 154 games; Polymarket = preview-time prices"
+   "me": 0.193,
+   "dk": 0.182,
+   "pm": 0.183,
+   "games": 160,
+   "notes": "Cumulative, 160 games; Polymarket = preview-time prices"
   }
  },
  "lessons": [
   {
    "n": 1,
    "title": "Trust my own judgement; markets are an input, not the answer.",
-   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 5-for-5: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03, CLE +4.5 pass 2026-11-08 with NYK at 80% of money on 47% of tickets; each time the money side won). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 10-21 (0-3 on 11-10) (1-4 on 11-07, 0-4 on 11-08), so there's no edge there. When I'm 5+ pts below the market on a favorite with no named roster fact, move halfway to the market before writing the probability (DEN, NYK, OKC, SA all won by 12-39 on 11-08 vs my 1-9 margins): keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced. At 10+ pts off with no fresh news, assume my ratings are stale: re-weight to the current roster's last 2-3 games (OKC's net still carried no-Caruso collapse losses while the current group had just won twice at CLE; lost by 31 at MEM, 11-07). Hard-pass nuance (11-09): the 63%-money split on Nets +7.5 pointed to a side I had no lean on and lost by 44.5 (DAL 130-93); only apply the hard pass when the money opposes the side I like."
+   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 5-for-5: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03, CLE +4.5 pass 2026-11-08 with NYK at 80% of money on 47% of tickets; each time the money side won). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 10-24 (0-3 on 11-11, 0-3 on 11-10) (1-4 on 11-07, 0-4 on 11-08), so there's no edge there. When I'm 5+ pts below the market on a favorite with no named roster fact, move halfway to the market before writing the probability (DEN, NYK, OKC, SA all won by 12-39 on 11-08 vs my 1-9 margins): keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced. At 10+ pts off with no fresh news, assume my ratings are stale: re-weight to the current roster's last 2-3 games (OKC's net still carried no-Caruso collapse losses while the current group had just won twice at CLE; lost by 31 at MEM, 11-07). Only at 10+ pts off, and check the opponents: re-weighting OKC at 6.5 pts off on wins over CLE/MEM/WSH moved me 48 → 54% and POR won by 20 (11-11). Hard-pass nuance (11-09): the 63%-money split on Nets +7.5 pointed to a side I had no lean on and lost by 44.5 (DAL 130-93); only apply the hard pass when the money opposes the side I like."
   },
   {
    "n": 2,
    "title": "Grade the players who are left, not departures or the injury count, and verify the final injury report for every game I bet.",
-   "body": "Price a deep team's single-star absence small (~2 pts, not 3.5+): HOU without Şengün won by 32 (10-29); NOP without Poole/Murray won by 12 (10-30); PHI without Embiid and LeBron beat CHA (Maxey 38), and MEM without Jerome and Pippen won by 31 (11-01). Thin teams losing several can collapse (OKC without Holmgren, J. Williams, Wallace, Caruso lost by 24 and 21; IND without Haliburton, Zubac, Toppin scored 90 at home vs winless BKN, 11-02). Losing the PG plus two of the top bigs counts as thin even with a star left. But a team that keeps an MVP-level star or real depth isn't a collapse case: OKC (SGA 43) won at CLE and POR without Morant (Holiday, Avdija, Clingan) won at DEN, 11-03. A secondary-source \"Out\" before the team files is still a Q: Luka \"Out\" per FanDuel/HoopMetrics played 39 min and beat my Hawks pick (11-10). Don't add an injury bump the line has already absorbed (CLE: spread moved -9.5 → -8.5 against 84% of tickets; CHA won by 12, 11-10); reverse line movement against a heavy public favorite is a warning. Name the opposing big before calling a frontline thin (Okongwu 29/12, 10-30). Holmgren's late scratch sank an Under (10-27); Jalen Johnson, listed Out by a secondary source, played and scored 30 (11-08), so confirm the final official report for any side within ~2 pts of a bet. Never pre-bet a \"collapse\" on players who are only questionable: MEM -6.5 lost when Siakam, Nembhard, Nesmith returned and Zubac/Toppin played (11-05); write it as a conditional on the final report. Likewise a trigger like \"Johnson out\" adds nothing if the team already won without him (WSH add-on lost, 11-05)."
+   "body": "Price a deep team's single-star absence small (~2 pts, not 3.5+): HOU without Şengün won by 32 (10-29); NOP without Poole/Murray won by 12 (10-30); PHI without Embiid and LeBron beat CHA (Maxey 38), and MEM without Jerome and Pippen won by 31 (11-01). Thin teams losing several can collapse (OKC without Holmgren, J. Williams, Wallace, Caruso lost by 24 and 21; IND without Haliburton, Zubac, Toppin scored 90 at home vs winless BKN, 11-02). Losing the PG plus two of the top bigs counts as thin even with a star left. But a team that keeps an MVP-level star or real depth isn't a collapse case: OKC (SGA 43) won at CLE and POR without Morant (Holiday, Avdija, Clingan) won at DEN, 11-03. A secondary-source \"Out\" before the team files is still a Q: Luka \"Out\" per FanDuel/HoopMetrics played 39 min and beat my Hawks pick (11-10). Don't add an injury bump the line has already absorbed (CLE: spread moved -9.5 → -8.5 against 84% of tickets; CHA won by 12, 11-10); reverse line movement against a heavy public favorite is a real signal (MIA -10.5 → -8.5 vs 66% of tickets, won by only 6, 11-11): pass the favorite and treat the dog as a lean. Name the opposing big before calling a frontline thin (Okongwu 29/12, 10-30). Holmgren's late scratch sank an Under (10-27); Jalen Johnson, listed Out by a secondary source, played and scored 30 (11-08), so confirm the final official report for any side within ~2 pts of a bet. Never pre-bet a \"collapse\" on players who are only questionable: MEM -6.5 lost when Siakam, Nembhard, Nesmith returned and Zubac/Toppin played (11-05); write it as a conditional on the final report. Likewise a trigger like \"Johnson out\" adds nothing if the team already won without him (WSH add-on lost, 11-05)."
   },
   {
    "n": 3,
    "title": "Totals: a line move is an input, not an automatic pass.",
-   "body": "If my named reasons (pace, shooting, rest) hold, take the lean at the moved number, smaller size (following the move: 5-4). Don't bet totals built on tiny samples vs weak opponents (POR-LAL, 10-28). Don't bet an Under on a short-handed dog facing a strong offense; absences hurt defense more than pace (IND-MIA Over by 32.5, 10-31). Two-good-defenses / B2B Unders mostly work (NYK-PHI 10-31, PHI-CHA 11-01, both at an early number that later moved my way), but MIN-HOU Under 220.5 lost to a 35-pt MIN fourth after the close moved my way to 219.5 (11-05, variance). A model total gap of 6+ pts needs both teams' current form: HOU-PHX Over (model 232 vs 223.5) leaned on PHX's bad defense and ignored HOU's slow pace and three recent ≤111-pt games; it finished 201 (11-08). Check each team's last three totals and skip if the market doesn't move toward me. Don't lean Under just because a team rests its stars; role players vs a bad defense decide it (GSW 22-49 from three, 236 vs 221.5, 11-02). Model gaps of 10+ pts on a total (PHI-CHI 226 vs 248 actual, 11-09) are stale-model signals even when the last-three check passes; no-stake only."
+   "body": "If my named reasons (pace, shooting, rest) hold, take the lean at the moved number, smaller size (following the move: 5-4). Don't bet totals built on tiny samples vs weak opponents (POR-LAL, 10-28). Don't bet an Under on a short-handed dog facing a strong offense; absences hurt defense more than pace (IND-MIA Over by 32.5, 10-31). Two-good-defenses / B2B Unders mostly work (NYK-PHI 10-31, PHI-CHA 11-01, both at an early number that later moved my way), but MIN-HOU Under 220.5 lost to a 35-pt MIN fourth after the close moved my way to 219.5 (11-05, variance). A model total gap of 6+ pts needs both teams' current form: HOU-PHX Over (model 232 vs 223.5) leaned on PHX's bad defense and ignored HOU's slow pace and three recent ≤111-pt games; it finished 201 (11-08). Check each team's last three totals and skip if the market doesn't move toward me. (That veto applies to 6+ pt gaps; at 4-5 pt gaps it killed two winning Overs on 11-11, BOS-PHI 224 and LAC-PHX 243, so treat it as an input there and track.) Don't lean Under just because a team rests its stars; role players vs a bad defense decide it (GSW 22-49 from three, 236 vs 221.5, 11-02). Model gaps of 10+ pts on a total (PHI-CHI 226 vs 248 actual, 11-09) are stale-model signals even when the last-three check passes; no-stake only."
   },
   {
    "n": 4,
    "title": "Margins: respect the clearly better, healthier roster; don't stack soft dog-friendly adjustments.",
-   "body": "Dogs-with-points are 3-5; require ~3.5-4 pts of edge on my own margin and size small. Rest edge + \"strip the blowout\" + \"keeps games close\" each nudged me 1-2 pts toward dogs and together made fake edges: Bucks +9.5 lost by 25, and four favorites won by 21-31 against my 2.5-8.5 margins (11-01). Cap combined soft adjustments at ~2 pts unless one is a named roster fact. Five-game \"never won by more than X\" trends are noise. My margins are compressed: over 11-01/11-02 my nine winning picks won by ~16 pts on average vs my ~5. Regress ratings once, not again on top of soft adjustments. Still true 11-03 (DET 33 vs 6, HOU 16 vs 5.5, LAL 21 vs 3.5) and 11-05 (NYK 30, DEN 19); my losing favorites are mostly where I sat above the market (MEM 74 vs 67, 11-05). Dog-with-points leans lost 3-for-3 on 11-08 (by 4.5-27.5). Small dog MLs are 1-6 since 11-05 (WSH, TOR, LAC, ORL, MEM, POR L): back a dog I like with the points, not the ML, and only with a named roster edge. Soft edges also die when the dog can't secure the ball (ORL 25 TO, 11-06; POR 24 TO / 31 fouls vs Luka 53, 11-07). The cap applies to favorites too: PHI got soft bumps (CLE travel, Allen Q) and lost by 24 (11-07), while BOS 39, OKC 31, TOR 14, SA 15 beat my margins."
+   "body": "Dogs-with-points are 3-5; require ~3.5-4 pts of edge on my own margin and size small. Rest edge + \"strip the blowout\" + \"keeps games close\" each nudged me 1-2 pts toward dogs and together made fake edges: Bucks +9.5 lost by 25, and four favorites won by 21-31 against my 2.5-8.5 margins (11-01). Cap combined soft adjustments at ~2 pts unless one is a named roster fact. Five-game \"never won by more than X\" trends are noise. My margins are compressed: over 11-01/11-02 my nine winning picks won by ~16 pts on average vs my ~5. Regress ratings once, not again on top of soft adjustments. Still true 11-03 (DET 33 vs 6, HOU 16 vs 5.5, LAL 21 vs 3.5) and 11-05 (NYK 30, DEN 19); my losing favorites are mostly where I sat above the market (MEM 74 vs 67, 11-05). Dog-with-points leans lost 3-for-3 on 11-08 (by 4.5-27.5). Small dog MLs are 1-6 since 11-05 (WSH, TOR, LAC, ORL, MEM, POR L): back a dog I like with the points, not the ML, and only with a named roster edge. Soft edges also die when the dog can't secure the ball (ORL 25 TO, 11-06; POR 24 TO / 31 fouls vs Luka 53, 11-07). Still true 11-11: NYK by 32 (my 13), BOS by 22 (1.5), PHX by 23 (1.5); don't trim a clearly better roster's confidence for a soft money split. The cap applies to favorites too: PHI got soft bumps (CLE travel, Allen Q) and lost by 24 (11-07), while BOS 39, OKC 31, TOR 14, SA 15 beat my margins."
   },
   {
    "n": 5,
@@ -15554,6 +15554,27 @@
    "su": [
     5,
     3
+   ],
+   "ats": [
+    0,
+    0
+   ],
+   "totals": [
+    0,
+    0
+   ],
+   "core_value": null,
+   "small_value": [
+    0,
+    0
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "text": "SU 5-1 (miss: OKC lost 103-123 at POR after I re-weighted it from 48% to 54%). PHX pick partly lucky (halfway rule flipped my raw LAC lean). ATS 0-0. Totals 0-0 (all passed; Unders 4-2 vs close, small model Overs on BOS-PHI and LAC-PHX would have won). Small value 0-0, 0.00u (Clippers ML conditional not triggered; Booker played). No-stake leans 1-2 (Celtics ML W; Clippers +3.5, Kings +6.5 L); Jazz +8.5 dog lean covered on a reverse line move. Favorites again beat my margins (NYK 32, BOS 22, PHX 23). Closing favorites 4-2 ATS. Big disagreements 0-3. Crisp real money: no planned bet triggered, $0.00 unless a live fill is found; running +$4.52. Brier me 0.160 vs DK 0.133 / PM 0.142. Full review: review-2026-11-11.md.",
+   "su": [
+    5,
+    1
    ],
    "ats": [
     0,
@@ -16216,7 +16237,27 @@
      "dk": 0.133,
      "pm": 0.142
     },
-    "log": null
+    "log": {
+     "date": "2026-11-11",
+     "text": "SU 5-1 (miss: OKC lost 103-123 at POR after I re-weighted it from 48% to 54%). PHX pick partly lucky (halfway rule flipped my raw LAC lean). ATS 0-0. Totals 0-0 (all passed; Unders 4-2 vs close, small model Overs on BOS-PHI and LAC-PHX would have won). Small value 0-0, 0.00u (Clippers ML conditional not triggered; Booker played). No-stake leans 1-2 (Celtics ML W; Clippers +3.5, Kings +6.5 L); Jazz +8.5 dog lean covered on a reverse line move. Favorites again beat my margins (NYK 32, BOS 22, PHX 23). Closing favorites 4-2 ATS. Big disagreements 0-3. Crisp real money: no planned bet triggered, $0.00 unless a live fill is found; running +$4.52. Brier me 0.160 vs DK 0.133 / PM 0.142. Full review: review-2026-11-11.md.",
+     "su": [
+      5,
+      1
+     ],
+     "ats": [
+      0,
+      0
+     ],
+     "totals": [
+      0,
+      0
+     ],
+     "core_value": null,
+     "small_value": [
+      0,
+      0
+     ]
+    }
    }
   ],
   "calibration": [
@@ -16529,18 +16570,18 @@
     }
    ],
    "brier": {
-    "me": 0.194,
-    "dk": 0.184,
-    "pm": 0.185,
-    "games": 154,
-    "notes": "Cumulative, 154 games; Polymarket = preview-time prices"
+    "me": 0.193,
+    "dk": 0.182,
+    "pm": 0.183,
+    "games": 160,
+    "notes": "Cumulative, 160 games; Polymarket = preview-time prices"
    }
   }
  },
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-11T14:32:41+08:00",
+  "fetched_at": "2026-11-11T14:33:04+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
