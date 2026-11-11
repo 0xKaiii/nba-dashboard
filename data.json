@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-10T23:28:23+08:00",
+ "generated_at": "2026-11-11T14:32:41+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-11",
- "latest_review_date": "2026-11-10",
+ "latest_review_date": "2026-11-11",
  "days": [
   {
    "date": "2026-10-21",
@@ -14563,7 +14563,21 @@
      "avoid": [
       "Knicks -15.5 / Bucks +15.5 (Herro Q, huge number)"
      ],
-     "result": null
+     "result": {
+      "winner": "NYK",
+      "final_text": "NYK 117, MIL 85",
+      "scores": {
+       "NYK": 117,
+       "MIL": 85
+      },
+      "hit": true,
+      "reason": "Knicks 86%, conf 7: HIT, reasoning right, margin far too small. Halfway rule gave NYK by ~13; actual 32. Herro out added the ~2 I flagged and more.",
+      "grades": [
+       "Knicks 86%, conf 7: HIT, reasoning right, margin far too small. Halfway rule gave NYK by ~13; actual 32. Herro out added the ~2 I flagged and more."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-11-BOS-PHI",
@@ -14620,7 +14634,21 @@
      "avoid": [
       "Celtics–76ers side (money against my lean)"
      ],
-     "result": null
+     "result": {
+      "winner": "BOS",
+      "final_text": "BOS 123, PHI 101",
+      "scores": {
+       "BOS": 123,
+       "PHI": 101
+      },
+      "hit": true,
+      "reason": "Celtics 54%, conf 3: HIT, reasoning right, confidence too low. My model had BOS by ~2 on the better net rating; I trimmed it for the 80%-money split on PHI and BOS's back-to-back. The soft money gap pointed the wrong way again.",
+      "grades": [
+       "Celtics 54%, conf 3: HIT, reasoning right, confidence too low. My model had BOS by ~2 on the better net rating; I trimmed it for the 80%-money split on PHI and BOS's back-to-back. The soft money gap pointed the wrong way again."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-11-LAC-PHX",
@@ -14680,7 +14708,21 @@
      "form": "LAC 2-7 (net -3.9, 38.7% from three, 19.1 TOV), snapped a seven-game skid 139-123 vs NO Sun (Garland 24); 0-4 on the road. PHX 3-6 (net -8.4, DRtg 117.8, 29th), lost 96-122 to SA last night (Booker 32 in 29 min). PHX's net includes an 83-124 opener at POR.",
      "sentiment": "PHX 83% of ML tickets / 83% money; spread PHX 79/71; total 73/73 Over. Spread moved 4.5 → 3.5 toward LAC. Experts lean Clippers: Covers (ML, prices LAC 43%), SI (+3.5), Sports Mole (+4.5, PHX 119-115). numberFire PHX 54.9%. BPI PHX 65%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "PHX",
+      "final_text": "PHX 133, LAC 110",
+      "scores": {
+       "PHX": 133,
+       "LAC": 110
+      },
+      "hit": true,
+      "reason": "Suns 54%, conf 2: HIT, partly lucky. My raw model (with the B2B penalty) had LAC by 1; the L1 halfway rule flipped it to PHX. The market (60.5¢) was right and the B2B didn't matter.",
+      "grades": [
+       "Suns 54%, conf 2: HIT, partly lucky. My raw model (with the B2B penalty) had LAC by 1; the L1 halfway rule flipped it to PHX. The market (60.5¢) was right and the B2B didn't matter."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-11-MIA-UTA",
@@ -14739,7 +14781,21 @@
      "form": "MIA 4-6 (net -5.0; opponents 39.4% from three per SI), beat SAC 114-108 Sun (Giannis 29, Thompson 23). UTA 1-9 (net -11.2, ORtg 101.7, worst), eight straight losses, lost 100-115 at MIN Sun without Markkanen (Peterson 26).",
      "sentiment": "MIA 94% of ML tickets / 86% money; spread MIA 66% / 58%. Reverse move: opened MIA -10.5, now -8.5, against the ticket side. Total 70/71 Over. SI and USA Today: Heat -8.5; SportsGambler: Jazz +9.5; BettingPros: Jazz team total Under 107.5; Covers: Heat (edge only if Markkanen or George sits). BPI MIA 58%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "MIA",
+      "final_text": "MIA 115, UTA 109",
+      "scores": {
+       "MIA": 115,
+       "UTA": 109
+      },
+      "hit": true,
+      "reason": "Heat 70%, conf 5: HIT, reasoning right. I had MIA by ~6.5; actual 6.",
+      "grades": [
+       "Heat 70%, conf 5: HIT, reasoning right. I had MIA by ~6.5; actual 6."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-11-ORL-SAC",
@@ -14799,7 +14855,21 @@
      "form": "ORL 2-7 (net -9.0, ORtg 104.9, 17.8 TOV), four straight losses (WSH, PHX, 119-126 at GS); 1-5 without Banchero and Suggs. SAC 1-9 (net -12.9, DRtg 118.4), three straight losses; lost 108-114 to MIA Sun without Sabonis (Acuff 32).",
      "sentiment": "ORL 83% of ML tickets / 77% money; spread ORL 62/57. Line moved 5.5 → 6.5 and -188 → -229 toward ORL (Bane back, Sabonis Q). Total 77/78 Over. Covers: Kings at 32%; SI: Kings +6.5. BPI ORL 75%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "ORL",
+      "final_text": "ORL 107, SAC 100",
+      "scores": {
+       "ORL": 107,
+       "SAC": 100
+      },
+      "hit": true,
+      "reason": "Magic 63%, conf 3: HIT, reasoning right. I had ORL by ~4; actual 7.",
+      "grades": [
+       "Magic 63%, conf 3: HIT, reasoning right. I had ORL by ~4; actual 7."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-11-OKC-POR",
@@ -14857,7 +14927,19 @@
      "form": "OKC 8-2 (net +7.8, DRtg 102.1), four straight wins (at CLE, vs CLE, at MEM by 31, vs WSH by 39). POR 6-3 (net +5.4, ORtg 115.9), lost two straight (at LAL by 6, vs SA by 22); 1-2 at home. OKC has won 19 of the last 20 vs POR (Lineups.com).",
      "sentiment": "OKC 83% of ML tickets / 91% money; spread OKC 81% / 71%; total 79/70 Over but the line fell 2. SI and Rotoworld: Thunder ML; Sports Mole and Lineups.com: Thunder -1.5; Covers: Blazers (prices POR 51%). BackedByStats sim OKC 56%. BPI OKC 60%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "POR",
+      "final_text": "POR 123, OKC 103",
+      "scores": {
+       "POR": 123,
+       "OKC": 103
+      },
+      "hit": false,
+      "reason": null,
+      "grades": [],
+      "how": null,
+      "notes": null
+     }
     }
    ],
    "summary": {
@@ -14940,7 +15022,31 @@
     "--"
    ],
    "pm_raw_file": "raw/d1111/pm-summary.txt",
-   "review": null
+   "review": {
+    "file": "review-2026-11-11.md",
+    "brier": {
+     "me": 0.16,
+     "dk": 0.133,
+     "pm": 0.142
+    },
+    "units": 1.55,
+    "units_text": "- Season: SU 111-49, ATS 4-6, totals 11-9, core value 3-3 (~+0.2u), small value 25-28 (~+1.35u).",
+    "day_summary": [
+     "Straight up: 5-1 (miss: Thunder).",
+     "ATS: 0-0. Totals: 0-0 (all passed). Core value: 0-0. Small value: 0-0 (Clippers ML conditional not triggered).",
+     "Units: 0.00u on the day (no model value pick placed).",
+     "No-stake leans: 1-2 (Celtics ML W; Clippers +3.5, Kings +6.5 L). Jazz +8.5, listed as an underdog opportunity, would have covered.",
+     "Avoid list: Knicks -15.5 (would have covered), Celtics–76ers side (BOS won by 22), Suns side pre-report (fine), Heat -8.5 (right), Thunder–Blazers (right to stay off), every total (Unders 4-2 vs the close; my small model Overs on BOS–PHI and LAC–PHX would have won by 7.5 and 18.5, while the NYK model Over would have lost by 19.5).",
+     "Season: SU 111-49, ATS 4-6, totals 11-9, core value 3-3 (~+0.2u), small value 25-28 (~+1.35u).",
+     "Market context: closing favorites 4-2 ATS (NYK, BOS, PHX, ORL covered; MIA failed, OKC lost). Totals: Unders 4-2 vs the close.",
+     "Big disagreements with the market (4+ pts vs DK close): 0-3 tonight (PHX 54 vs 62, MIA 70 vs 74, OKC 54 vs 48). Running total 10-24."
+    ],
+    "lessons": [
+     "Only re-weight to recent games when I'm 10+ pts off the market, and check who those wins came against. The OKC bump (48 → 54%) used three wins over CLE, MEM and WSH and took me off my raw POR lean; Portland won by 20 and the closing ML moved to POR.",
+     "My favorite margins are still compressed. NYK by 32 (my ~13), BOS by 22 (~1.5), PHX by 23 (~1.5). When the better roster is clear, I should write confidence higher, not trim it for soft money splits.",
+     "Reverse line movement against a heavy public favorite keeps holding. MIA closed -8.5 after opening -10.5 against 66% of tickets and won by 6. Two nights running (CLE 11-10, MIA 11-11), so treat it as a real signal for a dog-side lean."
+    ]
+   }
   }
  ],
  "season": {
@@ -16099,36 +16205,48 @@
       0
      ]
     }
+   },
+   {
+    "date": "2026-11-11",
+    "su_w": 5,
+    "su_l": 1,
+    "units": 1.55,
+    "brier": {
+     "me": 0.16,
+     "dk": 0.133,
+     "pm": 0.142
+    },
+    "log": null
    }
   ],
   "calibration": [
    {
     "bucket": "50–59%",
-    "n": 58,
-    "hits": 32,
+    "n": 61,
+    "hits": 34,
     "avg_pred": 54.6,
-    "actual": 55.2
+    "actual": 55.7
    },
    {
     "bucket": "60–69%",
-    "n": 40,
-    "hits": 26,
+    "n": 41,
+    "hits": 27,
     "avg_pred": 65.1,
-    "actual": 65.0
+    "actual": 65.9
    },
    {
     "bucket": "70–79%",
-    "n": 36,
-    "hits": 29,
-    "avg_pred": 73.6,
-    "actual": 80.6
+    "n": 37,
+    "hits": 30,
+    "avg_pred": 73.5,
+    "actual": 81.1
    },
    {
     "bucket": "80%+",
-    "n": 20,
-    "hits": 19,
+    "n": 21,
+    "hits": 20,
     "avg_pred": 84.0,
-    "actual": 95.0
+    "actual": 95.2
    }
   ],
   "splits": [
@@ -16137,8 +16255,8 @@
     "groups": [
      {
       "label": "Picked favorite",
-      "w": 101,
-      "l": 39
+      "w": 106,
+      "l": 40
      },
      {
       "label": "Picked underdog",
@@ -16152,13 +16270,13 @@
     "groups": [
      {
       "label": "Home pick",
-      "w": 62,
+      "w": 64,
       "l": 30
      },
      {
       "label": "Road pick",
-      "w": 44,
-      "l": 18
+      "w": 47,
+      "l": 19
      }
     ]
    },
@@ -16167,13 +16285,13 @@
     "groups": [
      {
       "label": "I was above market",
-      "w": 35,
+      "w": 36,
       "l": 30
      },
      {
       "label": "At/below market",
-      "w": 71,
-      "l": 18
+      "w": 75,
+      "l": 19
      }
     ]
    },
@@ -16182,32 +16300,32 @@
     "groups": [
      {
       "label": "Conf 1-5",
-      "w": 65,
-      "l": 41
+      "w": 69,
+      "l": 42
      },
      {
       "label": "Conf 6-10",
-      "w": 41,
+      "w": 42,
       "l": 7
      }
     ]
    }
   ],
-  "graded_games": 154,
+  "graded_games": 160,
   "glance": {
    "record": {
-    "w": 106,
-    "l": 48,
-    "n": 154,
+    "w": 111,
+    "l": 49,
+    "n": 160,
     "pct": 69
    },
    "streak": {
-    "type": "W",
-    "len": 4
+    "type": "L",
+    "len": 1
    },
-   "units_total": 2.22,
-   "units_days_stated": 19,
-   "units_days_total": 20,
+   "units_total": 3.77,
+   "units_days_stated": 20,
+   "units_days_total": 21,
    "units_series": [
     {
      "date": "2026-10-21",
@@ -16308,33 +16426,38 @@
      "date": "2026-11-10",
      "units": 1.55,
      "cum": 2.22
+    },
+    {
+     "date": "2026-11-11",
+     "units": 1.55,
+     "cum": 3.77
     }
    ],
    "last7": {
-    "w": 32,
-    "l": 15,
-    "n": 47,
-    "pct": 68,
-    "units": -1.03,
-    "start": "2026-11-04",
-    "end": "2026-11-10",
-    "days": 6,
-    "units_days": 6
+    "w": 37,
+    "l": 16,
+    "n": 53,
+    "pct": 70,
+    "units": 0.52,
+    "start": "2026-11-05",
+    "end": "2026-11-11",
+    "days": 7,
+    "units_days": 7
    },
    "insights": [
     {
-     "w": 48,
+     "w": 50,
      "l": 8,
-     "n": 56,
+     "n": 58,
      "pct": 86,
      "key": "big_fav",
      "text": "Big favourites (my win % 70+)"
     },
     {
-     "w": 32,
-     "l": 26,
-     "n": 58,
-     "pct": 55,
+     "w": 34,
+     "l": 27,
+     "n": 61,
+     "pct": 56,
      "key": "coin",
      "text": "Close calls (my win % 50–59)"
     },
@@ -16347,26 +16470,26 @@
      "text": "When I rate the pick 3+ pts higher than Polymarket"
     },
     {
-     "w": 61,
-     "l": 23,
-     "n": 84,
-     "pct": 73,
+     "w": 62,
+     "l": 24,
+     "n": 86,
+     "pct": 72,
      "key": "agree",
      "text": "When I roughly agree with Polymarket (within 2.5 pts)"
     },
     {
-     "w": 35,
+     "w": 39,
      "l": 7,
-     "n": 42,
-     "pct": 83,
+     "n": 46,
+     "pct": 85,
      "key": "disagree_down",
      "text": "When I rate the pick 3+ pts lower than Polymarket"
     },
     {
-     "w": 41,
+     "w": 42,
      "l": 7,
-     "n": 48,
-     "pct": 85,
+     "n": 49,
+     "pct": 86,
      "key": "high_conf",
      "text": "High-confidence picks (6+/10)"
     },
@@ -16379,9 +16502,9 @@
      "text": "Picking the underdog"
     },
     {
-     "w": 44,
-     "l": 18,
-     "n": 62,
+     "w": 47,
+     "l": 19,
+     "n": 66,
      "pct": 71,
      "key": "road",
      "text": "Picking the road team"
@@ -16417,7 +16540,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-10T23:28:23+08:00",
+  "fetched_at": "2026-11-11T14:32:41+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
