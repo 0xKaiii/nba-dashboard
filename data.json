@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T14:07:46+08:00",
+ "generated_at": "2026-11-12T23:25:18+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-12",
+ "latest_preview_date": "2026-11-13",
  "latest_review_date": "2026-11-12",
  "days": [
   {
@@ -15849,6 +15849,286 @@
      "Could not verify: whether Curry's injury news reached Crisp prices in-game (irrelevant to the pre-game fill); Crisp settled cash (not opened in the app); the official late injury PDFs (not re-pulled); box vs AP discrepancies for MIL (Herro 27 vs 25, Jaquez 25 vs 23, MIL turnovers 17 vs 19). I used the box score figures."
     ]
    }
+  },
+  {
+   "date": "2026-11-13",
+   "file": "preview-2026-11-13.md",
+   "written": "~23:40 MYT Thu Nov 12",
+   "games": [
+    {
+     "id": "2026-11-13-TOR-PHI",
+     "n": 1,
+     "away": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "home": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-13T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "win_pct": 69.0,
+     "confidence": 5,
+     "dk_ml": "TOR +276 / PHI -344 (opened +341/-410) → de-vig PHI 74.4%",
+     "dk_devig": {
+      "abbr": "PHI",
+      "pct": 74.4
+     },
+     "pm_ml": "TOR 25.5¢ / PHI 74.5¢ ($281k)",
+     "spread": {
+      "dk": "PHI -8.5 (opened -9.5)",
+      "pm": "76ers -8.5: 49.5 / Raptors 50.5; -9.5: 46.5 / 53.5; -7.5: 53.5 / 46.5"
+     },
+     "total": {
+      "dk": "222.5 (opened 221.5)",
+      "pm": "O/U 222.5: Over 49.5; O/U 220.5: Over 55.5; O/U 224.5: Over 45.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 74.5,
+     "edge": -5.5,
+     "dk_pick_pct": 74.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "PHI Q: Embiid (foot mgmt), LeBron James (back/sciatica mgmt); Out: Barlow, Bona, Hukporti (Paul George hasn't played all season per box scores). TOR not yet submitted; secondary sources list Barnes (groin) and Kawhi Leonard (knee) Out, Bittle Out, Jackson-Davis Q (secondary-source \"Out\" treated as likely, not confirmed).",
+     "injury_flags": [
+      "Q: Embiid (foot mgmt), LeBron James (back/sciatica mgmt)",
+      "not yet submitted",
+      "Barnes (groin) and Kawhi Leonard (knee) Out"
+     ],
+     "view": "model PHI by 1.2, +2 for TOR's B2B, +1.5 for Barnes being under-weighted → PHI by ~4.7 (~64%). 10 pts below the market with no named fact → halfway → PHI ~69%. If both Embiid and LeBron sit, PHI drops to roughly a 2–3 pt favorite in my numbers.",
+     "bet": "pass unconditionally (stale-model gap). Conditional below. Total pass (model 222.8 vs 222.5).",
+     "bet_bold": [],
+     "form": "PHI 9-3 (my net +1.0, strong D, low TOV), but lost by 24 at CLE and by 22 to BOS in its last three. TOR 5-6 (net +2.5), lost 93-98 to BOS last night; without Barnes it is 1-2 (W at MIL, L to MEM and BOS).",
+     "sentiment": "91% of ML tickets / 90% money on PHI; spread 57/56 PHI, yet the line moved -9.5 → -8.5 toward TOR (mild reverse move). Total 75% tickets Over. SI likes the Under; ClutchPoints expects both PHI stars to play.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-13-DET-WSH",
+     "n": 2,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "WSH",
+      "city": "Washington",
+      "name": "Wizards"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-13T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 76.0,
+     "confidence": 6,
+     "dk_ml": "DET -467 / WSH +360 (opened -369/+293) → de-vig DET 79.1%",
+     "dk_devig": {
+      "abbr": "DET",
+      "pct": 79.1
+     },
+     "pm_ml": "DET 79.5¢ / WSH 20.5¢ ($67k)",
+     "spread": {
+      "dk": "DET -10.5 (opened -9.5)",
+      "pm": "Pistons -10.5: 50.5 / 49.5; -9.5: 54.5; -11.5: 46.5"
+     },
+     "total": {
+      "dk": "220.5 (opened 220.5)",
+      "pm": "O/U 221.5: Over 47.5; O/U 219.5: Over 52.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 79.5,
+     "edge": -3.5,
+     "dk_pick_pct": 79.1,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DET Out: Jalen Duren (hamstring; hasn't played in any game in my box-score sample, so already priced), Isaiah Joe (hip). WSH not yet submitted; Middleton has been DNP three straight.",
+     "injury_flags": [
+      "not yet submitted"
+     ],
+     "view": "model DET by 5.0 + 2 for the B2B → DET by ~7 (~71%); 8 pts below the market → halfway → DET ~76%. My margin (~8) is under 10.5, a ~2.5-pt WSH lean, but my margins on clearly better rosters are compressed (L4) and the line moved with the money.",
+     "bet": "pass. Total pass (model 219.9 vs 220.5).",
+     "bet_bold": [],
+     "form": "DET 7-3 (net +8.0, 37% from three), beat WSH 122-111 on Monday. WSH 4-8 (net -5.8, 29.8% from three, worst), lost six straight; AD 44 and 21 in his two games back.",
+     "sentiment": "90% tickets / 88% money on DET ML; spread 60/57 DET and the line moved 9.5 → 10.5 toward DET. Total 74% tickets but only 51% money on the Over.",
+     "avoid": [
+      "Pistons @ Wizards side (stale-model gap, line moving with the money)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-13-DAL-MIN",
+     "n": 3,
+     "away": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "home": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-13T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "win_pct": 65.0,
+     "confidence": 4,
+     "dk_ml": "DAL +185 / MIN -223 (opened +155/-185) → de-vig MIN 66.3%",
+     "dk_devig": {
+      "abbr": "MIN",
+      "pct": 66.3
+     },
+     "pm_ml": "DAL 32.5¢ / MIN 67.5¢ ($48k)",
+     "spread": {
+      "dk": "MIN -5.5 (opened -4.5)",
+      "pm": "Timberwolves -5.5: 52.5 / Mavericks 47.5; -6.5: 47.5 / 52.5"
+     },
+     "total": {
+      "dk": "225.5 (opened 226.5)",
+      "pm": "O/U 225.5: Over 50.5; O/U 224.5: Over 52.5; O/U 226.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 67.5,
+     "edge": -2.5,
+     "dk_pick_pct": 66.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "MIN Out: Anthony Edwards (knee arthroscopy), DiVincenzo (Achilles). DAL Out: Lively (foot), Biberovic, de Larrea; Morez Johnson Jr. Probable; Caleb Martin Available. AD hasn't appeared for DAL in my sample.",
+     "injury_flags": [
+      "Out: Anthony Edwards (knee arthroscopy), DiVincenzo (Achilles)",
+      "Out: Lively (foot), Biberovic, de Larrea"
+     ],
+     "view": "model MIN by 5.2; my MIN ratings still include a few Edwards games, so trim ~1 → MIN by ~4.2 (~63%), 4.5 below market → halfway → MIN ~65%. DAL +5.5 is only ~1 pt of edge; no play.",
+     "bet": "pass. Total pass (model 224.7 vs 225.5; experts' Under is reasonable but under my bar).",
+     "bet_bold": [],
+     "form": "MIN 8-3 (net +10.7, best D in my numbers), 10-1 ATS, four straight wins; 5-2 without Edwards. DAL 7-4 (net +4.5), three straight wins (all at home), Flagg 43 + Kyrie 35 vs IND Monday; only 3 of 11 DAL games went Over (FanDuel).",
+     "sentiment": "ML 69% tickets / 54% money on MIN; spread 57% tickets / 62% money on DAL +5.5, but the line moved 4.5 → 5.5 toward MIN (mild reverse move, per TheSpread too). Experts split: TheSpread MIN -5.5; USA Today and HoopMetrics DAL +5.5; Predictem, TheSpread and USA Today all on the Under.",
+     "avoid": [
+      "Mavericks @ Timberwolves (side and total near fair)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-13-CHA-PHX",
+     "n": 4,
+     "away": {
+      "abbr": "CHA",
+      "city": "Charlotte",
+      "name": "Hornets"
+     },
+     "home": {
+      "abbr": "PHX",
+      "city": "Phoenix",
+      "name": "Suns"
+     },
+     "tip_myt": "10:00",
+     "tip_iso": "2026-11-13T10:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "PHX",
+      "city": "Phoenix",
+      "name": "Suns"
+     },
+     "win_pct": 70.0,
+     "confidence": 6,
+     "dk_ml": "CHA +201 / PHX -244 (opened +206/-250) → de-vig PHX 68.1%",
+     "dk_devig": {
+      "abbr": "PHX",
+      "pct": 68.1
+     },
+     "pm_ml": "CHA 33.5¢ / PHX 66.5¢ (bid/ask 66/67) ($58k)",
+     "spread": {
+      "dk": "PHX -6.5 (opened -7.5)",
+      "pm": "Suns -6.5: 49.5 / 50.5; -5.5: 53.5 / 46.5; -7.5: 45.5 / 54.5"
+     },
+     "total": {
+      "dk": "214.5 (opened 213.5)",
+      "pm": "O/U 213.5: Over 51.5; O/U 215.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 66.5,
+     "edge": 3.5,
+     "dk_pick_pct": 68.1,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "CHA Out: Brandon Miller (hip), Kon Knueppel (hamstring), Dennis Schröder (hamstring); Diabaté and Grant Williams Probable. PHX Out: Mark Williams (shoulder) only; Booker healthy (26 ppg).",
+     "injury_flags": [
+      "Out: Brandon Miller (hip), Kon Knueppel (hamstring), Dennis Schröder (hamstring)",
+      "Out: Mark Williams (shoulder)"
+     ],
+     "view": "model PHX by 5.2; Miller is in 10 of CHA's 11 games in my ratings, so ~-1.5 for CHA → PHX by ~6.5, ~70%. That's ~3 pts above Polymarket's 67¢ ask, on a named roster fact (three CHA guards/wings out) and a ball-security mismatch. Risk: another CHA shooting spike and PHX's leaky defense; the 1-pt spread drift toward CHA.",
+     "bet": "Suns ML, best lean, ~0.67u (Crisp 10-share minimum). Total: model 222 vs 214.5 is a 6+ gap with mixed last-three totals → no-stake Over lean.",
+     "bet_bold": [
+      "Suns ML, best lean, ~0.67u (Crisp 10-share minimum).",
+      "no-stake Over lean"
+     ],
+     "form": "PHX 4-6 (net -5.2; 37.6% from three; weak D), won 3 of 4 incl. 133-110 over LAC Tuesday. CHA 4-7 (net -11.7, 19 TOV/game, 30.8% from three), 1-3 on the road; beat CLE 124-112 Monday on 23 threes after a six-game skid (scored ≤104 in the four before).",
+     "sentiment": "86% tickets / 88% money on PHX ML; spread 75/78 PHX, yet the line moved -7.5 → -6.5 toward CHA (small reverse move; ML basically unchanged). 83% of tickets on the Over, line 213.5 → 214.5. Sports Mole Suns by 9 + Over 215.5; sportpickscope PHX 66%; numberFire only 57%; Winners & Whiners Suns + Under.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Pistons over Wizards, 76% (conf 6). WSH on a B2B, six-game skid.",
+     "Suns over Hornets, 70% (conf 6). CHA without Miller, Knueppel, Schröder.",
+     "76ers over Raptors, 69% (conf 5). TOR on a B2B without Barnes and Kawhi; watch Embiid/LeBron."
+    ],
+    "underdogs": [
+     "none worth staking. Closest: Raptors +8.5 (Polymarket \"Spread: 76ers (-8.5)\" Raptors 50.5¢; ML 25.5¢), only if both PHI stars sit (conditional below). Wizards +10.5 (49.5¢) and Mavericks +5.5 (47.5¢) are ~1–2.5 pts under my bar."
+    ],
+    "avoid": [
+     "Mavericks @ Timberwolves (side and total near fair)",
+     "Pistons @ Wizards side (stale-model gap, line moving with the money)"
+    ],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 119-51 · ATS 4-7 · Totals 11-9 · Core value 3-3 · Small value 25-29 · Crisp real money 1-1, −$0.66."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Pistons** over Wizards, 76% (conf 6). WSH on a B2B, six-game skid.\n2. **Suns** over Hornets, 70% (conf 6). CHA without Miller, Knueppel, Schröder.\n3. **76ers** over Raptors, 69% (conf 5). TOR on a B2B without Barnes and Kawhi; watch Embiid/LeBron.",
+    "underdogs": "none worth staking. Closest: **Raptors +8.5** (Polymarket \"Spread: 76ers (-8.5)\" Raptors 50.5¢; ML 25.5¢), only if both PHI stars sit (conditional below). Wizards +10.5 (49.5¢) and Mavericks +5.5 (47.5¢) are ~1–2.5 pts under my bar.",
+    "avoid": "Mavericks @ Timberwolves (side and total near fair); Pistons @ Wizards side (stale-model gap, line moving with the money).",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 119-51 · ATS 4-7 · Totals 11-9 · Core value 3-3 · Small value 25-29 · Crisp real money 1-1, −$0.66."
+   },
+   "buys": [],
+   "lessons_applied": [
+    "L1 (big disagreements 10-29; halfway rule; stale model at 10+): TOR–PHI (model ~64% vs 74.5¢) and DET–WSH (~71% vs 79.5¢) are both ~10 pts off with no roster fact the market missed → moved halfway, no stakes on either (directive: skip stale-model games). No 30+ pt money-vs-ticket gap against a side I like.",
+    "L2 (grade who's left): MIN has gone 5-2 without Anthony Edwards (Out, knee); DAL without Lively and Davis; CHA without Miller, Knueppel, Schröder (all official Out); TOR without Barnes and Kawhi. Absences already in the ratings aren't double-counted; only Miller (missed 1 of 11) and Barnes (missed 3 of 11) get partial bumps.",
+    "L3 (totals): CHA–PHX is a 7.5-pt model gap (222 vs 214.5): last-three totals are mixed (CHA 218/199/236, PHX 218/243/201) and the line only moved 1 toward me → no-stake Over lean. Other totals within 1 pt of the model → pass.",
+    "L4 / L8 (margins compressed; best-lean staking): the best lean is Suns ML (named roster edge, small gap, favorite rather than a small dog ML). Dogs-with-points (TOR +8.5, WSH +10.5, DAL +5.5) all fall under the bar or sit in stale-model games.",
+    "L7 (conditionals / pre-report): one conditional (Raptors spread if both Embiid and LeBron sit). Pre-report check: both are \"management\" Q's who've played every recent game and PHI isn't on a B2B, so the trigger is unlikely → no pre-report entry.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1113/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -17446,7 +17726,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-12T14:07:46+08:00",
+  "fetched_at": "2026-11-12T23:25:18+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
