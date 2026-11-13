@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-12T23:25:18+08:00",
+ "generated_at": "2026-11-13T14:11:37+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-13",
- "latest_review_date": "2026-11-12",
+ "latest_review_date": "2026-11-13",
  "days": [
   {
    "date": "2026-10-21",
@@ -15910,7 +15910,21 @@
      "form": "PHI 9-3 (my net +1.0, strong D, low TOV), but lost by 24 at CLE and by 22 to BOS in its last three. TOR 5-6 (net +2.5), lost 93-98 to BOS last night; without Barnes it is 1-2 (W at MIL, L to MEM and BOS).",
      "sentiment": "91% of ML tickets / 90% money on PHI; spread 57/56 PHI, yet the line moved -9.5 → -8.5 toward TOR (mild reverse move). Total 75% tickets Over. SI likes the Under; ClutchPoints expects both PHI stars to play.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "PHI",
+      "final_text": "PHI 123, TOR 112",
+      "scores": {
+       "PHI": 123,
+       "TOR": 112
+      },
+      "hit": true,
+      "reason": "76ers 69%, conf 5: HIT, reasoning right. My raw PHI by ~4.7 was short again; PHI won by 11 even without LeBron. The halfway move toward the market (74.5¢) was the right direction.",
+      "grades": [
+       "76ers 69%, conf 5: HIT, reasoning right. My raw PHI by ~4.7 was short again; PHI won by 11 even without LeBron. The halfway move toward the market (74.5¢) was the right direction."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-13-DET-WSH",
@@ -15967,7 +15981,21 @@
      "avoid": [
       "Pistons @ Wizards side (stale-model gap, line moving with the money)"
      ],
-     "result": null
+     "result": {
+      "winner": "DET",
+      "final_text": "DET 144, WSH 140",
+      "scores": {
+       "DET": 144,
+       "WSH": 140
+      },
+      "hit": true,
+      "reason": "Pistons 76%, conf 6: HIT, but lucky. The game was tied at the end of regulation and the first overtime. WSH didn't look like a team on a back-to-back, and Sarr/Davis had the inside edge.",
+      "grades": [
+       "Pistons 76%, conf 6: HIT, but lucky. The game was tied at the end of regulation and the first overtime. WSH didn't look like a team on a back-to-back, and Sarr/Davis had the inside edge. My raw model (DET by ~7, ~71%) was closer to how this one played than the 79% market, but one game doesn't settle that."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-13-DAL-MIN",
@@ -16025,7 +16053,21 @@
      "avoid": [
       "Mavericks @ Timberwolves (side and total near fair)"
      ],
-     "result": null
+     "result": {
+      "winner": "MIN",
+      "final_text": "MIN 133, DAL 94",
+      "scores": {
+       "MIN": 133,
+       "DAL": 94
+      },
+      "hit": true,
+      "reason": "Timberwolves 65%, conf 4: HIT, reasoning right, margin way too small. I had MIN by ~4.2 after trimming for Edwards; actual 39.",
+      "grades": [
+       "Timberwolves 65%, conf 4: HIT, reasoning right, margin way too small. I had MIN by ~4.2 after trimming for Edwards; actual 39. L2 held again: MIN without Edwards is 6-2, so don't keep trimming for an absence the current group has already played through."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-13-CHA-PHX",
@@ -16084,7 +16126,21 @@
      "form": "PHX 4-6 (net -5.2; 37.6% from three; weak D), won 3 of 4 incl. 133-110 over LAC Tuesday. CHA 4-7 (net -11.7, 19 TOV/game, 30.8% from three), 1-3 on the road; beat CLE 124-112 Monday on 23 threes after a six-game skid (scored ≤104 in the four before).",
      "sentiment": "86% tickets / 88% money on PHX ML; spread 75/78 PHX, yet the line moved -7.5 → -6.5 toward CHA (small reverse move; ML basically unchanged). 83% of tickets on the Over, line 213.5 → 214.5. Sports Mole Suns by 9 + Over 215.5; sportpickscope PHX 66%; numberFire only 57%; Winners & Whiners Suns + Under.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "PHX",
+      "final_text": "PHX 101, CHA 96",
+      "scores": {
+       "PHX": 101,
+       "CHA": 96
+      },
+      "hit": true,
+      "reason": "Suns 70%, conf 6: HIT, reasoning right. The named edge, CHA's ball security without Miller, Knueppel and Schröder, was exactly the story.",
+      "grades": [
+       "Suns 70%, conf 6: HIT, reasoning right. The named edge, CHA's ball security without Miller, Knueppel and Schröder, was exactly the story. My PHX by ~6.5 was a bit high (won by 5), and the spread drifting -7.5 → -6.5 toward CHA was a real signal: PHX -6.5 failed by 1.5. The ML, not the spread, was the right way to bet it."
+      ],
+      "how": null,
+      "notes": null
+     }
     }
    ],
    "summary": {
@@ -16128,7 +16184,33 @@
     "--"
    ],
    "pm_raw_file": "raw/d1113/pm-summary.txt",
-   "review": null
+   "review": {
+    "file": "review-2026-11-13.md",
+    "brier": {
+     "me": 0.092,
+     "dk": 0.091,
+     "pm": 0.081
+    },
+    "units": 0.33,
+    "units_text": "- Units: +0.33u on the day (Suns ML, 0.67u at 67¢; +0.31u including Crisp fees).; - Season: SU 123-51, ATS 4-7, totals 11-9, core value 3-3 (~+0.2u), small value 26-29 (~+1.18u). Crisp real money 2-1, +$2.46.",
+    "day_summary": [
+     "Straight up: 4-0.",
+     "ATS: 0-0 (no staked spreads). Totals: 0-0 (all passed). Core value: 0-0. Small value: 1-0 (Suns ML, best lean).",
+     "Units: +0.33u on the day (Suns ML, 0.67u at 67¢; +0.31u including Crisp fees).",
+     "No-stake leans: 1-1 (Wizards +10.5 W; CHA–PHX Over L).",
+     "Avoid list: DAL–MIN (right on DAL +5.5, MIN by 39); DET–WSH side (DET -10.5 failed by 6.5; avoiding the favorite was right).",
+     "Season: SU 123-51, ATS 4-7, totals 11-9, core value 3-3 (~+0.2u), small value 26-29 (~+1.18u). Crisp real money 2-1, +$2.46.",
+     "Market context: closing favorites 2-2 ATS (PHI, MIN covered; DET, PHX fell short); no dog won outright. Totals: Overs 3-1 vs the close (the DET–WSH Over came through two OTs, though regulation alone was 242).",
+     "Big disagreements with the market (4+ pts vs DK close): 1-0 tonight (PHX). Running total 11-29."
+    ],
+    "lessons": [
+     "For a best-lean favorite, choose ML over the spread when the spread is drifting toward the dog. PHX -7.5 → -6.5 against 75% of tickets was right (won by 5), but the named roster edge (CHA's 27 turnovers) was right too. The ML captured the edge without the margin risk. This was the first best-lean win (1-1).",
+     "Stop trimming for an absence the current group has already played through. MIN without Edwards is now 6-2 and won by 39 against my 4.2. PHI without LeBron won by 11 against my raw 4.7. My margins on better rosters are still compressed (L4).",
+     "6+-pt model total gaps with no market move stay no-stake. CHA–PHX Over (model 222 vs 214.5) finished 197. Turnover-heavy games against weak-shooting teams can drop far below my pace-based total.",
+     "Strategy proposals: nothing new. The 11-12 proposal (at 4+ pts off with no named roster fact, use the market price instead of halfway; awaiting 0xKai's OK) would have changed nothing tonight. The one 4+ gap (PHX) had a named fact and won.",
+     "Could not verify: Crisp settled cash and whether any other orders exist (app not opened); the official late injury PDFs (not re-pulled; LeBron Out and Embiid upgrade are from AP); Quickley 25 (AP) vs 26 (box) and TOR's largest lead 16 (AP) vs 17 (box). I used AP for the quoted figures."
+    ]
+   }
   }
  ],
  "season": {
@@ -17398,6 +17480,18 @@
       1
      ]
     }
+   },
+   {
+    "date": "2026-11-13",
+    "su_w": 4,
+    "su_l": 0,
+    "units": 0.33,
+    "brier": {
+     "me": 0.092,
+     "dk": 0.091,
+     "pm": 0.081
+    },
+    "log": null
    }
   ],
   "calibration": [
@@ -17410,17 +17504,17 @@
    },
    {
     "bucket": "60–69%",
-    "n": 45,
-    "hits": 29,
-    "avg_pred": 65.0,
-    "actual": 64.4
+    "n": 47,
+    "hits": 31,
+    "avg_pred": 65.1,
+    "actual": 66.0
    },
    {
     "bucket": "70–79%",
-    "n": 37,
-    "hits": 30,
+    "n": 39,
+    "hits": 32,
     "avg_pred": 73.5,
-    "actual": 81.1
+    "actual": 82.1
    },
    {
     "bucket": "80%+",
@@ -17436,7 +17530,7 @@
     "groups": [
      {
       "label": "Picked favorite",
-      "w": 113,
+      "w": 117,
       "l": 42
      },
      {
@@ -17451,12 +17545,12 @@
     "groups": [
      {
       "label": "Home pick",
-      "w": 67,
+      "w": 70,
       "l": 32
      },
      {
       "label": "Road pick",
-      "w": 52,
+      "w": 53,
       "l": 19
      }
     ]
@@ -17466,12 +17560,12 @@
     "groups": [
      {
       "label": "I was above market",
-      "w": 37,
+      "w": 38,
       "l": 30
      },
      {
       "label": "At/below market",
-      "w": 82,
+      "w": 85,
       "l": 21
      }
     ]
@@ -17481,32 +17575,32 @@
     "groups": [
      {
       "label": "Conf 1-5",
-      "w": 75,
+      "w": 77,
       "l": 44
      },
      {
       "label": "Conf 6-10",
-      "w": 44,
+      "w": 46,
       "l": 7
      }
     ]
    }
   ],
-  "graded_games": 170,
+  "graded_games": 174,
   "glance": {
    "record": {
-    "w": 119,
+    "w": 123,
     "l": 51,
-    "n": 170,
-    "pct": 70
+    "n": 174,
+    "pct": 71
    },
    "streak": {
     "type": "W",
-    "len": 3
+    "len": 7
    },
-   "units_total": 3.27,
-   "units_days_stated": 21,
-   "units_days_total": 22,
+   "units_total": 3.6,
+   "units_days_stated": 22,
+   "units_days_total": 23,
    "units_series": [
     {
      "date": "2026-10-21",
@@ -17617,24 +17711,29 @@
      "date": "2026-11-12",
      "units": -0.5,
      "cum": 3.27
+    },
+    {
+     "date": "2026-11-13",
+     "units": 0.33,
+     "cum": 3.6
     }
    ],
    "last7": {
-    "w": 36,
-    "l": 13,
-    "n": 49,
-    "pct": 73,
-    "units": 1.35,
-    "start": "2026-11-06",
-    "end": "2026-11-12",
+    "w": 39,
+    "l": 12,
+    "n": 51,
+    "pct": 76,
+    "units": 1.93,
+    "start": "2026-11-07",
+    "end": "2026-11-13",
     "days": 7,
     "units_days": 7
    },
    "insights": [
     {
-     "w": 52,
+     "w": 54,
      "l": 8,
-     "n": 60,
+     "n": 62,
      "pct": 87,
      "key": "big_fav",
      "text": "Big favourites (my win % 70+)"
@@ -17648,34 +17747,34 @@
      "text": "Close calls (my win % 50–59)"
     },
     {
-     "w": 10,
+     "w": 11,
      "l": 18,
-     "n": 28,
-     "pct": 36,
+     "n": 29,
+     "pct": 38,
      "key": "disagree_up",
      "text": "When I rate the pick 3+ pts higher than Polymarket"
     },
     {
-     "w": 67,
+     "w": 68,
      "l": 26,
-     "n": 93,
+     "n": 94,
      "pct": 72,
      "key": "agree",
      "text": "When I roughly agree with Polymarket (within 2.5 pts)"
-    },
-    {
-     "w": 42,
-     "l": 7,
-     "n": 49,
-     "pct": 86,
-     "key": "disagree_down",
-     "text": "When I rate the pick 3+ pts lower than Polymarket"
     },
     {
      "w": 44,
      "l": 7,
      "n": 51,
      "pct": 86,
+     "key": "disagree_down",
+     "text": "When I rate the pick 3+ pts lower than Polymarket"
+    },
+    {
+     "w": 46,
+     "l": 7,
+     "n": 53,
+     "pct": 87,
      "key": "high_conf",
      "text": "High-confidence picks (6+/10)"
     },
@@ -17688,10 +17787,10 @@
      "text": "Picking the underdog"
     },
     {
-     "w": 52,
+     "w": 53,
      "l": 19,
-     "n": 71,
-     "pct": 73,
+     "n": 72,
+     "pct": 74,
      "key": "road",
      "text": "Picking the road team"
     }
@@ -17726,7 +17825,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-12T23:25:18+08:00",
+  "fetched_at": "2026-11-13T14:11:37+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
