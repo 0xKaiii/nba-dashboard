@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-14T14:07:45+08:00",
+ "generated_at": "2026-11-14T23:29:55+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-14",
+ "latest_preview_date": "2026-11-15",
  "latest_review_date": "2026-11-14",
  "days": [
   {
@@ -16916,6 +16916,342 @@
      "A reverse line move that reverses again by the close isn't a pass signal; one that holds is real. MEM's 4.5 → 2.5 came back to 3.5 (won by 31, like ORL on 11-12). OKC's -7.5 → -6.5 held, and LAC won outright. Re-check the RLM at bet time."
     ]
    }
+  },
+  {
+   "date": "2026-11-15",
+   "file": "preview-2026-11-15.md",
+   "written": "~23:45 MYT Sat Nov 14",
+   "games": [
+    {
+     "id": "2026-11-15-DEN-NOP",
+     "n": 1,
+     "away": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "home": {
+      "abbr": "NOP",
+      "city": "New Orleans",
+      "name": "Pelicans"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-15T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "win_pct": 84.0,
+     "confidence": 7,
+     "dk_ml": "DEN -597 / NOP +443 → de-vig DEN 82.3%",
+     "dk_devig": {
+      "abbr": "DEN",
+      "pct": 82.3
+     },
+     "pm_ml": "DEN 83.5¢ / NOP 16.5¢ ($113k)",
+     "spread": {
+      "dk": "DEN -12.5 (opened -10.5)",
+      "pm": "Nuggets -11.5: 52.5 / 47.5; -12.5: 48.5 / 51.5"
+     },
+     "total": {
+      "dk": "234.5 (open 234.5)",
+      "pm": "O/U 234.5: Over 50.5; O/U 235.5: Over 46.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 83.5,
+     "edge": 0.5,
+     "dk_pick_pct": 82.3,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DEN Out: Strawther (knee, 6 wks), three G-League assignees. NOP not yet submitted; per SlateLines, Murphy (knee), Murray (ankle), Missi, Watford, McGowens were out Friday. Murphy has missed three straight.",
+     "injury_flags": [
+      "NOP not yet submitted"
+     ],
+     "view": "raw model DEN by 3.1 (60%) is stale; NOP's last-three form plus B2B puts DEN by ~13–14, ~84%. Agrees with the market on the ML. NOP already lost by 31 without Murray/Murphy, so their absence isn't new info.",
+     "bet": "ML pass (no edge at 83.5¢). Conditional DEN -11.5 below. Total pass (model 234.5 = market).",
+     "bet_bold": [],
+     "form": "DEN 6-4 (my net +1.2), won 3 of last 4; Jokić 27, Murray 30 at MEM. NOP 4-9 (net -8.6), five straight losses, last three by 51, 34, 31 (allowed 138, 145, 142).",
+     "sentiment": "94% tickets / 93% money on DEN ML; 71/78 on DEN -12.5; line -10.5 → -12.5 (following the money). BettingPros: Nuggets -11.5. Covers: DEN 83% is fair if Murray and Murphy play.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-15-DAL-CLE",
+     "n": 2,
+     "away": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "home": {
+      "abbr": "CLE",
+      "city": "Cleveland",
+      "name": "Cavaliers"
+     },
+     "tip_myt": "08:30",
+     "tip_iso": "2026-11-15T08:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "win_pct": 51.0,
+     "confidence": 3,
+     "dk_ml": "DAL -113 / CLE -105 → de-vig CLE 49.1%",
+     "dk_devig": {
+      "abbr": "CLE",
+      "pct": 49.1
+     },
+     "pm_ml": "DAL 51.5¢ / CLE 48.5¢ ($81k)",
+     "spread": {
+      "dk": "CLE +1.5 (opened -3.5)",
+      "pm": "Mavericks -1.5: 49.5; Cavaliers -1.5: 45.0; Cavaliers -2.5: 40.5"
+     },
+     "total": {
+      "dk": "231.5 (open 231.5)",
+      "pm": "O/U 231.5: Over 50.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 51.5,
+     "edge": -0.5,
+     "dk_pick_pct": 50.9,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DAL Out: Lively (foot surgery), Biberovic, de Larrea; Q: Christie (ankle); Morez Johnson Probable. CLE (not yet filed; per Hoops Nightly/StatiqSports): Out Mobley (toe), Merrill (elbow), Tomlin (back); Mitchell and Harden not listed.",
+     "injury_flags": [
+      "Q: Christie (ankle)",
+      "Out Mobley (toe), Merrill (elbow), Tomlin (back)"
+     ],
+     "view": "model CLE by 1.9 before rest; minus ~2 for the B2B with travel and Merrill → pick'em. The move is bigger than the named news, but the money opposes the side the model likes, so the hard-pass rule says don't fight it.",
+     "bet": "avoid (coin flip). Total pass (model 228.9 vs 231.5).",
+     "bet_bold": [],
+     "form": "DAL 7-5 (net +1.0); lost 94-133 at MIN on Thursday after five wins in six. CLE 6-7 (net +1.0); lost 121-133 at MIA last night (Mitchell 25, Harden 20).",
+     "sentiment": "ML 66% of tickets on CLE but 64% of money on DAL; line moved 5 pts (CLE -3.5 → +1.5) toward DAL. Covers and the sharp money side with DAL; numberFire has CLE 74% (pre-move model).",
+     "avoid": [
+      "Avoid (game note)",
+      "Mavericks @ Cavaliers (coin flip, 5-pt move on sharp money)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-15-DET-MIA",
+     "n": 3,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "MIA",
+      "city": "Miami",
+      "name": "Heat"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-15T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 65.0,
+     "confidence": 5,
+     "dk_ml": "DET -191 / MIA +160 → de-vig DET 63.1%",
+     "dk_devig": {
+      "abbr": "DET",
+      "pct": 63.1
+     },
+     "pm_ml": "DET 64.5¢ / MIA 35.5¢ ($25k)",
+     "spread": {
+      "dk": "DET -4.5 (opened -5.5)",
+      "pm": "Pistons -4.5: 51.5 / 48.5; -5.5: 48.0 / 52.0"
+     },
+     "total": {
+      "dk": "228.5 (opened 226.5)",
+      "pm": "O/U 228.5: Over 50.5; 227.5: Over 53.5; 229.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 64.5,
+     "edge": 0.5,
+     "dk_pick_pct": 63.1,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DET Out: Duren (hamstring, re-eval in two weeks), Joe (hip); Duren already missing from my recent sample. MIA not yet submitted.",
+     "injury_flags": [
+      "Out: Duren (hamstring, re-eval in two weeks), Joe (hip)"
+     ],
+     "view": "model DET by 3.3; +1.5 for MIA's B2B → DET by ~4.8, ~65%. Market 64.5¢ → no edge. Covers' Heat case leans on Duren, who hasn't been in DET's lineup in my sample, so I don't add that.",
+     "bet": "pass side and total (model 228.9 = market).",
+     "bet_bold": [],
+     "form": "DET 8-3 (net +7.5, DRtg 105.0, 2nd-best in my sample); won 144-140 at WSH Thursday (Cunningham 52 in 48 min, 2OT). MIA 6-6 (net -2.8) but won four of last five; beat CLE 133-121 last night (Adebayo 37).",
+     "sentiment": "68% tickets / 69% money on DET ML; spread split 50/50; total 80% of money on the Over, moved 226.5 → 228.5/229. Covers: Heat ML is \"the biggest edge on the board\" (prices MIA 46%, citing Duren out vs Adebayo/Giannis). BettingPros: both teams over 113.5.",
+     "avoid": [
+      "Pistons @ Heat side (market = my number)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-15-BKN-MEM",
+     "n": 4,
+     "away": {
+      "abbr": "BKN",
+      "city": "Brooklyn",
+      "name": "Nets"
+     },
+     "home": {
+      "abbr": "MEM",
+      "city": "Memphis",
+      "name": "Grizzlies"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-15T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MEM",
+      "city": "Memphis",
+      "name": "Grizzlies"
+     },
+     "win_pct": 66.0,
+     "confidence": 5,
+     "dk_ml": "BKN +140 / MEM -167 → de-vig MEM 60.0%",
+     "dk_devig": {
+      "abbr": "MEM",
+      "pct": 60.0
+     },
+     "pm_ml": "BKN 39.5¢ / MEM 60.5¢ ($33k)",
+     "spread": {
+      "dk": "MEM -3.5 (opened -5.5)",
+      "pm": "Grizzlies -3.5: 50.5 / 49.5; -4.5: 46.5 / 53.5; -2.5: 54.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 225.5)",
+      "pm": "O/U 228.5: Over 49.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 60.5,
+     "edge": 5.5,
+     "dk_pick_pct": 60.0,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "MEM (not yet filed; per ProbaLab/Yahoo): Out Edey (ankle), Post (concussion), Pippen (back), Saunders; Jerami Grant left Friday late after a collision, status unclear. BKN: Q Mikel Brown Jr. (illness), Traoré Probable (calf).",
+     "injury_flags": [
+      "Out Edey (ankle), Post (concussion), Pippen (back), Saunders",
+      "Q Mikel Brown Jr. (illness)"
+     ],
+     "view": "model MEM by 8.5 (~75%); -1.5 for the B2B and ~-1 for the center hole → MEM by ~6, ~68%. That's 7–8 pts above the market, but the reverse move against a heavy public favorite has been a real signal (MIA 11-11, LAC 11-14), so I pass the favorite.",
+     "bet": "pass. No-stake lean: Nets +3.5 (Polymarket \"Spread: Grizzlies (-3.5)\" Nets 49.5¢). Total pass (model 227.9 vs 228.5).",
+     "bet_bold": [],
+     "form": "MEM 8-4 (net +7.8), beat NOP 142-111 last night with 76 bench points; 2-4 at home, 6-0 on the road. BKN 3-8 (net -4.9); won 145-111 at NOP Wednesday (Demin 22 in his return).",
+     "sentiment": "85% tickets / 80% money on MEM ML, 82/79 on MEM -3.5, yet the line fell -5.5 → -3.5 (reverse line move). Predictem: Grizzlies -5. ProbaLab MEM 75%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-15-CHI-MIN",
+     "n": 5,
+     "away": {
+      "abbr": "CHI",
+      "city": "Chicago",
+      "name": "Bulls"
+     },
+     "home": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-15T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "win_pct": 91.0,
+     "confidence": 8,
+     "dk_ml": "CHI +620 / MIN -930 → de-vig MIN 86.7%",
+     "dk_devig": {
+      "abbr": "MIN",
+      "pct": 86.7
+     },
+     "pm_ml": "CHI 11.5¢ / MIN 88.5¢ ($56k)",
+     "spread": {
+      "dk": "MIN -15.5 (-104) (opened -14.5)",
+      "pm": "Timberwolves -14.5: 51.5 / Bulls 48.5 (b/a 51/52)"
+     },
+     "total": {
+      "dk": "235.5 (opened 236.5)",
+      "pm": "O/U 235.5: Over 48.5; 236.5: Over 45.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 88.5,
+     "edge": 2.5,
+     "dk_pick_pct": 86.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "MIN Out: Edwards (knee arthroscopy), DiVincenzo (Achilles); MIN has played through Edwards' absence (L2: no trim). CHI not yet submitted; Caleb Wilson Out 4–6 weeks (hand surgery), their No. 2 scorer, who is in most of my CHI sample.",
+     "injury_flags": [
+      "Out: Edwards (knee arthroscopy), DiVincenzo (Achilles)",
+      "Caleb Wilson Out 4–6 weeks (hand surgery)"
+     ],
+     "view": "model MIN by 15.3, plus ~2 for CHI's OT B2B and travel, plus a little for Wilson → MIN by ~17–18, ~91%. On the spread, -14.5 at 51.5¢ is half a point cheaper than DK's -15.5 at -104, and my favorites have kept beating my margins (L4).",
+     "bet": "best lean, Timberwolves -14.5 ≤53¢ (10 shares). Total pass (model 230.8 vs 235.5, under 6-pt gap; CHI's last three were 242–248, MIN's 215–227: mixed).",
+     "bet_bold": [
+      "best lean, Timberwolves -14.5 ≤53¢ (10 shares)."
+     ],
+     "form": "MIN 9-3 (net +12.9, DRtg 101.9, best in my sample); won 133-94 vs DAL Thursday, margins of 39, 15, 6, 10, 12 in the last five wins. CHI 2-9 (net -12.4, DRtg 118.9, worst D in my sample); beat ATL 125-117 in OT last night (Powell 33 in his return).",
+     "sentiment": "90/85 on MIN ML; spread 57% tickets / 64% money on MIN, line -14.5 → -15.5 (moving with the money). BettingPros: MIN's offense should dominate. SlateLines: Bulls +14.5.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Timberwolves over Bulls, 91% (conf 8). Best D vs worst D; CHI on an OT back-to-back without Wilson.",
+     "Nuggets over Pelicans, 84% (conf 7). NOP lost its last three by 31–51 and is on a B2B.",
+     "Grizzlies over Nets, 66% (conf 5). Better roster, but B2B, no Edey/Post, and a reverse line move."
+    ],
+    "underdogs": [
+     "none worth staking. Closest: Nets +3.5 (Polymarket \"Spread: Grizzlies (-3.5)\" Nets 49.5¢; ML 39.5¢), backed by the reverse line move but no edge I can name on my numbers. The Heat ML (35.5¢) is Covers' top value; I have DET at fair."
+    ],
+    "avoid": [
+     "Mavericks @ Cavaliers (coin flip, 5-pt move on sharp money)",
+     "Pistons @ Heat side (market = my number)",
+     "every total"
+    ],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 129-54 · ATS 4-7 · Totals 11-9 · Core value 3-3 · Small value 26-30 · Crisp real money 2-2, −$4.81."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Timberwolves** over Bulls, 91% (conf 8). Best D vs worst D; CHI on an OT back-to-back without Wilson.\n2. **Nuggets** over Pelicans, 84% (conf 7). NOP lost its last three by 31–51 and is on a B2B.\n3. **Grizzlies** over Nets, 66% (conf 5). Better roster, but B2B, no Edey/Post, and a reverse line move.",
+    "underdogs": "none worth staking. Closest: **Nets +3.5** (Polymarket \"Spread: Grizzlies (-3.5)\" Nets 49.5¢; ML 39.5¢), backed by the reverse line move but no edge I can name on my numbers. The Heat ML (35.5¢) is Covers' top value; I have DET at fair.",
+    "avoid": "Mavericks @ Cavaliers (coin flip, 5-pt move on sharp money); Pistons @ Heat side (market = my number); every total.",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 129-54 · ATS 4-7 · Totals 11-9 · Core value 3-3 · Small value 26-30 · Crisp real money 2-2, −$4.81."
+   },
+   "buys": [],
+   "lessons_applied": [
+    "L1 (stale model at 10+): DEN–NOP (model DEN 60% vs 83.5¢) is 23 pts off → re-weighted to NOP's last three (lost by 51, 34, 31) → I land on the market; no stake on the side, conditional only. BKN–MEM: I'm 10 pts above the market on MEM, and my losing favorites are mostly where I sat above the market → no stake.",
+    "L1/L2 reverse line move: MEM -5.5 → -3.5 against 82% of tickets → pass the favorite (Nets +3.5 only a no-stake lean; MEM has named holes, Edey/Post/Pippen out, B2B).",
+    "L1 hard pass: DAL–CLE has DAL at 64% of ML money on 34% of tickets (30-pt gap) and the line moved 5 pts to DAL → I don't take CLE; it's a coin flip anyway → avoid.",
+    "L2 (don't trim once the group has played through it): no new cut for Edwards (MIN 6-2+ without him, beat DAL by 39) or Mobley (CLE already without him last night).",
+    "L6 (second straight blowout = trend): NOP lost by 51, 34 and 31 in its last three → treated as the current team.",
+    "L8 (best lean; favorite ML vs spread): best lean is Timberwolves -14.5 because Polymarket's -14.5 is half a point cheaper than DraftKings' -15.5 and the line is moving toward MIN, not away.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1115/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -18629,7 +18965,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-14T14:07:45+08:00",
+  "fetched_at": "2026-11-14T23:29:55+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
