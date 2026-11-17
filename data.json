@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-17T14:28:32+08:00",
+ "generated_at": "2026-11-17T23:30:23+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-17",
+ "latest_preview_date": "2026-11-18",
  "latest_review_date": "2026-11-17",
  "days": [
   {
@@ -18783,6 +18783,344 @@
      "Halfway-to-market is not one-directional. On DEN my raw 69% (8 pts under) was closer than the 73% after moving up; on PHI the market was right. The difference was a named fact: PHX's B2B was my only reason for DEN, and B2B teams went 2-3 ATS (L4: keep B2B ≤ 1 pt and don't lean on it). Keep the B2B bump small."
     ]
    }
+  },
+  {
+   "date": "2026-11-18",
+   "file": "preview-2026-11-18.md",
+   "written": "~23:45 MYT Tue Nov 17",
+   "games": [
+    {
+     "id": "2026-11-18-NYK-TOR",
+     "n": 1,
+     "away": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "home": {
+      "abbr": "TOR",
+      "city": "Toronto",
+      "name": "Raptors"
+     },
+     "tip_myt": "08:30",
+     "tip_iso": "2026-11-18T08:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "win_pct": 55.0,
+     "confidence": 4,
+     "dk_ml": "NYK -148 / TOR +125 → de-vig NYK 57.3%",
+     "dk_devig": {
+      "abbr": "NYK",
+      "pct": 57.3
+     },
+     "pm_ml": "NYK 57.5¢ / TOR 42.5¢ ($24k)",
+     "spread": {
+      "dk": "NYK -2.5 (opened -3.5)",
+      "pm": "Knicks -2.5: 52.5 / Raptors 47.5; -3.5: 46.5 / Raptors 53.5"
+     },
+     "total": {
+      "dk": "215.5 (opened 216.5)",
+      "pm": "O/U 216.5: Over 46.5; 214.5: Over 51.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 57.5,
+     "edge": -2.5,
+     "dk_pick_pct": 57.3,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "TOR Out: Kawhi Leonard (knee management, out all season in my data), Bittle. Scottie Barnes is back (30 pts Sunday). NYK: none listed.",
+     "injury_flags": [
+      "Kawhi Leonard",
+      "Scottie Barnes is back"
+     ],
+     "view": "model NYK by 0.6 (52%). Halfway to the market → NYK by ~1.8, 55%.",
+     "bet": "Raptors +3.5 at ≤54¢ is a no-stake lean (my cover ~57%; the last meeting went to OT, and 3 is a key number). It isn't staked because dog spreads are 6-8, it relies on my below-market model (L1), and there's no named roster edge. The total is a pass: the model's 221.5 sits 6 pts over, but the line moved down, against me.",
+     "bet_bold": [
+      "Raptors +3.5 at ≤54¢"
+     ],
+     "form": "NYK 7-6 (my net +6.0, slow pace at 99.1). Went 1-2 in its last three (lost to CLE, then IND by 2) before winning 112-108 in OT at TOR on Sunday (Brunson and Towns 28 each, but Towns, Brunson and Anunoby played 41-44 min). TOR 5-8 (net +1.0, 32.8% from three), has lost five straight, 2-4 at home.",
+     "sentiment": "80% of ML tickets on NYK but only 55% of the money. On the spread, 73% of tickets but 54% of the money are on NYK, and the line fell 3.5 → 2.5 (a soft lean toward TOR). 6/6 expert ML picks are NYK, but 5/8 spread picks take TOR.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-18-POR-MIN",
+     "n": 2,
+     "away": {
+      "abbr": "POR",
+      "city": "Portland",
+      "name": "Trail Blazers"
+     },
+     "home": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-18T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "win_pct": 58.0,
+     "confidence": 4,
+     "dk_ml": "POR +110 / MIN -130 → de-vig MIN 54.3%",
+     "dk_devig": {
+      "abbr": "MIN",
+      "pct": 54.3
+     },
+     "pm_ml": "POR 45.5¢ / MIN 54.5¢ ($45k)",
+     "spread": {
+      "dk": "MIN -2.5 (opened -2.5)",
+      "pm": "Timberwolves -2.5: 48.5 / Blazers 51.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 226.5)",
+      "pm": "O/U 227.5: Over 49.5; 229.5: Over 44.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 54.5,
+     "edge": 3.5,
+     "dk_pick_pct": 54.3,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "neither team has submitted. Kuminga is day-to-day (he played 29 min last night). POR: Morant is out (until about Dec 1, per Hunchmeter). Recheck Lillard on the second night of a B2B.",
+     "injury_flags": [
+      "Recheck Lillard on the second night of a B2B."
+     ],
+     "view": "model MIN by 4.3 (63%). That's 9 pts over the market with no roster fact, so per L1 I go halfway → MIN ~58%.",
+     "bet": "pass. The edge is model-only, both injury reports are pending, and the FT gap that decided last night won't necessarily repeat. If Lillard sits, MIN's price will move faster than any limit I could set ahead of time (L7).",
+     "bet_bold": [],
+     "form": "MIN 10-4 (net +10.8), 7-3 without Edwards (out until about Dec 21 per Hunchmeter). Won 106-98 last night: Shannon Jr. had a career-high 34, Gobert 18/15, and MIN shot 30-39 FT vs POR's 12-15. POR 9-4 (net +6.4), 6-1 on the road before last night. Lillard went 2-15 (9 pts); Avdija scored 27.",
+     "sentiment": "ML is balanced (66% of tickets and 66% of money on MIN). Spread: 69% of tickets but only 53% of money on MIN. The total rose 226.5 → 228.5 even though last night's game went 23.5 under. Covers and Sports Mole like POR; 3/3 Hunchmeter ML picks are MIN.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-18-DET-SAS",
+     "n": 3,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-18T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "win_pct": 75.0,
+     "confidence": 6,
+     "dk_ml": "DET +312 / SAS -396 → de-vig SAS 76.7%",
+     "dk_devig": {
+      "abbr": "SAS",
+      "pct": 76.7
+     },
+     "pm_ml": "DET 20.5¢ / SAS 79.5¢ ($130k)",
+     "spread": {
+      "dk": "SAS -9.5 (opened -7.5)",
+      "pm": "Spurs -9.5: 50.5 / Pistons 49.5; -8.5: 54.5 / 45.5; -10.5: 46.5 / 53.5"
+     },
+     "total": {
+      "dk": "222.5 (opened 220.5)",
+      "pm": "O/U 222.5: Over 50.5; 221.5: Over 53"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 79.5,
+     "edge": -4.5,
+     "dk_pick_pct": 76.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "DET Out: Duren (out all season in my data), Duncan Robinson (quad; 10-27 pts as a starter), Ronald Holland (bone bruise), Prince; Isaiah Joe doubtful. SAS Out: Tobias Harris, Quaintance.",
+     "injury_flags": [
+      "Duren",
+      "Duncan Robinson",
+      "Ronald Holland",
+      "Isaiah Joe doubtful"
+     ],
+     "view": "model SAS by 5.7, plus ~1.5 for Robinson, Holland and Joe → 7.2 (72%). That's 5 under the market, so per L1 I go halfway → SAS ~75%, by ~8.5.",
+     "bet": "pass. At 79.5¢, Polymarket is about 3¢ richer than DK on SAS, so the ML has no value. I'm not backing the DET ML (small dog MLs are 1-6). The -9.5 spread lays points (0-3) on a line that already absorbed the news.",
+     "bet_bold": [],
+     "form": "SAS 12-2 (my net +12.6, best in the league), on a 12-game win streak (beat GS by 38, UTAH by 8). Wembanyama has scored 26-40 in three of his last four. DET 8-4 (net +5.3), lost 117-137 at MIA on Sunday. Cunningham is scoring 33-52 lately.",
+     "sentiment": "89% of ML money and 67% of spread money on SAS. The line moved 2 pts toward SAS (the DET injury news). Experts are unanimous on SAS, and RG.org's best bet is SAS -9.5. Under is the expert consensus (6/8).",
+     "avoid": [
+      "Pistons @ Spurs at Polymarket's 79.5¢"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-18-UTA-LAC",
+     "n": 4,
+     "away": {
+      "abbr": "UTA",
+      "city": "Utah",
+      "name": "Jazz"
+     },
+     "home": {
+      "abbr": "LAC",
+      "city": "LA",
+      "name": "Clippers"
+     },
+     "tip_myt": "11:30",
+     "tip_iso": "2026-11-18T11:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "LAC",
+      "city": "LA",
+      "name": "Clippers"
+     },
+     "win_pct": 67.0,
+     "confidence": 5,
+     "dk_ml": "UTAH +197 / LAC -238 → de-vig LAC 67.7%",
+     "dk_devig": {
+      "abbr": "LAC",
+      "pct": 67.7
+     },
+     "pm_ml": "UTAH 30.5¢ / LAC 69.5¢ ($27k)",
+     "spread": {
+      "dk": "LAC -6.5 (opened -5.5)",
+      "pm": "Clippers -6.5: 49.5 / Jazz 50.5; -7.5: 45.5 / 54.5"
+     },
+     "total": {
+      "dk": "225.5 (opened 223.5)",
+      "pm": "O/U 225.5: Over 49.5; 223.5: Over 55.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 69.5,
+     "edge": -2.5,
+     "dk_pick_pct": 67.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "UTAH Out: Markkanen, Jaren Jackson Jr., Nurkic (all out for weeks), Jaxson Hayes (new, knee), plus two two-way players. LAC Out: Beal, Brandon Ingram, Jordan Miller, Niederhauser (all long-term).",
+     "injury_flags": [
+      "Markkanen, Jaren Jackson Jr., Nurkic",
+      "Jaxson Hayes"
+     ],
+     "view": "model LAC by 5.4, plus ~0.3 for Hayes → LAC ~67%. That's in line with the market.",
+     "bet": "pass. There's no gap, and Polymarket's 69.5¢ is slightly above DK.",
+     "bet_bold": [],
+     "form": "UTAH 1-13 (net -10.6, worst shot quality per Covers/CTG), has lost 11 straight. Peterson, George and Bailey carry the scoring. LAC 4-8 (net -4.0) has won three straight at home (NO, OKC by 1, CHA by 8). Garland has scored 24-27 in three of his last four.",
+     "sentiment": "86% of ML money and 69% of spread money on LAC. The line rose 5.5 → 6.5. Every expert spread pick is LAC.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-18-CHA-LAL",
+     "n": 5,
+     "away": {
+      "abbr": "CHA",
+      "city": "Charlotte",
+      "name": "Hornets"
+     },
+     "home": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "tip_myt": "12:00",
+     "tip_iso": "2026-11-18T12:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "LAL",
+      "city": "Los Angeles",
+      "name": "Lakers"
+     },
+     "win_pct": 76.0,
+     "confidence": 6,
+     "dk_ml": "CHA +248 / LAL -306 → de-vig LAL 72.4%",
+     "dk_devig": {
+      "abbr": "LAL",
+      "pct": 72.4
+     },
+     "pm_ml": "CHA 27.5¢ / LAL 72.5¢ ($144k)",
+     "spread": {
+      "dk": "LAL -7.5 (opened -10.5)",
+      "pm": "Lakers -7.5: 49.5 / Hornets 50.5; -6.5: 54.5 / 45.5; -8.5: 45.5 / 54.5"
+     },
+     "total": {
+      "dk": "221.5 (opened 218.5)",
+      "pm": "O/U 220.5: Over 49.5; 222.5: Over 45.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 72.5,
+     "edge": 3.5,
+     "dk_pick_pct": 72.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "LAL Out: Reaves (heel, second straight game), Kessler (lower leg, new; starting C). Grimes is available. Sexton and Bronny aren't on the official report (NBC calls Sexton a GTD). CHA Out: Knueppel, Schröder (hamstrings).",
+     "injury_flags": [
+      "Reaves",
+      "Kessler",
+      "Knueppel, Schröder"
+     ],
+     "view": "model LAL by 11.4, minus ~2 for Reaves and ~1 for Kessler, plus ~0.5 for CHA's returnees → LAL by ~8.9, 76%.",
+     "bet": "best lean: LAL ML at ≤73¢ (~3 pts over the price). The spread at -7.5 only covers ~53% for me, and laying points is 0-3, so per L8 I take the ML instead.",
+     "bet_bold": [
+      "best lean: LAL ML at ≤73¢"
+     ],
+     "form": "LAL 12-2 (net +7.7), has won seven straight, including 131-123 at PHX without Reaves (Luka 43). CHA 4-9 (net -10.9), turns it over 19.4 times a game (structural) and shoots 31.3% from three. Brandon Miller returned Sunday; Coby White (21 in 20 min twice) is on a minutes limit that may loosen.",
+     "sentiment": "95% of ML tickets and 96% of ML money on LAL. The spread fell 3 pts (-10.5 → -7.5) on the Reaves and Kessler news, even with 86% of tickets on LAL. That's a news move, not an unexplained reverse move. Covers picks Hornets +7.5; the NBC consensus is LAL -8.5.",
+     "avoid": [],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Lakers over Hornets, 76% (conf 6). CHA's turnovers, and LAL has already won without Reaves.",
+     "Spurs over Pistons, 75% (conf 6). League-best net rating vs a DET team missing Duren, Robinson and Holland.",
+     "Clippers over Jazz, 67% (conf 5). UTAH is 1-13 without its frontcourt."
+    ],
+    "underdogs": [
+     "Raptors +3.5 (Polymarket \"Spread: Knicks (-3.5)\", Raptors 53.5¢). The last meeting went to OT, Barnes is back, and the money (54%) lags the tickets (73%). No-stake lean.",
+     "I'm not backing dog MLs (TOR 42.5¢, POR 45.5¢, DET 20.5¢, UTAH 30.5¢, CHA 27.5¢): small dog MLs are 1-6."
+    ],
+    "avoid": [
+     "Blazers @ Wolves (injury reports pending, my model is 9 pts off the market)",
+     "Pistons @ Spurs at Polymarket's 79.5¢",
+     "and every total"
+    ],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 144-61 · ATS 6-11 · Totals 11-9 · Core value 3-3 · Small value 30-34 · Crisp real money 6-6, ≈ −$9.29."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Lakers** over Hornets, 76% (conf 6). CHA's turnovers, and LAL has already won without Reaves.\n2. **Spurs** over Pistons, 75% (conf 6). League-best net rating vs a DET team missing Duren, Robinson and Holland.\n3. **Clippers** over Jazz, 67% (conf 5). UTAH is 1-13 without its frontcourt.",
+    "underdogs": "- **Raptors +3.5** (Polymarket \"Spread: Knicks (-3.5)\", Raptors 53.5¢). The last meeting went to OT, Barnes is back, and the money (54%) lags the tickets (73%). No-stake lean.\n- I'm not backing dog MLs (TOR 42.5¢, POR 45.5¢, DET 20.5¢, UTAH 30.5¢, CHA 27.5¢): small dog MLs are 1-6.",
+    "avoid": "Blazers @ Wolves (injury reports pending, my model is 9 pts off the market), Pistons @ Spurs at Polymarket's 79.5¢, and every total.",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 144-61 · ATS 6-11 · Totals 11-9 · Core value 3-3 · Small value 30-34 · Crisp real money 6-6, ≈ −$9.29."
+   },
+   "buys": [],
+   "lessons_applied": [
+    "L1 (4+ pts off the market has no edge, 15-37): I'm 5 pts under the market on NYK and SAS and 9 over on MIN, with no roster fact that explains the gap. I moved halfway each time and staked none of them.",
+    "L2 (official report beats secondary sources; price only new absences): NBC lists Sexton as a GTD, but he isn't on the 10:15 AM official report, so I treat him as available. Kawhi (TOR), Markkanen, JJJ and Nurkic (UTAH), Beal and Ingram (LAC), and Duren (DET) have all been out for a while. Their absences are already in the ratings, so I added no extra trim.",
+    "L8 (best lean needs a named edge; prefer the favorite's ML when the spread drifts toward the dog): LAL went -10.5 → -7.5 on the Reaves and Kessler news, so I take LAL ML, not the spread. The named edges are CHA's structural turnovers (19.4 a game), CHA still missing Knueppel and Schröder, and LAL having already won at PHX without Reaves.",
+    "L4 (B2B max ~1 pt): POR and MIN cancel out. DET and LAL are only on the front end, so no adjustment.",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1118/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -20675,7 +21013,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-17T14:28:32+08:00",
+  "fetched_at": "2026-11-17T23:30:23+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
