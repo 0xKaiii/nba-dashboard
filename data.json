@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-21T14:27:53+08:00",
+ "generated_at": "2026-11-21T23:39:13+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-21",
+ "latest_preview_date": "2026-11-22",
  "latest_review_date": "2026-11-21",
  "days": [
   {
@@ -21311,6 +21311,444 @@
     ],
     "lessons": []
    }
+  },
+  {
+   "date": "2026-11-22",
+   "file": "preview-2026-11-22.md",
+   "written": "~23:55 MYT Sat Nov 21",
+   "games": [
+    {
+     "id": "2026-11-22-MIL-PHI",
+     "n": 1,
+     "away": {
+      "abbr": "MIL",
+      "city": "Milwaukee",
+      "name": "Bucks"
+     },
+     "home": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "tip_myt": "02:00",
+     "tip_iso": "2026-11-22T02:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "PHI",
+      "city": "Philadelphia",
+      "name": "76ers"
+     },
+     "win_pct": 78.0,
+     "confidence": 6,
+     "dk_ml": "MIL +411 / PHI -545 → de-vig PHI 81.2%",
+     "dk_devig": {
+      "abbr": "PHI",
+      "pct": 81.2
+     },
+     "pm_ml": "MIL 18.5¢ / PHI 81.5¢ ($64k) · gap +0.3",
+     "spread": {
+      "dk": "PHI -11.5 (opened -11.5)",
+      "pm": "76ers -11.5: 47.5 / Bucks 52.5; -12.5: 43.5 / 56.5; -10.5: 51.5 / 48.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 228.5)",
+      "pm": "O/U 228.5: Over 49.5; 229.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 81.5,
+     "edge": -3.5,
+     "dk_pick_pct": 81.2,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "PHI Out: Jaylen Brown (hamstring, missed the ORL game too), Wade, Bona, Hukporti; Maxey Q (right foot sprain; sat Wednesday, full practice Friday); Embiid not listed. MIL Out: Dieng (finger); two-ways.",
+     "injury_flags": [
+      "Jaylen Brown",
+      "Maxey Q"
+     ],
+     "view": "model PHI by ~9 with Brown out (77%). Maxey plays → PHI ~80% by ~9.5; Maxey out → ~70% by ~6.5. Blended PHI ~78%, by ~8.5, 3.5 pts under the market (halfway applied).",
+     "bet": "no unconditional bet. Conditional: if Maxey is OUT, Bucks +11.5 (≤55¢); fair ~63% in that branch. Bucks +12.5 at 56.5¢ is a no-stake lean otherwise.",
+     "bet_bold": [
+      "Conditional:",
+      "Maxey is OUT"
+     ],
+     "form": "PHI 13-3 but my net only +2.9 (Covers: +4.0 wins above expectation, regression candidate); won five straight, incl. 121-116 at ORL without Brown, Maxey or Wade. MIL 1-15 (net -12.6, DRtg 118.0) has lost 15 of 16, the last two 130-137 at MIA and 114-124 to POR. H2H: PHI won 127-116 on 10-24.",
+     "sentiment": "95% of ML tickets / 88% money on PHI; spread 63%/53% PHI (money lags tickets toward MIL). ML moved -446 → -545 toward PHI while the spread held at 11.5. Covers' expert takes Bucks ML.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-22-POR-NYK",
+     "n": 2,
+     "away": {
+      "abbr": "POR",
+      "city": "Portland",
+      "name": "Trail Blazers"
+     },
+     "home": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "tip_myt": "08:30",
+     "tip_iso": "2026-11-22T08:30:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "NYK",
+      "city": "New York",
+      "name": "Knicks"
+     },
+     "win_pct": 61.0,
+     "confidence": 5,
+     "dk_ml": "POR +168 / NYK -201 → de-vig NYK 64.2%",
+     "dk_devig": {
+      "abbr": "NYK",
+      "pct": 64.2
+     },
+     "pm_ml": "POR 35.5¢ / NYK 64.5¢ ($65k) · gap +0.3",
+     "spread": {
+      "dk": "NYK -5.5 (opened -5.5)",
+      "pm": "Knicks -5.5: 49.5 / Blazers 50.5; -4.5: 53.5 / 46.5"
+     },
+     "total": {
+      "dk": "216.5 (opened 218.5)",
+      "pm": "O/U 216.5: Over 49.5; 217.5: Over 47.5; 218.5: Over 45.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 64.5,
+     "edge": -3.5,
+     "dk_pick_pct": 64.2,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "POR: Avdija Q (foot contusion; missed the last two; ~24/6/6), Morant, Sharpe, Krejci, Youngblood Out. NYK: Anunoby Q (calf tightness), Clarkson Out.",
+     "injury_flags": [
+      "Avdija Q",
+      "Anunoby Q"
+     ],
+     "view": "model NYK by 1.9 with Avdija's full-season numbers. Avdija plays → NYK ~58% by ~2.5; Avdija out → ~66% by ~5. Blended NYK ~61%, by ~3.5. Total: model 222 vs 216.5 → no-stake Over lean at most (NYK is slow; Anunoby Q).",
+     "bet": "Conditional: if Avdija is active (and Anunoby isn't a late scratch either way), Blazers +5.5 ≤52¢; fair ~60% in that branch. Otherwise pass.",
+     "bet_bold": [
+      "Conditional:",
+      "Avdija is active"
+     ],
+     "form": "NYK 9-6 (net +6.0, slowest pace in my data at 98.3) won three straight on the road (2× TOR, 102-99 at MIN). POR 10-5 (net +6.1) on the 4th game of a road trip, 1 day rest like NYK; went 1-1 without Avdija (lost 105-106 at MIN, won 124-114 at MIL with Henderson 27). No meeting yet this season.",
+     "sentiment": "NYK 78% of ML tickets / 79% money, spread 75%/82% NYK, Over 75%. Total dropped 218.5 → 216.5. VegasOdds and Covers: Knicks ML; numberFire NYK 71%.",
+     "avoid": [
+      "all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-22-LAC-DAL",
+     "n": 3,
+     "away": {
+      "abbr": "LAC",
+      "city": "LA",
+      "name": "Clippers"
+     },
+     "home": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-22T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "win_pct": 64.0,
+     "confidence": 5,
+     "dk_ml": "LAC +180 / DAL -217 → de-vig DAL 65.7%",
+     "dk_devig": {
+      "abbr": "DAL",
+      "pct": 65.7
+     },
+     "pm_ml": "LAC 34.5¢ / DAL 65.5¢ ($19k) · gap -0.2",
+     "spread": {
+      "dk": "DAL -5.5 (opened -5.5)",
+      "pm": "Mavericks -5.5: 50.5 / 49.5; -6.5: 46.5 / 53.5; -4.5: 54.5 / 45.5"
+     },
+     "total": {
+      "dk": "230.5 (opened 229.5)",
+      "pm": "O/U 229.5: Over 52.5; 230.5: Over 49.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 65.5,
+     "edge": -1.5,
+     "dk_pick_pct": 65.7,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "LAC Out: Beal (knee management), Ingram (heel surgery), J. Miller; neither Beal nor Ingram has played in my recent LAC games, so it's priced. DAL Out: Lively, Lawal, de Larrea, Biberovic; Clayton Jr. Q, P.J. Washington Q (21 pts last game).",
+     "injury_flags": [
+      "Beal",
+      "Clayton Jr. Q, P.J. Washington Q"
+     ],
+     "view": "model DAL by 4.7 → DAL ~64%, by ~5. The spread is a coin flip on my number.",
+     "bet": "avoid.",
+     "bet_bold": [],
+     "form": "DAL 8-7 (net -0.8; 6-2 at home per VegasOdds) beat GS 116-94 (Flagg 33) after three road losses. LAC 4-10 (net -6.0, 17.6 TOV/g) lost 107-132 to UTA and 112-124 at SA; 0-6 on the road.",
+     "sentiment": "DAL 84% tickets / 89% money ML, 83%/86% spread. ML drifted +168 → +180 toward DAL. VegasOdds: Mavs -5.5; Covers' expert: Clippers.",
+     "avoid": [
+      "Avoid (game note)",
+      "Clippers @ Mavericks (coin flip ATS)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-22-MEM-MIN",
+     "n": 4,
+     "away": {
+      "abbr": "MEM",
+      "city": "Memphis",
+      "name": "Grizzlies"
+     },
+     "home": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-22T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "MIN",
+      "city": "Minnesota",
+      "name": "Timberwolves"
+     },
+     "win_pct": 59.0,
+     "confidence": 4,
+     "dk_ml": "MEM +196 / MIN -237 → de-vig MIN 67.5%",
+     "dk_devig": {
+      "abbr": "MIN",
+      "pct": 67.5
+     },
+     "pm_ml": "MEM 32.5¢ / MIN 67.5¢ ($19k) · gap 0.0",
+     "spread": {
+      "dk": "MIN -6.5 (opened -5.5)",
+      "pm": "Timberwolves -6.5: 49.5 / Grizzlies 50.5; -5.5: 52.5 / 47.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 227.5)",
+      "pm": "O/U 227.5: Over 55.5; 228.5: Over 53.5; 229.5: Over 50.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 67.5,
+     "edge": -8.5,
+     "dk_pick_pct": 67.5,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "MEM Out: Boozer (ankle, new; ~18 ppg), J. Grant (calf), GG Jackson, Pippen, Saunders, Small; Ty Jerome Probable (hip) after missing four (he scored 15-45 in his games before that). MIN Out: Edwards (knee scope), DiVincenzo, J. Clark.",
+     "injury_flags": [
+      "Boozer",
+      "Ty Jerome Probable",
+      "Edwards"
+     ],
+     "view": "raw model MIN by 1.7 (55%), and MIN's numbers still include four Edwards games. Boozer out ≈ -2 for MEM, Jerome back ≈ +2. Halfway to the market anyway (L1) → MIN ~59%, by ~3.",
+     "bet": "✅ best lean: Grizzlies +6.5 at ≤51¢ (fair ~60%). Named edge: Jerome's return, which the market and at least one preview seem to have missed, plus money on MEM. Skip it if Jerome is downgraded.",
+     "bet_bold": [
+      "best lean: Grizzlies +6.5 at ≤51¢"
+     ],
+     "form": "MEM 12-4 (net +9.9, best offense in my data at 119.0) has won five straight, incl. 124-121 at CLE and 126-98 over GS, all without Jerome in the last four; 8-0 on the road per Pickswise. MIN 11-5 (net +9.4) lost 99-102 to NYK; 7-5 since Edwards went down (Ball, Dosunmu, McDaniels carrying). Both 12-4 ATS. No meeting yet.",
+     "sentiment": "ML tickets 71% MIN but money only 52% (money 48% on MEM, ~20 pts ahead of its tickets); spread 61%/53% MIN. Line moved -5.5 → -6.5 with the Boozer news. Pickswise and Covers' expert: Wolves (Pickswise lists Jerome as \"ruled out\", which contradicts the official report). numberFire MIN 78%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-22-NOP-SAS",
+     "n": 5,
+     "away": {
+      "abbr": "NOP",
+      "city": "New Orleans",
+      "name": "Pelicans"
+     },
+     "home": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-22T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "SAS",
+      "city": "San Antonio",
+      "name": "Spurs"
+     },
+     "win_pct": 87.0,
+     "confidence": 8,
+     "dk_ml": "NO +900 / SA -1580 → de-vig SA 90.4%",
+     "dk_devig": {
+      "abbr": "SAS",
+      "pct": 90.4
+     },
+     "pm_ml": "NO 9.5¢ / SA 90.5¢ ($48k) · gap +0.1",
+     "spread": {
+      "dk": "SA -18.5 (opened -16.5)",
+      "pm": "Spurs -17.5: 52.5 / Pelicans 47.5; -19.5: 45.5 / 54.5"
+     },
+     "total": {
+      "dk": "228.5 (opened 226.5)",
+      "pm": "O/U 228.5: Over 50.5; 229.5: Over 48.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 90.5,
+     "edge": -3.5,
+     "dk_pick_pct": 90.4,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "SA Out: Dylan Harper (hip; 20-31 pts in recent games), Harris, Quaintance. NO report not yet submitted (B2B).",
+     "injury_flags": [
+      "Dylan Harper",
+      "NO report not yet submitted"
+     ],
+     "view": "model SA by 11.3 + ~2 for NO's B2B − ~1 for Harper → SA by ~12.5 (84%). Halfway → SA ~87%, by ~15. NO +18.5 is a ratings-only lean; NO's report isn't in.",
+     "bet": "avoid the spread until NO files (no-stake lean NO +17.5 at 47.5¢). No ML value at 90.5¢.",
+     "bet_bold": [],
+     "form": "SA 13-3 (net +11.1, best in my data) beat LAC 124-112 (Wemby 32). NO 5-12 (net -7.0, DRtg 117.4) played OKC tough (120-126) last night; 2nd night of a B2B (1-3 SU in those per Covers).",
+     "sentiment": "ML 93% tickets but only 61% money on SA (NO money far ahead of tickets); spread tickets 77% on NO +18.5. Line still moved 16.5 → 18.5 toward SA (sharp side SA spread?). Covers: 76% of models on the Over; VegasOdds: Over 227.5.",
+     "avoid": [
+      "Avoid (game note)",
+      "Pelicans @ Spurs spread until NO files"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-22-BOS-SAC",
+     "n": 6,
+     "away": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "home": {
+      "abbr": "SAC",
+      "city": "Sacramento",
+      "name": "Kings"
+     },
+     "tip_myt": "11:00",
+     "tip_iso": "2026-11-22T11:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "win_pct": 84.0,
+     "confidence": 7,
+     "dk_ml": "BOS -790 / SAC +554 → de-vig BOS 85.3%",
+     "dk_devig": {
+      "abbr": "BOS",
+      "pct": 85.3
+     },
+     "pm_ml": "BOS 86.5¢ / SAC 13.5¢ ($43k) · gap +1.2",
+     "spread": {
+      "dk": "BOS -13.5 (opened -12.5)",
+      "pm": "Celtics -13.5: 50.5 / Kings 49.5; -12.5: 54.5 / 45.5; -14.5: 46.5 / 53.5"
+     },
+     "total": {
+      "dk": "217.5 (opened 217.5)",
+      "pm": "O/U 217.5: Over 49.5; 216.5: Over 51.5; 218.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 86.5,
+     "edge": -2.5,
+     "dk_pick_pct": 85.3,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "BOS: Tatum Q (rest, 1st night of the B2B; 26.4 ppg), White Q (AC joint), J. Brown not on the roster in my data. SAC report not yet submitted.",
+     "injury_flags": [
+      "Tatum Q (rest",
+      "White Q",
+      "SAC report not yet submitted."
+     ],
+     "view": "model BOS by 9.9 + ~2 for SAC's B2B → BOS by ~12 (83%). Tatum plays → ~87% by ~13; Tatum (and White) out → ~78% by ~8.5. Blended BOS ~84%, by ~11.",
+     "bet": "Conditional: if Tatum is OUT, Kings +13.5 (or any line ≥ +11.5) ≤52¢; fair ~62% at +13.5 in that branch. Not a pre-report entry: the Tatum-plays branch is only ~52% at 50¢, so not clearly ≥ fair after fees.",
+     "bet_bold": [
+      "Conditional:",
+      "Tatum is OUT"
+     ],
+     "form": "BOS 11-4 (net +10.6) lost two straight (105-115 vs ORL, 101-105 at DEN) but is rested (last played Wed). SAC 1-14 (net -12.9, worst in my data) on the 2nd night of a B2B, though it lost only 104-106 at LAL last night (Hunter 30). Covers: BOS 3-0 with a rest edge, by 28.7/g.",
+     "sentiment": "94% tickets / 85% money ML on BOS; spread split 50/50; 75% of total tickets on the Over. ML moved -465 → -790 and the spread 12.5 → 13.5 toward BOS (a Tatum-plays read?).",
+     "avoid": [
+      "all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes)"
+     ],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Spurs over Pelicans, 87% (conf 8). Best net rating vs a B2B team with the worst defense; Harper out.",
+     "Celtics over Kings, 84% (conf 7). Rest edge vs 1-14 SAC on a B2B; drops to ~78% if Tatum sits.",
+     "76ers over Bucks, 78% (conf 6). MIL 1-15; PHI already beat ORL without Brown and Maxey."
+    ],
+    "underdogs": [
+     "Grizzlies +6.5 (Polymarket \"Spread: Timberwolves (-6.5)\", Grizzlies 50.5¢; ML \"Grizzlies vs. Timberwolves\" Grizzlies 32.5¢). Jerome returns; 8-0 on the road; money ahead of tickets. Staked (best lean).",
+     "Trail Blazers +5.5 (Polymarket \"Spread: Knicks (-5.5)\", Trail Blazers 50.5¢), only if Avdija plays.",
+     "Kings +13.5 (Polymarket \"Spread: Celtics (-13.5)\", Kings 49.5¢), only if Tatum rests.",
+     "Bucks +11.5 / +12.5 (Polymarket \"Spread: 76ers (-11.5)\" Bucks 52.5¢ / \"(-12.5)\" Bucks 56.5¢), only if Maxey is out. Bucks ML 18.5¢: no."
+    ],
+    "avoid": [
+     "Clippers @ Mavericks (coin flip ATS)",
+     "Pelicans @ Spurs spread until NO files",
+     "all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes)"
+    ],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 161-74 · ATS 7-13 · Totals 11-9 · Core value 3-3 · Small value 34-36 · Crisp real money 10-8, ≈ −$6.67 (est. cash ≈ $55.15)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Spurs** over Pelicans, 87% (conf 8). Best net rating vs a B2B team with the worst defense; Harper out.\n2. **Celtics** over Kings, 84% (conf 7). Rest edge vs 1-14 SAC on a B2B; drops to ~78% if Tatum sits.\n3. **76ers** over Bucks, 78% (conf 6). MIL 1-15; PHI already beat ORL without Brown and Maxey.",
+    "underdogs": "- **Grizzlies +6.5** (Polymarket \"Spread: Timberwolves (-6.5)\", Grizzlies 50.5¢; ML \"Grizzlies vs. Timberwolves\" Grizzlies 32.5¢). Jerome returns; 8-0 on the road; money ahead of tickets. **Staked (best lean).**\n- **Trail Blazers +5.5** (Polymarket \"Spread: Knicks (-5.5)\", Trail Blazers 50.5¢), only if Avdija plays.\n- **Kings +13.5** (Polymarket \"Spread: Celtics (-13.5)\", Kings 49.5¢), only if Tatum rests.\n- **Bucks +11.5 / +12.5** (Polymarket \"Spread: 76ers (-11.5)\" Bucks 52.5¢ / \"(-12.5)\" Bucks 56.5¢), only if Maxey is out. Bucks ML 18.5¢: no.",
+    "avoid": "Clippers @ Mavericks (coin flip ATS), Pelicans @ Spurs spread until NO files, all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes).",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 161-74 · ATS 7-13 · Totals 11-9 · Core value 3-3 · Small value 34-36 · Crisp real money 10-8, ≈ −$6.67 (est. cash ≈ $55.15)."
+   },
+   "buys": [
+    {
+     "game_id": "2026-11-22-MIL-PHI",
+     "team": "MIL",
+     "kind": "ml",
+     "line": null,
+     "side": null,
+     "selection": "MIL ML",
+     "price": 18.5,
+     "units": null,
+     "tier": null,
+     "condition": null,
+     "context": "56.5¢), only if Maxey is out. Bucks ML 18.5¢: no.",
+     "sources": [
+      "summary: underdogs"
+     ],
+     "matchup": "MIL @ PHI",
+     "polymarket": {
+      "event": "Bucks vs. 76ers",
+      "market": "Bucks vs. 76ers",
+      "outcome": "Bucks",
+      "price_raw": 18.5
+     },
+     "my_pct": null
+    }
+   ],
+   "lessons_applied": [
+    "APPROVED RULE (11-20): one unconditional stake (best lean). Extra stakes are conditional only, each resting on a named injury/rest fact (Maxey, Avdija, Tatum) that the market can't have fully priced until it's confirmed. Ratings-only edges (Bucks +12.5, NO +17.5, the totals) stay unstaked leans.",
+    "L1 (4+ pts off without a roster reason = 19-48; 10+ off = stale check): MEM-MIN raw model is ~10 pts off. Stale check: MIN's ratings include four early games with Edwards (45, 15, 26, 47 pts), so the model flatters MIN, not MEM. The named fact the market seems to be under-weighting is Ty Jerome listed Probable after missing four games (one preview even reports him \"ruled out\", contradicting the official report). I still move halfway: MEM 41%, not the raw 45%. Changes the call: I keep the pick on MIN SU and take the points, not the Grizzlies ML.",
+    "L1/L4 (5+ below on a favorite → halfway): PHI (raw ~75% → 78%) and SA (raw ~84% → 87%).",
+    "L2 (don't re-price absences the line has absorbed): Jaylen Brown (out since Nov 19 ET), Morant, Edwards, Beal/Ingram, Lively and Harper are already in the lines. MEM's move from +160 to +196 is Boozer's ankle; I don't count it twice.",
+    "L8 (double-digit spreads aren't best-lean candidates): no PHI/SA/BOS spread stakes unless a conditional fires on a dog.",
+    "11-19 timing rule: conditional checks set 10-15 min before each tip (see order sheet).",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1122/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -23435,7 +23873,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-21T14:27:53+08:00",
+  "fetched_at": "2026-11-21T23:39:13+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
