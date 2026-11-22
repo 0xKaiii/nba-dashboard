@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-21T23:39:13+08:00",
+ "generated_at": "2026-11-22T14:20:00+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-22",
- "latest_review_date": "2026-11-21",
+ "latest_review_date": "2026-11-22",
  "days": [
   {
    "date": "2026-10-21",
@@ -21374,7 +21374,21 @@
      "form": "PHI 13-3 but my net only +2.9 (Covers: +4.0 wins above expectation, regression candidate); won five straight, incl. 121-116 at ORL without Brown, Maxey or Wade. MIL 1-15 (net -12.6, DRtg 118.0) has lost 15 of 16, the last two 130-137 at MIA and 114-124 to POR. H2H: PHI won 127-116 on 10-24.",
      "sentiment": "95% of ML tickets / 88% money on PHI; spread 63%/53% PHI (money lags tickets toward MIL). ML moved -446 → -545 toward PHI while the spread held at 11.5. Covers' expert takes Bucks ML.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "PHI",
+      "final_text": "PHI 132, MIL 129",
+      "scores": {
+       "PHI": 132,
+       "MIL": 129
+      },
+      "hit": true,
+      "reason": "76ers 78%, conf 6: HIT, reasoning mostly right. My blended margin (PHI by ~8.5) was much closer to the 3-point result than the -11.5 line; the free-throw edge and MIL's poor roster decided it, and Herro's 50 nearly flipped it.",
+      "grades": [
+       "76ers 78%, conf 6: HIT, reasoning mostly right. My blended margin (PHI by ~8.5) was much closer to the 3-point result than the -11.5 line; the free-throw edge and MIL's poor roster decided it, and Herro's 50 nearly flipped it."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-22-POR-NYK",
@@ -21435,7 +21449,21 @@
      "avoid": [
       "all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes)"
      ],
-     "result": null
+     "result": {
+      "winner": "NYK",
+      "final_text": "NYK 97, POR 96",
+      "scores": {
+       "NYK": 97,
+       "POR": 96
+      },
+      "hit": true,
+      "reason": "Knicks 61%, conf 5: HIT, but lucky. It came down to a buzzer-beater, and NYK played without Towns and Anunoby, which the close (POR -1.5, NYK ≈ 47.5% de-vigged) priced and I didn't know about at preview time.",
+      "grades": [
+       "Knicks 61%, conf 5: HIT, but lucky. It came down to a buzzer-beater, and NYK played without Towns and Anunoby, which the close (POR -1.5, NYK ≈ 47.5% de-vigged) priced and I didn't know about at preview time."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-22-LAC-DAL",
@@ -21494,7 +21522,21 @@
       "Avoid (game note)",
       "Clippers @ Mavericks (coin flip ATS)"
      ],
-     "result": null
+     "result": {
+      "winner": "DAL",
+      "final_text": "DAL 110, LAC 100",
+      "scores": {
+       "DAL": 110,
+       "LAC": 100
+      },
+      "hit": true,
+      "reason": "Mavericks 64%, conf 5: HIT, for the right reason (LAC's turnovers and road form). Avoid: neutral-to-wrong. DAL -5.5 (preview) and -4.5 (close) both covered; the 10-pt margin beat my ~5.",
+      "grades": [
+       "Mavericks 64%, conf 5: HIT, for the right reason (LAC's turnovers and road form). Avoid: neutral-to-wrong. DAL -5.5 (preview) and -4.5 (close) both covered; the 10-pt margin beat my ~5."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-22-MEM-MIN",
@@ -21553,7 +21595,21 @@
      "form": "MEM 12-4 (net +9.9, best offense in my data at 119.0) has won five straight, incl. 124-121 at CLE and 126-98 over GS, all without Jerome in the last four; 8-0 on the road per Pickswise. MIN 11-5 (net +9.4) lost 99-102 to NYK; 7-5 since Edwards went down (Ball, Dosunmu, McDaniels carrying). Both 12-4 ATS. No meeting yet.",
      "sentiment": "ML tickets 71% MIN but money only 52% (money 48% on MEM, ~20 pts ahead of its tickets); spread 61%/53% MIN. Line moved -5.5 → -6.5 with the Boozer news. Pickswise and Covers' expert: Wolves (Pickswise lists Jerome as \"ruled out\", which contradicts the official report). numberFire MIN 78%.",
      "avoid": [],
-     "result": null
+     "result": {
+      "winner": "MIN",
+      "final_text": "MIN 104, MEM 95",
+      "scores": {
+       "MIN": 104,
+       "MEM": 95
+      },
+      "hit": true,
+      "reason": "Timberwolves 59%, conf 4: HIT, but my number was too low. The market's 67.5% was better; MIN's defense (league-best per AP) shut down the league's top offense without Boozer.",
+      "grades": [
+       "Timberwolves 59%, conf 4: HIT, but my number was too low. The market's 67.5% was better; MIN's defense (league-best per AP) shut down the league's top offense without Boozer."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-22-NOP-SAS",
@@ -21612,7 +21668,21 @@
       "Avoid (game note)",
       "Pelicans @ Spurs spread until NO files"
      ],
-     "result": null
+     "result": {
+      "winner": "SAS",
+      "final_text": "SAS 114, NOP 91",
+      "scores": {
+       "SAS": 114,
+       "NOP": 91
+      },
+      "hit": true,
+      "reason": "Spurs 87%, conf 8: HIT, for the right reason. Avoid spread: right to avoid, but the no-stake NO +17.5 lean lost (SA by 23 vs -19.5 close). My B2B/thin-roster number (SA by ~15) was too low; NO's late report removed three rotation players.",
+      "grades": [
+       "Spurs 87%, conf 8: HIT, for the right reason. Avoid spread: right to avoid, but the no-stake NO +17.5 lean lost (SA by 23 vs -19.5 close). My B2B/thin-roster number (SA by ~15) was too low; NO's late report removed three rotation players."
+      ],
+      "how": null,
+      "notes": null
+     }
     },
     {
      "id": "2026-11-22-BOS-SAC",
@@ -21674,7 +21744,21 @@
      "avoid": [
       "all totals (model leans only: POR-NYK Over, BOS-SAC Over pre-news; no stakes)"
      ],
-     "result": null
+     "result": {
+      "winner": "SAC",
+      "final_text": "SAC 97, BOS 96",
+      "scores": {
+       "SAC": 97,
+       "BOS": 96
+      },
+      "hit": false,
+      "reason": "Celtics 84%, conf 7: MISS. My Tatum-out branch was ~78%, and the close (≈ 82.6% de-vigged) agreed it was a big favorite. Losing outright needed an awful shooting night (22% on 58 threes), so mostly variance on a depleted roster.",
+      "grades": [
+       "Celtics 84%, conf 7: MISS. My Tatum-out branch was ~78%, and the close (≈ 82.6% de-vigged) agreed it was a big favorite. Losing outright needed an awful shooting night (22% on 58 threes), so mostly variance on a depleted roster."
+      ],
+      "how": null,
+      "notes": null
+     }
     }
    ],
    "summary": {
@@ -21748,26 +21832,51 @@
     "--"
    ],
    "pm_raw_file": "raw/d1122/pm-summary.txt",
-   "review": null
+   "review": {
+    "file": "review-2026-11-22.md",
+    "brier": {
+     "me": 0.203,
+     "dk": 0.208,
+     "pm": null
+    },
+    "units": -0.06,
+    "units_text": "- Value picks: small value 1-1, −0.06u (season small value 35-37, ≈ +0.40u); core value 0-0 (season 3-3).; - Units: −0.06u today (1u = $10).",
+    "day_summary": [
+     "Straight-up: 5-1 (season 166-75).",
+     "ATS (staked): 1-1 (Grizzlies +6.5 L, Kings +12.5 W; season 8-14).",
+     "Totals: 0-0 staked (season 11-9). The preview's no-stake Over leans (POR-NYK 193, BOS-SAC 193) both lost; Unders 5-1 vs the close.",
+     "Value picks: small value 1-1, −0.06u (season small value 35-37, ≈ +0.40u); core value 0-0 (season 3-3).",
+     "Units: −0.06u today (1u = $10).",
+     "No-stake leans: 1-3 (Bucks +12.5 W; NO +17.5, POR-NYK Over, BOS-SAC Over L).",
+     "Avoids: LAC-DAL wrong-ish (DAL covered both numbers); NO-SA spread right to avoid.",
+     "Crisp real money: 1-1, ≈ −$0.60 (running 11-9, ≈ −$7.27; est. cash ≈ $54.39).",
+     "Lessons",
+     "1. A \"Probable\" tag on the official report is not an unpriced fact. The Grizzlies best lean rested on Jerome's return, but the market had the same report; the line only drifted a point toward MEM. For a best lean, the named edge has to be something the market can't fully have yet (a late confirmation, a rest decision), not a status already public. (Merged into L2/L8.)",
+     "2. When a triggered conditional is priced far past my limit, re-read both teams' reports before walking away. Blazers +5.5 was 67¢ because the Knicks were missing Towns and Anunoby and the line flipped 7 pts. Skipping was right, but the check should re-price the game and log the reason it moved. (Merged into L7.)",
+     "3. Named-fact conditionals keep earning their place. Kings +12.5 (Tatum rest + White out) won while the ratings-based best lean lost; triggered conditionals are now 5-3. That supports the approved rule. No new strategy to propose.",
+     "Every score and stat above comes from ESPN's box scores and AP recaps. Real-money P&L uses the verified Crisp fill screenshots and cash headers reported in chat; settled cash is an estimate until it's seen on the Crisp header."
+    ],
+    "lessons": []
+   }
   }
  ],
  "season": {
   "record_table": [
    {
     "category": "Straight-up winners",
-    "record": "161-74",
-    "w": 161,
-    "l": 74,
+    "record": "166-75",
+    "w": 166,
+    "l": 75,
     "units": null,
-    "notes": "Sum of the daily log, checked against each review's ✅/❌ marks (10-22 is 9-2, not 8-3; no games 11-04); 11-17 is 4-4, 11-18 is 3-2, 11-19 is 5-7, 11-20 is 3-1, 11-21 is 6-3"
+    "notes": "Sum of the daily log, checked against each review's ✅/❌ marks (10-22 is 9-2, not 8-3; no games 11-04); 11-17 is 4-4, 11-18 is 3-2, 11-19 is 5-7, 11-20 is 3-1, 11-21 is 6-3, 11-22 is 5-1"
    },
    {
     "category": "Spread picks",
-    "record": "7-13",
-    "w": 7,
-    "l": 13,
+    "record": "8-14",
+    "w": 8,
+    "l": 14,
     "units": null,
-    "notes": "Staked ATS picks only; dogs-with-points 7-10 (11-20: Timberwolves +1.5 L by 1.5, model-only edge; 11-19: Jazz +10.5 W, Pelicans +6.5 L; Warriors +6.5 lost by 0.5, 11-12; 11-16: Raptors +4.5 ×2 won by 0.5 in OT, Pacers +6.5 lost by 0.5, Wizards +8.5 lost by 19.5); laying points 0-3 (MEM -6.5, 11-05; MIN -14.5 and DEN -11.5, 11-15)"
+    "notes": "Staked ATS picks only; dogs-with-points 8-11 (11-22: Grizzlies +6.5 L by 2.5 though it beat the +5.5 close, Kings +12.5 Tatum-out cond. W outright; 11-20: Timberwolves +1.5 L by 1.5, model-only edge; 11-19: Jazz +10.5 W, Pelicans +6.5 L; Warriors +6.5 lost by 0.5, 11-12; 11-16: Raptors +4.5 ×2 won by 0.5 in OT, Pacers +6.5 lost by 0.5, Wizards +8.5 lost by 19.5); laying points 0-3 (MEM -6.5, 11-05; MIN -14.5 and DEN -11.5, 11-15)"
    },
    {
     "category": "Totals",
@@ -21775,7 +21884,7 @@
     "w": 11,
     "l": 9,
     "units": null,
-    "notes": "Staked/explicit totals only (last one 11-09; no-stake Unders 2-0 on 11-21). Per-day O/U splits vs the close are in the daily log; 11-16 was Overs 7-2 (all passed)"
+    "notes": "Staked/explicit totals only (last one 11-09; no-stake Unders 2-0 on 11-21; no-stake Overs 0-2 on 11-22). Per-day O/U splits vs the close are in the daily log; 11-16 was Overs 7-2 (all passed)"
    },
    {
     "category": "Core value picks",
@@ -21787,39 +21896,39 @@
    },
    {
     "category": "Small/secondary value",
-    "record": "34-36",
-    "w": 34,
-    "l": 36,
-    "units": 0.46,
-    "notes": "≈ +0.46u (rough; incl. triggered conditionals and pre-report entries; per-day units in the daily log). Best-lean stakes 5-5 (W: Suns ML 11-13, Grizzlies ML 11-17, Lakers ML 11-18, Grizzlies ML 11-20, Hawks ML 11-21 +0.30u; L: Warriors +6.5 11-12, Hawks ML 11-14, MIN -14.5 11-15, Pacers +6.5 11-16, Pelicans +6.5 11-19). Pre-report entries 5-0 (Raptors ×2 11-16 incl. add-on, Grizzlies ×2 11-17 incl. add-on, Jazz +10.5 11-19). Losing secondaries/conditionals: DEN -11.5 11-15, Wizards +8.5 11-16, Timberwolves +1.5 11-20"
+    "record": "35-37",
+    "w": 35,
+    "l": 37,
+    "units": 0.4,
+    "notes": "≈ +0.40u (rough; incl. triggered conditionals and pre-report entries; per-day units in the daily log). Best-lean stakes 5-6 (W: Suns ML 11-13, Grizzlies ML 11-17, Lakers ML 11-18, Grizzlies ML 11-20, Hawks ML 11-21 +0.30u; L: Warriors +6.5 11-12, Hawks ML 11-14, MIN -14.5 11-15, Pacers +6.5 11-16, Pelicans +6.5 11-19, Grizzlies +6.5 11-22 −0.52u). Pre-report entries 5-0 (Raptors ×2 11-16 incl. add-on, Grizzlies ×2 11-17 incl. add-on, Jazz +10.5 11-19). Losing secondaries/conditionals: DEN -11.5 11-15, Wizards +8.5 11-16, Timberwolves +1.5 11-20"
    },
    {
     "category": "Crisp real money",
-    "record": "10-8, ≈ −$6.67 (est. cash ≈ $55.15; last verified $52.12 pre-bet on 11-21)",
-    "w": 10,
-    "l": 8,
+    "record": "11-9, ≈ −$7.27 (est. cash ≈ $54.39; last verified $44.39 after the 11-22 Kings fill)",
+    "w": 11,
+    "l": 9,
     "units": null,
-    "notes": "Managed since 2026-11-09 (start $62.00); costs incl. fees; per-bet fill detail is in each review. 11-10 Grizzlies ML test W +$4.52; 11-11 none; 11-12 Warriors +6.5 L −$5.18; 11-13 Suns ML W +$3.12; 11-14 Hawks ML L −$7.27; 11-15 Wolves -14.5 L ≈ −$5.33, Nuggets -11.5 cond. L ≈ −$5.52; 11-16 Pacers +6.5 L −$5.37, Raptors +4.5 entry W +$4.78, Barnes add-on W +$4.67, Wizards +8.5 cond. L −$5.27 (day −$1.19); 11-17 Grizzlies ML entry W +$3.94, Edey add-on W +$3.66 (day +$7.60); 11-18 Lakers ML W +$2.54; 11-19 Pelicans +6.5 L −$5.17, Jazz +10.5 entry W +$4.62 (day −$0.55; verified cash $54.57); 11-20 Grizzlies ML W +$3.03, Timberwolves +1.5 L −$5.43 (day −$2.40). 11-21: Hawks ML best lean, 10 sh at 69¢ (≈ $6.97 incl. fees; cash $52.12 → $45.15; the ≈5¢ gap to my $52.17 estimate is reconciled), WON (ATL by 14) ≈ +$3.03; day 1-0, ≈ +$3.03. Running Crisp total: 10-8, ≈ −$6.67 (summed daily P&L); est. settled cash ≈ $55.15 (start-implied −$6.85; ~$0.18 fee-rounding gap). Test bets count in dollar P&L only; model leans staked on Crisp also count in units."
+    "notes": "Managed since 2026-11-09 (start $62.00); costs incl. fees; per-bet fill detail is in each review. 11-10 Grizzlies ML test W +$4.52; 11-11 none; 11-12 Warriors +6.5 L −$5.18; 11-13 Suns ML W +$3.12; 11-14 Hawks ML L −$7.27; 11-15 Wolves -14.5 L ≈ −$5.33, Nuggets -11.5 cond. L ≈ −$5.52; 11-16 Pacers +6.5 L −$5.37, Raptors +4.5 entry W +$4.78, Barnes add-on W +$4.67, Wizards +8.5 cond. L −$5.27 (day −$1.19); 11-17 Grizzlies ML entry W +$3.94, Edey add-on W +$3.66 (day +$7.60); 11-18 Lakers ML W +$2.54; 11-19 Pelicans +6.5 L −$5.17, Jazz +10.5 entry W +$4.62 (day −$0.55; verified cash $54.57); 11-20 Grizzlies ML W +$3.03, Timberwolves +1.5 L −$5.43 (day −$2.40). 11-21 Hawks ML W +$3.03 (verified pre-bet cash next day $55.04). 11-22: Grizzlies +6.5 best lean, 10 sh at 51¢ ($5.22 incl. fees; cash $55.04 → $49.82) LOST −$5.22; Kings +12.5 Tatum-out cond., 10 sh at 52¢ ($5.38 incl. fees; $49.77 → $44.39) WON +$4.62; Blazers +5.5 triggered but skipped at 67¢ (cap 52¢); day 1-1, ≈ −$0.60. Running Crisp total: 11-9, ≈ −$7.27 (summed daily P&L); est. settled cash ≈ $54.39 (start-implied −$7.61; ~$0.34 fee-rounding gap). Test bets count in dollar P&L only; model leans staked on Crisp also count in units."
    }
   ],
   "brier": {
    "me": 0.2,
    "dk": 0.192,
    "pm": 0.192,
-   "games": 235,
-   "notes": "Cumulative, 235 games; DK = de-vigged close; Polymarket = preview-time prices (11-21: me 0.190 / DK 0.174 / PM 0.170)"
+   "games": 241,
+   "notes": "Cumulative, 241 games; DK = de-vigged close; Polymarket = preview-time prices (11-22: me 0.203 / DK 0.208 / PM 0.190)"
   }
  },
  "lessons": [
   {
    "n": 1,
    "title": "Trust my own judgement; markets are an input, not the answer.",
-   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 5-for-5: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03, CLE +4.5 pass 2026-11-08 with NYK at 80% of money on 47% of tickets; each time the money side won). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 19-48 (1-4 on 11-21: ATL 72 vs 67.5 won; ORL, OKC, PHX and HOU all went the market's way; 1-1 on 11-20: MEM 72 vs 68 won by 28; MIN 55 vs 49, a model-only edge staked at +1.5, lost by 3; 1-6 on 11-19: CLE raw-model MEM side won outright after I moved halfway onto CLE; HOU, MIA, DET, PHX, BKN, BOS went the market's way; 1-0 on 11-18: LAL 76 vs 71.4 won, but only in OT after trailing by 18; 2-1 on 11-17: GS and DEN lost my way, PHI won the market's way; DEN's raw 69% beat the halfway 73%; 0-4 on 11-16, all under-confident favorites after already moving halfway: PHI, BOS, HOU, OKC; 1-1 on 11-15; 1-2 on 11-14; 0-5 on 11-12), so there's no edge there; even after halfway I sat short of the close on HOU/ORL/DEN, who won by 5-15 (11-12). Proposal pending 0xKai's OK: at 4+ pts off with no named roster fact, use the market price, not halfway (11-16: 4-0 the market's way, BOS by 37 and OKC by 22 with no named fact against them; mixed 11-14: my raw side won both stale-model games, IND over NYK and LAC over OKC, while SA by 38 went the market's way). When I'm 5+ pts below the market on a favorite with no named roster fact, move halfway to the market before writing the probability (DEN, NYK, OKC, SA all won by 12-39 on 11-08 vs my 1-9 margins): keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced. At 10+ pts off with no fresh news, assume my ratings are stale: re-weight to the current roster's last 2-3 games (OKC's net still carried no-Caruso collapse losses while the current group had just won twice at CLE; lost by 31 at MEM, 11-07). Only at 10+ pts off, and check the opponents: re-weighting OKC at 6.5 pts off on wins over CLE/MEM/WSH moved me 48 → 54% and POR won by 20 (11-11). The stale-model call worked at 26 pts off (DEN 52%, won by 5, 11-12). Hard-pass nuance (11-09): the 63%-money split on Nets +7.5 pointed to a side I had no lean on and lost by 44.5 (DAL 130-93); only apply the hard pass when the money opposes the side I like."
+   "body": "(User directive 2026-10-21.) Don't flip a pick because the line moved. When I can name the reason for a sharp move (a real roster hole, a key returnee confirmed), move my number by that amount. When I can't, keep the pick at slightly lower confidence and skip the value bet if ML money runs far ahead of tickets against me (hard cases 5-for-5: MIA 2026-10-29, CLE pass 2026-10-30, IND pass 2026-11-02, CLE pass 2026-11-03, CLE +4.5 pass 2026-11-08 with NYK at 80% of money on 47% of tickets; each time the money side won). Use the hard pass only when money runs ~30+ pts ahead of tickets; a soft gap (MIA 47% money on 33% tickets, 11-03) cost a winning LAL lean, so treat smaller gaps as an input. Differing from the market by 4+ pts: 19-49 (0-1 on 11-22: MIN 59 vs 67.5, MIN won by 9; 1-4 on 11-21: ATL 72 vs 67.5 won; ORL, OKC, PHX and HOU all went the market's way; 1-1 on 11-20: MEM 72 vs 68 won by 28; MIN 55 vs 49, a model-only edge staked at +1.5, lost by 3; 1-6 on 11-19: CLE raw-model MEM side won outright after I moved halfway onto CLE; HOU, MIA, DET, PHX, BKN, BOS went the market's way; 1-0 on 11-18: LAL 76 vs 71.4 won, but only in OT after trailing by 18; 2-1 on 11-17: GS and DEN lost my way, PHI won the market's way; DEN's raw 69% beat the halfway 73%; 0-4 on 11-16, all under-confident favorites after already moving halfway: PHI, BOS, HOU, OKC; 1-1 on 11-15; 1-2 on 11-14; 0-5 on 11-12), so there's no edge there; even after halfway I sat short of the close on HOU/ORL/DEN, who won by 5-15 (11-12). Proposal pending 0xKai's OK: at 4+ pts off with no named roster fact, use the market price, not halfway (11-16: 4-0 the market's way, BOS by 37 and OKC by 22 with no named fact against them; mixed 11-14: my raw side won both stale-model games, IND over NYK and LAC over OKC, while SA by 38 went the market's way). When I'm 5+ pts below the market on a favorite with no named roster fact, move halfway to the market before writing the probability (DEN, NYK, OKC, SA all won by 12-39 on 11-08 vs my 1-9 margins): keep big disagreements as no-stake leans unless I can name a concrete roster fact the market hasn't priced. At 10+ pts off with no fresh news, assume my ratings are stale: re-weight to the current roster's last 2-3 games (OKC's net still carried no-Caruso collapse losses while the current group had just won twice at CLE; lost by 31 at MEM, 11-07). Only at 10+ pts off, and check the opponents: re-weighting OKC at 6.5 pts off on wins over CLE/MEM/WSH moved me 48 → 54% and POR won by 20 (11-11). The stale-model call worked at 26 pts off (DEN 52%, won by 5, 11-12). Hard-pass nuance (11-09): the 63%-money split on Nets +7.5 pointed to a side I had no lean on and lost by 44.5 (DAL 130-93); only apply the hard pass when the money opposes the side I like."
   },
   {
    "n": 2,
    "title": "Grade the players who are left, not departures or the injury count, and verify the final injury report for every game I bet.",
-   "body": "Price a deep team's single-star absence small (~2 pts, not 3.5+), and don't trim at all once the current group has played through it (MIN without Edwards 6-2, won by 39 vs my trimmed 4.2, 11-13): HOU without Şengün won by 32 (10-29); NOP without Poole/Murray won by 12 (10-30); PHI without Embiid and LeBron beat CHA (Maxey 38), and MEM without Jerome and Pippen won by 31 (11-01). Thin teams losing several can collapse (GS without Curry, Butler, Porzingis, Moody lost by 38 vs my 8.6, 11-14; OKC without Holmgren, J. Williams, Wallace, Caruso lost by 24 and 21; IND without Haliburton, Zubac, Toppin scored 90 at home vs winless BKN, 11-02). Losing the PG plus two of the top bigs counts as thin even with a star left. But a team that keeps an MVP-level star or real depth isn't a collapse case: OKC (SGA 43) won at CLE and POR without Morant (Holiday, Avdija, Clingan) won at DEN, 11-03. A secondary-source \"Out\" before the team files is still a Q: Luka \"Out\" per FanDuel/HoopMetrics played 39 min and beat my Hawks pick (11-10); Hart, Herro (27 pts) and Keyonte George, all \"Out\" per FanDuel/FLM, played (11-12). And a \"probable\" can sit: Murphy missed and NOP's line moved 4.5 → 2.5 before a 34-pt loss (11-12), so a 2-pt close move toward a dog after the preview is news I missed. Don't add an injury bump the line has already absorbed (CLE: spread moved -9.5 → -8.5 against 84% of tickets; CHA won by 12, 11-10); reverse line movement against a heavy public favorite is a real signal (exception, 11-19: when the RLM is against a team missing 5+ rotation players with 30+ pt losses, the depleted-team fade wins; GS lost by 22 at DAL after I avoided DAL, then by 28 at MEM when I staked MEM ML on 11-20, even with Edey and Jerome out; 2-0, so keep that favorite as a small lean, not an avoid; MIA -10.5 → -8.5 vs 66% of tickets, won by only 6, 11-11): pass the favorite and treat the dog as a lean. When the move reverses again by the close, the favorite is fine (4-for-4): recheck at tip and turn the avoid into a favorite lean (ORL 11-12, won by 15; MEM 11-14, by 31; MEM 11-15, by 19; LAC -2.5 → +1.5 → -1.5, won by 8, 11-16); when it holds, the dog is live (OKC -7.5 → -6.5, LAC won outright, 11-14). Re-check at bet time. Name the opposing big before calling a frontline thin (Okongwu 29/12, 10-30). Holmgren's late scratch sank an Under (10-27); Jalen Johnson, listed Out by a secondary source, played and scored 30 (11-08), so confirm the final official report for any side within ~2 pts of a bet. Never pre-bet a \"collapse\" on players who are only questionable: MEM -6.5 lost when Siakam, Nembhard, Nesmith returned and Zubac/Toppin played (11-05); write it as a conditional on the final report. Likewise a trigger like \"Johnson out\" adds nothing if the team already won without him (WSH add-on lost, 11-05). A team missing five rotation players that just lost by 30+ is a fade, not a coin flip: GS lost by 38 at SA then by 21 at NO (11-17), and my unstaked Pelicans +3.5 lean won outright; when the opponent is only thin, the dog spread can be the best lean. Deep teams on a B2B (11-19): DET beat SAS by 12 and NO by 13 (without Cade) despite Robinson/Duren/Holland out; don't make such a team the target of a best-lean fade; only L4's ~1 pt B2B trim. If I've called news \"priced\" by a line move, my extra adjustment for it is zero (11-21): I said TOR's outs were priced by DET -1.5 → -6.5, then added ~2.5 pts anyway; DET (73%) never led by more than 2 and lost outright to a returning Barnes (29)."
+   "body": "Price a deep team's single-star absence small (~2 pts, not 3.5+), and don't trim at all once the current group has played through it (MIN without Edwards 6-2, won by 39 vs my trimmed 4.2, 11-13): HOU without Şengün won by 32 (10-29); NOP without Poole/Murray won by 12 (10-30); PHI without Embiid and LeBron beat CHA (Maxey 38), and MEM without Jerome and Pippen won by 31 (11-01). Thin teams losing several can collapse (GS without Curry, Butler, Porzingis, Moody lost by 38 vs my 8.6, 11-14; OKC without Holmgren, J. Williams, Wallace, Caruso lost by 24 and 21; IND without Haliburton, Zubac, Toppin scored 90 at home vs winless BKN, 11-02). Losing the PG plus two of the top bigs counts as thin even with a star left. But a team that keeps an MVP-level star or real depth isn't a collapse case: OKC (SGA 43) won at CLE and POR without Morant (Holiday, Avdija, Clingan) won at DEN, 11-03. A secondary-source \"Out\" before the team files is still a Q: Luka \"Out\" per FanDuel/HoopMetrics played 39 min and beat my Hawks pick (11-10); Hart, Herro (27 pts) and Keyonte George, all \"Out\" per FanDuel/FLM, played (11-12). And a \"probable\" can sit: Murphy missed and NOP's line moved 4.5 → 2.5 before a 34-pt loss (11-12), so a 2-pt close move toward a dog after the preview is news I missed. Don't add an injury bump the line has already absorbed (CLE: spread moved -9.5 → -8.5 against 84% of tickets; CHA won by 12, 11-10); reverse line movement against a heavy public favorite is a real signal (exception, 11-19: when the RLM is against a team missing 5+ rotation players with 30+ pt losses, the depleted-team fade wins; GS lost by 22 at DAL after I avoided DAL, then by 28 at MEM when I staked MEM ML on 11-20, even with Edey and Jerome out; 2-0, so keep that favorite as a small lean, not an avoid; MIA -10.5 → -8.5 vs 66% of tickets, won by only 6, 11-11): pass the favorite and treat the dog as a lean. When the move reverses again by the close, the favorite is fine (4-for-4): recheck at tip and turn the avoid into a favorite lean (ORL 11-12, won by 15; MEM 11-14, by 31; MEM 11-15, by 19; LAC -2.5 → +1.5 → -1.5, won by 8, 11-16); when it holds, the dog is live (OKC -7.5 → -6.5, LAC won outright, 11-14). Re-check at bet time. Name the opposing big before calling a frontline thin (Okongwu 29/12, 10-30). Holmgren's late scratch sank an Under (10-27); Jalen Johnson, listed Out by a secondary source, played and scored 30 (11-08), so confirm the final official report for any side within ~2 pts of a bet. Never pre-bet a \"collapse\" on players who are only questionable: MEM -6.5 lost when Siakam, Nembhard, Nesmith returned and Zubac/Toppin played (11-05); write it as a conditional on the final report. Likewise a trigger like \"Johnson out\" adds nothing if the team already won without him (WSH add-on lost, 11-05). A team missing five rotation players that just lost by 30+ is a fade, not a coin flip: GS lost by 38 at SA then by 21 at NO (11-17), and my unstaked Pelicans +3.5 lean won outright; when the opponent is only thin, the dog spread can be the best lean. Deep teams on a B2B (11-19): DET beat SAS by 12 and NO by 13 (without Cade) despite Robinson/Duren/Holland out; don't make such a team the target of a best-lean fade; only L4's ~1 pt B2B trim. A \"Probable\" tag on the official report is public, so it is priced, not a hidden edge (11-22): Jerome-returns Grizzlies +6.5 lost by 2.5 (MEM 8-32 from three) while the line only drifted a point. If I've called news \"priced\" by a line move, my extra adjustment for it is zero (11-21): I said TOR's outs were priced by DET -1.5 → -6.5, then added ~2.5 pts anyway; DET (73%) never led by more than 2 and lost outright to a returning Barnes (29)."
   },
   {
    "n": 3,
@@ -21844,12 +21953,12 @@
   {
    "n": 7,
    "title": "Conditional plays: clear trigger + price limit, and assume the trigger news moves the price.",
-   "body": "Triggered conditionals 4-3 (DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L; DEN -11.5 11-15 L; Raptors +4.5 Barnes-active add-on 11-16 W; Wizards +8.5 11-16 L). Log the reason whenever a triggered bet is skipped. Pre-report entry experiment (approved 11-10): 1-0 (Raptors +4.5 at 50¢, 11-16). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06) and Hawks/Raptors ML pre-report (11-07). Triggered-but-unfillable isn't counted: Bucks +6.5 needed ≤52¢ but Barnes went Out ~1 h before tip with the Bucks side already ~59.5¢ (would have lost, 11-07). Before writing \"cancel if star X is out,\" grade who's left: Wizards +7.5 was cancelled on AD-out and would have covered (George 33, T. Johnson 23). Size every conditional to Crisp's 10-share minimum (≈$5.50 at 55¢) and set its limit where the post-news price still has edge: Grizzlies +2.5 ≤55¢ triggered (Barnes and Quickley Out) and would have won by 18.5, but after the news it was about 60¢, over the 57¢ cap, so it was skipped (11-10; not counted in model units). A user-requested Grizzlies ML test (10 shares at 53¢, $5.48) filled and won +$4.52, counted in Crisp real-money P&L only. Proposal pending 0xKai's OK: a two-branch pre-report entry when the bet is ≥ fair even if the trigger misses. Q stars with a repeat injury (Luka, 11-09): don't back the favorite at 62-65% pre-report; LAL is 2-0 without him (Reaves 43) and DET lost as an -8.5 close favorite. Review process: before grading Crisp, check for conditional-bet fills in the bot assets folder and in the night's fill reports, not only the screenshots already copied into /workspace/nba. The 11-15 DEN -11.5 fill (10 sh at 54¢, cash $51.82 → $46.30) was missed on the first review and later corrected as a loss. The 11-16 Wizards +8.5 fill (10 sh at 51¢, cash $30.33 → $25.06) was also missed on the first review and later corrected as a loss. Timing (11-19): for 8 PM ET tips the decisive report is 7:30 PM ET (08:30 MYT); Cade went Out 5 min after my 08:25 MYT check and the DAL -5.5 line trigger was never rechecked. Run conditional checks ~10-15 min before tip (after the T-30 report) and fold line-based rechecks into the same late check. Pre-report entries are 5-0 (Jazz +10.5 11-19: B2B stars tire even when they play; Luka 10-28)."
+   "body": "Triggered conditionals 5-3 (Kings +12.5 Tatum/White out W outright 11-22; DAL +7.5, MIL ML 10-27; Rockets ML 11-01 W; WSH add-on 11-05 L; DEN -11.5 11-15 L; Raptors +4.5 Barnes-active add-on 11-16 W; Wizards +8.5 11-16 L). Log the reason whenever a triggered bet is skipped. If a triggered price is far past the limit, re-read both teams' final reports and log why it moved (Blazers +5.5 at 67¢ vs 52¢ cap, 11-22: NYK without Towns/Anunoby, line flipped to POR -1.5; skip was right, Blazers would have covered). Pre-report entry experiment (approved 11-10): 1-0 (Raptors +4.5 at 50¢, 11-16). Untriggered aren't counted (PHI -5.5 L, DAL ML W 10-29; PHI ML W 10-31; MIN +12.5 W 11-01, Gobert out). A limit must be fillable after the trigger: the Jazz went 26.5→29.5¢ in four minutes as Markkanen's return leaked and never came back to 28¢ (11-01, would have lost). Only write the bet if the edge survives the expected news move. For a questionable star, also ask what decides the game if he plays. Don't pre-buy a heavy favorite (75¢+) while its second star is questionable: DAL at 79.5¢ \"with Kyrie risk priced in\" lost when he sat and the price fell to 74.5¢ (11-03). Wait for the report or skip. Same process held on Warriors ML at 70.5¢ with Giannis Q (11-06) and Hawks/Raptors ML pre-report (11-07). Triggered-but-unfillable isn't counted: Bucks +6.5 needed ≤52¢ but Barnes went Out ~1 h before tip with the Bucks side already ~59.5¢ (would have lost, 11-07). Before writing \"cancel if star X is out,\" grade who's left: Wizards +7.5 was cancelled on AD-out and would have covered (George 33, T. Johnson 23). Size every conditional to Crisp's 10-share minimum (≈$5.50 at 55¢) and set its limit where the post-news price still has edge: Grizzlies +2.5 ≤55¢ triggered (Barnes and Quickley Out) and would have won by 18.5, but after the news it was about 60¢, over the 57¢ cap, so it was skipped (11-10; not counted in model units). A user-requested Grizzlies ML test (10 shares at 53¢, $5.48) filled and won +$4.52, counted in Crisp real-money P&L only. Proposal pending 0xKai's OK: a two-branch pre-report entry when the bet is ≥ fair even if the trigger misses. Q stars with a repeat injury (Luka, 11-09): don't back the favorite at 62-65% pre-report; LAL is 2-0 without him (Reaves 43) and DET lost as an -8.5 close favorite. Review process: before grading Crisp, check for conditional-bet fills in the bot assets folder and in the night's fill reports, not only the screenshots already copied into /workspace/nba. The 11-15 DEN -11.5 fill (10 sh at 54¢, cash $51.82 → $46.30) was missed on the first review and later corrected as a loss. The 11-16 Wizards +8.5 fill (10 sh at 51¢, cash $30.33 → $25.06) was also missed on the first review and later corrected as a loss. Timing (11-19): for 8 PM ET tips the decisive report is 7:30 PM ET (08:30 MYT); Cade went Out 5 min after my 08:25 MYT check and the DAL -5.5 line trigger was never rechecked. Run conditional checks ~10-15 min before tip (after the T-30 report) and fold line-based rechecks into the same late check. Pre-report entries are 5-0 (Jazz +10.5 11-19: B2B stars tire even when they play; Luka 10-28)."
   },
   {
    "n": 8,
    "title": "Best-lean staking (user directive 2026-11-12: ~0.5u on most slates even below the 3.5-4 pt bar; skip coin flips and stale-model games).",
-   "body": "Rank the leans in the preview and name the one to stake. Prefer a favorite's ML over its spread when the spread drifts toward the dog: Suns ML (named edge: CHA without Miller/Knueppel/Schröder, 27 turnovers) won, while PHX -6.5 (moved from -7.5 against 75% of tickets) failed by 1.5 (11-13); Lakers ML (named edge: CHA turnovers, 18 incl. three in the last 21 s + OT) won by 4 in OT while the -7.5 preview spread and -6.5 close failed (11-18); Grizzlies ML at 69¢ won by 28 as -6.5 drifted to -5.5 (11-20). 3-0. Never pick a side that's on my own avoid list: Warriors +6.5 (flagged for an unexplained move against the money, ~2.5 pts edge) lost by 0.5 after Curry left in the first (mostly variance), while the cleaner Blazers ML lean (49.5¢) won (11-12). If the edge rests on one opponent's absence, a Q teammate's return can erase it: Hawks ML (+1.5 for Wilson) was placed 9.5 h pre-tip with Powell Q; he played, scored 33, and CHI won in OT (ATL 8-40 from three), 11-14. Proposal pending 0xKai's OK: place such bets only after the final injury report. Don't make a double-digit favorite's spread the best lean just because my margins run compressed: MIN -14.5 (no Edwards/DiVincenzo; Ball 4-19 from three, MIN 9-38) lost outright to a B2B CHI, 11-15. Prefer best leans with a named roster edge. If the line moves against a dog-spread lean before I buy, re-price or take the alternate line: Pacers +6.5 (DK -6.5 → -7.5 close) lost by 0.5 when the preview's own fallback, +7.5 at ≤52¢, would have won (11-16); dog-spread half-point losses: Warriors and Pacers. Best-lean stakes 5-5 (see table; the Hawks ML W on 11-21 had a named edge: CHA down four rotation players). Pass on a favorite when Polymarket is 2-3¢ richer than DK: SAS 79.5¢ (DK 76.7%) and LAC 69.5¢ both lost outright on opponent shooting outliers (11-18); don't rebuild the model after such upset nights. Default structure: pre-report entry when ≥ fair in both branches + add-on only once the named player is confirmed; 4-0 (Raptors ×2 11-16, Grizzlies ×2 11-17)."
+   "body": "Rank the leans in the preview and name the one to stake. Prefer a favorite's ML over its spread when the spread drifts toward the dog: Suns ML (named edge: CHA without Miller/Knueppel/Schröder, 27 turnovers) won, while PHX -6.5 (moved from -7.5 against 75% of tickets) failed by 1.5 (11-13); Lakers ML (named edge: CHA turnovers, 18 incl. three in the last 21 s + OT) won by 4 in OT while the -7.5 preview spread and -6.5 close failed (11-18); Grizzlies ML at 69¢ won by 28 as -6.5 drifted to -5.5 (11-20). 3-0. Never pick a side that's on my own avoid list: Warriors +6.5 (flagged for an unexplained move against the money, ~2.5 pts edge) lost by 0.5 after Curry left in the first (mostly variance), while the cleaner Blazers ML lean (49.5¢) won (11-12). If the edge rests on one opponent's absence, a Q teammate's return can erase it: Hawks ML (+1.5 for Wilson) was placed 9.5 h pre-tip with Powell Q; he played, scored 33, and CHI won in OT (ATL 8-40 from three), 11-14. Proposal pending 0xKai's OK: place such bets only after the final injury report. Don't make a double-digit favorite's spread the best lean just because my margins run compressed: MIN -14.5 (no Edwards/DiVincenzo; Ball 4-19 from three, MIN 9-38) lost outright to a B2B CHI, 11-15. Prefer best leans with a named roster edge. If the line moves against a dog-spread lean before I buy, re-price or take the alternate line: Pacers +6.5 (DK -6.5 → -7.5 close) lost by 0.5 when the preview's own fallback, +7.5 at ≤52¢, would have won (11-16); dog-spread half-point losses: Warriors and Pacers. Best-lean stakes 5-6 (see table; Grizzlies +6.5 L 11-22 rested on a public Probable tag, not an unpriced fact; the Hawks ML W on 11-21 had a named edge: CHA down four rotation players). Pass on a favorite when Polymarket is 2-3¢ richer than DK: SAS 79.5¢ (DK 76.7%) and LAC 69.5¢ both lost outright on opponent shooting outliers (11-18); don't rebuild the model after such upset nights. Default structure: pre-report entry when ≥ fair in both branches + add-on only once the named player is confirmed; 4-0 (Raptors ×2 11-16, Grizzlies ×2 11-17)."
   },
   {
    "n": 9,
@@ -22510,6 +22619,27 @@
    "small_value": [
     1,
     0
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "text": "SU 5-1 (miss: BOS lost 96-97 at SAC without Tatum/White/Robinson; BOS 13-58 from three incl. 0-13 in a 35-13 third, Murray putback at 5 s). PHI by 3 (Herro 50; PHI 33-37 FT); NYK 97-96 on Bridges' buzzer three after blowing a 26-pt lead (no Towns/Anunoby; close flipped to POR -1.5); DAL by 10 (late 11-0 run); MIN by 9 (MEM 8-32 from three, 12-pt 2nd quarter); SA by 23 (Wemby 50/19). ATS 1-1 (Grizzlies +6.5 L, Kings +12.5 W). Totals 0-0 (no-stake Overs 0-2; Unders 5-1 vs close). Small value 1-1, −0.06u. No-stake leans 1-3 (Bucks +12.5 W). Closing favorites 3-3 ATS; two dogs won outright; B2B teams 1-1 ATS. Big disagreements 0-1. Crisp real money: Grizzlies +6.5 LOST −$5.22, Kings +12.5 cond. WON +$4.62; day 1-1, ≈ −$0.60; running ≈ −$7.27 (11-9); est. cash ≈ $54.39. Bucks cond. not triggered; Blazers cond. triggered, skipped on price. Brier me 0.203 vs DK 0.208 / PM 0.190. Full review: review-2026-11-22.md.",
+   "su": [
+    5,
+    1
+   ],
+   "ats": [
+    1,
+    1
+   ],
+   "totals": [
+    0,
+    0
+   ],
+   "core_value": null,
+   "small_value": [
+    1,
+    1
    ]
   }
  ],
@@ -23500,36 +23630,68 @@
       0
      ]
     }
+   },
+   {
+    "date": "2026-11-22",
+    "su_w": 5,
+    "su_l": 1,
+    "units": -0.06,
+    "brier": {
+     "me": 0.203,
+     "dk": 0.208,
+     "pm": null
+    },
+    "log": {
+     "date": "2026-11-22",
+     "text": "SU 5-1 (miss: BOS lost 96-97 at SAC without Tatum/White/Robinson; BOS 13-58 from three incl. 0-13 in a 35-13 third, Murray putback at 5 s). PHI by 3 (Herro 50; PHI 33-37 FT); NYK 97-96 on Bridges' buzzer three after blowing a 26-pt lead (no Towns/Anunoby; close flipped to POR -1.5); DAL by 10 (late 11-0 run); MIN by 9 (MEM 8-32 from three, 12-pt 2nd quarter); SA by 23 (Wemby 50/19). ATS 1-1 (Grizzlies +6.5 L, Kings +12.5 W). Totals 0-0 (no-stake Overs 0-2; Unders 5-1 vs close). Small value 1-1, −0.06u. No-stake leans 1-3 (Bucks +12.5 W). Closing favorites 3-3 ATS; two dogs won outright; B2B teams 1-1 ATS. Big disagreements 0-1. Crisp real money: Grizzlies +6.5 LOST −$5.22, Kings +12.5 cond. WON +$4.62; day 1-1, ≈ −$0.60; running ≈ −$7.27 (11-9); est. cash ≈ $54.39. Bucks cond. not triggered; Blazers cond. triggered, skipped on price. Brier me 0.203 vs DK 0.208 / PM 0.190. Full review: review-2026-11-22.md.",
+     "su": [
+      5,
+      1
+     ],
+     "ats": [
+      1,
+      1
+     ],
+     "totals": [
+      0,
+      0
+     ],
+     "core_value": null,
+     "small_value": [
+      1,
+      1
+     ]
+    }
    }
   ],
   "calibration": [
    {
     "bucket": "50–59%",
-    "n": 83,
-    "hits": 47,
-    "avg_pred": 54.7,
-    "actual": 56.6
+    "n": 84,
+    "hits": 48,
+    "avg_pred": 54.8,
+    "actual": 57.1
    },
    {
     "bucket": "60–69%",
-    "n": 64,
-    "hits": 41,
-    "avg_pred": 64.9,
-    "actual": 64.1
+    "n": 66,
+    "hits": 43,
+    "avg_pred": 64.8,
+    "actual": 65.2
    },
    {
     "bucket": "70–79%",
-    "n": 56,
-    "hits": 43,
-    "avg_pred": 73.6,
-    "actual": 76.8
+    "n": 57,
+    "hits": 44,
+    "avg_pred": 73.7,
+    "actual": 77.2
    },
    {
     "bucket": "80%+",
-    "n": 32,
-    "hits": 30,
+    "n": 34,
+    "hits": 31,
     "avg_pred": 84.5,
-    "actual": 93.8
+    "actual": 91.2
    }
   ],
   "splits": [
@@ -23538,8 +23700,8 @@
     "groups": [
      {
       "label": "Picked favorite",
-      "w": 155,
-      "l": 62
+      "w": 160,
+      "l": 63
      },
      {
       "label": "Picked underdog",
@@ -23553,13 +23715,13 @@
     "groups": [
      {
       "label": "Home pick",
-      "w": 90,
+      "w": 95,
       "l": 46
      },
      {
       "label": "Road pick",
       "w": 71,
-      "l": 28
+      "l": 29
      }
     ]
    },
@@ -23573,8 +23735,8 @@
      },
      {
       "label": "At/below market",
-      "w": 113,
-      "l": 34
+      "w": 118,
+      "l": 35
      }
     ]
    },
@@ -23583,32 +23745,32 @@
     "groups": [
      {
       "label": "Conf 1-5",
-      "w": 99,
+      "w": 102,
       "l": 61
      },
      {
       "label": "Conf 6-10",
-      "w": 62,
-      "l": 13
+      "w": 64,
+      "l": 14
      }
     ]
    }
   ],
-  "graded_games": 235,
+  "graded_games": 241,
   "glance": {
    "record": {
-    "w": 161,
-    "l": 74,
-    "n": 235,
+    "w": 166,
+    "l": 75,
+    "n": 241,
     "pct": 69
    },
    "streak": {
-    "type": "W",
+    "type": "L",
     "len": 1
    },
-   "units_total": 3.18,
-   "units_days_stated": 30,
-   "units_days_total": 31,
+   "units_total": 3.12,
+   "units_days_stated": 31,
+   "units_days_total": 32,
    "units_series": [
     {
      "date": "2026-10-21",
@@ -23764,32 +23926,37 @@
      "date": "2026-11-21",
      "units": 0.3,
      "cum": 3.18
+    },
+    {
+     "date": "2026-11-22",
+     "units": -0.06,
+     "cum": 3.12
     }
    ],
    "last7": {
-    "w": 32,
-    "l": 20,
-    "n": 52,
-    "pct": 62,
-    "units": 0.29,
-    "start": "2026-11-15",
-    "end": "2026-11-21",
+    "w": 35,
+    "l": 18,
+    "n": 53,
+    "pct": 66,
+    "units": 1.29,
+    "start": "2026-11-16",
+    "end": "2026-11-22",
     "days": 7,
     "units_days": 7
    },
    "insights": [
     {
-     "w": 73,
-     "l": 15,
-     "n": 88,
-     "pct": 83,
+     "w": 75,
+     "l": 16,
+     "n": 91,
+     "pct": 82,
      "key": "big_fav",
      "text": "Big favourites (my win % 70+)"
     },
     {
-     "w": 47,
+     "w": 48,
      "l": 36,
-     "n": 83,
+     "n": 84,
      "pct": 57,
      "key": "coin",
      "text": "Close calls (my win % 50–59)"
@@ -23803,26 +23970,26 @@
      "text": "When I rate the pick 3+ pts higher than Polymarket"
     },
     {
-     "w": 82,
-     "l": 36,
-     "n": 118,
+     "w": 83,
+     "l": 37,
+     "n": 120,
      "pct": 69,
      "key": "agree",
      "text": "When I roughly agree with Polymarket (within 2.5 pts)"
     },
     {
-     "w": 61,
+     "w": 65,
      "l": 15,
-     "n": 76,
-     "pct": 80,
+     "n": 80,
+     "pct": 81,
      "key": "disagree_down",
      "text": "When I rate the pick 3+ pts lower than Polymarket"
     },
     {
-     "w": 62,
-     "l": 13,
-     "n": 75,
-     "pct": 83,
+     "w": 64,
+     "l": 14,
+     "n": 78,
+     "pct": 82,
      "key": "high_conf",
      "text": "High-confidence picks (6+/10)"
     },
@@ -23836,9 +24003,9 @@
     },
     {
      "w": 71,
-     "l": 28,
-     "n": 99,
-     "pct": 72,
+     "l": 29,
+     "n": 100,
+     "pct": 71,
      "key": "road",
      "text": "Picking the road team"
     }
@@ -23854,26 +24021,26 @@
     },
     {
      "category": "Small/secondary value",
-     "record": "34-36",
-     "w": 34,
-     "l": 36,
-     "units": 0.46,
-     "notes": "≈ +0.46u (rough; incl. triggered conditionals and pre-report entries; per-day units in the daily log). Best-lean stakes 5-5 (W: Suns ML 11-13, Grizzlies ML 11-17, Lakers ML 11-18, Grizzlies ML 11-20, Hawks ML 11-21 +0.30u; L: Warriors +6.5 11-12, Hawks ML 11-14, MIN -14.5 11-15, Pacers +6.5 11-16, Pelicans +6.5 11-19). Pre-report entries 5-0 (Raptors ×2 11-16 incl. add-on, Grizzlies ×2 11-17 incl. add-on, Jazz +10.5 11-19). Losing secondaries/conditionals: DEN -11.5 11-15, Wizards +8.5 11-16, Timberwolves +1.5 11-20"
+     "record": "35-37",
+     "w": 35,
+     "l": 37,
+     "units": 0.4,
+     "notes": "≈ +0.40u (rough; incl. triggered conditionals and pre-report entries; per-day units in the daily log). Best-lean stakes 5-6 (W: Suns ML 11-13, Grizzlies ML 11-17, Lakers ML 11-18, Grizzlies ML 11-20, Hawks ML 11-21 +0.30u; L: Warriors +6.5 11-12, Hawks ML 11-14, MIN -14.5 11-15, Pacers +6.5 11-16, Pelicans +6.5 11-19, Grizzlies +6.5 11-22 −0.52u). Pre-report entries 5-0 (Raptors ×2 11-16 incl. add-on, Grizzlies ×2 11-17 incl. add-on, Jazz +10.5 11-19). Losing secondaries/conditionals: DEN -11.5 11-15, Wizards +8.5 11-16, Timberwolves +1.5 11-20"
     }
    ],
    "brier": {
     "me": 0.2,
     "dk": 0.192,
     "pm": 0.192,
-    "games": 235,
-    "notes": "Cumulative, 235 games; DK = de-vigged close; Polymarket = preview-time prices (11-21: me 0.190 / DK 0.174 / PM 0.170)"
+    "games": 241,
+    "notes": "Cumulative, 241 games; DK = de-vigged close; Polymarket = preview-time prices (11-22: me 0.203 / DK 0.208 / PM 0.190)"
    }
   }
  },
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-21T23:39:13+08:00",
+  "fetched_at": "2026-11-22T14:20:00+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
