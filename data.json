@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-24T14:23:27+08:00",
+ "generated_at": "2026-11-24T23:32:40+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-24",
+ "latest_preview_date": "2026-11-25",
  "latest_review_date": "2026-11-24",
  "days": [
   {
@@ -23266,6 +23266,235 @@
     ],
     "lessons": []
    }
+  },
+  {
+   "date": "2026-11-25",
+   "file": "preview-2026-11-25.md",
+   "written": "~23:30-00:00 MYT Tue Nov 24",
+   "games": [
+    {
+     "id": "2026-11-25-DET-ORL",
+     "n": 1,
+     "away": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "home": {
+      "abbr": "ORL",
+      "city": "Orlando",
+      "name": "Magic"
+     },
+     "tip_myt": "08:00",
+     "tip_iso": "2026-11-25T08:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DET",
+      "city": "Detroit",
+      "name": "Pistons"
+     },
+     "win_pct": 57.0,
+     "confidence": 4,
+     "dk_ml": "DET -142 / ORL +120 → de-vig DET 56.3%",
+     "dk_devig": {
+      "abbr": "DET",
+      "pct": 56.3
+     },
+     "pm_ml": "DET 54.5¢ / ORL 45.5¢ ($77k) · gap -1.8",
+     "spread": {
+      "dk": "DET -2.5 (opened -1.5)",
+      "pm": "Pistons -2.5: 49.5 / Magic 50.5; -1.5: 53.5 / 46.5; -3.5: 45.5 / 54.5"
+     },
+     "total": {
+      "dk": "214.5 (opened 214.5; Action consensus 213)",
+      "pm": "O/U 214.5: Over 45.5; 213.5: Over 48.5; 212.5: Over 50.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 54.5,
+     "edge": 2.5,
+     "dk_pick_pct": 56.3,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "DET: Cunningham Probable (knee; cleared Sun, 33 min), Duren, Okorie, Prince, D. Robinson Out (Duren out all month, Robinson since 11-18 → priced). ORL: Banchero Out (out all month), Isaac, Nelson, Penda Out. No fatigue edge.",
+     "injury_flags": [
+      "Cunningham Probable",
+      "Banchero Out"
+     ],
+     "view": "model DET by 2.5 → ~58%. Neither team's outs are new. Cade's probable tag is the main risk (DET won by 13 at NO without him, so it isn't a collapse case). PM 54.5¢ is ~3.5¢ under my number and ~2¢ under DK.",
+     "bet": "✅ best lean Pistons ML (see order sheet). Totals: pass.",
+     "bet_bold": [
+      "best lean"
+     ],
+     "form": "DET 10-6 (my net +4.8; 7-3 on the road), lost two straight (102-105 vs TOR, 97-107 at ATL after leading by 11 in the 4th). ORL 7-9 (net -4.1), 1-5 at home (ESPN split), lost 96-116 at WSH Sun; the 4-1 run before that came vs UTA, SAC, MIL, BKN (SI). First meeting this season (SI).",
+     "sentiment": "ML 68% tickets / 86% money DET; spread 62%/59% DET and the line moved 1.5 → 2.5 toward DET. Total 82% Over tickets but drifted down. SI: Pistons ML; Yahoo: DET 120-118; numberFire DET 65%; BPI DET 53.9%.",
+     "avoid": [],
+     "result": null
+    },
+    {
+     "id": "2026-11-25-BOS-WSH",
+     "n": 2,
+     "away": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "home": {
+      "abbr": "WSH",
+      "city": "Washington",
+      "name": "Wizards"
+     },
+     "tip_myt": "09:00",
+     "tip_iso": "2026-11-25T09:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "BOS",
+      "city": "Boston",
+      "name": "Celtics"
+     },
+     "win_pct": 73.0,
+     "confidence": 5,
+     "dk_ml": "BOS -453 / WSH +351 → de-vig BOS 78.7%",
+     "dk_devig": {
+      "abbr": "BOS",
+      "pct": 78.7
+     },
+     "pm_ml": "BOS 78.5¢ / WSH 21.5¢ ($48k) · gap -0.2",
+     "spread": {
+      "dk": "BOS -10.5 (opened -5.5)",
+      "pm": "Celtics -10.5: 51.5 / Wizards 48.5; -9.5: 55.5 / 44.5; -11.5: 46.5 / 53.5"
+     },
+     "total": {
+      "dk": "217.5 (opened 230.5)",
+      "pm": "O/U 217.5: Over 49.5; 215.5: Over 54.5; 219.5: Over 45.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 78.5,
+     "edge": -5.5,
+     "dk_pick_pct": 78.7,
+     "pick_is_favorite": true,
+     "pick_is_home": false,
+     "injuries": "BOS: Mitchell Robinson Out (illness; backup C), two-ways out; Paul George not listed (missed Sunday at GS per the box score; reason not verified). WSH: Beekman, Champagnie, Vukcevic, Watkins Out (none in the top rotation); Okpara Q (two-way). AD not on the report.",
+     "injury_flags": [
+      "Paul George not listed"
+     ],
+     "view": "model BOS by 5.2, +1 for George → BOS by ~6 (~68%). That's 10+ pts under the market; the stale check doesn't help BOS (losing streak vs WSH's same-core run), but WSH's wins came vs TOR/CHI/ORL. Halfway → BOS ~73%, by ~7.5. That leans Wizards +10.5 on paper, but the reverse line move against public WSH money is exactly the L2 signal I don't fade.",
+     "bet": "avoid (spread, ML and total). No stake.",
+     "bet_bold": [],
+     "form": "BOS 11-6 (my net +9.2, best DRtg tier; slow pace 98.6) but lost four straight: 105-115 vs ORL, 101-105 at DEN, 96-97 at SAC (no Tatum/White), 87-88 at GS (no Curry). WSH 7-11 (net -5.0) has won three straight (TOR, CHI, ORL by 20) with Young/George/Dybantsa/Davis/Sarr; Davis 25.1 ppg, Player of the Week. BOS is 2-0 in Cup group play, WSH 2-1.",
+     "sentiment": "ML 76%/66% BOS, but spread 70% tickets / 71% money on WSH while the line went -5.5 → -10.5, and the total fell 13 pts against 86% Over tickets. I can't find a named reason beyond George's likely return (unverified why it moved; the -5.5/230.5 opener may have been an early lookahead number). SI: Under 217.5 (BOS Unders 70.6%, WSH 12-6); numberFire BOS 81.4%; BPI BOS 75.9%.",
+     "avoid": [
+      "Avoid (game note)",
+      "Celtics @ Wizards (all markets: unexplained 5-pt spread and 13-pt total moves against the public)"
+     ],
+     "result": null
+    },
+    {
+     "id": "2026-11-25-DAL-DEN",
+     "n": 3,
+     "away": {
+      "abbr": "DAL",
+      "city": "Dallas",
+      "name": "Mavericks"
+     },
+     "home": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "tip_myt": "11:00",
+     "tip_iso": "2026-11-25T11:00:00+08:00",
+     "status_note": null,
+     "pick": {
+      "abbr": "DEN",
+      "city": "Denver",
+      "name": "Nuggets"
+     },
+     "win_pct": 66.0,
+     "confidence": 5,
+     "dk_ml": "DAL +251 / DEN -310 → de-vig DEN 72.6%",
+     "dk_devig": {
+      "abbr": "DEN",
+      "pct": 72.6
+     },
+     "pm_ml": "DAL 28.5¢ / DEN 71.5¢ ($44k) · gap -1.1",
+     "spread": {
+      "dk": "DEN -7.5 (opened -8.5)",
+      "pm": "Nuggets -7.5: 51.5 / Mavericks 48.5; -8.5: 45.5 / 54.5; -6.5: 54.5 / 45.5"
+     },
+     "total": {
+      "dk": "233.5 (opened 236.5)",
+      "pm": "O/U 233.5: Over 51.5 / Under 48.5; 232.5: Over 53.5; 234.5: Over 47.5"
+     },
+     "sb_raw": null,
+     "pm_pick_price": 71.5,
+     "edge": -5.5,
+     "dk_pick_pct": 72.6,
+     "pick_is_favorite": true,
+     "pick_is_home": true,
+     "injuries": "DAL: Lively (out all season), Biberovic, de Larrea, Lawal Out; P.J. Washington Q (illness; already missed the last two → no adjustment); Caleb Martin available. DEN: none on the official report (Strawther Out per SI's feed, not on the NBA PDF).",
+     "injury_flags": [
+      "P.J. Washington Q"
+     ],
+     "view": "model DEN by 2.9 (59%), 13 pts under the market. Stale check helps DEN (recent run, Jokic/Murray healthy, altitude) and DAL's streak came vs weak teams; DAL's rating is slightly understated by the Irving-less blowouts. Halfway → DEN ~66%, by ~5. Mavericks +7.5 (48.5¢) is a ratings-only edge → no-stake lean. Total: model 229 vs 233.5 with the market moving toward me → no-stake Under lean (DEN's last three totals: 296, 257, 206 — high variance).",
+     "bet": "no stake. Conditional only if Jokic is ruled OUT (10:45 check; see order sheet).",
+     "bet_bold": [
+      "Jokic is ruled OUT"
+     ],
+     "form": "DEN 10-5 (net +1.8 in my data, dragged by early losses to OKC/GS/POR), 7-2 in the last nine, won three straight incl. 151-145 OT at CHI Sun (Murray 45, Jokic 37/18/11). DAL 10-7 (net -0.1), three straight wins (GS, LAC, UTA by 2 after allowing a 40-pt 4th). DAL is 10-4 with Irving, 0-3 without (SI); its two worst losses (by 39 at MIN, 37 at BOS) partly came without Irving. 2025-26 series 2-2 (USA Today). Both 2-0 in Cup group play.",
+     "sentiment": "ML 76%/74% DEN; spread 57%/52% on DAL and the line moved 8.5 → 7.5 with them (following the public, not reverse). Total 72%/70% Over but fell 3 pts. SI: Mavs +8.5; SportsLine: Over (245 projected); numberFire DEN 79.8%; BPI DEN 69.6%.",
+     "avoid": [
+      "all totals except the no-stake DAL-DEN Under lean"
+     ],
+     "result": null
+    }
+   ],
+   "summary": {
+    "top3": [
+     "Celtics over Wizards, 73% (conf 5). Best defense in the matchup and George likely back, but four straight losses and an unexplained 5-pt line move keep confidence moderate.",
+     "Nuggets over Mavericks, 66% (conf 5). Healthy Jokic/Murray at altitude vs a DAL team without Lively (and likely Washington).",
+     "Pistons over Magic, 57% (conf 4). Better defense and two-way depth; ORL 1-5 at home without Banchero."
+    ],
+    "underdogs": [
+     "Mavericks +7.5 (Polymarket \"Spread: Nuggets (-7.5)\", Mavericks 48.5¢; ML 28.5¢ vs my ~34%): ratings-only, no stake. Becomes a bet only if Jokic is OUT.",
+     "Magic ML (45.5¢): no; my ORL is ~43%.",
+     "Wizards +10.5 (\"Spread: Celtics (-10.5)\", Wizards 48.5¢): looks good on my numbers but sits against a reverse line move → avoid."
+    ],
+    "avoid": [
+     "Celtics @ Wizards (all markets: unexplained 5-pt spread and 13-pt total moves against the public)",
+     "all totals except the no-stake DAL-DEN Under lean"
+    ],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 177-81 · ATS 8-14 · Totals 11-9 · Core value 3-3 · Small value 37-37 · Brier me 0.201 / DK 0.195 / PM 0.196 · Crisp real money 13-9, ≈ +$2.90 (cash $64.56, no open positions)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "1. **Celtics** over Wizards, 73% (conf 5). Best defense in the matchup and George likely back, but four straight losses and an unexplained 5-pt line move keep confidence moderate.\n2. **Nuggets** over Mavericks, 66% (conf 5). Healthy Jokic/Murray at altitude vs a DAL team without Lively (and likely Washington).\n3. **Pistons** over Magic, 57% (conf 4). Better defense and two-way depth; ORL 1-5 at home without Banchero.",
+    "underdogs": "- **Mavericks +7.5** (Polymarket \"Spread: Nuggets (-7.5)\", Mavericks 48.5¢; ML 28.5¢ vs my ~34%): ratings-only, **no stake**. Becomes a bet only if Jokic is OUT.\n- **Magic ML** (45.5¢): no; my ORL is ~43%.\n- **Wizards +10.5** (\"Spread: Celtics (-10.5)\", Wizards 48.5¢): looks good on my numbers but sits against a reverse line move → avoid.",
+    "avoid": "Celtics @ Wizards (all markets: unexplained 5-pt spread and 13-pt total moves against the public), all totals except the no-stake DAL-DEN Under lean.",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 177-81 · ATS 8-14 · Totals 11-9 · Core value 3-3 · Small value 37-37 · Brier me 0.201 / DK 0.195 / PM 0.196 · Crisp real money 13-9, ≈ +$2.90 (cash $64.56, no open positions)."
+   },
+   "buys": [],
+   "lessons_applied": [
+    "APPROVED RULE (11-20): one unconditional best lean (Pistons ML). No second stake: none of tonight's edges rests on an unpriced injury/rest/matchup fact. Ratings-only edges (Mavericks +7.5, Wizards side, DAL-DEN Under) stay unstaked leans.",
+    "L1/L4 (5+ below on a favorite → halfway; 10+ off → stale check): changes two calls. BOS raw 66% vs DK 78.7% and DEN raw 59% vs 72.6%. Stale check: BOS lost four straight (two without Tatum or White) and WSH won three straight with the same Davis/Dybantsa/Young core, so re-weighting doesn't move me toward BOS; DEN is 7-2 in its last nine while DAL's three-game run came vs GS, LAC and UTA, which does move me toward DEN. Both go halfway: BOS ~73%, DEN ~66%, no stakes.",
+    "L2 (don't trim for absences the team has played through): Duren (DET), Banchero (ORL), Lively and P.J. Washington (DAL, missed the last two) are all long-running → no extra adjustment. Paul George (BOS) missed Sunday and isn't on today's report → small (+1 pt) BOS bump.",
+    "L2 RLM / L1 money vs tickets: BOS -5.5 → -10.5 while 70% of spread tickets (71% money) sit on WSH = a big reverse move toward BOS that I can only partly name (George back). Per L2 that's a real signal, so the Wizards +10.5 lean is not bettable → avoid list. DET ML: 86% of money on 68% of tickets on my side (no pass trigger).",
+    "L8 (pass on a favorite when PM is 2-3¢ richer than DK): no case tonight; PM is 1-2¢ cheaper than DK on all three favorites (DET 54.5 vs 56.3).",
+    "L3 (6+ pt total gap needs current form): DET-ORL model 223 vs 214.5 is 8 pts off, but DET's last three totals were 204, 207 and 231 and the market moved down → skip. BOS-WSH total fell 13 pts (230.5 → 217.5) against 86% Over tickets → skip.",
+    "L9 (flag 2+ pt moves): BOS-WSH spread +5 and total -13; DAL-DEN total 236.5 → 233.5. Recheck at the conditional times.",
+    "11-19 timing rule / 11-24 fill-or-cancel rule: conditional check 10-15 min before tip; up to 2¢ over the limit OK, more → skip/cancel, log \"skipped on price\".",
+    "--"
+   ],
+   "pm_raw_file": "raw/d1125/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -25564,7 +25793,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-24T14:23:27+08:00",
+  "fetched_at": "2026-11-24T23:32:40+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
