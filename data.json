@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T14:26:27+08:00",
+ "generated_at": "2026-11-25T14:26:45+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
  "latest_preview_date": "2026-11-25",
  "latest_review_date": "2026-11-25",
@@ -21837,7 +21837,7 @@
     "brier": {
      "me": 0.203,
      "dk": 0.208,
-     "pm": null
+     "pm": 0.19
     },
     "units": -0.06,
     "units_text": "- Value picks: small value 1-1, −0.06u (season small value 35-37, ≈ +0.40u); core value 0-0 (season 3-3).; - Units: −0.06u today (1u = $10).",
@@ -22453,7 +22453,7 @@
     "brier": {
      "me": 0.241,
      "dk": 0.251,
-     "pm": null
+     "pm": 0.254
     },
     "units": 0.4,
     "units_text": "- Value picks: 0-0, 0.00u (season small value 35-37, ≈ +0.40u; core value 3-3).",
@@ -23244,7 +23244,7 @@
     "brier": {
      "me": 0.211,
      "dk": 0.233,
-     "pm": null
+     "pm": 0.24
     },
     "units": 1.02,
     "units_text": "- Value picks: 2-0, +1.02u (Grizzlies ML best lean, Pacers pre-report entry) (season small value 37-37, ≈ +1.42u; core value 3-3).; - Units: +1.02u today (1u = $10).",
@@ -23541,7 +23541,7 @@
     "brier": {
      "me": 0.231,
      "dk": 0.292,
-     "pm": null
+     "pm": 0.255
     },
     "units": -0.14,
     "units_text": "- Value picks: 0-0 with one early exit, −0.14u (Pistons ML best lean sold at 43¢ after Cade OUT; −$1.44 = −0.14u at 1u = $10) (season small value 37-37, ≈ +1.28u; core value 3-3).; - Units: −0.14u today (1u = $10).",
@@ -25407,7 +25407,7 @@
     "brier": {
      "me": 0.203,
      "dk": 0.208,
-     "pm": null
+     "pm": 0.19
     },
     "log": {
      "date": "2026-11-22",
@@ -25439,7 +25439,7 @@
     "brier": {
      "me": 0.241,
      "dk": 0.251,
-     "pm": null
+     "pm": 0.254
     },
     "log": {
      "date": "2026-11-23",
@@ -25471,7 +25471,7 @@
     "brier": {
      "me": 0.211,
      "dk": 0.233,
-     "pm": null
+     "pm": 0.24
     },
     "log": {
      "date": "2026-11-24",
@@ -25503,7 +25503,7 @@
     "brier": {
      "me": 0.231,
      "dk": 0.292,
-     "pm": null
+     "pm": 0.255
     },
     "log": {
      "date": "2026-11-25",
@@ -25919,7 +25919,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-25T14:26:27+08:00",
+  "fetched_at": "2026-11-25T14:26:45+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
