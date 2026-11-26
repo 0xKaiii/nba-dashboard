@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-26T14:24:50+08:00",
+ "generated_at": "2026-11-26T23:31:54+08:00",
  "timezone": "Asia/Kuala_Lumpur (MYT, UTC+8)",
- "latest_preview_date": "2026-11-26",
+ "latest_preview_date": "2026-11-27",
  "latest_review_date": "2026-11-26",
  "days": [
   {
@@ -24305,6 +24305,38 @@
      "Every score and stat above comes from ESPN's box scores and AP recaps; possession counts are my own estimates from the box (FGA − OREB + TO + 0.44 × FTA). The Crisp price and cost come from the 23:48 MYT Nov 25 \"Trade filled\" screenshot. Not verified: Crisp's settlement/redemption of the Timberwolves shares and the final cash balance (no post-game screenshot), and why Fox, Jalen Smith and G. Allen are missing from ESPN's box (presumably inactive)."
     ]
    }
+  },
+  {
+   "date": "2026-11-27",
+   "file": "preview-2026-11-27.md",
+   "written": "~23:35 MYT Thu Nov 26",
+   "games": [],
+   "summary": {
+    "top3": [],
+    "underdogs": [],
+    "avoid": [],
+    "value": [],
+    "graded": [],
+    "check_before": [],
+    "unverified": [],
+    "season_record": [
+     "SU 185-85, ATS 8-14, totals 11-9, core value 3-3 (~+0.2u), small/secondary value 38-37 (≈ +1.81u). Crisp real money is 14-9 + 1 early exit (≈ +$6.74)."
+    ]
+   },
+   "summary_raw": {
+    "top3": "",
+    "underdogs": "",
+    "avoid": "",
+    "value": "",
+    "graded": "",
+    "check_before": "",
+    "unverified": "",
+    "season_record": "SU 185-85, ATS 8-14, totals 11-9, core value 3-3 (~+0.2u), small/secondary value 38-37 (≈ +1.81u). Crisp real money is 14-9 + 1 early exit (≈ +$6.74)."
+   },
+   "buys": [],
+   "lessons_applied": [],
+   "pm_raw_file": "raw/d1127/pm-summary.txt",
+   "review": null
   }
  ],
  "season": {
@@ -26719,7 +26751,7 @@
  "my_account": {
   "connected": true,
   "address_short": "0x6bfc…2d3a",
-  "fetched_at": "2026-11-26T14:24:50+08:00",
+  "fetched_at": "2026-11-26T23:31:54+08:00",
   "portfolio_value": 0.0,
   "nba": {
    "summary": {
